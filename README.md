@@ -41,10 +41,10 @@ Abril del 2025
 ### 1.1.2 Perfiles de integrantes del equipo
 <table>
     <tr> 
-        <th>
-            <b>Jorge Suin Yum Gonzales </b>
+        <td align="left">
+            <b>Jorge Suin Yum Gonzales</b> <br>
             <p>Soy un estudiante en la UPC estudiando la carrera de Ingenieria de Software. Tengo experiencia con los lenguajes, c++, python y la estructura y workflow de git flow. Poseo destrezas que me permite trabajar en equipo de forma puntual, responsable y con la iniciativa para participar en el desarrollo de la aplicacion y sus requerimientos.</p> 
-        </th>   
+        </td>   
     </tr>
 </table>
 
