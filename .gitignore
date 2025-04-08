@@ -1,0 +1,38 @@
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# WebStorm
+node_modules/
+
+# Rider
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Log files
+*.log
+
+# OS generated files
+ehthumbs.db
+Desktop.ini
+
+# Coverage folder from test reports
+coverage/
+
+# npm package-lock
+package-lock.json
+
+# Yarn.lock (if using Yarn)
+yarn.lock
+
+# Build folder
+/dist
+/build
+/out
