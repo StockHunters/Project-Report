@@ -101,3 +101,5 @@ El uso de la aplicación reduce drásticamente el tiempo invertido en el control
 ## 1.2.2 Lean Ux Process
 ### 1.2.2.1. Lean UX Problem Statements
 
+(prueba de usuario)
+
