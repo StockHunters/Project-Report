@@ -104,4 +104,63 @@ En la empresa LubriMax, existe una necesidad de implementar un sistema integral 
 Actualmente, la compañía gestiona su inventario de forma manual utilizando hojas de cálculo en Excel tanto en formato digital como físico, desde un único dispositivo. Por otro lado, se mantiene un registro de los clientes de manera informal. Estos métodos provocan una serie de dificultades: Errores frecuentes en el registro por duplicación o falta de actualización, perdida de tiempo al buscar información específica, falta de acceso remoto al sistema de inventario y dificultades para generar reportes útiles para la planificación o auditorías.
 Estas limitaciones impactan directamente en la eficiencia operativa, la toma de decisiones estratégicas, la atención al cliente y el control de stock, generando retrasos, frustración y potenciales pérdidas económicas.
 ¿Cómo podríamos digitalizar y automatizar el control de inventario y ventas de LubriMax para mejorar la eficiencia diaria del negocio? ¿Cómo podríamos permitir el acceso remoto al sistema desde múltiples dispositivos de manera segura y sincronizada? ¿Cómo podríamos generar reportes claros, visuales y actualizados que respalden las decisiones estratégicas y el análisis de desempeño?
+### 1.2.2.2. Lean UX Assumptions
+#### Business Outcomes:
+1. Creemos que nuestros usuarios necesitan:
 
+   Una aplicación que permita la gestión y análisis de ventas e inventario desde cualquier plataforma o navegador con acceso a internet, para acceder a datos actualizados en tiempo real y tomar decisiones informadas.
+
+2. Estas necesidades se pueden satisfacer con:
+
+   Una aplicación web interactiva, con una base de datos estructurada que permita registrar entradas y salidas de inventario, gestionar ventas, generar reportes dinámicos, y acceder a toda la información desde múltiples dispositivos.
+
+3. Nuestros clientes iniciales son:
+
+   LubriMax y empresas similares que requieran gestionar un inventario de productos físicos, como almacenes, tiendas de repuestos, o centros de distribución.
+
+4. El valor más importante que un cliente quiere de nuestros servicios es:
+
+   Acceso en tiempo real desde cualquier dispositivo, facilidad de uso, y mayor control operativo sobre el inventario y las ventas.
+
+5. El cliente también va a obtener estos beneficios adicionales:
+
+   Mejores reportes y visualización de estadísticas, reducción de errores humanos, registro eficiente de clientes, optimización del tiempo operativo, mejora en la toma de decisiones estratégicas.
+6. Vamos a adquirir la mayoría de nuestros clientes a través de:
+
+   Estrategias de marketing digital, incluyendo publicaciones promocionales, demostraciones del software en redes sociales, campañas segmentadas y alianzas con distribuidores.
+7. Haremos dinero a través de:
+
+   Subscripciones mensuales, anuales o de por vida por el uso del software. De otro lado podemos ofrecer servicios adicionales como mantenimiento técnico, soporte personalizado, y posibles integraciones especiales.
+
+8. Nuestra competencia principal en el mercado será
+
+   Software genérico de inventario como Excel avanzado, sistemas POS comerciales, o plataformas tipo ERP que ofrecen funciones similares pero menos personalizadas.
+9. Vamos a tener ventaja frente a nuestra competencia debido a
+
+   Un enfoque adaptado a las necesidades específicas de cada cliente, interfaz simple y amigable, acceso multiplataforma sin instalaciones complejas, costos más accesibles que los sistemas ERP tradicionales y soporte personalizado para pequeñas y medianas empresas.
+10. El mayor riesgo del servicio es que
+
+    Nuestro segmento objetivo (empresas pequeñas y tradicionales) no adopte fácilmente nuevas tecnologías, o prefiera seguir con sistemas conocidos como Excel por resistencia al cambio.
+11. Eliminaremos los riesgos
+
+    Ofrecer capacitación inicial gratuita y soporte técnico continuo y presentar casos de éxito y comparativas claras que evidencien los beneficios reales frente a los métodos actuales.
+#### User Outcomes
+* ¿Quien es nuestro usuario?
+
+  El administrador o personal de ventas y logística de LubriMax (y empresas similares), responsable del inventario y la atención al cliente.
+* ¿Que problema tiene nuestro producto y como se pueden resolver?
+
+  El problema es la ineficiencia operativa y falta de visibilidad en tiempo real. Esto se resuelve con un sistema centralizado accesible desde cualquier lugar y con datos actualizados.
+* ¿Donde encaja nuestro producto en su vida?
+
+  Encaja en sus rutinas diarias de trabajo, ya que forma parte del proceso de venta, control de stock y toma de decisiones administrativas.
+* ¿Como y cuando es usado nuestro producto?
+
+Se usa varias veces al día, durante horarios laborales, para registrar ventas, revisar niveles de stock, consultar reportes, y revisar información de clientes.
+* ¿Que problemas tiene nuestro producto?
+
+Podría enfrentar barreras de adopción tecnológica, falta de conectividad constante o dificultad de integración con otros sistemas ya existentes.
+* ¿Que características son importantes?
+
+Interfaz intuitiva, reportes visuales y fáciles de entender, acceso remoto, registro rápido de productos, ventas y clientes y seguridad de datos y respaldos automáticos.
+## 1.2.2.3. Lean UX Hypothesis Statements
