@@ -100,6 +100,8 @@ El uso de la aplicación reduce drásticamente el tiempo invertido en el control
 
 ## 1.2.2 Lean Ux Process
 ### 1.2.2.1. Lean UX Problem Statements
-
-(prueba de usuario)
+En la empresa LubriMax, existe una necesidad de implementar un sistema integral de gestión de inventario y ventas que sea eficiente, automatizado y accesible desde cualquier dispositivo con conexión a internet. Este sistema debe permitir la visualización del inventario en tiempo real, facilitar el registro de entradas y salidas de productos, así como el seguimiento de ventas y clientes, incluyendo la recopilación organizada de datos relevantes como nombre, contacto, historial de compras, entre otros. Todo ello con el objetivo de optimizar la operación comercial, mejorar la toma de decisiones estratégicas y fortalecer la interacción con el cliente.
+Actualmente, la compañía gestiona su inventario de forma manual utilizando hojas de cálculo en Excel tanto en formato digital como físico, desde un único dispositivo. Por otro lado, se mantiene un registro de los clientes de manera informal. Estos métodos provocan una serie de dificultades: Errores frecuentes en el registro por duplicación o falta de actualización, perdida de tiempo al buscar información específica, falta de acceso remoto al sistema de inventario y dificultades para generar reportes útiles para la planificación o auditorías.
+Estas limitaciones impactan directamente en la eficiencia operativa, la toma de decisiones estratégicas, la atención al cliente y el control de stock, generando retrasos, frustración y potenciales pérdidas económicas.
+¿Cómo podríamos digitalizar y automatizar el control de inventario y ventas de LubriMax para mejorar la eficiencia diaria del negocio? ¿Cómo podríamos permitir el acceso remoto al sistema desde múltiples dispositivos de manera segura y sincronizada? ¿Cómo podríamos generar reportes claros, visuales y actualizados que respalden las decisiones estratégicas y el análisis de desempeño?
 
