@@ -1,45 +1,63 @@
 <div align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
 
-# Universidad Peruana de Ciencias Aplicadas
+# ✨ Informe Trabajo Final ✨
 
-Ingenieria de software
+<img src="./resources/Banner-UPC.png" alt="Banner UPC">
 
-Ciclo 2025-01
+### Universidad Peruana de Ciencias Aplicadas 🎓
+
+🧑‍💻 Ingeniería de software  - 2025-01
 
 **Sección:** 4364
 
-**Profesor:** 
+**Docente:** Alex Humberto Sánchez Ponce
 
-**Nombre del StartUp:** StockHunters
+**StartUp:** StockHunters 📦
 
-**Nombre del Producto:** Lubrimax
+**Producto:** Lubrimax
 
-| Miembro                             | Código     |
-|-------------------------------------|------------|
-| Yum Gonzales, Jorge Suin            | U202210838 |
-|             |  |
-|            |  |
-|  |  |
-|         |  |
+	
+~~~C#
+string[] Integrantes() {
+    return new string[] {
+        "🧑‍💻 Yum Gonzales, Jorge Suin - U202210838",
+        "👩‍💻 Miranda Ayasta, Rogger Faryd - U202319239",
+        "👩‍💻 Apellidos, Nombres - Codigo",
+        "👩‍💻 Apellidos, Nombres - Codigo",
+        "👩‍💻 Apellidos, Nombres - Codigo"
+    };
+}
+~~~
 
-Abril del 2025
+Abril del 2025 🗓️
 
-# Registro de versiones del Informe
-
-# Project Report Collaboration Insights
-
-# Contenido
 </div>
 
-# Student Outcome
+## Registro de versiones del Informe
+## Project Report Collaboration Insights
 
-# Capítulo 1: Introducción
-## 1.1 Startup Profile
-### 1.1.1. Descripción de la Startup
+<div>
 
-### 1.1.2 Perfiles de integrantes del equipo
-<table>
+## Contenido
+
+[📄 Capitulo I: Introducción](#capítulo-i-introducción)
+[📄 Capitulo II: Requeriments Elicitation & Analysis](#capítulo-ii-requeriments-elicitation--analysis)
+[📄 Capitulo III: Requeriments Specification](#capítulo-iii-requeriments-specification)
+[📄 Capitulo IV: Product Desing](#capítulo-iv-product-desing)
+[📄 Capitulo V: Product Implementation, Validation & Deployment](#capítulo-iv-product-desing)
+
+
+## Student Outcome
+
+</div>
+
+
+# Capítulo I: Introducción
+ ## 1.1 Startup Profile
+ ### 1.1.1. Descripción de la Startup
+
+ ### 1.1.2 Perfiles de integrantes del equipo
+ <table>
     <tr> 
         <td align="left">
             <b>Jorge Suin Yum Gonzales</b> <br>
@@ -49,7 +67,7 @@ Abril del 2025
     </tr>
 </table>
 
-## 1.2. Solution Profile
+ ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
 En el presente la gran mayoría de companias que ofrecen productos, requieren de un sistema de inventario y venta para gestionar y visualizar las estadísticas necesarias para futuras decisiones. Sin embargo, esto puede econtrarse desafiante e impractico debido a las formas limitadas de acceso, gestion y registro que son causados metodos ineficientes de registro y almacenamiento de esta información. Esto causa retrasos, incomodidades y perdidas de tiempo del dueño y el cliente interesesada en esta información.
 
@@ -98,8 +116,13 @@ La aplicación web centraliza y automatiza el registro de inventario y ventas, y
 
 El uso de la aplicación reduce drásticamente el tiempo invertido en el control manual, disminuye los errores por registro duplicado o desactualizado, y permite una mejor planificación comercial basada en datos precisos y siempre disponibles.
 
-## 1.2.2 Lean Ux Process
-### 1.2.2.1. Lean UX Problem Statements
+ ## 1.2.2 Lean Ux Process
+ ### 1.2.2.1. Lean UX Problem Statements
 
-(prueba de usuario)
+# Capítulo II: Requeriments Elicitation & Analysis
 
+# Capítulo III: Requeriments Specification
+
+# Capítulo IV: Product Desing
+
+# Capítulo V: Product Implementation, Validation & Deployment
