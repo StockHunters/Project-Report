@@ -164,3 +164,18 @@ Podría enfrentar barreras de adopción tecnológica, falta de conectividad cons
 
 Interfaz intuitiva, reportes visuales y fáciles de entender, acceso remoto, registro rápido de productos, ventas y clientes y seguridad de datos y respaldos automáticos.
 ## 1.2.2.3. Lean UX Hypothesis Statements
+**Creemos que** permitir el acceso al sistema desde múltiples dispositivos (PC, tablet, celular) facilitará el uso continuo de la aplicación en cualquier momento,  
+**y sabremos que esto es cierto cuando** los usuarios accedan desde más de un dispositivo durante la primera semana de uso.
+
+**Creemos que** digitalizar la gestión de inventario permitirá mayor control sobre el stock y reducirá el tiempo dedicado a esta tarea,  
+**y sabremos que esto es cierto cuando** los usuarios puedan registrar entradas/salidas en menos de 1 minuto y generen reportes sin necesidad de hojas de cálculo externas.
+
+**Creemos que** incluir un sistema de registro de ventas vinculado a clientes mejorará el seguimiento comercial y la personalización del servicio,  
+**y sabremos que esto es cierto cuando** al menos el 90% de las ventas registradas estén asociadas a un cliente con información básica completa (nombre, contacto, fecha).
+
+**Creemos que** ofrecer reportes visuales y estadísticas facilitará la toma de decisiones basadas en datos reales,  
+**y sabremos que esto es cierto cuando** los usuarios consulten los reportes al menos 3 veces por semana y utilicen la información para ajustar su inventario o estrategia de ventas.
+
+**Creemos que** ofrecer una interfaz intuitiva y soporte técnico desde el primer uso ayudará a que usuarios con baja familiaridad tecnológica adopten la herramienta,  
+**y sabremos que esto es cierto cuando** el 80% de los usuarios completen las tareas básicas sin requerir asistencia directa durante la primera semana.
+## 1.2.2.4. Lean UX Canvas
