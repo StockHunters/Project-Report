@@ -105,7 +105,7 @@ Abril del 2025 🗓️
    **> 🧑‍💻 Rogger Faryd Miranda Ayasta**
    <div align='center'>
    
-   <img src="https://files.catbox.moe/g2gms8.jpg" alt="Rogger Faryd Miranda Ayasta" width="100" align='right'>
+   <img src="" alt="Rogger Faryd Miranda Ayasta" width="100" align='right'>
 
    ~~~txt
    🎓 Soy estudiante de Ingeniería de Software, 
