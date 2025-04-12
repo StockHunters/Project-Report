@@ -47,22 +47,37 @@ Abril del 2025 🗓️
 <div>
 
 ## Contenido
-
-1. [📄 Capitulo I: Introducción](#capítulo-i-introducción)
-   
-   1.1.  [Startup Profile](#11-startup-profile)
-
-      1.1.1. [Descripción de la Startup](#111-descripción-de-la-startup)
-
-      1.1.2. [Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-
-[📄 Capitulo II: Requeriments Elicitation & Analysis](#capítulo-ii-requeriments-elicitation--analysis)
-
-[📄 Capitulo III: Requeriments Specification](#capítulo-iii-requeriments-specification)
-
-[📄 Capitulo IV: Product Desing](#capítulo-iv-product-desing)
-
-[📄 Capitulo V: Product Implementation, Validation & Deployment](#capítulo-iv-product-desing)
+- [✨ Informe Trabajo Final ✨](#-informe-trabajo-final-)
+    - [Universidad Peruana de Ciencias Aplicadas 🎓](#universidad-peruana-de-ciencias-aplicadas-)
+  - [Registro de versiones del Informe](#registro-de-versiones-del-informe)
+  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [Contenido](#contenido)
+  - [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [⁉️5“W”s + 2"H"'s](#️5ws--2hs)
+        - [🟡 WHAT (QUÉ)](#-what-qué)
+        - [🟡 WHEN (CUANDO)](#-when-cuando)
+        - [🟡 WHERE (DONDE)](#-where-donde)
+        - [🟡 WHO (QUIEN)](#-who-quien)
+        - [🟡 WHY (POR QUE)](#-why-por-que)
+        - [🟡 HOW (COMO)](#-how-como)
+        - [🟡 HOW MUCH (CUANTO)](#-how-much-cuanto)
+    - [1.2.2 Lean Ux Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [Business Outcomes:](#business-outcomes)
+        - [User Outcomes](#user-outcomes)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+- [Capítulo II: Requeriments Elicitation \& Analysis](#capítulo-ii-requeriments-elicitation--analysis)
+- [Capítulo III: Requeriments Specification](#capítulo-iii-requeriments-specification)
+- [Capítulo IV: Product Desing](#capítulo-iv-product-desing)
+- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
 
 
 ## Student Outcome
@@ -71,7 +86,6 @@ Abril del 2025 🗓️
 
 
 <!--* contenido -->
-
 # Capítulo I: Introducción
  ## 1.1. Startup Profile
  ### 1.1.1. Descripción de la Startup
@@ -228,86 +242,118 @@ Abril del 2025 🗓️
    ### 1.2.2 Lean Ux Process
    #### 1.2.2.1. Lean UX Problem Statements
    En la empresa LubriMax, existe una necesidad de implementar un sistema integral de gestión de inventario y ventas que sea eficiente, automatizado y accesible desde cualquier dispositivo con conexión a internet. Este sistema debe permitir la visualización del inventario en tiempo real, facilitar el registro de entradas y salidas de productos, así como el seguimiento de ventas y clientes, incluyendo la recopilación organizada de datos relevantes como nombre, contacto, historial de compras, entre otros. Todo ello con el objetivo de optimizar la operación comercial, mejorar la toma de decisiones estratégicas y fortalecer la interacción con el cliente.
+
    Actualmente, la compañía gestiona su inventario de forma manual utilizando hojas de cálculo en Excel tanto en formato digital como físico, desde un único dispositivo. Por otro lado, se mantiene un registro de los clientes de manera informal. Estos métodos provocan una serie de dificultades: Errores frecuentes en el registro por duplicación o falta de actualización, perdida de tiempo al buscar información específica, falta de acceso remoto al sistema de inventario y dificultades para generar reportes útiles para la planificación o auditorías.
    Estas limitaciones impactan directamente en la eficiencia operativa, la toma de decisiones estratégicas, la atención al cliente y el control de stock, generando retrasos, frustración y potenciales pérdidas económicas.
+   
    ¿Cómo podríamos digitalizar y automatizar el control de inventario y ventas de LubriMax para mejorar la eficiencia diaria del negocio? ¿Cómo podríamos permitir el acceso remoto al sistema desde múltiples dispositivos de manera segura y sincronizada? ¿Cómo podríamos generar reportes claros, visuales y actualizados que respalden las decisiones estratégicas y el análisis de desempeño?
    
    #### 1.2.2.2. Lean UX Assumptions
    ##### Business Outcomes:
-   1. Creemos que nuestros usuarios necesitan:
 
+   1. Creemos que nuestros usuarios necesitan:
       Una aplicación que permita la gestión y análisis de ventas e inventario desde cualquier plataforma o navegador con acceso a internet, para acceder a datos actualizados en tiempo real y tomar decisiones informadas.
+      <br>
 
    2. Estas necesidades se pueden satisfacer con:
-
       Una aplicación web interactiva, con una base de datos estructurada que permita registrar entradas y salidas de inventario, gestionar ventas, generar reportes dinámicos, y acceder a toda la información desde múltiples dispositivos.
+      <br>
 
    3. Nuestros clientes iniciales son:
-
       LubriMax y empresas similares que requieran gestionar un inventario de productos físicos, como almacenes, tiendas de repuestos, o centros de distribución.
+      <br>
 
    4. El valor más importante que un cliente quiere de nuestros servicios es:
-
       Acceso en tiempo real desde cualquier dispositivo, facilidad de uso, y mayor control operativo sobre el inventario y las ventas.
+      <br>
 
    5. El cliente también va a obtener estos beneficios adicionales:
-
       Mejores reportes y visualización de estadísticas, reducción de errores humanos, registro eficiente de clientes, optimización del tiempo operativo, mejora en la toma de decisiones estratégicas.
+      <br>
+   
    6. Vamos a adquirir la mayoría de nuestros clientes a través de:
-
       Estrategias de marketing digital, incluyendo publicaciones promocionales, demostraciones del software en redes sociales, campañas segmentadas y alianzas con distribuidores.
+      <br>
+   
    7. Haremos dinero a través de:
-
       Subscripciones mensuales, anuales o de por vida por el uso del software. De otro lado podemos ofrecer servicios adicionales como mantenimiento técnico, soporte personalizado, y posibles integraciones especiales.
+      <br>
 
    8. Nuestra competencia principal en el mercado será
-
       Software genérico de inventario como Excel avanzado, sistemas POS comerciales, o plataformas tipo ERP que ofrecen funciones similares pero menos personalizadas.
-   9. Vamos a tener ventaja frente a nuestra competencia debido a
-
-      Un enfoque adaptado a las necesidades específicas de cada cliente, interfaz simple y amigable, acceso multiplataforma sin instalaciones complejas, costos más accesibles que los sistemas ERP tradicionales y soporte personalizado para pequeñas y medianas empresas.
-   10. El mayor riesgo del servicio es que
-   Nuestro segmento objetivo (empresas pequeñas y tradicionales) no adopte fácilmente nuevas tecnologías, o prefiera seguir con sistemas conocidos como Excel por resistencia al cambio.
+      <br>
    
-   11. Eliminaremos los riesgos
-   Ofrecer capacitación inicial gratuita y soporte técnico continuo y presentar casos de éxito y comparativas claras que evidencien los beneficios reales frente a los métodos actuales.
-  
+   9. Vamos a tener ventaja frente a nuestra competencia debido a
+      Un enfoque adaptado a las necesidades específicas de cada cliente, interfaz simple y amigable, acceso multiplataforma sin instalaciones complejas, costos más accesibles que los sistemas ERP tradicionales y soporte personalizado para pequeñas y medianas empresas.
+      <br>
+   
+   10. El mayor riesgo del servicio es que
+      Nuestro segmento objetivo (empresas pequeñas y tradicionales) no adopte fácilmente nuevas tecnologías, o prefiera seguir con sistemas conocidos como Excel por resistencia al cambio.
+      <br>
+   
+   11.  Eliminaremos los riesgos
+      Ofrecer capacitación inicial gratuita y soporte técnico continuo y presentar casos de éxito y comparativas claras que evidencien los beneficios reales frente a los métodos actuales.
+   
+   <br>
+
    ##### User Outcomes
-   * ¿Quien es nuestro usuario?
+   * **¿Quien es nuestro usuario?**
+      El administrador o personal de ventas y logística de LubriMax (y empresas similares), responsable del inventario y la atención al cliente.
+      <br>
 
-   El administrador o personal de ventas y logística de LubriMax (y empresas similares), responsable del inventario y la atención al cliente.
-   * ¿Que problema tiene nuestro producto y como se pueden resolver?
+   * **¿Que problema tiene nuestro producto y como se pueden resolver?**
+      El problema es la ineficiencia operativa y falta de visibilidad en tiempo real. Esto se resuelve con un sistema centralizado accesible desde cualquier lugar y con datos actualizados.
+      <br>
 
-   El problema es la ineficiencia operativa y falta de visibilidad en tiempo real. Esto se resuelve con un sistema centralizado accesible desde cualquier lugar y con datos actualizados.
-   * ¿Donde encaja nuestro producto en su vida?
+   * **¿Donde encaja nuestro producto en su vida?**
+      Encaja en sus rutinas diarias de trabajo, ya que forma parte del proceso de venta, control de stock y toma de decisiones administrativas.
+      <br>
+   
+   * **¿Como y cuando es usado nuestro producto?**
+      Se usa varias veces al día, durante horarios laborales, para registrar ventas, revisar niveles de stock, consultar reportes, y revisar información de clientes.
+      <br>
+   
+   * **¿Que problemas tiene nuestro producto?**
+      Podría enfrentar barreras de adopción tecnológica, falta de conectividad constante o dificultad de integración con otros sistemas ya existentes.
+      <br>
 
-   Encaja en sus rutinas diarias de trabajo, ya que forma parte del proceso de venta, control de stock y toma de decisiones administrativas.
-   * ¿Como y cuando es usado nuestro producto?
-
-   Se usa varias veces al día, durante horarios laborales, para registrar ventas, revisar niveles de stock, consultar reportes, y revisar información de clientes.
-   * ¿Que problemas tiene nuestro producto?
-
-   Podría enfrentar barreras de adopción tecnológica, falta de conectividad constante o dificultad de integración con otros sistemas ya existentes.
-   * ¿Que características son importantes?
-
-   Interfaz intuitiva, reportes visuales y fáciles de entender, acceso remoto, registro rápido de productos, ventas y clientes y seguridad de datos y respaldos automáticos.
+   * **¿Que características son importantes?**
+      Interfaz intuitiva, reportes visuales y fáciles de entender, acceso remoto, registro rápido de productos, ventas y clientes y seguridad de datos y respaldos automáticos.
+      <br>
    
    #### 1.2.2.3. Lean UX Hypothesis Statements
-   **Creemos que** permitir el acceso al sistema desde múltiples dispositivos (PC, tablet, celular) facilitará el uso continuo de la aplicación en cualquier momento,  
-   **y sabremos que esto es cierto cuando** los usuarios accedan desde más de un dispositivo durante la primera semana de uso.
 
-   **Creemos que** digitalizar la gestión de inventario permitirá mayor control sobre el stock y reducirá el tiempo dedicado a esta tarea,  
-   **y sabremos que esto es cierto cuando** los usuarios puedan registrar entradas/salidas en menos de 1 minuto y generen reportes sin necesidad de hojas de cálculo externas.
+   -----   
 
-   **Creemos que** incluir un sistema de registro de ventas vinculado a clientes mejorará el seguimiento comercial y la personalización del servicio,  
-   **y sabremos que esto es cierto cuando** al menos el 90% de las ventas registradas estén asociadas a un cliente con información básica completa (nombre, contacto, fecha).
-
-   **Creemos que** ofrecer reportes visuales y estadísticas facilitará la toma de decisiones basadas en datos reales,  
-   **y sabremos que esto es cierto cuando** los usuarios consulten los reportes al menos 3 veces por semana y utilicen la información para ajustar su inventario o estrategia de ventas.
-
-   **Creemos que** ofrecer una interfaz intuitiva y soporte técnico desde el primer uso ayudará a que usuarios con baja familiaridad tecnológica adopten la herramienta,  
-   **y sabremos que esto es cierto cuando** el 80% de los usuarios completen las tareas básicas sin requerir asistencia directa durante la primera semana.
+   `💡[Creemos que]` permitir el acceso al sistema desde múltiples dispositivos (PC, tablet, celular) facilitará el uso continuo de la aplicación en cualquier momento,  
    
+   `💭[sabremos que esto es cierto cuando]` los usuarios accedan desde más de un dispositivo durante la primera semana de uso.
+
+   ---
+
+   `💡[Creemos que]` digitalizar la gestión de inventario permitirá mayor control sobre el stock y reducirá el tiempo dedicado a esta tarea,  
+  
+   `💭[sabremos que esto es cierto cuando]` los usuarios puedan registrar entradas/salidas en menos de 1 minuto y generen reportes sin necesidad de hojas de cálculo externas.
+
+   ---
+
+  `💡[Creemos que]` incluir un sistema de registro de ventas vinculado a clientes mejorará el seguimiento comercial y la personalización del servicio,  
+  
+  `💭[sabremos que esto es cierto cuando]`al menos el 90% de las ventas registradas estén asociadas a un cliente con información básica completa (nombre, contacto, fecha).
+
+   ---
+
+  `💡[Creemos que]` ofrecer reportes visuales y estadísticas facilitará la toma de decisiones basadas en datos reales,
+  
+  `💭[sabremos que esto es cierto cuando]` los usuarios consulten los reportes al menos 3 veces por semana y utilicen la información para ajustar su inventario o estrategia de ventas.
+
+   ---
+
+   `💡[Creemos que]` ofrecer una interfaz intuitiva y soporte técnico desde el primer uso ayudará a que usuarios con baja familiaridad tecnológica adopten la herramienta, 
+   
+   `💭[sabremos que esto es cierto cuando]` el 80% de los usuarios completen las tareas básicas sin requerir asistencia directa durante la primera semana.
+   <br><br>
+
    #### 1.2.2.4. Lean UX Canvas
 
 
