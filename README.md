@@ -323,8 +323,6 @@ Abril del 2025 🗓️
    
    #### 1.2.2.3. Lean UX Hypothesis Statements
 
-   -----   
-
    `💡[Creemos que]` permitir el acceso al sistema desde múltiples dispositivos (PC, tablet, celular) facilitará el uso continuo de la aplicación en cualquier momento,  
    
    `💭[sabremos que esto es cierto cuando]` los usuarios accedan desde más de un dispositivo durante la primera semana de uso.
