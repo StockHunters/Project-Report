@@ -353,6 +353,7 @@ Abril del 2025 🗓️
    <br><br>
 
    #### 1.2.2.4. Lean UX Canvas
+![Lean UX Canvas](resources/LeanUX_canvas_v5.jpg)
 ## Segmentos Objetivos
 <table>
   <tr>
