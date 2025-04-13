@@ -638,6 +638,19 @@ directa durante la primera semana.
   </tr>
 </table>
 
+### 2.1.2. Estrategias y tácticas frente a competidores
+**Estrategias**
+
+* Diferenciarnos por simplicidad y rapidez de adopción: desarrollaremos caracteristicas unicas que permitan al usuario adaptarse rapidamente al sistema y migrar datos o configuraciones de otro programa.
+* Responder a la falta de capacidad movil de Defontana y Ecel.
+* Diferenciarnos con precios accesibles.
+
+**Tácticas**
+
+* Implementar una guía de onboarding visual y autoguiada desde el primer acceso y ofrecer soporte técnico personalizado.
+* Implementación de un sistema de migración de datos desde Excel a la nueva plataforma, con asistencia técnica para asegurar una transición fluida y sin errores.
+* Optimizar toda la experiencia para celulares y tablets desde la interfaz principal.
+* Crear una calculadora de ahorro: cuánto cuesta usar nuestro sistema vs. pagar módulos por separado.
 
 
 # Capítulo III: Requeriments Specification
