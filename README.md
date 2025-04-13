@@ -365,7 +365,7 @@ Abril del 2025 🗓️
   </tr>
   <tr>
     <td>Edad</td>
-    <td>	Entre 25 y 55 años</td>
+    <td>	Más de 24 años</td>
   </tr>
 <tr>
     <td>Sexo</td>
@@ -411,7 +411,7 @@ Abril del 2025 🗓️
     </tr>
     <tr>
       <th>Edad</th>
-      <td>18 a 45 años</td>
+      <td>Más de 18 años</td>
     </tr>
     <tr>
       <th>Ubicación</th>
