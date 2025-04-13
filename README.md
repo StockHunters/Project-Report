@@ -353,7 +353,94 @@ Abril del 2025 🗓️
    <br><br>
 
    #### 1.2.2.4. Lean UX Canvas
+## Segmentos Objetivos
+<table>
+  <tr>
+    <th>Segmento objetivo</th>
+    <th>Dueños o administradores de negocios con inventario físico</th>
+  </tr>
+  <tr>
+    <td>Descripción</td>
+    <td>Personas que manejan un negocio físico (por ejemplo, salones de belleza, barberías, distribuidores) y que actualmente gestionan su inventario de manera manual, ya sea en cuadernos, hojas de Excel o simplemente de forma visual. Tienen la necesidad de organizar mejor su inventario y operaciones, reducir errores y acceder a información en tiempo real.</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>	Entre 25 y 55 años</td>
+  </tr>
+<tr>
+    <td>Sexo</td>
+    <td>Masculino o Femenino</td>
+  </tr>
+<tr>
+    <td>Ubicación</td>
+    <td>	Lima Metropolitana y principales ciudades urbanas del Perú (Arequipa, Trujillo, Chiclayo, Piura)</td>
+  </tr>
+    <tr>
+        <td>Sexo</td>
+        <td>Masculino o Femenino</td>
+    </tr>
+    <tr>
+      <th>Formación educativa</th>
+      <td>Educación técnica o superior completa/incompleta</td>
+    </tr>
+    <tr>
+      <th>Poder adquisitivo</th>
+      <td>Medio a medio-alto</td>
+    </tr>
+    <tr>
+      <th>Clase social</th>
+      <td>Media y media emergente y alta</td>
+    </tr>
+    <tr>
+      <th>Datos de sustento</th>
+      <td>
+        Según el INEI (Demografía Empresarial 2024), el 99.5% de las empresas peruanas son MYPES, y más del 75% no lleva registros contables. Estas empresas emplean al 48.3% de la PEA.<br>
+        Fuente: <a href="https://m.inei.gob.pe/biblioteca-virtual/boletines/demografia-empresarial-8237/1/" target="_blank">INEI – Demografía Empresarial</a>
+      </td>
+    </tr>
+</table>
 
+<table>
+  <tr>
+    <th>Segmento objetivo</th>
+    <th>Compradores o clientes registrados</th>
+  </tr>
+  <tr>
+      <th>Descripción</th>
+      <td>Clientes finales que compran productos o servicios de los negocios registrados. Sus datos son almacenados para seguimiento, historial, promociones o fidelización.</td>
+    </tr>
+    <tr>
+      <th>Edad</th>
+      <td>18 a 45 años</td>
+    </tr>
+    <tr>
+      <th>Ubicación</th>
+      <td>Áreas urbanas y semiurbanas con acceso a internet (Lima, Callao, Arequipa, La Libertad, Lambayeque)</td>
+    </tr>
+    <tr>
+      <th>Sexo</th>
+      <td>Principalmente femenino, también masculino</td>
+    </tr>
+    <tr>
+      <th>Formación educativa</th>
+      <td>Secundaria completa, técnico o universitario en curso</td>
+    </tr>
+    <tr>
+      <th>Poder adquisitivo</th>
+      <td>Bajo a medio</td>
+    </tr>
+    <tr>
+      <th>Clase social</th>
+      <td>Media y media-baja</td>
+    </tr>
+    <tr>
+      <th>Datos de sustento</th>
+      <td>
+        El INEI señala que más del 70% de jóvenes entre 18 y 29 años usan internet activamente, y Osiptel indica que el 68% de peruanos accede a internet por celular.<br>
+        Fuente: <a href="https://www.inei.gob.pe/media/MenuRecursivo/boletines/01-informe-tecnico-n01_estadisticas-genero_oct-nov-dic2017.pdf" target="_blank">INEI – Estadísticas de Género</a>
+      </td>
+    </tr>
+</table>
 
 # Capítulo II: Requeriments Elicitation & Analysis
 
