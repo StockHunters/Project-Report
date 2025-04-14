@@ -344,7 +344,7 @@ sea eficiente, automatizado y accesible desde cualquier dispositivo con conexió
 la visualización del inventario en tiempo real, facilitar el registro de entradas y salidas de productos, así como el
 seguimiento de ventas y clientes, incluyendo la recopilación organizada de datos relevantes como nombre, contacto,
 historial de compras, entre otros. Todo ello con el objetivo de optimizar la operación comercial, mejorar la toma de
-decisiones estratégicas y fortalecer la interacción con el cliente. Además, los clientes de estas empresas no cuentan con un canal práctico y directo para consultar disponibilidad y precios de productos, lo cual genera una carga adicional de atención para el personal y ralentiza el proceso de compra.
+decisiones estratégicas y fortalecer la interacción con el cliente. Además, los clientes de estas empresas no cuentan con un canal práctico y directo para consultar disponibilidad, precios de productos y estado de entrega, lo cual genera una carga adicional de atención para el personal y ralentiza el proceso de compra.
 
 Actualmente, la compañía gestiona su inventario de forma manual utilizando hojas de cálculo en Excel tanto en formato
 digital como físico, desde un único dispositivo. Por otro lado, se mantiene un registro de los clientes de manera
@@ -357,7 +357,7 @@ cliente y el control de stock, generando retrasos, frustración y potenciales p�
 ¿Cómo podríamos digitalizar y automatizar el control de inventario y ventas de LubriMax para mejorar la eficiencia
 diaria del negocio? ¿Cómo podríamos permitir el acceso remoto al sistema desde múltiples dispositivos de manera segura y
 sincronizada? ¿Cómo podríamos generar reportes claros, visuales y actualizados que respalden las decisiones estratégicas
-y el análisis de desempeño? ¿Cómo podríamos permitir que los clientes consulten stock y precios sin intervención humana, mediante WhatsApp o un catálogo web en tiempo real?
+y el análisis de desempeño? ¿Cómo podríamos permitir que los clientes consulten stock, precios y estado de entrega sin intervención humana, mediante WhatsApp o un catálogo web en tiempo real?
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -424,13 +424,14 @@ Mejores reportes y visualización de estadísticas, reducción de errores humano
 ##### User Outcomes
 
 * ¿Quién es nuestro usuario?
-  Administradores, encargados de ventas o personal de logística de negocios con inventario físico, responsables de controlar stock, registrar ventas y brindar atención a clientes.
+  Administradores, encargados de ventas o personal de logística de negocios con inventario físico, responsables de controlar stock, registrar ventas y brindar atención a clientes y los clientes que son los posibles compradores del producto en inventario.
 
 * ¿Qué problema tiene nuestro producto y cómo se puede resolver?
   La ineficiencia operativa, la falta de visibilidad en tiempo real y la carga manual de atención al cliente se resuelven con un sistema centralizado, automatizado y accesible desde cualquier lugar, que también permite responder consultas de forma digital.
 
 * ¿Dónde encaja nuestro producto en su vida?
   Encaja directamente en sus rutinas diarias de trabajo: registro de ventas, control de stock, generación de reportes y atención de clientes por medios digitales.
+  Para los clientes encaja al momento de estar interesado en un producto: consulta, revision de stock y precio, pago y revision de estado de compra.
 
 * ¿Cómo y cuándo es usado nuestro producto?
   Se utiliza varias veces al día, durante el horario laboral, para registrar productos y ventas, consultar inventario, revisar reportes y responder consultas de clientes desde la web o WhatsApp.
@@ -698,7 +699,7 @@ directa durante la primera semana.
 **🔷 Estrategias**
 
 - Diferenciarnos por **simplicidad, rapidez de adopción** y **automatización integrada**, facilitando la digitalización sin complicaciones para negocios que aún usan métodos manuales.
-- Ofrecer **atención al cliente digital automatizada** mediante WhatsApp y catálogo web, frente a competidores que no integran estos canales directamente.
+- Ofrecer **atención al cliente digital automatizada** mediante WhatsApp o catálogo web, frente a competidores que no integran estos canales directamente.
 - Responder a la **falta de enfoque móvil de Defontana y Excel**, optimizando el sistema para uso ágil en celular y tablet.
 - Posicionarnos como una alternativa moderna, **accesible y personalizada**, frente a soluciones rígidas o demasiado generales como ERP tradicionales.
 - Crear confianza en el cliente mediante **visibilidad del stock en tiempo real**, algo que Excel y muchas plataformas POS no ofrecen nativamente.
