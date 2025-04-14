@@ -301,8 +301,7 @@ del dueño y el cliente interesesada en esta información.
 ##### 🟡 WHO (QUIEN)
 
 - **¿Quién tiene este problema?**
-  Pequeñas y medianas empresas (pymes), emprendedores y administradores de tiendas físicas o virtuales que buscan una
-  solución más práctica, automatizada y accesible para manejar su inventario y sus ventas.
+Negocios con inventario físico que necesitan optimizar sus procesos de gestión y brindar atención automatizada a sus clientes a través de canales como WhatsApp y catálogos web en tiempo real.
   <br>
 
 - **¿Quién se beneficia del producto?**
@@ -324,9 +323,7 @@ del dueño y el cliente interesesada en esta información.
 
 - **¿Cómo soluciona el producto el problema?**
 
-  La aplicación web centraliza y automatiza el registro de inventario y ventas, y permite acceder a esa información
-  desde cualquier dispositivo. Además, integra herramientas de análisis con filtros dinámicos para facilitar la
-  interpretación de datos y la toma de decisiones.
+La aplicación web centraliza y optimiza el registro de inventario y ventas, y además permite que los usuarios consulten stock y precios actualizados mediante WhatsApp o desde un catálogo web en tiempo real, reduciendo así la carga operativa del negocio.
   <br>
 
 ##### 🟡 HOW MUCH (CUANTO)
@@ -342,12 +339,12 @@ del dueño y el cliente interesesada en esta información.
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-En la empresa LubriMax, existe una necesidad de implementar un sistema integral de gestión de inventario y ventas que
+Actualmente en las empresas con inventario físico, existe una necesidad de implementar un sistema integral de gestión de inventario y ventas que
 sea eficiente, automatizado y accesible desde cualquier dispositivo con conexión a internet. Este sistema debe permitir
 la visualización del inventario en tiempo real, facilitar el registro de entradas y salidas de productos, así como el
 seguimiento de ventas y clientes, incluyendo la recopilación organizada de datos relevantes como nombre, contacto,
 historial de compras, entre otros. Todo ello con el objetivo de optimizar la operación comercial, mejorar la toma de
-decisiones estratégicas y fortalecer la interacción con el cliente.
+decisiones estratégicas y fortalecer la interacción con el cliente. Además, los clientes de estas empresas no cuentan con un canal práctico y directo para consultar disponibilidad y precios de productos, lo cual genera una carga adicional de atención para el personal y ralentiza el proceso de compra.
 
 Actualmente, la compañía gestiona su inventario de forma manual utilizando hojas de cálculo en Excel tanto en formato
 digital como físico, desde un único dispositivo. Por otro lado, se mantiene un registro de los clientes de manera
@@ -360,26 +357,26 @@ cliente y el control de stock, generando retrasos, frustración y potenciales p�
 ¿Cómo podríamos digitalizar y automatizar el control de inventario y ventas de LubriMax para mejorar la eficiencia
 diaria del negocio? ¿Cómo podríamos permitir el acceso remoto al sistema desde múltiples dispositivos de manera segura y
 sincronizada? ¿Cómo podríamos generar reportes claros, visuales y actualizados que respalden las decisiones estratégicas
-y el análisis de desempeño?
+y el análisis de desempeño? ¿Cómo podríamos permitir que los clientes consulten stock y precios sin intervención humana, mediante WhatsApp o un catálogo web en tiempo real?
 
 #### 1.2.2.2. Lean UX Assumptions
 
 ##### Business Outcomes:
 
 1. Creemos que nuestros usuarios necesitan:
-   Una aplicación que permita la gestión y análisis de ventas e inventario desde cualquier plataforma o navegador con
-   acceso a internet, para acceder a datos actualizados en tiempo real y tomar decisiones informadas.
+Creemos que nuestros usuarios necesitan:
+Una aplicación que permita la gestión y análisis de ventas e inventario desde cualquier plataforma o navegador con acceso a internet, para acceder a datos actualizados en tiempo real, tomar decisiones informadas y automatizar la atención a clientes mediante canales como WhatsApp o una página con catálogo en línea.
+
    <br>
 
 2. Estas necesidades se pueden satisfacer con:
-   Una aplicación web interactiva, con una base de datos estructurada que permita registrar entradas y salidas de
-   inventario, gestionar ventas, generar reportes dinámicos, y acceder a toda la información desde múltiples
-   dispositivos.
+Una aplicación web interactiva, con una base de datos estructurada que permita registrar entradas y salidas de inventario, gestionar ventas, generar reportes dinámicos, atender consultas de clientes por WhatsApp, y mantener actualizado un catálogo web accesible desde cualquier dispositivo.
+
    <br>
 
 3. Nuestros clientes iniciales son:
-   LubriMax y empresas similares que requieran gestionar un inventario de productos físicos, como almacenes, tiendas de
-   repuestos, o centros de distribución.
+Empresas con inventario físico, como tiendas de productos, almacenes, distribuidores, centros de servicio o comercios minoristas que buscan optimizar su gestión y atención al cliente.
+
    <br>
 
 4. El valor más importante que un cliente quiere de nuestros servicios es:
@@ -388,8 +385,8 @@ y el análisis de desempeño?
    <br>
 
 5. El cliente también va a obtener estos beneficios adicionales:
-   Mejores reportes y visualización de estadísticas, reducción de errores humanos, registro eficiente de clientes,
-   optimización del tiempo operativo, mejora en la toma de decisiones estratégicas.
+Mejores reportes y visualización de estadísticas, reducción de errores humanos, registro eficiente de clientes, automatización de respuestas por WhatsApp, acceso a catálogo web en tiempo real, y mejora en la toma de decisiones estratégicas.
+
    <br>
 
 6. Vamos a adquirir la mayoría de nuestros clientes a través de:
@@ -426,35 +423,24 @@ y el análisis de desempeño?
 
 ##### User Outcomes
 
-* **¿Quien es nuestro usuario?**
-  El administrador o personal de ventas y logística de LubriMax (y empresas similares), responsable del inventario y la
-  atención al cliente.
-  <br>
+* ¿Quién es nuestro usuario?
+  Administradores, encargados de ventas o personal de logística de negocios con inventario físico, responsables de controlar stock, registrar ventas y brindar atención a clientes.
 
-* **¿Que problema tiene nuestro producto y como se pueden resolver?**
-  El problema es la ineficiencia operativa y falta de visibilidad en tiempo real. Esto se resuelve con un sistema
-  centralizado accesible desde cualquier lugar y con datos actualizados.
-  <br>
+* ¿Qué problema tiene nuestro producto y cómo se puede resolver?
+  La ineficiencia operativa, la falta de visibilidad en tiempo real y la carga manual de atención al cliente se resuelven con un sistema centralizado, automatizado y accesible desde cualquier lugar, que también permite responder consultas de forma digital.
 
-* **¿Donde encaja nuestro producto en su vida?**
-  Encaja en sus rutinas diarias de trabajo, ya que forma parte del proceso de venta, control de stock y toma de
-  decisiones administrativas.
-  <br>
+* ¿Dónde encaja nuestro producto en su vida?
+  Encaja directamente en sus rutinas diarias de trabajo: registro de ventas, control de stock, generación de reportes y atención de clientes por medios digitales.
 
-* **¿Como y cuando es usado nuestro producto?**
-  Se usa varias veces al día, durante horarios laborales, para registrar ventas, revisar niveles de stock, consultar
-  reportes, y revisar información de clientes.
-  <br>
+* ¿Cómo y cuándo es usado nuestro producto?
+  Se utiliza varias veces al día, durante el horario laboral, para registrar productos y ventas, consultar inventario, revisar reportes y responder consultas de clientes desde la web o WhatsApp.
 
-* **¿Que problemas tiene nuestro producto?**
-  Podría enfrentar barreras de adopción tecnológica, falta de conectividad constante o dificultad de integración con
-  otros sistemas ya existentes.
-  <br>
+* ¿Qué problemas tiene nuestro producto?
+  Posible resistencia al cambio, falta de conectividad constante en algunas zonas, o necesidad de integración con sistemas anteriores usados por la empresa.
 
-* **¿Que características son importantes?**
-  Interfaz intuitiva, reportes visuales y fáciles de entender, acceso remoto, registro rápido de productos, ventas y
-  clientes y seguridad de datos y respaldos automáticos.
-  <br>
+* ¿Qué características son importantes?
+  Interfaz intuitiva, reportes visuales, acceso remoto desde cualquier dispositivo, gestión rápida de productos y ventas, automatización de respuestas por WhatsApp, catálogo web en tiempo real, y seguridad de datos con respaldos automáticos.
+
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
@@ -494,6 +480,13 @@ familiaridad tecnológica adopten la herramienta,
 
 `💭[sabremos que esto es cierto cuando]` el 80% de los usuarios completen las tareas básicas sin requerir asistencia
 directa durante la primera semana.
+
+💡[Creemos que] permitir a los clientes consultar disponibilidad y precios a través de WhatsApp o un catálogo web reducirá la carga de atención operativa y mejorará la experiencia de compra,  
+💭[sabremos que esto es cierto cuando] al menos el 60% de las consultas sean resueltas automáticamente por estos canales sin intervención del personal.
+
+💡[Creemos que] ofrecer un canal digital automatizado de atención influirá positivamente en la percepción de servicio moderno y eficiente,  
+💭[sabremos que esto es cierto cuando] más del 70% de los clientes afirmen preferir consultar por WhatsApp o catálogo web en encuestas de satisfacción.
+
 <br><br>
 
 #### 1.2.2.4. Lean UX Canvas
@@ -509,7 +502,8 @@ directa durante la primera semana.
   </tr>
   <tr>
     <td>Descripción</td>
-    <td>Personas que manejan un negocio físico (por ejemplo, salones de belleza, barberías, distribuidores) y que actualmente gestionan su inventario de manera manual, ya sea en cuadernos, hojas de Excel o simplemente de forma visual. Tienen la necesidad de organizar mejor su inventario y operaciones, reducir errores y acceder a información en tiempo real.</td>
+    <td>Personas que manejan un negocio físico (por ejemplo, salones de belleza, barberías, distribuidores, ferreterías o tiendas especializadas) y que actualmente gestionan su inventario de manera manual, ya sea en cuadernos, hojas de Excel o de forma visual. Además, buscan soluciones que les permitan no solo organizar mejor su inventario y operaciones, sino también automatizar la atención al cliente a través de canales digitales como WhatsApp o un catálogo web con stock y precios en tiempo real.</td>
+  </td>
   </tr>
   <tr>
     <td>Edad</td>
@@ -555,7 +549,7 @@ directa durante la primera semana.
   </tr>
   <tr>
       <th>Descripción</th>
-      <td>Clientes finales que compran productos o servicios de los negocios registrados. Sus datos son almacenados para seguimiento, historial, promociones o fidelización.</td>
+      <td>Clientes finales que compran productos o servicios de los negocios registrados. Sus datos son almacenados para seguimiento, historial, promociones o fidelización. Ahora, también pueden consultar disponibilidad y precios de productos a través de WhatsApp o una página web con catálogo actualizado, sin depender de atención directa del personal.</td>
     </tr>
     <tr>
       <th>Edad</th>
@@ -637,14 +631,14 @@ directa durante la primera semana.
   <tr>
     <td rowspan="2" valign="top">Perfil</td>
     <td valign="top">Overview</td>
-    <td valign="top">Aplicación web moderna para gestionar inventario, ventas y clientes en tiempo real desde cualquier dispositivo.</td>
+    <td valign="top">Aplicación web moderna que permite gestionar inventario, ventas y clientes desde cualquier dispositivo, y automatiza la atención al cliente mediante WhatsApp y un catálogo web con disponibilidad y precios en tiempo real.</td>
     <td valign="top">Software de ventas con control de stock, emisión de comprobantes y reportes en línea.</td>
     <td valign="top">ERP 100% online que integra ventas, inventario, contabilidad y compras.</td>
     <td valign="top">Herramienta de hojas de cálculo ampliamente utilizada para gestionar inventarios manualmente.</td>
   </tr>
   <tr>
     <td valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
-    <td valign="top">Acceso remoto, visualización y gestión de datos, reportes sencillos.</td>
+    <td valign="top">Acceso remoto, automatización de consultas por WhatsApp, catálogo web sincronizado, reportes simples, interfaz amigable, ideal para negocios con inventario físico que desean digitalizar su operación sin complicaciones.</td>
     <td valign="top">Interfaz amigable, sin comisiones por ventas, soporte local.</td>
     <td valign="top">Escalabilidad total, integración completa entre procesos.</td>
     <td valign="top">Alta familiaridad, bajo costo, sin curva de aprendizaje inicial.</td>
@@ -652,14 +646,14 @@ directa durante la primera semana.
   <tr>
     <td rowspan="2" valign="top">Perfil de Marketing</td>
     <td valign="top">Mercado objetivo</td>
-    <td valign="top">Dueños o administradores de negocios que requieran de un metodo efectivo y rápido de gestionar su inventario</td>
+    <td valign="top">Dueños o administradores de negocios físicos (almacenes, distribuidores, tiendas, servicios) que necesitan controlar su inventario y ventas y ofrecer atención moderna e instantánea a sus clientes.</td>
     <td valign="top">Pequeños comercios que requieren control básico de ventas e inventario.</td>
     <td valign="top">Empresas medianas o grandes que buscan centralizar procesos.</td>
     <td valign="top">Negocios tradicionales que ya lo usan como solución manual de bajo costo.</td>
   </tr>
   <tr>
     <td valign="top">Estrategias de marketing</td>
-    <td valign="top">Publicidad en campañas desde redes sociales</td>
+    <td valign="top">Campañas en redes sociales con casos prácticos, demostraciones interactivas, contenido educativo y anuncios enfocados en los beneficios de automatizar atención por WhatsApp y catálogo en línea.</td>
     <td valign="top">Publicidad en Google, marketing en redes, venta consultiva.</td>
     <td valign="top">Alianzas con consultoras y campañas dirigidas a empresas.</td>
     <td valign="top">No es promocionado como solución directa, pero su uso es masivo por familiaridad.</td>
@@ -667,21 +661,21 @@ directa durante la primera semana.
   <tr>
     <td rowspan="3" valign="top">Perfil de Producto</td>
     <td valign="top">Productos & Servicios</td>
-    <td valign="top">Gestión de stock, ventas, clientes, reportes visuales, soporte técnico, acceso multiplataforma.</td>
+    <td valign="top">Gestión de stock, ventas, clientes, reportes visuales, automatización de atención al cliente por WhatsApp, catálogo web en tiempo real, soporte técnico, acceso multiplataforma.</td>
     <td valign="top">Facturación electrónica, control de inventario, reportería automatizada.</td>
     <td valign="top">ERP completo con módulos de ventas, compras, contabilidad, etc.</td>
     <td valign="top">Plantillas de control manual con fórmulas básicas, personalizables por el usuario.</td>
   </tr>
   <tr>
     <td valign="top">Precios & Costos</td>
-    <td valign="top">Suscripción mensual o anual con soporte incluido.</td>
+    <td valign="top">Suscripción mensual o anual con funcionalidades base; planes premium incluyen soporte avanzado, automatización por WhatsApp y actualizaciones en catálogo. </td>
     <td valign="top">Desde S/89 mensuales.</td>
     <td valign="top">Desde $50 mensuales según plan.</td>
     <td valign="top">Gratuito (Google Sheets / LibreOffice) o incluido con Microsoft Office.</td>
   </tr>
   <tr>
     <td valign="top">Canales de distribución (Web y/o Móvil)</td>
-    <td valign="top">Web responsive para PC, tablet y celular.</td>
+    <td valign="top">Web responsive para PC, tablet y celular. Integración con WhatsApp Business API y catálogo web sincronizado.</td>
     <td valign="top">Web y móvil, acceso en la nube.</td>
     <td valign="top">Web app con integraciones externas.</td>
     <td valign="top">Local (instalado) o en la nube (OneDrive, Office 365).</td>
@@ -689,28 +683,28 @@ directa durante la primera semana.
   <tr>
     <td rowspan="4" valign="top">Análisis SWOT</td>
     <td valign="top">Fortalezas</td>
-    <td valign="top">Fácil de usar, accesible desde cualquier lugar, soporte cercano.</td>
+    <td valign="top">Acceso en tiempo real, interfaz intuitiva, atención automatizada por WhatsApp, catálogo actualizado en línea, soporte personalizado, rápido onboarding.</td>
     <td valign="top">Ampliamente usado, soporte técnico, adaptado a comercio.</td>
     <td valign="top">Altamente escalable, funcionalidad robusta.</td>
     <td valign="top">Conocido, flexible, económico, sin curva de aprendizaje.</td>
   </tr>
   <tr>
     <td valign="top">Debilidades</td>
-    <td valign="top">Dependencia de internet, poca visibilidad de marca aún.</td>
+    <td valign="top">Dependencia de conexión a internet. Poca notoriedad de marca en un mercado saturado de soluciones.</td>
     <td valign="top">Limitado para empresas que buscan integración total.</td>
     <td valign="top">Curva de aprendizaje alta, costos elevados.</td>
     <td valign="top">Propenso a errores humanos, no automatizado, sin trazabilidad.</td>
   </tr>
   <tr>
     <td valign="top">Oportunidades</td>
-    <td valign="top">Captar clientes que usan Excel con migración asistida y automatización.</td>
+    <td valign="top">Captar usuarios que aún usan Excel, diferenciarse de ERPs costosos, liderar nichos que requieren atención digital moderna sin complicaciones.</td>
     <td valign="top">Expandirse a otros sectores como food service o retail grande.</td>
     <td valign="top">Desarrollar versiones simplificadas para pequeñas empresas.</td>
     <td valign="top">Integrarse con plataformas digitales o APIs.</td>
   </tr>
   <tr>
     <td valign="top">Amenazas</td>
-    <td valign="top">Resistencia al cambio de quienes ya usan Excel o sistemas manuales.</td>
+    <td valign="top">Alta competencia, resistencia al cambio en sectores tradicionales, aparición de soluciones gratuitas limitadas.</td>
     <td valign="top">Competencia con herramientas más económicas y simples.</td>
     <td valign="top">Competidores más accesibles para pymes.</td>
     <td valign="top">Sistemas web especializados que reemplazan su funcionalidad manual.</td>
@@ -718,18 +712,28 @@ directa durante la primera semana.
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
-**Estrategias**
 
-* Diferenciarnos por simplicidad y rapidez de adopción: desarrollaremos caracteristicas unicas que permitan al usuario adaptarse rapidamente al sistema y migrar datos o configuraciones de otro programa.
-* Responder a la falta de capacidad movil de Defontana y Ecel.
-* Diferenciarnos con precios accesibles.
+---
 
-**Tácticas**
+**🔷 Estrategias**
 
-* Implementar una guía de onboarding visual y autoguiada desde el primer acceso y ofrecer soporte técnico personalizado.
-* Implementación de un sistema de migración de datos desde Excel a la nueva plataforma, con asistencia técnica para asegurar una transición fluida y sin errores.
-* Optimizar toda la experiencia para celulares y tablets desde la interfaz principal.
-* Crear una calculadora de ahorro: cuánto cuesta usar nuestro sistema vs. pagar módulos por separado.
+- Diferenciarnos por **simplicidad, rapidez de adopción** y **automatización integrada**, facilitando la digitalización sin complicaciones para negocios que aún usan métodos manuales.
+- Ofrecer **atención al cliente digital automatizada** mediante WhatsApp y catálogo web, frente a competidores que no integran estos canales directamente.
+- Responder a la **falta de enfoque móvil de Defontana y Excel**, optimizando el sistema para uso ágil en celular y tablet.
+- Posicionarnos como una alternativa moderna, **accesible y personalizada**, frente a soluciones rígidas o demasiado generales como ERP tradicionales.
+- Crear confianza en el cliente mediante **visibilidad del stock en tiempo real**, algo que Excel y muchas plataformas POS no ofrecen nativamente.
+
+---
+
+**🔧 Tácticas**
+
+- Desarrollar una **guía de onboarding interactiva y autoguiada** para nuevos usuarios, accesible desde el primer acceso.
+- Implementar un sistema de **migración de datos desde Excel y otras fuentes**, con soporte técnico paso a paso.
+- Optimizar la interfaz completa para móviles, asegurando **usabilidad fluida en celulares y tablets** desde la vista principal.
+- Integrar un **catálogo público web sincronizado con el inventario**, permitiendo a los clientes consultar precios y disponibilidad sin intervención del personal.
+- Desarrollar un módulo de **consultas automáticas por WhatsApp** (stock/precios), con respuestas en tiempo real desde la base de datos.
+- Crear una **calculadora de ahorro** que muestre comparativamente el costo mensual de usar nuestro sistema vs. pagar múltiples módulos de forma separada con otras soluciones.
+
 
 
 # Capítulo III: Requeriments Specification
