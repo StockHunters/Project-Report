@@ -49,33 +49,33 @@ Abril del 2025 🗓️
 ## Contenido
 
 - [✨ Informe Trabajo Final ✨](#-informe-trabajo-final-)
-	- [Universidad Peruana de Ciencias Aplicadas 🎓](#universidad-peruana-de-ciencias-aplicadas-)
-	- [Registro de versiones del Informe](#registro-de-versiones-del-informe)
-	- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-	- [Contenido](#contenido)
-	- [Student Outcome](#student-outcome)
+    - [Universidad Peruana de Ciencias Aplicadas 🎓](#universidad-peruana-de-ciencias-aplicadas-)
+  - [Registro de versiones del Informe](#registro-de-versiones-del-informe)
+  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [Contenido](#contenido)
+  - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
-	- [1.1. Startup Profile](#11-startup-profile)
-		- [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-		- [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-	- [1.2. Solution Profile](#12-solution-profile)
-		- [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-			- [⁉️5“W”s + 2"H"'s](#️5ws--2hs)
-				- [🟡 WHAT (QUÉ)](#-what-qué)
-				- [🟡 WHEN (CUANDO)](#-when-cuando)
-				- [🟡 WHERE (DONDE)](#-where-donde)
-				- [🟡 WHO (QUIEN)](#-who-quien)
-				- [🟡 WHY (POR QUE)](#-why-por-que)
-				- [🟡 HOW (COMO)](#-how-como)
-				- [🟡 HOW MUCH (CUANTO)](#-how-much-cuanto)
-		- [1.2.2 Lean Ux Process](#122-lean-ux-process)
-			- [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-			- [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-				- [Business Outcomes:](#business-outcomes)
-				- [User Outcomes](#user-outcomes)
-			- [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-			- [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos Objetivos](#13-segmentos-objetivos)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [⁉️5“W”s + 2"H"'s](#️5ws--2hs)
+        - [🟡 WHAT (QUÉ)](#-what-qué)
+        - [🟡 WHEN (CUANDO)](#-when-cuando)
+        - [🟡 WHERE (DONDE)](#-where-donde)
+        - [🟡 WHO (QUIEN)](#-who-quien)
+        - [🟡 WHY (POR QUE)](#-why-por-que)
+        - [🟡 HOW (COMO)](#-how-como)
+        - [🟡 HOW MUCH (CUANTO)](#-how-much-cuanto)
+    - [1.2.2 Lean Ux Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [Business Outcomes:](#business-outcomes)
+        - [User Outcomes](#user-outcomes)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [Segmentos Objetivos](#segmentos-objetivos)
 - [Capítulo II: Requeriments Elicitation \& Analysis](#capítulo-ii-requeriments-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -587,27 +587,7 @@ directa durante la primera semana.
 # Capítulo II: Requeriments Elicitation & Analysis
    ## 2.1. Competidores
    ### 2.1.1. Análisis competitivo
-   ### 2.1.2. Estrategias y tácticas frente a competidores
-
-   ## 2.2. Entrevistas 
-   ### 2.2.1. Diseño de entrevistas
-   ### 2.2.2. Registro de entrevistas
-   ### 2.2.3. Análisis de entrevistas
-
-   ## 2.3. Needfinding
-   ### 2.3.1. User Personas
-   ### 2.3.2. User Task Matrix
-   ### 2.3.3. User Journey Mapping
-   ### 2.3.4. Empathy Mapping
-   ### 2.3.5. As-is Scenario Mapping
-
-   ## 2.4. Ubiquitous Language
-
-
-## 2.1. Competidores
-
-### 2.1.1. Análisis competitivo
-<table>
+  <table>
   <tr>
     <th colspan="6" valign="top">Competitive Analysis Landscape</th>
   </tr>
@@ -623,7 +603,7 @@ directa durante la primera semana.
     <td valign="top">Microsoft Excel</td>
   </tr>
   <tr>
-    <td valign="top"><img src="img/mistartup.png" alt="Logo Mi Startup" height="100px"></td>
+    <td valign="top"><img src="/resources/startup.png" alt="Logo Mi Startup" height="100px"></td>
     <td valign="top"><img src="https://yt3.googleusercontent.com/kH5MizoIzldC54QkNt1zNehJxroIU4D71l9gQRroMPr04WToKg1BfQbigz-_Ki5ZUDgdpmckzmk=s160-c-k-c0x00ffffff-no-rj" alt="Logo Bsale" height="100px"></td>
     <td valign="top"><img src="https://yt3.googleusercontent.com/bly9PPL4rYGzO7BdSc32EBQOScwskQ-pXmIw7y64dvTp5hog-AJ3n7b-GgcRVAaovXPH_8NARA=s900-c-k-c0x00ffffff-no-rj" alt="Logo Defontana" height="100px"></td>
     <td valign="top"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" alt="Logo Excel" height="100px"></td>
@@ -734,6 +714,21 @@ directa durante la primera semana.
 - Desarrollar un módulo de **consultas automáticas por WhatsApp** (stock/precios), con respuestas en tiempo real desde la base de datos.
 - Crear una **calculadora de ahorro** que muestre comparativamente el costo mensual de usar nuestro sistema vs. pagar múltiples módulos de forma separada con otras soluciones.
 
+
+
+   ## 2.2. Entrevistas 
+   ### 2.2.1. Diseño de entrevistas
+   ### 2.2.2. Registro de entrevistas
+   ### 2.2.3. Análisis de entrevistas
+
+   ## 2.3. Needfinding
+   ### 2.3.1. User Personas
+   ### 2.3.2. User Task Matrix
+   ### 2.3.3. User Journey Mapping
+   ### 2.3.4. Empathy Mapping
+   ### 2.3.5. As-is Scenario Mapping
+
+   ## 2.4. Ubiquitous Language
 
 
 # Capítulo III: Requeriments Specification
