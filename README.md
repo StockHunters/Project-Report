@@ -778,6 +778,15 @@ directa durante la primera semana.
    ~~~
    
    ### 2.2.2. Registro de entrevistas
+
+   Entrevista N 1 - Dueño de compania de productos de lubricantes de motores:
+
+    Entrevistador: Jorge Suin Yum Gonzales
+
+    Entrevistado: Chul Hwan Yum
+
+    ![Entrevista 1](resources/)
+   
    ### 2.2.3. Análisis de entrevistas
 
    ## 2.3. Needfinding
