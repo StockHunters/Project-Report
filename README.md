@@ -80,7 +80,7 @@ Abril del 2025 🗓️
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
+  - [2.2. Entrevistas 📝](#22-entrevistas-)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
@@ -717,8 +717,53 @@ directa durante la primera semana.
 
 
 
-   ## 2.2. Entrevistas 
-   ### 2.2.1. Diseño de entrevistas
+   ## 2.2. Entrevistas 📝
+   ### 2.2.1. Diseño de entrevistas 
+   
+   **Segmento Objetivo 1️⃣: Administradores de negocios con inventario físico**
+    
+    1. ¿Actualmente cómo gestionas tu inventario y tus ventas?
+    
+    2. ¿Qué dificultades enfrentas al llevar tu control de stock o ventas?
+    
+    3. ¿Qué tan importante sería para ti tener un sistema que te alerte de productos por agotarse?
+    
+    4. ¿Con qué frecuencia necesitas generar reportes de ventas o inventario?
+    
+    5. ¿Cómo haces seguimiento a los pedidos de tus clientes?
+    
+    6. ¿Te gustaría que tus clientes puedan ver tu catálogo de productos en línea?
+    
+    7. ¿Qué temores tienes al momento de cambiar tu sistema de control actual?
+    
+    8. ¿Qué funcionalidades crees que son imprescindibles en un sistema de inventario y ventas?
+    
+    9. ¿Te gustaría poder acceder al sistema desde tu celular u otros dispositivos?
+    
+    10. ¿Estarías dispuesto a pagar por una solución que te ahorre tiempo y errores?
+  
+   **Segmento Objetivo 2️⃣: Compradores o clientes registrados**
+
+    1. ¿Sueles revisar catálogos o productos en línea antes de comprar?
+   
+    2. ¿Qué valoras más al revisar un catálogo en línea? (ej. precios claros, disponibilidad, promociones, etc.)
+   
+    3. ¿Prefieres comprar en negocios que tienen una presentación más ordenada en línea?
+   
+    4. ¿Te gustaría poder ver si un producto está disponible en tiempo real?
+   
+    5. ¿Qué tan útil sería para ti ver promociones o combos destacados fácilmente?
+   
+    6. ¿Te sentirías más cómodo si puedes hacer un pedido sin tener que llamar directamente?
+   
+    7. ¿Cuáles son los problemas más comunes que enfrentas al pedir por WhatsApp o redes sociales?
+   
+    8. ¿Te gustaría tener una sección para dejar reseñas o leer experiencias de otros?
+   
+    9. ¿Qué tan probable sería que compartas el catálogo de una tienda si te gusta lo que ves?
+   
+    10. ¿Preferirías ver los productos organizados por categorías, marcas o ambos?
+    
    ### 2.2.2. Registro de entrevistas
    ### 2.2.3. Análisis de entrevistas
 
