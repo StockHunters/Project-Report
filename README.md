@@ -248,12 +248,11 @@ Falta descripción
 ## 1.2. Solution Profile
 
 ### 1.2.1 Antecedentes y problemática
-
-En el presente la gran mayoría de companias que ofrecen productos, requieren de un sistema de inventario y venta para
-gestionar y visualizar las estadísticas necesarias para futuras decisiones. Sin embargo, esto puede econtrarse
-desafiante e impractico debido a las formas limitadas de acceso, gestion y registro que son causados metodos
-ineficientes de registro y almacenamiento de esta información. Esto causa retrasos, incomodidades y perdidas de tiempo
-del dueño y el cliente interesesada en esta información.
+  En el presente la gran mayoría de companias que ofrecen productos, requieren de un sistema de inventario y venta para
+  gestionar y visualizar las estadísticas necesarias para futuras decisiones. Sin embargo, esto puede econtrarse
+  desafiante e impractico debido a las formas limitadas de acceso, gestion y registro que son causados metodos
+  ineficientes de registro y almacenamiento de esta información. Esto causa retrasos, incomodidades y perdidas de tiempo
+  del dueño y el cliente interesesada en esta información.
 
 #### ⁉️5“W”s + 2"H"'s
 
@@ -323,7 +322,7 @@ Negocios con inventario físico que necesitan optimizar sus procesos de gestión
 
 - **¿Cómo soluciona el producto el problema?**
 
-La aplicación web centraliza y optimiza el registro de inventario y ventas, y además permite que los usuarios consulten stock y precios actualizados mediante WhatsApp o desde un catálogo web en tiempo real, reduciendo así la carga operativa del negocio.
+  La aplicación web centraliza y optimiza el registro de inventario y ventas, y además permite que los usuarios consulten stock y precios actualizados mediante WhatsApp o desde un catálogo web en tiempo real, reduciendo así la carga operativa del negocio.
   <br>
 
 ##### 🟡 HOW MUCH (CUANTO)
@@ -363,83 +362,75 @@ y el análisis de desempeño? ¿Cómo podríamos permitir que los clientes consu
 
 ##### Business Outcomes:
 
-1. Creemos que nuestros usuarios necesitan:
-Creemos que nuestros usuarios necesitan:
-Una aplicación que permita la gestión y análisis de ventas e inventario desde cualquier plataforma o navegador con acceso a internet, para acceder a datos actualizados en tiempo real, tomar decisiones informadas y automatizar la atención a clientes mediante canales como WhatsApp o una página con catálogo en línea.
+1. **Creemos que nuestros usuarios necesitan:**
+  Una aplicación que permita la gestión y análisis de ventas e inventario desde cualquier plataforma o navegador con acceso a internet, para acceder a datos actualizados en tiempo real, tomar decisiones informadas y automatizar la atención a clientes mediante canales como WhatsApp o una página con catálogo en línea.
+  <br>
 
-   <br>
+2. **Estas necesidades se pueden satisfacer con:**
+  Una aplicación web interactiva, con una base de datos estructurada que permita registrar entradas y salidas de inventario, gestionar ventas, generar reportes dinámicos, atender consultas de clientes por WhatsApp, y mantener actualizado un catálogo web accesible desde cualquier dispositivo.
+  <br>
 
-2. Estas necesidades se pueden satisfacer con:
-Una aplicación web interactiva, con una base de datos estructurada que permita registrar entradas y salidas de inventario, gestionar ventas, generar reportes dinámicos, atender consultas de clientes por WhatsApp, y mantener actualizado un catálogo web accesible desde cualquier dispositivo.
+3. **Nuestros clientes iniciales son:**
+  Empresas con inventario físico, como tiendas de productos, almacenes, distribuidores, centros de servicio o comercios minoristas que buscan optimizar su gestión y atención al cliente.
+  <br>
 
-   <br>
+4. **El valor más importante que un cliente quiere de nuestros servicios es:**
+  Acceso en tiempo real desde cualquier dispositivo, facilidad de uso, y mayor control operativo sobre el inventario y
+  las ventas.
+  <br>
 
-3. Nuestros clientes iniciales son:
-Empresas con inventario físico, como tiendas de productos, almacenes, distribuidores, centros de servicio o comercios minoristas que buscan optimizar su gestión y atención al cliente.
-
-   <br>
-
-4. El valor más importante que un cliente quiere de nuestros servicios es:
-   Acceso en tiempo real desde cualquier dispositivo, facilidad de uso, y mayor control operativo sobre el inventario y
-   las ventas.
-   <br>
-
-5. El cliente también va a obtener estos beneficios adicionales:
-Mejores reportes y visualización de estadísticas, reducción de errores humanos, registro eficiente de clientes, automatización de respuestas por WhatsApp, acceso a catálogo web en tiempo real, y mejora en la toma de decisiones estratégicas.
-
-   <br>
+5. **El cliente también va a obtener estos beneficios adicionales:**
+  Mejores reportes y visualización de estadísticas, reducción de errores humanos, registro eficiente de clientes, automatización de respuestas por WhatsApp, acceso a catálogo web en tiempo real, y mejora en la toma de decisiones estratégicas.
+  <br>
 
 6. Vamos a adquirir la mayoría de nuestros clientes a través de:
-   Estrategias de marketing digital, incluyendo publicaciones promocionales, demostraciones del software en redes
-   sociales, campañas segmentadas y alianzas con distribuidores.
-   <br>
+  Estrategias de marketing digital, incluyendo publicaciones promocionales, demostraciones del software en redes sociales, campañas segmentadas y alianzas con distribuidores.
+  <br>
 
-7. Haremos dinero a través de:
-   Subscripciones mensuales, anuales o de por vida por el uso del software. De otro lado podemos ofrecer servicios
-   adicionales como mantenimiento técnico, soporte personalizado, y posibles integraciones especiales.
-   <br>
+7. **Haremos dinero a través de:**
+  Subscripciones mensuales, anuales o de por vida por el uso del software. De otro lado podemos ofrecer servicios
+  adicionales como mantenimiento técnico, soporte personalizado, y posibles integraciones especiales.
+  <br>
 
-8. Nuestra competencia principal en el mercado será
-   Software genérico de inventario como Excel avanzado, sistemas POS comerciales, o plataformas tipo ERP que ofrecen
-   funciones similares pero menos personalizadas.
-   <br>
+8. **Nuestra competencia principal en el mercado será:**
+  Software genérico de inventario como Excel avanzado, sistemas POS comerciales, o plataformas tipo ERP que ofrecen
+  funciones similares pero menos personalizadas.
+  <br>
 
-9. Vamos a tener ventaja frente a nuestra competencia debido a
-   Un enfoque adaptado a las necesidades específicas de cada cliente, interfaz simple y amigable, acceso multiplataforma
-   sin instalaciones complejas, costos más accesibles que los sistemas ERP tradicionales y soporte personalizado para
-   pequeñas y medianas empresas.
-   <br>
+9. **Vamos a tener ventaja frente a nuestra competencia debido a:**
+  Un enfoque adaptado a las necesidades específicas de cada cliente, interfaz simple y amigable, acceso multiplataforma
+  sin instalaciones complejas, costos más accesibles que los sistemas ERP tradicionales y soporte personalizado para
+  pequeñas y medianas empresas.
+  <br>
 
-10. El mayor riesgo del servicio es que
-    Nuestro segmento objetivo (empresas pequeñas y tradicionales) no adopte fácilmente nuevas tecnologías, o prefiera
-    seguir con sistemas conocidos como Excel por resistencia al cambio.
-    <br>
+10.  **El mayor riesgo del servicio es que:**
+  Nuestro segmento objetivo (empresas pequeñas y tradicionales) no adopte fácilmente nuevas tecnologías, o prefiera
+  seguir con sistemas conocidos como Excel por resistencia al cambio.
+  <br>
 
-11. Eliminaremos los riesgos
-    Ofrecer capacitación inicial gratuita y soporte técnico continuo y presentar casos de éxito y comparativas claras
-    que evidencien los beneficios reales frente a los métodos actuales.
-
-<br>
+11.  **Eliminaremos los riesgos**
+  Ofrecer capacitación inicial gratuita y soporte técnico continuo y presentar casos de éxito y comparativas claras que evidencien los beneficios reales frente a los métodos actuales.
+  <br>
 
 ##### User Outcomes
 
-* ¿Quién es nuestro usuario?
+* **¿Quién es nuestro usuario?**
   Administradores, encargados de ventas o personal de logística de negocios con inventario físico, responsables de controlar stock, registrar ventas y brindar atención a clientes y los clientes que son los posibles compradores del producto en inventario.
 
-* ¿Qué problema tiene nuestro producto y cómo se puede resolver?
+* **¿Qué problema tiene nuestro producto y cómo se puede resolver?**
   La ineficiencia operativa, la falta de visibilidad en tiempo real y la carga manual de atención al cliente se resuelven con un sistema centralizado, automatizado y accesible desde cualquier lugar, que también permite responder consultas de forma digital.
 
-* ¿Dónde encaja nuestro producto en su vida?
+* **¿Dónde encaja nuestro producto en su vida?**
   Encaja directamente en sus rutinas diarias de trabajo: registro de ventas, control de stock, generación de reportes y atención de clientes por medios digitales.
   Para los clientes encaja al momento de estar interesado en un producto: consulta, revision de stock y precio, pago y revision de estado de compra.
 
-* ¿Cómo y cuándo es usado nuestro producto?
+* **¿Cómo y cuándo es usado nuestro producto?**
   Se utiliza varias veces al día, durante el horario laboral, para registrar productos y ventas, consultar inventario, revisar reportes y responder consultas de clientes desde la web o WhatsApp.
 
-* ¿Qué problemas tiene nuestro producto?
+* **¿Qué problemas tiene nuestro producto?**
   Posible resistencia al cambio, falta de conectividad constante en algunas zonas, o necesidad de integración con sistemas anteriores usados por la empresa.
 
-* ¿Qué características son importantes?
+* **¿Qué características son importantes?**
   Interfaz intuitiva, reportes visuales, acceso remoto desde cualquier dispositivo, gestión rápida de productos y ventas, automatización de respuestas por WhatsApp, catálogo web en tiempo real, y seguridad de datos con respaldos automáticos.
 
 
@@ -482,11 +473,18 @@ familiaridad tecnológica adopten la herramienta,
 `💭[sabremos que esto es cierto cuando]` el 80% de los usuarios completen las tareas básicas sin requerir asistencia
 directa durante la primera semana.
 
-💡[Creemos que] permitir a los clientes consultar disponibilidad y precios a través de WhatsApp o un catálogo web reducirá la carga de atención operativa y mejorará la experiencia de compra,  
-💭[sabremos que esto es cierto cuando] al menos el 60% de las consultas sean resueltas automáticamente por estos canales sin intervención del personal.
+   ---
 
-💡[Creemos que] ofrecer un canal digital automatizado de atención influirá positivamente en la percepción de servicio moderno y eficiente,  
-💭[sabremos que esto es cierto cuando] más del 70% de los clientes afirmen preferir consultar por WhatsApp o catálogo web en encuestas de satisfacción.
+
+`💡[Creemos que]` permitir a los clientes consultar disponibilidad y precios a través de WhatsApp o un catálogo web reducirá la carga de atención operativa y mejorará la experiencia de compra,  
+
+`💭[sabremos que esto es cierto cuando]` al menos el 60% de las consultas sean resueltas automáticamente por estos canales sin intervención del personal.
+
+   ---
+
+`💡[Creemos que]` ofrecer un canal digital automatizado de atención influirá positivamente en la percepción de servicio moderno y eficiente,  
+
+`💭[sabremos que esto es cierto cuando]` más del 70% de los clientes afirmen preferir consultar por WhatsApp o catálogo web en encuestas de satisfacción.
 
 <br><br>
 
@@ -694,58 +692,72 @@ directa durante la primera semana.
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
----
+  **🔷 Estrategias**
 
-**🔷 Estrategias**
+  - Diferenciarnos por **simplicidad, rapidez de adopción** y **automatización integrada**, facilitando la digitalización sin complicaciones para negocios que aún usan métodos manuales.
+  - Ofrecer **atención al cliente digital automatizada** mediante WhatsApp o catálogo web, frente a competidores que no integran estos canales directamente.
+  - Responder a la **falta de enfoque móvil de Defontana y Excel**, optimizando el sistema para uso ágil en celular y tablet.
+  - Posicionarnos como una alternativa moderna, **accesible y personalizada**, frente a soluciones rígidas o demasiado generales como ERP tradicionales.
+  - Crear confianza en el cliente mediante **visibilidad del stock en tiempo real**, algo que Excel y muchas plataformas POS no ofrecen nativamente.
 
-- Diferenciarnos por **simplicidad, rapidez de adopción** y **automatización integrada**, facilitando la digitalización sin complicaciones para negocios que aún usan métodos manuales.
-- Ofrecer **atención al cliente digital automatizada** mediante WhatsApp o catálogo web, frente a competidores que no integran estos canales directamente.
-- Responder a la **falta de enfoque móvil de Defontana y Excel**, optimizando el sistema para uso ágil en celular y tablet.
-- Posicionarnos como una alternativa moderna, **accesible y personalizada**, frente a soluciones rígidas o demasiado generales como ERP tradicionales.
-- Crear confianza en el cliente mediante **visibilidad del stock en tiempo real**, algo que Excel y muchas plataformas POS no ofrecen nativamente.
+  ---
 
----
+  **🔧 Tácticas**
 
-**🔧 Tácticas**
-
-- Desarrollar una **guía de onboarding interactiva y autoguiada** para nuevos usuarios, accesible desde el primer acceso.
-- Implementar un sistema de **migración de datos desde Excel y otras fuentes**, con soporte técnico paso a paso.
-- Optimizar la interfaz completa para móviles, asegurando **usabilidad fluida en celulares y tablets** desde la vista principal.
-- Integrar un **catálogo público web sincronizado con el inventario**, permitiendo a los clientes consultar precios y disponibilidad sin intervención del personal.
-- Desarrollar un módulo de **consultas automáticas por WhatsApp** (stock/precios), con respuestas en tiempo real desde la base de datos.
-- Crear una **calculadora de ahorro** que muestre comparativamente el costo mensual de usar nuestro sistema vs. pagar múltiples módulos de forma separada con otras soluciones.
-
+  - Desarrollar una **guía de onboarding interactiva y autoguiada** para nuevos usuarios, accesible desde el primer acceso.
+  - Implementar un sistema de **migración de datos desde Excel y otras fuentes**, con soporte técnico paso a paso.
+  - Optimizar la interfaz completa para móviles, asegurando **usabilidad fluida en celulares y tablets** desde la vista principal.
+  - Integrar un **catálogo público web sincronizado con el inventario**, permitiendo a los clientes consultar precios y disponibilidad sin intervención del personal.
+  - Desarrollar un módulo de **consultas automáticas por WhatsApp** (stock/precios), con respuestas en tiempo real desde la base de datos.
+  - Crear una **calculadora de ahorro** que muestre comparativamente el costo mensual de usar nuestro sistema vs. pagar múltiples módulos de forma separada con otras soluciones.
 
 
    ## 2.2. Entrevistas 📝
    ### 2.2.1. Diseño de entrevistas 
-   
-   **Segmento Objetivo 1️⃣: Administradores de negocios con inventario físico**
-    
-    1. ¿Actualmente cómo gestionas tu inventario y tus ventas?
-    
-    2. ¿Qué dificultades enfrentas al llevar tu control de stock o ventas?
-    
-    3. ¿Qué tan importante sería para ti tener un sistema que te alerte de productos por agotarse?
-    
-    4. ¿Con qué frecuencia necesitas generar reportes de ventas o inventario?
-    
-    5. ¿Cómo haces seguimiento a los pedidos de tus clientes?
-    
-    6. ¿Te gustaría que tus clientes puedan ver tu catálogo de productos en línea?
-    
-    7. ¿Qué temores tienes al momento de cambiar tu sistema de control actual?
-    
-    8. ¿Qué funcionalidades crees que son imprescindibles en un sistema de inventario y ventas?
-    
-    9. ¿Te gustaría poder acceder al sistema desde tu celular u otros dispositivos?
-    
-    10. ¿Estarías dispuesto a pagar por una solución que te ahorre tiempo y errores?
-  
-   **Segmento Objetivo 2️⃣: Compradores o clientes registrados**
 
+   > [!NOTE]
+   > Segmento Objetivo 1️⃣: Administradores de negocios con inventario físico
+
+   ~~~txt    
+    1. ¿Qué tipo de productos vendes o distribuyes en tu negocio?
+    
+    2 ¿Actualmente cómo gestionas tu inventario y tus ventas?
+    
+    2. ¿Cómo haces seguimiento a los pedidos de tus clientes?
+    
+    3. ¿Llevas un historial de compras de tus clientes para darles seguimiento o promociones?
+    
+    4. ¿Qué tan importante sería para ti tener un sistema que te alerte de productos por agotarse?
+
+    5. ¿Con qué frecuencia necesitas generar reportes de ventas o inventario?
+
+    7.¿Cuánto tiempo estimas que dedicas cada semana a controlar tu inventario o ventas manualmente?
+    
+    6. ¿Qué dificultades enfrentas al llevar tu control de stock o ventas?
+    
+    7. ¿Te gustaría que tus clientes puedan ver tu catálogo de productos en línea?
+    
+    8. ¿Qué temores tienes al momento de cambiar tu sistema de control actual?
+    
+    9. ¿Qué funcionalidades crees que son imprescindibles en un sistema de inventario y ventas?
+    
+    10. ¿Te gustaría poder acceder al sistema desde tu celular u otros dispositivos?
+    
+    11. ¿Estarías dispuesto a pagar por una solución que te ahorre tiempo y errores?
+
+    14. ¿Qué opina de una aplicación que le permita gestionar su inventario desde la web, y mantener un registro de ventas con la información de los clientes y automatizar la atención a sus clientes mediante WhatsApp o un catálogo en línea?
+    
+    15. ¿Qué tan importante es para ti poder analizar tus ventas e inventario a través de reportes o gráficos que te ayuden a tomar mejores decisiones para tu negocio?
+
+    16. ¿Qué otras características le gustaría que tuviera esta aplicación?
+  ~~~
+
+   > [!NOTE]
+   > Segmento Objetivo 2️⃣: Compradores o clientes registrados
+
+  ~~~txt
     1. ¿Sueles revisar catálogos o productos en línea antes de comprar?
-   
+
     2. ¿Qué valoras más al revisar un catálogo en línea? (ej. precios claros, disponibilidad, promociones, etc.)
    
     3. ¿Prefieres comprar en negocios que tienen una presentación más ordenada en línea?
@@ -763,7 +775,8 @@ directa durante la primera semana.
     9. ¿Qué tan probable sería que compartas el catálogo de una tienda si te gusta lo que ves?
    
     10. ¿Preferirías ver los productos organizados por categorías, marcas o ambos?
-    
+   ~~~
+   
    ### 2.2.2. Registro de entrevistas
    ### 2.2.3. Análisis de entrevistas
 
