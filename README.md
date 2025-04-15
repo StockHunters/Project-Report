@@ -715,35 +715,37 @@ directa durante la primera semana.
    ## 2.2. Entrevistas 📝
    ### 2.2.1. Diseño de entrevistas 
 
-   > [!NOTE]
-   > Segmento Objetivo 1️⃣: Administradores de negocios con inventario físico
+   **Segmento Objetivo 1️⃣: Administradores de negocios con inventario físico**
+
+   > [!NOTE] 
+   > [Cuestionario 🔗](https://forms.gle/XV26rSaBf8PUVVsL7)
 
    ~~~txt    
     1. ¿Qué tipo de productos vendes o distribuyes en tu negocio?
     
     2 ¿Actualmente cómo gestionas tu inventario y tus ventas?
     
-    2. ¿Cómo haces seguimiento a los pedidos de tus clientes?
+    3. ¿Cómo haces seguimiento a los pedidos de tus clientes?
     
-    3. ¿Llevas un historial de compras de tus clientes para darles seguimiento o promociones?
+    4. ¿Llevas un historial de compras de tus clientes para darles seguimiento o promociones?
     
-    4. ¿Qué tan importante sería para ti tener un sistema que te alerte de productos por agotarse?
+    5. ¿Qué tan importante sería para ti tener un sistema que te alerte de productos por agotarse?
 
-    5. ¿Con qué frecuencia necesitas generar reportes de ventas o inventario?
+    6. ¿Con qué frecuencia necesitas generar reportes de ventas o inventario?
 
     7.¿Cuánto tiempo estimas que dedicas cada semana a controlar tu inventario o ventas manualmente?
     
-    6. ¿Qué dificultades enfrentas al llevar tu control de stock o ventas?
+    8. ¿Qué dificultades enfrentas al llevar tu control de stock o ventas?
     
-    7. ¿Te gustaría que tus clientes puedan ver tu catálogo de productos en línea?
+    9. ¿Te gustaría que tus clientes puedan ver tu catálogo de productos en línea?
     
-    8. ¿Qué temores tienes al momento de cambiar tu sistema de control actual?
+    10.  ¿Qué temores tienes al momento de cambiar tu sistema de control actual?
     
-    9. ¿Qué funcionalidades crees que son imprescindibles en un sistema de inventario y ventas?
+    11.  ¿Qué funcionalidades crees que son imprescindibles en un sistema de inventario y ventas?
     
-    10. ¿Te gustaría poder acceder al sistema desde tu celular u otros dispositivos?
+    12. ¿Te gustaría poder acceder al sistema desde tu celular u otros dispositivos?
     
-    11. ¿Estarías dispuesto a pagar por una solución que te ahorre tiempo y errores?
+    13. ¿Estarías dispuesto a pagar por una solución que te ahorre tiempo y errores?
 
     14. ¿Qué opina de una aplicación que le permita gestionar su inventario desde la web, y mantener un registro de ventas con la información de los clientes y automatizar la atención a sus clientes mediante WhatsApp o un catálogo en línea?
     
@@ -752,8 +754,10 @@ directa durante la primera semana.
     16. ¿Qué otras características le gustaría que tuviera esta aplicación?
   ~~~
 
-   > [!NOTE]
-   > Segmento Objetivo 2️⃣: Compradores o clientes registrados
+   **Segmento Objetivo 2️⃣: Compradores o clientes registrados**
+
+   > [!NOTE] 
+   > [Cuestionario 🔗](https://forms.gle/PNxnomycpCKBD1rw5)
 
   ~~~txt
     1. ¿Sueles revisar catálogos o productos en línea antes de comprar?
