@@ -740,7 +740,10 @@ directa durante la primera semana.
 
 # Capítulo IV: Product Desing
  ## 4.1. Style Guidelines
+ A continuación se mostrará los estilos y herramientas que estaremos utilizando como guia para el desarrollo nuestra aplicacion web.
   ### 4.1.1. General Style Guidelines
+  **Fonts.-** La tipografía seleccionada fue Poppins debido La tipografía seleccionada fue Poppins debido a su excelente legibilidad, estilo moderno, versatilidad en distintos tamaños y su fácil 
+  integración mediante Google Fonts. A continuación, se detallan los tamaños de fuente que se utilizarán según el tipo de etiqueta que contenga texto.
   ### 4.1.2. Web Style Guidelines
 
  ## 4.2. Information Architecture
