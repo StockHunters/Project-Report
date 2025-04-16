@@ -718,7 +718,7 @@ directa durante la primera semana.
    **Segmento Objetivo 1️⃣: Administradores de negocios con inventario físico**
 
    > [!NOTE] 
-   > [Cuestionario 🔗](https://forms.gle/XV26rSaBf8PUVVsL7)
+   > <a href="https://forms.gle/XV26rSaBf8PUVVsL7" target='_blank'>Cuestionario 🔗</a>
 
    ~~~txt    
     1. ¿Qué tipo de productos vendes o distribuyes en tu negocio?
@@ -757,7 +757,7 @@ directa durante la primera semana.
    **Segmento Objetivo 2️⃣: Compradores o clientes registrados**
 
    > [!NOTE] 
-   > [Cuestionario 🔗](https://forms.gle/PNxnomycpCKBD1rw5)
+   > <a href="https://forms.gle/PNxnomycpCKBD1rw5" target='_blank'>Cuestionario 🔗</a>
 
   ~~~txt
     1. ¿Sueles revisar catálogos o productos en línea antes de comprar?
@@ -783,13 +783,90 @@ directa durante la primera semana.
    
    ### 2.2.2. Registro de entrevistas
 
-   Entrevista N 1 - Dueño de compania de productos de lubricantes de motores:
+   **1️⃣ Primer Segmento Objetivo**
+   <table style="width:100%" align='center'>
+   <tr>
+   <th>📌Dueño de compania de productos de lubricantes de motores</th>
+   <th>📌Tituko</th>
+   <th>📌Titulo</th>
+   </tr>
 
-    Entrevistador: Jorge Suin Yum Gonzales
+   <tr>
+   <td align='center'>
+   <a href="" target='_blank'>
+    <img src="resources/Interview-1.png" alt="Primera entrevista del primer segmento objetivo">
+   </a>
+   </td> 
+   <td align='center'>
+   <a href="" target='_blank'>
+    <img src="resources/Interview-2.png" alt="Segunda entrevista del primer segmento objetivo">
+   </a>
+   </td>
+   <td align='center'>
+   <a href="" target='_blank'>
+    <img src="resources/Interview-3.png" alt="Tercera entrevista del primer segmento objetivo">
+   </a>
+   </td>
+   </tr>
 
-    Entrevistado: Chul Hwan Yum
+   <tr>
+   <td>
+    <b>📝Entrevistador:</b> Jorge Suin Yum Gonzales <br>
+    <b>🗣️Entrevistado:</b> Chul Hwan Yum
+   </td>
+   <td>
+    <b>📝Entrevistador:</b> name <br>
+    <b>🗣️Entrevistado:</b> name
+   </td>
+      <td>
+    <b>📝Entrevistador:</b> name <br>
+    <b>🗣️Entrevistado:</b> name
+   </td>
+   </tr>
+   </table>
 
-    ![Entrevista 1](resources/)
+   **2️⃣ Segundo Segmento Objetivo**
+
+   <table style="width:100%" align='center'>
+   <tr>
+   <th>📌Dueño de compania de productos de lubricantes de motores</th>
+   <th>📌Tituko</th>
+   <th>📌Titulo</th>
+   </tr>
+
+   <tr>
+   <td align='center'>
+   <a href="https://youtu.be/mwxyupflToU" target='_blank'>
+    <img src="resources/Interview-1.png" alt="Primera entrevista del primer segmento objetivo">
+   </a>
+   </td> 
+   <td align='center'>
+   <a href="" target='_blank'>
+    <img src="resources/Interview-2.png" alt="Segunda entrevista del primer segmento objetivo">
+   </a>
+   </td>
+   <td align='center'>
+   <a href="" target='_blank'>
+    <img src="resources/Interview-3.png" alt="Tercera entrevista del primer segmento objetivo">
+   </a>
+   </td>
+   </tr>
+
+   <tr>
+   <td>
+    <b>📝Entrevistador:</b> name <br>
+    <b>🗣️Entrevistado:</b> name
+   </td>
+   <td>
+    <b>📝Entrevistador:</b> name <br>
+    <b>🗣️Entrevistado:</b> name
+   </td>
+      <td>
+    <b>📝Entrevistador:</b> name <br>
+    <b>🗣️Entrevistado:</b> name
+   </td>
+   </tr>
+   </table>
    
    ### 2.2.3. Análisis de entrevistas
 
