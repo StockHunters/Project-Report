@@ -793,7 +793,7 @@ directa durante la primera semana.
 
    <tr>
    <td align='center'>
-   <a href="" target='_blank'>
+   <a href="https://youtu.be/mwxyupflToU" target='blank'>
     <img src="resources/Interview-1.png" alt="Primera entrevista del primer segmento objetivo">
    </a>
    </td> 
@@ -829,14 +829,14 @@ directa durante la primera semana.
 
    <table style="width:100%" align='center'>
    <tr>
-   <th>📌Dueño de compania de productos de lubricantes de motores</th>
-   <th>📌Tituko</th>
+   <th>📌Titulo</th>
+   <th>📌Titulo</th>
    <th>📌Titulo</th>
    </tr>
 
    <tr>
    <td align='center'>
-   <a href="https://youtu.be/mwxyupflToU" target='_blank'>
+   <a href="" target='_blank'>
     <img src="resources/Interview-1.png" alt="Primera entrevista del primer segmento objetivo">
    </a>
    </td> 
