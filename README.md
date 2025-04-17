@@ -1112,6 +1112,30 @@ directa durante la primera semana.
  ## 5.1. Software Configuration Management
   ### 5.1.1. Software Development Environment Configuration
   ### 5.1.2. Source Code Management
+  Usuarios de github:
+|  Integrantes |Usuarios de github   | 
+|---|---|
+| Yum Gonzales, Jorge Suin   | jsyumg, myussu  |
+|   |   |
+|   |   |
+  
+  *URL de repositorio de Landing Page:* 
+  *URL de repositorio de Web Services:* 
+  *URL de repositorio de FrontEnd Aplication:*
+
+  Para el desarrollo de cada repositorio se usara GitFlow como estrategia de versionado, el cual consiste en crear ramas para cada funcionalidad o bug que se desee implementar para mantener un trabajo organizado. Las ramas principales seran main, develop, feature, release y hotfix. A continuacion se describen cada una de estas ramas:
+
+  **Main**: Rama principal donde se encuentra la version estable y más reciente del producto.
+
+  **Develop**: Rama de desarrollo donde se integran las funcionalidades y correcciones de errores antes de ser lanzadas a la rama release. Esta rama tendra el nombre "develop"
+
+  **Feature:**: Rama de funcionalidad donde se desarrollan nuevas características o mejoras desde la rama de desarrollo (develop). Tambien se usara para mantener una manera organizada de distribucion de tareas entre los integrantes del equipo. Estas ramas tendran el nombre "feature/NombreDeLaFuncionalidad".
+
+  **Release:**: Rama de lanzamiento donde se preparan las versiones estables para ser lanzadas al entorno de produccion. Esta rama seguira la convencion de versionado semantico (X.Y.Z) y tendra el nombre "release/X.Y.Z".
+
+  **Hotfix:**: Rama de corrección de errores donde se solucionan problemas críticos en la versión estable. Estas ramas tendran el nombre "hotfix/X.Y.Z". 
+
+  
   ### 5.1.3. Source Code Style Guide & Conventions
   ### 5.1.4. Software Deployment Configuration
 
