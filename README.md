@@ -813,6 +813,7 @@ directa durante la primera semana.
    <td>
     <b>📝Entrevistador:</b> Jorge Suin Yum Gonzales <br>
     <b>🗣️Entrevistado:</b> Chul Hwan Yum
+    <p>Chul Hwan Yum es el dueño de una empresa que vende lubricantes de motores de automoviles y derivados. Usa Excel para gestionar su inventario, ventas y el seguimiento de sus clientes. Con este historial, le envia seguimiento de sus productos y promociones a sus clientes. Realiza semanalmente por alrededor de 4 horas un reporte de inventario manual. Se enfrenta a desafios como la dificultad a contar 1 por 1 el inventario real contra el digital. Resalta la importancia de identificar los productos que se estan agotando ya que estos se piden al distribuidor con anticipion y adicionalmente que en un programa de inventario y venta se debe poder categorizar al tipo de cliente por "trato" ya que hay clientes minoristas y mayoristas. Finalmente siente que una aplicacion web donde pueda chequear el inventario desde su comodidad de su casa y desde cualquier dispositivo le permitiria ahorrar su tiempo y estaria dispuesto a pagar por esta solución. Sin embargo siente temor al cambio debido a la curva de aprendizaje que se pueda presentar</p>
    </td>
    <td>
     <b>📝Entrevistador:</b> name <br>
