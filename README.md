@@ -1132,7 +1132,7 @@ directa durante la primera semana.
 |  Integrantes |Usuarios de github   | 
 |---|---|
 | Yum Gonzales, Jorge Suin   | jsyumg, myussu  |
-|   |   |
+|  Miranda Ayasta, Rogger Faryd | r0ggdev |
 |   |   |
   
   *URL de repositorio de Landing Page:* 
