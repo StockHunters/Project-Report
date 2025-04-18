@@ -209,13 +209,15 @@ Falta descripción
 **> 🧑‍💻 Luis Andres Alva Abanto**
    <div align='center'>
 
-   <img src="link-img" alt="Luis Andres Alva Abanto" width="100" align='right'>
+   <img src="https://files.catbox.moe/dnmt63.png" alt="Luis Andres Alva Abanto" width="100" align='right'>
 
    ~~~txt
    ✅ Estudiante de Ingeniería de Software en UPC
    💻 Me gusta el desarrollo ágil aplicando patrones de diseño
-   y arquitectura escalable. Actualmente estoy aprendiendo Java y C#. 
-   😊 Me destaco por mi capacidad para trabajar en equipo y el compromiso con el proyecto. 
+   y arquitectura escalable. Actualmente estoy aprendiendo 
+   Java y C#. 
+   😊 Me destaco por mi capacidad para trabajar en equipo
+    y el compromiso con el proyecto. 
    ~~~
 
    </div>
