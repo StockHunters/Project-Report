@@ -768,38 +768,22 @@ directa durante la primera semana.
   > Reemplazar esto es un ejemplo 
   
   ~~~mermaid
-      workspace {
-    model {
-        administrator = person "Administrator" "Manages products, views statistics, and handles orders/invoices."
-        customer = person "Customer" "Places orders, tracks orders, and downloads invoices."
+    graph TB
+  linkStyle default fill:#ffffff
 
-        system = softwareSystem "Automotive Product Sales Management System" "Manages automotive product sales." {
-            description "A web application for managing automotive product sales, built with Vue.js, C#/.NET, and microservices."
-        }
+  subgraph diagram ["Automotive Product Sales Management System - System Context"]
+    style diagram fill:#ffffff,stroke:#ffffff
 
-        administrator -> system "Logs in, manages products, views sales/stock statistics, manages orders/invoices" "HTTPS"
-        customer -> system "Logs in, places orders, tracks orders with code, downloads invoices" "HTTPS"
-    }
+    1["<div style='font-weight: bold'>Administrator</div><div style='font-size: 70%; margin-top: 0px'>[Person]</div><div style='font-size: 80%; margin-top:10px'>Manages products, views<br />statistics, and handles<br />orders/invoices.</div>"]
+    style 1 fill:#08427b,stroke:#052e56,color:#ffffff
+    2["<div style='font-weight: bold'>Customer</div><div style='font-size: 70%; margin-top: 0px'>[Person]</div><div style='font-size: 80%; margin-top:10px'>Places orders, tracks orders,<br />and downloads invoices.</div>"]
+    style 2 fill:#08427b,stroke:#052e56,color:#ffffff
+    3["<div style='font-weight: bold'>Automotive Product Sales Management System</div><div style='font-size: 70%; margin-top: 0px'>[Software System]</div><div style='font-size: 80%; margin-top:10px'>A web application for<br />managing automotive product<br />sales, built with Vue.js,<br />C#/.NET, and microservices.</div>"]
+    style 3 fill:#dddddd,stroke:#9a9a9a,color:#000000
 
-    views {
-        systemContext system "ContextDiagram" {
-            include *
-            autoLayout
-        }
-
-        styles {
-            element "Person" {
-                shape Person
-                background #08427b
-                color #ffffff
-            }
-            element "SoftwareSystem" {
-                background #1168bd
-                color #ffffff
-            }
-        }
-    }
-}
+    1-. "<div>Logs in, manages products,<br />views sales/stock statistics,<br />manages orders/invoices</div><div style='font-size: 70%'>[HTTPS]</div>" .->3
+    2-. "<div>Logs in, places orders,<br />tracks orders with code,<br />downloads invoices</div><div style='font-size: 70%'>[HTTPS]</div>" .->3
+  end
   ~~~
  
   ### 4.6.2. Software Architecture Container Diagram
