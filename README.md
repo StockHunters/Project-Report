@@ -25,7 +25,7 @@ string[] Integrantes() {
     return new string[] {
         "🧑‍💻 Yum Gonzales, Jorge Suin - U202210838",
         "👩‍💻 Miranda Ayasta, Rogger Faryd - U202319239",
-        "👩‍💻 Apellidos, Nombres - Codigo",
+        "👩‍💻 Alva Abanto, Luis Andres - u202310877",
         "👩‍💻 Apellidos, Nombres - Codigo",
         "👩‍💻 Apellidos, Nombres - Codigo"
     };
@@ -206,13 +206,16 @@ Falta descripción
 
    <!--TODO: integrante 3 -->
 
-**> 🧑‍💻 Integrante 3**
+**> 🧑‍💻 Luis Andres Alva Abanto**
    <div align='center'>
 
-   <img src="link-img" alt="name" width="100" align='right'>
+   <img src="link-img" alt="Luis Andres Alva Abanto" width="100" align='right'>
 
    ~~~txt
-   Descripción
+   ✅ Estudiante de Ingeniería de Software en UPC
+   💻 Me gusta el desarrollo ágil aplicando patrones de diseño
+   y arquitectura escalable. Actualmente estoy aprendiendo Java y C#. 
+   😊 Me destaco por mi capacidad para trabajar en equipo y el compromiso con el proyecto. 
    ~~~
 
    </div>
