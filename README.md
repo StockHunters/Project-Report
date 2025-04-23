@@ -913,6 +913,36 @@ directa durante la primera semana.
   ### 4.2.1. Organization Systems
   ### 4.2.2. Labeling Systems
   ### 4.2.3. SEO Tags and Meta Tags
+  Los SEO tags son etiquetas HTML que ayudan a los motores de búsqueda a entender y posicionar en los resultados. Los meta tags son etiquetas que proporcionan información sobre la página, como su descripción, palabras clave y autor lo cual ayuda al ser buscado en el navegador.
+A continuacion se presentan los SEO tags y meta tags que se utilizarán en la plataforma:
+Title Tag: Este tag define el título de la página y es uno de los factores más importantes para el SEO. Debe ser único y contener palabras clave relevantes.
+```html
+<title>Lubrimax - Servicio de gestion de inventario y venta</title>
+```
+Meta Description: Este tag proporciona una breve descripción del contenido de la página. Permite a los usuarios entender de qué trata la página antes de hacer clic en el enlace. Debe ser conciso y atractivo.
+```html
+<meta name="description" content="Lubrimax es una plataforma de gestión de inventario y ventas que permite a los negocios físicos digitalizar su operación y automatizar la atención al cliente mediante WhatsApp y un catálogo web.">
+```
+Language tag: Este tag indica el idioma principal del contenido de la página. Es importante para la accesibilidad y el SEO.
+```html
+<meta http-equiv="Content-Language" content="es-ES">
+```
+Robots tag: Este tag indica a los motores de búsqueda cómo deben indexar la página. Puede ser utilizado para evitar que ciertas páginas sean indexadas.
+```html
+<meta name="robots" content="index, follow">
+```
+Author tag: Este tag indica el autor del contenido de la página. Es útil para dar crédito a los creadores de contenido.
+```html
+<meta name="author" content="uTime Team">
+```
+Meta Viewport: Este tag es esencial para que la página sea responsiva en dispositivos móviles. Mejora la experiencia del usuario y es un factor importante para el SEO técnico.
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+Canonical Tag: Este tag especifica la URL canónica de la página para evitar problemas de contenido duplicado en motores de búsqueda. Ayuda a consolidar el posicionamiento de una sola versión de la página.
+```html
+<link rel="canonical" href="https://www.lubrimax.com/">
+```
   ### 4.2.4. Searching Systems
   ### 4.2.5. Navigation Systems
 
