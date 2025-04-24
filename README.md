@@ -152,9 +152,15 @@ Abril del 2025 🗓️
 
 ## 1.1. Startup Profile
 
-### 1.1.1. Descripción de la Startup
 
-Falta descripción
+
+### 1.1.1. Descripción de la Startup
+  
+ En lubrimax, nos encargamos de ofrecer un servicio de gestión de inventario y ventas para empresas con inventario físico que buscan optimizar su operación y mejorar la atención al cliente. Nuestra plataforma permite a los usuarios registrar entradas y salidas de productos, gestionar ventas, generar reportes estadísticos y atender. Buscamos abordar los desafios de las companias y sus necesidades para un servicio customisado.
+
+ **Mision:** Brindar a los negocios con inventario físico una herramienta digital simple, accesible y poderosa que transforme la manera en que gestionan su stock, ventas y atención al cliente, ayudándolos a crecer con tecnología fácil de usar y adaptada a sus necesidades reales.
+
+ **Vision:** Ser la solución digital líder en Latinoamérica para la gestión de inventario inteligente en negocios físicos, ofreciendo innovación continua, automatización accesible y una experiencia centrada en el usuario que impulse la transformación digital de miles de emprendedores y comercios.
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
