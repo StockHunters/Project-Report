@@ -1069,21 +1069,8 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 
  ## 4.8. Database Desing
   ### 4.8.1. Database Diagram
-
-  >[!CAUTION]
-  > Reemplazar esto es un ejemplo 
-
-  ~~~mermaid
-  ---
-  title: Bank example
-  ---
-  classDiagram
-      class Example
-      Example : +String owner
-      Example : +Bigdecimal balance
-      Example : +deposit(amount)
-      Example : +withdrawal(amount)
-  ~~~
+  
+![Database Diagram](resources/database_diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
  ## 5.1. Software Configuration Management
