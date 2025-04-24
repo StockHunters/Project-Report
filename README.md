@@ -836,14 +836,14 @@ directa durante la primera semana.
 
    <table style="width:100%" align='center'>
    <tr>
-   <th>📌Titulo</th>
+   <th>📌Estudiante</th>
    <th>📌Titulo</th>
    <th>📌Titulo</th>
    </tr>
 
    <tr>
    <td align='center'>
-   <a href="" target='_blank'>
+   <a href="https://www.youtube.com/watch?v=barIe2mUUn8" target='_blank'>
     <img src="resources/Interview-1.png" alt="Primera entrevista del primer segmento objetivo">
    </a>
    </td> 
@@ -861,8 +861,14 @@ directa durante la primera semana.
 
    <tr>
    <td>
-    <b>📝Entrevistador:</b> name <br>
-    <b>🗣️Entrevistado:</b> name
+    <b>📝Entrevistador:</b> Luis Alva <br>
+    <b>🗣️Entrevistado:</b> Angie Yalan
+       <p>
+           Angie es una consumidora concurrente que suele revisar los catalogos en linea antes de comprar, valorando principalmente la claridad y el valor de la informacion proporcionada. Considera importante
+           ver el stock disponible antes de realizar la compra para evitar problemas. Valora la digitalizacion del proceso de compra, ya que prefiere hacerlo de manera remota y sin la necesidad de
+           una llamada o enlace telefonico. Normalmente los problemas mas comunes que enfrenta son no saber el precio de los productos de su interes y la falta de respuesta rapida por parte del negocio
+           o la empresa. 
+       </p>
    </td>
    <td>
     <b>📝Entrevistador:</b> name <br>
