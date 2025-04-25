@@ -951,7 +951,7 @@ directa durante la primera semana.
  | 17 | US17 | Testimonios reales | Como visitante, quiero leer experiencias reales de otros dueños de negocio, para confiar más en la plataforma. | 1 |
  | 18 | US19 | Formulario de contacto | Como visitante, quiero poder dejar mis datos fácilmente para que me contacten si tengo dudas, sin tener que registrarme aún. | 1 |
 
-# Capítulo IV: Product Desing
+# Capítulo IV: Product Design
  ## 4.1. Style Guidelines
   ### 4.1.1. General Style Guidelines
   ### 4.1.2. Web Style Guidelines
@@ -993,11 +993,11 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
   ### 4.2.4. Searching Systems
   ### 4.2.5. Navigation Systems
 
- ## 4.3. Landing Page UI Desing
+ ## 4.3. Landing Page UI Design
   ### 4.3.1. Landing Page Wireframes
   ### 4.3.2. Landing Page Mock-Up
 
- ## 4.4. Web Applications UX/UI Desing
+ ## 4.4. Web Applications UX/UI Design
   ### 4.4.1. Web Applications Wireframes
   ### 4.4.2. Web Applications Wireflow Diagrams
   ### 4.4.3. Web Applications User Flow Diagrams
@@ -1286,7 +1286,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
       Example : +withdrawal(amount)
   ~~~
 
- ## 4.8. Database Desing
+ ## 4.8. Database Design
   ### 4.8.1. Database Diagram
   
 ![Database Diagram](resources/database_diagram.png)
@@ -1300,7 +1300,8 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 |---|---|
 | Yum Gonzales, Jorge Suin   | jsyumg, myussu  |
 |  Miranda Ayasta, Rogger Faryd | r0ggdev |
-|   |   |
+|  Alva Abanto, Luis Andres | luisalvaabanto |
+
   
   *URL de repositorio de Landing Page:* 
   *URL de repositorio de Web Services:* 
@@ -1351,27 +1352,217 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
    #### 5.2.x.7. Software Deployment Evidence for Sprint Review
    #### 5.2.x.8. Team Collaboration Insights during Sprint
  ~~~
+   ### 5.2.1 Sprint 1
+   #### 5.2.1.1 Sprint Planning 1
+   A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 1. Se discution los objetivos, etapa de tiempo y tareas a realizar.
    
    <div>
     <table>
       <thead>
         <tr>
-          <th colspan=3>Sprints</th>
+          <th>#️⃣ Número</th>
+          <th>Sprint 1</th>
         </tr>
         <tr>
-          <th>#️⃣ Número</th>
-          <th>💬 Resumen</th>
-          <th>🔗 Link </th>
+          <th colspan=2>Sprint Planning Background</th>
         </tr>
       </thead>
       <tr align='center'>
-        <td> 1 </td>
-        <td> Resume </td>
-        <td> <a href='/sprints/Sprint-1.md'>🔗</a> </td>
+        <td> Date </td>
+        <td> 2025-04-18 </td>
+      </tr>
+      <tr>
+        <td>Time</td>
+        <td> 10:00PM - 11:00PM </td>
+      </tr>
+      <tr>
+        <td>Location</td>
+        <td> Meet </td>
+      </tr>
+      <tr>
+        <td>Prepared by</td>
+        <td> Yum Gonzales, Jorge Suin </td>
+      </tr>
+      <tr>
+        <td>Attendees</td>
+        <td> Yum Gonzales, Jorge Suin <br> Miranda Ayasta, Rogger Faryd <br> Alva Abanto, Luis Andres </td>
+      </tr>
+      <tr>
+        <td>Sprint n-1 Review Summary</td>
+        <td>No hubo sprint anterior</td>
+      </tr>
+      <tr>
+        <td>Sprint n-1 Retrospective Summary</td>
+        <td>No hubo sprint anterior</td>
+      </tr>
+      <tr>
+        <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+      </tr>
+      <tr>
+        <td>Sprint 1 Goal</td>
+        <td> Crear la landing page:<br>Our focus is on creating a clear, responsive, and functional landing page that effectively communicates the benefits of our platform.
+          We believe it delivers a professional first impression and builds trust with potential customers and visitors, making it easier for them to register or request a demo.
+          This will be confirmed when users visit the page is deployed on github through github pages </td>
+      </tr>
+      <tr>
+        <td>Sprint 1 velocity</td>
+        <td> 10 </td>
+      </tr>
+      <tr>
+        <td>Sum of Story Points</td>
+        <td> 10 </td>
       </tr>
     </table>
    </div>
 
+   #### 5.2.1.2 Aspect Leaders and Collaborators
+   <table>
+    <tr>
+      <th>Team member</th>
+      <th>Github username</th>
+      <th>Beneficios</th>
+      <th>Planes</th>
+      <th>Testimonios</th>
+      <th>Responsive</th>
+      <th>Soporte</th>
+    </tr>
+    <tr>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>jsyumg, myussu</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Miranda Ayasta, Rogger Faryd</td>
+      <td>r0ggdev</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Alva Abanto, Luis Andres</td>
+      <td>luisalva</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+   </table>
+
+ #### 5.2.1.3 Sprint 1 Backlog
+ <table>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 1</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-item / Task</strong></td>
+  </tr>
+  <tr>
+    <td><strong>ID</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>ID</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Estimation (Hours)</strong></td>
+    <td><strong>Assigned to</strong></td>
+    <td><strong>Status</strong></td>
+  </tr>
+
+  <tr>
+    <td>US15</td>
+    <td>Visualización clara de beneficios</td>
+    <td>Task 1</td>
+    <td>Redactar contenido</td>
+    <td>Escribir el texto principal que explica los beneficios clave de la plataforma.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US15</td>
+    <td>Visualización clara de beneficios</td>
+    <td>Task 2</td>
+    <td>Diseño de sección beneficios</td>
+    <td>Diseñar visualmente la sección de beneficios en la landing page (desktop y móvil).</td>
+    <td>3</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Llamado a la acción claro</td>
+    <td>Task 3</td>
+    <td>Diseñar botón CTA</td>
+    <td>Crear el botón de "Regístrate gratis" o "Pide una demo" y asegurar su visibilidad.</td>
+    <td>1</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Llamado a la acción claro</td>
+    <td>Task 4</td>
+    <td>Implementar CTA persistente</td>
+    <td>Agregar botón fijo que acompañe al usuario durante el scroll.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Testimonios o casos de éxito</td>
+    <td>Task 5</td>
+    <td>Reunir testimonios</td>
+    <td>Recopilar frases de usuarios reales y sus datos para mostrar credibilidad.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Testimonios o casos de éxito</td>
+    <td>Task 6</td>
+    <td>Diseño visual de testimonios</td>
+    <td>Diseñar los testimonios en formato visual atractivo (cards o sliders).</td>
+    <td>3</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US19</td>
+    <td>Formulario de contacto funcional</td>
+    <td>Task 7</td>
+    <td>Diseño de formulario</td>
+    <td>Diseñar e implementar el formulario de contacto en la landing page.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US19</td>
+    <td>Formulario de contacto funcional</td>
+    <td>Task 8</td>
+    <td>Validación de campos</td>
+    <td>Agregar validaciones de campos requeridos y formato de correo electrónico.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+
+</table>
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
  ## 5.3. Validation Interviews
   ### 5.3.1. Diseño de Entrevistas
