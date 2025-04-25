@@ -559,7 +559,7 @@ El logotipo se ubica en la esquina superior izquierda, mientras que la barra de 
 </p>
 
 <p align="center">
-<img src="resources/lp3.PNG" alt="3" width="400" height="350">
+<img src="resources/ld3.PNG" alt="3" width="400" height="500">
 </p>
 
 <p align="center">
@@ -575,7 +575,7 @@ El logotipo se ubica en la esquina superior izquierda, mientras que la barra de 
 </p>
 
 <p align="center">
-<img src="resources/mb4.PNG" alt="mb5" width="250" height="380">
+<img src="resources/mb5.PNG" alt="mb5" width="250" height="380">
 </p>
 
   ### 4.3.2. Landing Page Mock-Up
