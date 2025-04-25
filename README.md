@@ -1455,7 +1455,114 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
     </tr>
    </table>
 
+ #### 5.2.1.3 Sprint 1 Backlog
+ <table>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 1</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-item / Task</strong></td>
+  </tr>
+  <tr>
+    <td><strong>ID</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>ID</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Estimation (Hours)</strong></td>
+    <td><strong>Assigned to</strong></td>
+    <td><strong>Status</strong></td>
+  </tr>
 
+  <tr>
+    <td>US15</td>
+    <td>Visualización clara de beneficios</td>
+    <td>Task 1</td>
+    <td>Redactar contenido</td>
+    <td>Escribir el texto principal que explica los beneficios clave de la plataforma.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US15</td>
+    <td>Visualización clara de beneficios</td>
+    <td>Task 2</td>
+    <td>Diseño de sección beneficios</td>
+    <td>Diseñar visualmente la sección de beneficios en la landing page (desktop y móvil).</td>
+    <td>3</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Llamado a la acción claro</td>
+    <td>Task 3</td>
+    <td>Diseñar botón CTA</td>
+    <td>Crear el botón de "Regístrate gratis" o "Pide una demo" y asegurar su visibilidad.</td>
+    <td>1</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Llamado a la acción claro</td>
+    <td>Task 4</td>
+    <td>Implementar CTA persistente</td>
+    <td>Agregar botón fijo que acompañe al usuario durante el scroll.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Testimonios o casos de éxito</td>
+    <td>Task 5</td>
+    <td>Reunir testimonios</td>
+    <td>Recopilar frases de usuarios reales y sus datos para mostrar credibilidad.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Testimonios o casos de éxito</td>
+    <td>Task 6</td>
+    <td>Diseño visual de testimonios</td>
+    <td>Diseñar los testimonios en formato visual atractivo (cards o sliders).</td>
+    <td>3</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US19</td>
+    <td>Formulario de contacto funcional</td>
+    <td>Task 7</td>
+    <td>Diseño de formulario</td>
+    <td>Diseñar e implementar el formulario de contacto en la landing page.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US19</td>
+    <td>Formulario de contacto funcional</td>
+    <td>Task 8</td>
+    <td>Validación de campos</td>
+    <td>Agregar validaciones de campos requeridos y formato de correo electrónico.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+
+</table>
+
+#### 5.2.1.5. Execution Evidence for Srpint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
  ## 5.3. Validation Interviews
   ### 5.3.1. Diseño de Entrevistas
