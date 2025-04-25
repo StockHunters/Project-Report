@@ -340,7 +340,7 @@ Falta descripción
    <table style="width:100%" align='center'>
    <tr>
    <th>📌Tituko</th>
-   <th>📌Tituko</th>
+   <th>📌Gerente de compañia de productos agroquimicos</th>
    <th>📌Titulo</th>
    </tr>
 
@@ -368,8 +368,10 @@ Falta descripción
     <b>🗣️Entrevistado:</b> name
    </td>
    <td>
-    <b>📝Entrevistador:</b> name <br>
-    <b>🗣️Entrevistado:</b> name
+    <b>📝Entrevistador:</b> Jose Enrique Vargas Javier <br>
+    <b>🗣️Entrevistado:</b> Isabel Valenzuela Isabel Valenzuela es gerente de una empresa que vende productos agroquímicos. Usa Excel para gestionar inventario, ventas y seguimiento de clientes. Con esta información envía promociones y hace seguimiento personalizado. Dedica unas 5 horas semanales a generar reportes manualmente.
+   Entre sus principales dificultades está contar el inventario real uno por uno y las diferencias con el registro digital. Resalta la importancia de detectar productos que están por agotarse, ya que deben pedirse con anticipación. También considera esencial poder clasificar a sus clientes por tipo de trato, diferenciando entre minoristas y mayoristas.
+   Cree que una aplicación web para consultar inventario desde cualquier dispositivo le ahorraría tiempo. Está dispuesta a pagar por una solución así, aunque le preocupa la curva de aprendizaje al cambiar de sistema.
    </td>
       <td>
     <b>📝Entrevistador:</b> name <br>
