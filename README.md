@@ -1300,7 +1300,8 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 |---|---|
 | Yum Gonzales, Jorge Suin   | jsyumg, myussu  |
 |  Miranda Ayasta, Rogger Faryd | r0ggdev |
-|   |   |
+|  Alva Abanto, Luis Andres | luisalvaabanto |
+
   
   *URL de repositorio de Landing Page:* 
   *URL de repositorio de Web Services:* 
@@ -1351,26 +1352,109 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
    #### 5.2.x.7. Software Deployment Evidence for Sprint Review
    #### 5.2.x.8. Team Collaboration Insights during Sprint
  ~~~
+   ### 5.2.1 Sprint 1
+   #### 5.2.1.1 Sprint Planning 1
+   A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 1. Se discution los objetivos, etapa de tiempo y tareas a realizar.
    
    <div>
     <table>
       <thead>
         <tr>
-          <th colspan=3>Sprints</th>
+          <th>#️⃣ Número</th>
+          <th>Sprint 1</th>
         </tr>
         <tr>
-          <th>#️⃣ Número</th>
-          <th>💬 Resumen</th>
-          <th>🔗 Link </th>
+          <th colspan=2>Sprint Planning Background</th>
         </tr>
       </thead>
       <tr align='center'>
-        <td> 1 </td>
-        <td> Resume </td>
-        <td> <a href='/sprints/Sprint-1.md'>🔗</a> </td>
+        <td> Date </td>
+        <td> 2025-04-18 </td>
+      </tr>
+      <tr>
+        <td>Time</td>
+        <td> 10:00PM - 11:00PM </td>
+      </tr>
+      <tr>
+        <td>Location</td>
+        <td> Meet </td>
+      </tr>
+      <tr>
+        <td>Prepared by</td>
+        <td> Yum Gonzales, Jorge Suin </td>
+      </tr>
+      <tr>
+        <td>Attendees</td>
+        <td> Yum Gonzales, Jorge Suin <br> Miranda Ayasta, Rogger Faryd <br> Alva Abanto, Luis Andres </td>
+      </tr>
+      <tr>
+        <td>Sprint n-1 Review Summary</td>
+        <td>No hubo sprint anterior</td>
+      </tr>
+      <tr>
+        <td>Sprint n-1 Retrospective Summary</td>
+        <td>No hubo sprint anterior</td>
+      </tr>
+      <tr>
+        <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+      </tr>
+      <tr>
+        <td>Sprint 1 Goal</td>
+        <td> Crear la landing page:<br>Our focus is on creating a clear, responsive, and functional landing page that effectively communicates the benefits of our platform.
+          We believe it delivers a professional first impression and builds trust with potential customers and visitors, making it easier for them to register or request a demo.
+          This will be confirmed when users visit the page is deployed on github through github pages </td>
+      </tr>
+      <tr>
+        <td>Sprint 1 velocity</td>
+        <td> 10 </td>
+      </tr>
+      <tr>
+        <td>Sum of Story Points</td>
+        <td> 10 </td>
       </tr>
     </table>
    </div>
+
+   #### 5.2.1.2 Aspect Leaders and Collaborators
+   <table>
+    <tr>
+      <th>Team member</th>
+      <th>Github username</th>
+      <th>Beneficios</th>
+      <th>Planes</th>
+      <th>Testimonios</th>
+      <th>Responsive</th>
+      <th>Soporte</th>
+    </tr>
+    <tr>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>jsyumg, myussu</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Miranda Ayasta, Rogger Faryd</td>
+      <td>r0ggdev</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Alva Abanto, Luis Andres</td>
+      <td>luisalva</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+   </table>
+
 
 
  ## 5.3. Validation Interviews
