@@ -351,7 +351,7 @@ Falta descripción
    </a>
    </td> 
    <td align='center'>
-   <a href="" target='_blank'>
+   <a ghref="https://youtu.be/9L7HESPibVA" target='_blank'>
     <img src="resources/Interview-2.png" alt="Segunda entrevista del primer segmento objetivo">
    </a>
    </td>
