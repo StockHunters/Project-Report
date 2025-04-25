@@ -25,7 +25,7 @@ string[] Integrantes() {
     return new string[] {
         "🧑‍💻 Yum Gonzales, Jorge Suin - U202210838",
         "👩‍💻 Miranda Ayasta, Rogger Faryd - U202319239",
-        "👩‍💻 Apellidos, Nombres - Codigo",
+        "👩‍💻 Alva Abanto, Luis Andres - u202310877",
         "👩‍💻 Apellidos, Nombres - Codigo",
         "👩‍💻 Apellidos, Nombres - Codigo"
     };
@@ -212,13 +212,18 @@ Abril del 2025 🗓️
 
    <!--TODO: integrante 3 -->
 
-**> 🧑‍💻 Integrante 3**
+**> 🧑‍💻 Luis Andres Alva Abanto**
    <div align='center'>
 
-   <img src="link-img" alt="name" width="100" align='right'>
+   <img src="https://files.catbox.moe/dnmt63.png" alt="Luis Andres Alva Abanto" width="100" align='right'>
 
    ~~~txt
-   Descripción
+   ✅ Estudiante de Ingeniería de Software en UPC
+   💻 Me gusta el desarrollo ágil aplicando patrones de diseño
+   y arquitectura escalable. Actualmente estoy aprendiendo 
+   Java y C#. 
+   😊 Me destaco por mi capacidad para trabajar en equipo
+    y el compromiso con el proyecto. 
    ~~~
 
    </div>
@@ -978,147 +983,268 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
  
  ## 4.6. Domain-Driven Software Architecture
   ### 4.6.1. Software Architecture Context Diagram
-  
-  >[!CAUTION]
-  > Reemplazar esto es un ejemplo 
-  
+
+ ~~~mermaid
+  C4Context
+  title System Context diagram
+  Enterprise_Boundary(b0, "Boundary"){
+    Person(Administrator, "Administrator", "Manages products, views statistics<br> and handles orders/invoices.")
+    Person(Customer, "Customer", $descr="Places orders, tracks orders,<br> and downloads invoices.")
+    System(AutomotiveProductSalesManagementSystem, "Automotive Product<br> Sales Management System", $descr="A web application for managing automotive product<br> sales, built with Vue.js, C#/.NET, and microservices.")
+  }
+  Rel(Administrator, AutomotiveProductSalesManagementSystem, "Logs in, manages products,<br> views sales/stock statistics,<br> manages orders/invoices")
+  Rel(Customer, AutomotiveProductSalesManagementSystem, "Logs in, places orders,<br> tracks orders with code,<br> downloads invoices")
+
+  UpdateLayoutConfig($c4ShapeInRow="2", $c4BoundaryInRow="1")
+  ~~~
+
+### 4.6.2. Software Architecture Container Diagram
+
   ~~~mermaid
-      C4Context
-      title System Context diagram for EXAMPLE
-      Enterprise_Boundary(b0, "BankBoundary0") {
-        Person(customerA, "Banking Customer A", "A customer of the bank, with personal bank accounts.")
-        Person(customerB, "Banking Customer B")
-        Person_Ext(customerC, "Banking Customer C", "desc")
+C4Container
 
-        Person(customerD, "Banking Customer D", "A customer of the bank, <br/> with personal bank accounts.")
+title Automotive Product Sales Management System - Containers
 
-        System(SystemAA, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+Person(Administrator, "Administrator", $descr="Manages products,<br> views statistics, and handles<br> orders/invoices.", $tags="v1.0", $link="v1.0")
+Person(Customer, "Customer", $descr="Places orders, tracks orders,<br> and downloads invoices.", $tags="v1.0", $link="v1.0")
 
-        Enterprise_Boundary(b1, "BankBoundary") {
+System_Boundary("AutomotiveProductSalesManagementSystem_boundary", "Automotive Product Sales Management System", $tags="v1.0") {
 
-          SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+  Container(AutomotiveProductSalesManagementSystem.OrderService, "Order Service", $techn="C#/.NET", $descr="Handles order creation<br> and tracking.", $tags="v1.0", $link="v1.0")
 
-          System_Boundary(b2, "BankBoundary2") {
-            System(SystemA, "Banking System A")
-            System(SystemB, "Banking System B", "A system of the bank, with personal bank accounts. next line.")
-          }
+  Container(AutomotiveProductSalesManagementSystem.APIGateway, "API Gateway", $techn="C#/.NET", $descr="Routes requests and <br>handles authentication.", $tags="v1.0", $link="v1.0")
 
-          System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
-          SystemDb(SystemD, "Banking System D Database", "A system of the bank, with personal bank accounts.")
+  Container(AutomotiveProductSalesManagementSystem.WebApplication, "Web Application", $techn="Vue.js", $descr="Provides user interface<br> for admins and customers.", $tags="v1.0", $link="v1.0")
+  
+  Container(AutomotiveProductSalesManagementSystem.ProductService, "Product Service", $techn="C#/.NET", $descr="Manages product details <br>and stock.", $tags="v1.0", $link="v1.0")
 
-          Boundary(b3, "BankBoundary3", "boundary") {
-            SystemQueue(SystemF, "Banking System F Queue", "A system of the bank.")
-            SystemQueue_Ext(SystemG, "Banking System G Queue", "A system of the bank, with personal bank accounts.")
-          }
-        }
-      }
+  Container(AutomotiveProductSalesManagementSystem.UserService, "User Service", $techn="C#/.NET", $descr="Manages user authentication<br> and access levels.", $tags="v1.0", $link="v1.0")
 
-      BiRel(customerA, SystemAA, "Uses")
-      BiRel(SystemAA, SystemE, "Uses")
-      Rel(SystemAA, SystemC, "Sends e-mails", "SMTP")
-      Rel(SystemC, customerA, "Sends e-mails to")
+  Container(AutomotiveProductSalesManagementSystem.InvoiceService, "Invoice Service", $techn="C#/.NET", $descr="Manages invoice generation<br> and downloads.", $tags="v1.0", $link="v1.0")
+  
+  Container(AutomotiveProductSalesManagementSystem.Database, "Database", $techn="SQL Server", $descr="Stores products, customers,<br> orders, invoices, and stock.", $tags="v1.0", $link="v1.0")
+}
 
-      UpdateElementStyle(customerA, $fontColor="red", $bgColor="grey", $borderColor="red")
-      UpdateRelStyle(customerA, SystemAA, $textColor="blue", $lineColor="blue", $offsetX="5")
-      UpdateRelStyle(SystemAA, SystemE, $textColor="blue", $lineColor="blue", $offsetY="-10")
-      UpdateRelStyle(SystemAA, SystemC, $textColor="blue", $lineColor="blue", $offsetY="-40", $offsetX="-50")
-      UpdateRelStyle(SystemC, customerA, $textColor="red", $lineColor="red", $offsetX="-50", $offsetY="20")
+Rel(Administrator, AutomotiveProductSalesManagementSystem.WebApplication, "Uses", $techn="HTTPS", $tags="v1.0", $link="v1.0")
+Rel(Customer, AutomotiveProductSalesManagementSystem.WebApplication, "Uses", $techn="HTTPS", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.WebApplication, AutomotiveProductSalesManagementSystem.APIGateway, "Makes RESTful API calls", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.ProductService, "Routes requests", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.OrderService, "Routes requests", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.InvoiceService, "Routes requests", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.UserService, "Routes requests", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.ProductService, AutomotiveProductSalesManagementSystem.Database, "Reads/writes data", $techn="SQL", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.OrderService, AutomotiveProductSalesManagementSystem.Database, "Reads/writes data", $techn="SQL", $tags="v1.0", $link="v1.0")
 
-      UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
 
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService, AutomotiveProductSalesManagementSystem.Database, "Reads/writes data", $techn="SQL", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.UserService, AutomotiveProductSalesManagementSystem.Database, "Reads/writes data", $techn="SQL", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.OrderService, AutomotiveProductSalesManagementSystem.ProductService, "Checks stock availability", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService, AutomotiveProductSalesManagementSystem.OrderService, "Retrieves order data", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+UpdateLayoutConfig($c4ShapeInRow="3")
 
   ~~~
- 
-  ### 4.6.2. Software Architecture Container Diagram
 
-  >[!CAUTION]
-  > Reemplazar esto es un ejemplo 
-  
+### 4.6.3. Software Architecture Components Diagram
+
   ~~~mermaid
-      C4Container
-    title Container diagram for EXAMPLE
+C4Component
+title Automotive Product Sales Management System - API Gateway - Components
 
-    System_Ext(email_system, "E-Mail System", "The internal Microsoft Exchange system", $tags="v1.0")
-    Person(customer, Customer, "A customer of the bank, with personal bank accounts", $tags="v1.0")
+Container_Boundary("AutomotiveProductSalesManagementSystem.APIGateway_boundary", "API Gateway", $tags="v1.0") {
+  Component(AutomotiveProductSalesManagementSystem.APIGateway.RequestRouter, "Request Router", $techn="C#/.NET", $descr="Routes RESTful requests.", $tags="v1.0", $link="v1.0")
+  Component(AutomotiveProductSalesManagementSystem.APIGateway.AuthenticationMiddleware, "Authentication Middleware", $techn="C#/.NET", $descr="Validates user access.", $tags="v1.0", $link="v1.0")
+}
 
-    Container_Boundary(c1, "Internet Banking") {
-        Container(spa, "Single-Page App", "JavaScript, Angular", "Provides all the Internet banking functionality to customers via their web browser")
-        Container_Ext(mobile_app, "Mobile App", "C#, Xamarin", "Provides a limited subset of the Internet banking functionality to customers via their mobile device")
-        Container(web_app, "Web Application", "Java, Spring MVC", "Delivers the static content and the Internet banking SPA")
-        ContainerDb(database, "Database", "SQL Database", "Stores user registration information, hashed auth credentials, access logs, etc.")
-        ContainerDb_Ext(backend_api, "API Application", "Java, Docker Container", "Provides Internet banking functionality via API")
+Container(AutomotiveProductSalesManagementSystem.InvoiceService, "Invoice Service", $techn="C#/.NET", $descr="Manages invoice generation and downloads.", $tags="v1.0", $link="v1.0")
 
-    }
+Container(AutomotiveProductSalesManagementSystem.OrderService, "Order Service", $techn="C#/.NET", $descr="Handles order creation and tracking.", $tags="v1.0", $link="v1.0")
 
-    System_Ext(banking_system, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+Container(AutomotiveProductSalesManagementSystem.UserService, "User Service", $techn="C#/.NET", $descr="Manages user authentication and access levels.", $tags="v1.0", $link="v1.0")
 
-    Rel(customer, web_app, "Uses", "HTTPS")
-    UpdateRelStyle(customer, web_app, $offsetY="60", $offsetX="90")
-    Rel(customer, spa, "Uses", "HTTPS")
-    UpdateRelStyle(customer, spa, $offsetY="-40")
-    Rel(customer, mobile_app, "Uses")
-    UpdateRelStyle(customer, mobile_app, $offsetY="-30")
+Container(AutomotiveProductSalesManagementSystem.ProductService, "Product Service", $techn="C#/.NET", $descr="Manages product details and stock.", $tags="v1.0", $link="v1.0")
 
-    Rel(web_app, spa, "Delivers")
-    UpdateRelStyle(web_app, spa, $offsetX="130")
-    Rel(spa, backend_api, "Uses", "async, JSON/HTTPS")
-    Rel(mobile_app, backend_api, "Uses", "async, JSON/HTTPS")
-    Rel_Back(database, backend_api, "Reads from and writes to", "sync, JDBC")
+Container(AutomotiveProductSalesManagementSystem.WebApplication, "Web Application", $techn="Vue.js", $descr="Provides user interface for admins and customers.", $tags="v1.0", $link="v1.0")
 
-    Rel(email_system, customer, "Sends e-mails to")
-    UpdateRelStyle(email_system, customer, $offsetX="-45")
-    Rel(backend_api, email_system, "Sends e-mails using", "sync, SMTP")
-    UpdateRelStyle(backend_api, email_system, $offsetY="-60")
-    Rel(backend_api, banking_system, "Uses", "sync/async, XML/HTTPS")
-    UpdateRelStyle(backend_api, banking_system, $offsetY="-50", $offsetX="-140")
-
+Rel(AutomotiveProductSalesManagementSystem.WebApplication, AutomotiveProductSalesManagementSystem.APIGateway.AuthenticationMiddleware, "Calls POST /login", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.WebApplication, AutomotiveProductSalesManagementSystem.APIGateway.RequestRouter, "Calls GET/POST /products", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway.RequestRouter, AutomotiveProductSalesManagementSystem.ProductService, "Routes /products", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway.RequestRouter, AutomotiveProductSalesManagementSystem.OrderService, "Routes /orders", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway.RequestRouter, AutomotiveProductSalesManagementSystem.InvoiceService, "Routes /invoices", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway.RequestRouter, AutomotiveProductSalesManagementSystem.UserService, "Routes /login", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway.AuthenticationMiddleware, AutomotiveProductSalesManagementSystem.UserService, "Validates tokens", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.OrderService, AutomotiveProductSalesManagementSystem.ProductService, "Checks stock", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService, AutomotiveProductSalesManagementSystem.OrderService, "Retrieves order data", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
 
   ~~~
-  ### 4.6.3. Software Architecture Components Diagram
 
-  >[!CAUTION]
-  > Reemplazar esto es un ejemplo 
-  
   ~~~mermaid
-      C4Component
-    title Component diagram for EXAMPLE
+C4Component
+title Automotive Product Sales Management System - Invoice Service - Components
 
-    Container(spa, "Single Page Application", "javascript and angular", "Provides all the internet banking functionality to customers via their web browser.")
-    Container(ma, "Mobile App", "Xamarin", "Provides a limited subset to the internet banking functionality to customers via their mobile mobile device.")
-    ContainerDb(db, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
-    System_Ext(mbs, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+Container(AutomotiveProductSalesManagementSystem.APIGateway, "API Gateway", $techn="C#/.NET", $descr="Routes requests and handles authentication.", $tags="v1.0", $link="v1.0")
 
-    Container_Boundary(api, "API Application") {
-        Component(sign, "Sign In Controller", "MVC Rest Controller", "Allows users to sign in to the internet banking system")
-        Component(accounts, "Accounts Summary Controller", "MVC Rest Controller", "Provides customers with a summary of their bank accounts")
-        Component(security, "Security Component", "Spring Bean", "Provides functionality related to singing in, changing passwords, etc.")
-        Component(mbsfacade, "Mainframe Banking System Facade", "Spring Bean", "A facade onto the mainframe banking system.")
+Container(AutomotiveProductSalesManagementSystem.OrderService, "Order Service", $techn="C#/.NET", $descr="Handles order creation and tracking.", $tags="v1.0", $link="v1.0")
 
-        Rel(sign, security, "Uses")
-        Rel(accounts, mbsfacade, "Uses")
-        Rel(security, db, "Read & write to", "JDBC")
-        Rel(mbsfacade, mbs, "Uses", "XML/HTTPS")
-    }
+Container(AutomotiveProductSalesManagementSystem.Database, "Database", $techn="SQL Server", $descr="Stores products, customers, orders, invoices, and stock.", $tags="v1.0", $link="v1.0")
 
-    Rel_Back(spa, sign, "Uses", "JSON/HTTPS")
-    Rel(spa, accounts, "Uses", "JSON/HTTPS")
+Container_Boundary("AutomotiveProductSalesManagementSystem.InvoiceService_boundary", "Invoice Service", $tags="v1.0") {
+  Component(AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceController, "Invoice Controller", $techn="C#/.NET", $descr="Handles RESTful requests.", $tags="v1.0", $link="v1.0")
 
-    Rel(ma, sign, "Uses", "JSON/HTTPS")
-    Rel(ma, accounts, "Uses", "JSON/HTTPS")
+  Component(AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceAggregate, "Invoice Aggregate", $techn="C#/.NET", $descr="Manages invoice logic.", $tags="v1.0", $link="v1.0")
 
-    UpdateRelStyle(spa, sign, $offsetY="-40")
-    UpdateRelStyle(spa, accounts, $offsetX="40", $offsetY="40")
+  Component(AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceRepository, "Invoice Repository", $techn="C#/.NET", $descr="Manages database operations.", $tags="v1.0", $link="v1.0")
+}
 
-    UpdateRelStyle(ma, sign, $offsetX="-90", $offsetY="40")
-    UpdateRelStyle(ma, accounts, $offsetY="-40")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.OrderService, "Routes /orders", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
 
-        UpdateRelStyle(sign, security, $offsetX="-160", $offsetY="10")
-        UpdateRelStyle(accounts, mbsfacade, $offsetX="140", $offsetY="10")
-        UpdateRelStyle(security, db, $offsetY="-40")
-        UpdateRelStyle(mbsfacade, mbs, $offsetY="-40")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceController, "Routes /invoices", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
 
+Rel(AutomotiveProductSalesManagementSystem.OrderService, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceController, AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceAggregate, "Invokes", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceAggregate, AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceRepository, "Uses", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceRepository, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceAggregate, AutomotiveProductSalesManagementSystem.OrderService, "Retrieves order data", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
 
   ~~~
+
+~~~mermaid
+C4Component
+title Automotive Product Sales Management System - Order Service - Components
+
+Container(AutomotiveProductSalesManagementSystem.APIGateway, "API Gateway", $techn="C#/.NET", $descr="Routes requests and handles authentication.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.ProductService, "Product Service", $techn="C#/.NET", $descr="Manages product details and stock.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.Database, "Database", $techn="SQL Server", $descr="Stores products, customers, orders, invoices, and stock.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.InvoiceService, "Invoice Service", $techn="C#/.NET", $descr="Manages invoice generation and downloads.", $tags="v1.0", $link="v1.0")
+
+Container_Boundary("AutomotiveProductSalesManagementSystem.OrderService_boundary", "Order Service", $tags="v1.0") {
+  Component(AutomotiveProductSalesManagementSystem.OrderService.OrderController, "Order Controller", $techn="C#/.NET", $descr="Handles RESTful requests.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.OrderService.OrderAggregate, "Order Aggregate", $techn="C#/.NET", $descr="Manages order logic.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.OrderService.OrderRepository, "Order Repository", $techn="C#/.NET", $descr="Manages database operations.", $tags="v1.0", $link="v1.0")
+}
+
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.ProductService, "Routes /products", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.OrderService.OrderController, "Routes /orders", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.InvoiceService, "Routes /invoices", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.ProductService, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.OrderService.OrderController, AutomotiveProductSalesManagementSystem.OrderService.OrderAggregate, "Invokes", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.OrderService.OrderAggregate, AutomotiveProductSalesManagementSystem.OrderService.OrderRepository, "Uses", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.OrderService.OrderRepository, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.OrderService.OrderAggregate, AutomotiveProductSalesManagementSystem.ProductService, "Checks stock", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService, AutomotiveProductSalesManagementSystem.OrderService.OrderController, "Retrieves order data", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+~~~
+
+~~~mermaid
+C4Component
+title Automotive Product Sales Management System - Product Service - Components
+
+Container(AutomotiveProductSalesManagementSystem.APIGateway, "API Gateway", $techn="C#/.NET", $descr="Routes requests and handles authentication.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.OrderService, "Order Service", $techn="C#/.NET", $descr="Handles order creation and tracking.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.Database, "Database", $techn="SQL Server", $descr="Stores products, customers, orders, invoices, and stock.", $tags="v1.0", $link="v1.0")
+
+Container_Boundary("AutomotiveProductSalesManagementSystem.ProductService_boundary", "Product Service", $tags="v1.0") {
+  Component(AutomotiveProductSalesManagementSystem.ProductService.ProductController, "Product Controller", $techn="C#/.NET", $descr="Handles RESTful requests.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.ProductService.ProductAggregate, "Product Aggregate", $techn="C#/.NET", $descr="Encapsulates product domain logic.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.ProductService.ProductRepository, "Product Repository", $techn="C#/.NET", $descr="Manages database operations.", $tags="v1.0", $link="v1.0")
+}
+
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.ProductService.ProductController, "Routes /products", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.OrderService, "Routes /orders", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.ProductService.ProductController, AutomotiveProductSalesManagementSystem.ProductService.ProductAggregate, "Invokes", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.ProductService.ProductAggregate, AutomotiveProductSalesManagementSystem.ProductService.ProductRepository, "Uses", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.ProductService.ProductRepository, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.OrderService, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.OrderService, AutomotiveProductSalesManagementSystem.ProductService.ProductController, "Checks stock", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+~~~
+
+~~~mermaid
+C4Component
+title Automotive Product Sales Management System - User Service - Components
+
+Container(AutomotiveProductSalesManagementSystem.APIGateway, "API Gateway", $techn="C#/.NET", $descr="Routes requests and handles authentication.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.Database, "Database", $techn="SQL Server", $descr="Stores products, customers, orders, invoices, and stock.", $tags="v1.0", $link="v1.0")
+
+Container_Boundary("AutomotiveProductSalesManagementSystem.UserService_boundary", "User Service", $tags="v1.0") {
+  Component(AutomotiveProductSalesManagementSystem.UserService.UserController, "User Controller", $techn="C#/.NET", $descr="Handles RESTful requests.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.UserService.UserAggregate, "User Aggregate", $techn="C#/.NET", $descr="Manages user logic.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.UserService.UserRepository, "User Repository", $techn="C#/.NET", $descr="Manages database operations.", $tags="v1.0", $link="v1.0")
+}
+
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.UserService.UserController, "Routes /login", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.UserService.UserController, AutomotiveProductSalesManagementSystem.UserService.UserAggregate, "Invokes", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.UserService.UserAggregate, AutomotiveProductSalesManagementSystem.UserService.UserRepository, "Uses", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.UserService.UserRepository, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+~~~
+
+~~~mermaid
+C4Component
+title Automotive Product Sales Management System - Web Application - Components
+
+Container(AutomotiveProductSalesManagementSystem.APIGateway, "API Gateway", $techn="C#/.NET", $descr="Routes requests and handles authentication.", $tags="v1.0", $link="v1.0")
+
+Container_Boundary("AutomotiveProductSalesManagementSystem.WebApplication_boundary", "Web Application", $tags="v1.0") {
+  Component(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, "Statistics Component", $techn="Vue.js", $descr="Displays sales/stock statistics.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.WebApplication.LoginComponent, "Login Component", $techn="Vue.js", $descr="Handles user authentication.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.WebApplication.ProductCatalogComponent, "Product Catalog Component", $techn="Vue.js", $descr="Displays and manages products.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.WebApplication.OrderPlacementComponent, "Order Placement Component", $techn="Vue.js", $descr="Creates orders.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.WebApplication.OrderTrackingComponent, "Order Tracking Component", $techn="Vue.js", $descr="Tracks orders using a code.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.WebApplication.InvoiceDownloadComponent, "Invoice Download Component", $techn="Vue.js", $descr="Downloads invoices.", $tags="v1.0", $link="v1.0")
+}
+
+Rel(AutomotiveProductSalesManagementSystem.WebApplication.LoginComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls POST /login", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.WebApplication.ProductCatalogComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls GET/POST /products", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.WebApplication.OrderPlacementComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls POST /orders", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.WebApplication.OrderTrackingComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls GET /orders/{code}", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.WebApplication.InvoiceDownloadComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls GET /invoices/{id}", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls GET /statistics", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
 
  ## 4.7. Software Object-Oriented Desing
   ### 4.7.1. Class Diagram
