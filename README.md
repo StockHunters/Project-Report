@@ -1267,24 +1267,6 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.OrderTrackingComponent
 Rel(AutomotiveProductSalesManagementSystem.WebApplication.InvoiceDownloadComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls GET /invoices/{id}", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
 
 Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls GET /statistics", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
-
-
- ## 4.7. Software Object-Oriented Desing
-  ### 4.7.1. Class Diagram
-
-  >[!CAUTION]
-  > Reemplazar esto es un ejemplo 
-  
-  ~~~mermaid
-  ---
-  title: Bank example
-  ---
-  classDiagram
-      class Example
-      Example : +String owner
-      Example : +Bigdecimal balance
-      Example : +deposit(amount)
-      Example : +withdrawal(amount)
   ~~~
 
   ### 4.7.2. Class Dictionary
@@ -1306,21 +1288,8 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 
  ## 4.8. Database Desing
   ### 4.8.1. Database Diagram
-
-  >[!CAUTION]
-  > Reemplazar esto es un ejemplo 
-
-  ~~~mermaid
-  ---
-  title: Bank example
-  ---
-  classDiagram
-      class Example
-      Example : +String owner
-      Example : +Bigdecimal balance
-      Example : +deposit(amount)
-      Example : +withdrawal(amount)
-  ~~~
+  
+![Database Diagram](resources/database_diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
  ## 5.1. Software Configuration Management
