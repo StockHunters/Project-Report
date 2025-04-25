@@ -951,7 +951,7 @@ directa durante la primera semana.
  | 17 | US17 | Testimonios reales | Como visitante, quiero leer experiencias reales de otros dueños de negocio, para confiar más en la plataforma. | 1 |
  | 18 | US19 | Formulario de contacto | Como visitante, quiero poder dejar mis datos fácilmente para que me contacten si tengo dudas, sin tener que registrarme aún. | 1 |
 
-# Capítulo IV: Product Desing
+# Capítulo IV: Product Design
  ## 4.1. Style Guidelines
   ### 4.1.1. General Style Guidelines
   ### 4.1.2. Web Style Guidelines
@@ -993,11 +993,11 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
   ### 4.2.4. Searching Systems
   ### 4.2.5. Navigation Systems
 
- ## 4.3. Landing Page UI Desing
+ ## 4.3. Landing Page UI Design
   ### 4.3.1. Landing Page Wireframes
   ### 4.3.2. Landing Page Mock-Up
 
- ## 4.4. Web Applications UX/UI Desing
+ ## 4.4. Web Applications UX/UI Design
   ### 4.4.1. Web Applications Wireframes
   ### 4.4.2. Web Applications Wireflow Diagrams
   ### 4.4.3. Web Applications User Flow Diagrams
@@ -1286,7 +1286,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
       Example : +withdrawal(amount)
   ~~~
 
- ## 4.8. Database Desing
+ ## 4.8. Database Design
   ### 4.8.1. Database Diagram
   
 ![Database Diagram](resources/database_diagram.png)
@@ -1559,7 +1559,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 
 </table>
 
-#### 5.2.1.5. Execution Evidence for Srpint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 #### 5.2.1.8. Team Collaboration Insights during Sprint
