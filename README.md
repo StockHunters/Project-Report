@@ -181,9 +181,16 @@ Abril del 2025 🗓️
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
-
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 ## Student Outcome
+ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+
+| Criterio | Acciones realizadas | Conclusiones|
+|---------|--------------------|------------|
+|Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web|------------|
+|Comunica por escrito con efectividad a diferentes rangos de audiencia.| **Jorge Yum**: <br> **TB1:** <br> En esta primera entrega, se elaboró la descripción de la startup, se analizó detalladamente el contexto, los antecedentes y la problemática principal, se aplicó el proceso de Lean UX para definir hipótesis y validarlas, se realizó un análisis competitivo para identificar oportunidades de diferenciación, y se definieron los segmentos objetivos del mercado con sustento estadístico.|------------|
 
 </div>
 
@@ -1903,3 +1910,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 # Conclusiones
  ## Conclusiones y recomendaciones
  ## Video About-the-Team
+
+# Bibliografía
+
+# Anexos 
