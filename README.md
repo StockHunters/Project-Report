@@ -231,10 +231,10 @@ Abril del 2025 🗓️
 
    <!--TODO: integrante 4 -->
 
-**> 🧑‍💻 Integrante 4**
+**> 🧑‍💻  Christofer William Costa Morales**
    <div align='center'>
 
-   <img src="link-img" alt="name" width="100" align='right'>
+   <img src="resources/Christofer Costa.jpg" alt="Christofer William Costa Morales" width="100" align='right'>
 
    ~~~txt
    Soy estudiante de la carrera de ingenieria de software de la UPC.
@@ -1024,6 +1024,8 @@ directa durante la primera semana.
 
  ## 3.3. Impact Mapping
 
+ ![alt text](<resources/Impact Mapping.png>)
+
 
  ## 3.4. Product Backlog
  | # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
@@ -1590,6 +1592,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 | Yum Gonzales, Jorge Suin   | jsyumg, myussu  |
 |  Miranda Ayasta, Rogger Faryd | r0ggdev |
 |  Alva Abanto, Luis Andres | luisalvaabanto |
+| Costa Morales Christofer William| miniChorri|
 
   
   *URL de repositorio de Landing Page:* 
