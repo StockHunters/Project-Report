@@ -52,7 +52,7 @@ Abril del 2025 🗓️
   <tr>
     <td>TB1</td>
     <td>2025-04-20</td>
-    <td> <ul> <li>Jorge Suin Yum Gonzales</li> </ul></td>
+    <td> <ul> <li>Jorge Suin Yum Gonzales</li> <li>Pongan sus nombres</li> </ul></td>
     <td> Se han incluído los siguientes capítulos:
         <ul>
           <li>Capítulo I: Introducción</li>
@@ -1623,7 +1623,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 |  Alva Abanto, Luis Andres | luisalvaabanto |
 
   
-  *URL de repositorio de Landing Page:* 
+  *URL de repositorio de Landing Page:* https://github.com/st0ckhunters/landingPage.git
   *URL de repositorio de Web Services:* 
   *URL de repositorio de FrontEnd Aplication:*
 
