@@ -25,9 +25,9 @@ string[] Integrantes() {
     return new string[] {
         "🧑‍💻 Yum Gonzales, Jorge Suin - U202210838",
         "👩‍💻 Miranda Ayasta, Rogger Faryd - U202319239",
-        "👩‍💻 Apellidos, Nombres - Codigo",
+        "👩‍💻 Alva Abanto, Luis Andres - u202310877",
         "👩‍💻 Costa Morales, Christofer William - U202315968",
-        "👩‍💻 Apellidos, Nombres - Codigo"
+        "👩‍💻 Vargas Javier, Jose Enrique - U20221F693"
     };
 }
 ~~~
@@ -152,9 +152,15 @@ Abril del 2025 🗓️
 
 ## 1.1. Startup Profile
 
-### 1.1.1. Descripción de la Startup
 
-Falta descripción
+
+### 1.1.1. Descripción de la Startup
+  
+ En lubrimax, nos encargamos de ofrecer un servicio de gestión de inventario y ventas para empresas con inventario físico que buscan optimizar su operación y mejorar la atención al cliente. Nuestra plataforma permite a los usuarios registrar entradas y salidas de productos, gestionar ventas, generar reportes estadísticos y atender. Buscamos abordar los desafios de las companias y sus necesidades para un servicio customisado.
+
+ **Mision:** Brindar a los negocios con inventario físico una herramienta digital simple, accesible y poderosa que transforme la manera en que gestionan su stock, ventas y atención al cliente, ayudándolos a crecer con tecnología fácil de usar y adaptada a sus necesidades reales.
+
+ **Vision:** Ser la solución digital líder en Latinoamérica para la gestión de inventario inteligente en negocios físicos, ofreciendo innovación continua, automatización accesible y una experiencia centrada en el usuario que impulse la transformación digital de miles de emprendedores y comercios.
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
@@ -206,13 +212,18 @@ Falta descripción
 
    <!--TODO: integrante 3 -->
 
-**> 🧑‍💻 Integrante 3**
+**> 🧑‍💻 Luis Andres Alva Abanto**
    <div align='center'>
 
-   <img src="link-img" alt="name" width="100" align='right'>
+   <img src="https://files.catbox.moe/dnmt63.png" alt="Luis Andres Alva Abanto" width="100" align='right'>
 
    ~~~txt
-   Descripción
+   ✅ Estudiante de Ingeniería de Software en UPC
+   💻 Me gusta el desarrollo ágil aplicando patrones de diseño
+   y arquitectura escalable. Actualmente estoy aprendiendo 
+   Java y C#. 
+   😊 Me destaco por mi capacidad para trabajar en equipo
+    y el compromiso con el proyecto. 
    ~~~
 
    </div>
@@ -240,13 +251,26 @@ Falta descripción
 
    <!--TODO: integrante 5 -->
 
-**> 🧑‍💻 Integrante 5**
+**> 🧑‍💻 Jose Enrique Vargas Javier**
    <div align='center'>
 
-   <img src="link-img" alt="name" width="100" align='right'>
+   <img src="link-img" alt="Jose Enrique Vargas Javier" width="100" align='right'>
 
    ~~~txt
-   Descripción
+   👾 Soy estudiante de Ingeniería de Software 
+   de la UPC, en estos momentos me encuentro 
+   cursando el 5to ciclo de la carrera.
+
+   💻 En todo este camino me he formado en lenguajes de programacion, tales como:
+
+    ➡️ C++
+       ➡️ Python
+    ➡️ SQL
+
+   🎉 Mi habilidad competitiva es comprometerme 
+   con el trabajo encargado, poder adaptarme a 
+   cualquier área con el fin de seguir 
+   adquiriendo mas conocimientos ✅.
    ~~~
 
    </div>
@@ -602,13 +626,13 @@ directa durante la primera semana.
   </tr>
   <tr>
     <td colspan="2" rowspan="2" valign="top">Startup y Competidores</td>
-    <td valign="top">Mi Startup</td>
+    <td valign="top">Nuestra Startup</td>
     <td valign="top">Bsale</td>
     <td valign="top">Defontana</td>
     <td valign="top">Microsoft Excel</td>
   </tr>
   <tr>
-    <td valign="top"><img src="/resources/startup.png" alt="Logo Mi Startup" height="100px"></td>
+    <td valign="top"><img src="/resources/lubrimax.png" alt="Logo Mi Startup" height="100px"></td>
     <td valign="top"><img src="https://yt3.googleusercontent.com/kH5MizoIzldC54QkNt1zNehJxroIU4D71l9gQRroMPr04WToKg1BfQbigz-_Ki5ZUDgdpmckzmk=s160-c-k-c0x00ffffff-no-rj" alt="Logo Bsale" height="100px"></td>
     <td valign="top"><img src="https://yt3.googleusercontent.com/bly9PPL4rYGzO7BdSc32EBQOScwskQ-pXmIw7y64dvTp5hog-AJ3n7b-GgcRVAaovXPH_8NARA=s900-c-k-c0x00ffffff-no-rj" alt="Logo Defontana" height="100px"></td>
     <td valign="top"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" alt="Logo Excel" height="100px"></td>
@@ -793,7 +817,7 @@ directa durante la primera semana.
    <table style="width:100%" align='center'>
    <tr>
    <th>📌Dueño de compania de productos de lubricantes de motores</th>
-   <th>📌Tituko</th>
+   <th>📌Gerente de compañia de productos agroquimicos</th>
    <th>📌Titulo</th>
    </tr>
 
@@ -804,7 +828,7 @@ directa durante la primera semana.
    </a>
    </td> 
    <td align='center'>
-   <a href="" target='_blank'>
+    <a href="https://youtu.be/9L7HESPibVA" target='_blank'>
     <img src="resources/Interview-2.png" alt="Segunda entrevista del primer segmento objetivo">
    </a>
    </td>
@@ -822,8 +846,10 @@ directa durante la primera semana.
     <p>Chul Hwan Yum es el dueño de una empresa que vende lubricantes de motores de automoviles y derivados. Usa Excel para gestionar su inventario, ventas y el seguimiento de sus clientes. Con este historial, le envia seguimiento de sus productos y promociones a sus clientes. Realiza semanalmente por alrededor de 4 horas un reporte de inventario manual. Se enfrenta a desafios como la dificultad a contar 1 por 1 el inventario real contra el digital. Resalta la importancia de identificar los productos que se estan agotando ya que estos se piden al distribuidor con anticipion y adicionalmente que en un programa de inventario y venta se debe poder categorizar al tipo de cliente por "trato" ya que hay clientes minoristas y mayoristas. Finalmente siente que una aplicacion web donde pueda chequear el inventario desde su comodidad de su casa y desde cualquier dispositivo le permitiria ahorrar su tiempo y estaria dispuesto a pagar por esta solución. Sin embargo siente temor al cambio debido a la curva de aprendizaje que se pueda presentar</p>
    </td>
    <td>
-    <b>📝Entrevistador:</b> name <br>
-    <b>🗣️Entrevistado:</b> name
+    <b>📝Entrevistador:</b> Jose Enrique Vargas Javier <br>
+    <b>🗣️Entrevistado:</b> Isabel Valenzuela 
+   <p>Isabel Valenzuela es gerente de una empresa que vende productos agroquímicos. Usa Excel para gestionar inventario, ventas y seguimiento de clientes. Con esta información envía promociones y hace seguimiento personalizado. Dedica unas 5 horas semanales a generar reportes manualmente. Entre sus principales dificultades está contar el inventario real uno por uno y las diferencias con el registro digital. Resalta la importancia de detectar productos que están por agotarse, ya que deben pedirse con anticipación. También considera esencial poder clasificar a sus clientes por tipo de trato, diferenciando entre minoristas y mayoristas.
+   Cree que una aplicación web para consultar inventario desde cualquier dispositivo le ahorraría tiempo. Está dispuesta a pagar por una solución así, aunque le preocupa la curva de aprendizaje al cambiar de sistema.</p>
    </td>
       <td>
     <b>📝Entrevistador:</b> name <br>
@@ -836,14 +862,14 @@ directa durante la primera semana.
 
    <table style="width:100%" align='center'>
    <tr>
-   <th>📌Titulo</th>
+   <th>📌Estudiante</th>
    <th>📌Titulo</th>
    <th>📌Titulo</th>
    </tr>
 
    <tr>
    <td align='center'>
-   <a href="" target='_blank'>
+   <a href="https://www.youtube.com/watch?v=barIe2mUUn8" target='_blank'>
     <img src="resources/Interview-1.png" alt="Primera entrevista del primer segmento objetivo">
    </a>
    </td> 
@@ -861,8 +887,14 @@ directa durante la primera semana.
 
    <tr>
    <td>
-    <b>📝Entrevistador:</b> name <br>
-    <b>🗣️Entrevistado:</b> name
+    <b>📝Entrevistador:</b> Luis Alva <br>
+    <b>🗣️Entrevistado:</b> Angie Yalan
+       <p>
+           Angie es una consumidora concurrente que suele revisar los catalogos en linea antes de comprar, valorando principalmente la claridad y el valor de la informacion proporcionada. Considera importante
+           ver el stock disponible antes de realizar la compra para evitar problemas. Valora la digitalizacion del proceso de compra, ya que prefiere hacerlo de manera remota y sin la necesidad de
+           una llamada o enlace telefonico. Normalmente los problemas mas comunes que enfrenta son no saber el precio de los productos de su interes y la falta de respuesta rapida por parte del negocio
+           o la empresa. 
+       </p>
    </td>
    <td>
     <b>📝Entrevistador:</b> name <br>
@@ -963,30 +995,98 @@ directa durante la primera semana.
  ## 3.2. User Stories
  |Epic  / User Story ID|Título|Descripción|Criterios de Aceptación |Relacionado con (Epic ID)|
 | :- | :- | :- | :- | :- |
-| User Story ID | Título                                                | Descripción                                                                                              | Criterios de Aceptación (formato BDD)                                                                                                        | Relacionado con (Epic ID) |
-|---------------|--------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| US01  | Registro de productos                         | Como dueño de negocio, quiero registrar mis productos fácilmente para tener control del inventario.     | **Escenario 1: Registro exitoso de un producto**<br>**Dado que** estoy en el módulo de productos<br>**Cuando** completo los campos requeridos y guardo<br>**Entonces** el sistema debe registrar el producto correctamente.<br><br>**Escenario 2: Validación de campos obligatorios**<br>**Dado que** intento registrar un producto<br>**Cuando** dejo campos requeridos vacíos<br>**Entonces** el sistema debe mostrar un mensaje de error. |
-| US02  | Alerta de productos por agotarse              | Como dueño de negocio, quiero recibir alertas cuando un producto esté por agotarse para saber que productos volver a pedir y en que cantidad                     | **Escenario 1: Activación de alerta de stock bajo**<br>**Dado que** un producto tiene una cantidad mínima definida<br>**Cuando** su stock cae por debajo del mínimo<br>**Entonces** el sistema debe generar una alerta visible o enviada por notificación.<br><br>**Escenario 2: No activar alerta si no se ha definido mínimo**<br>**Dado que** el producto no tiene umbral configurado<br>**Cuando** baja el stock<br>**Entonces** no se debe generar alerta. |
-| US03  | Acceso multiplataforma                        | Como dueño de negocio, quiero acceder al sistema desde distintos dispositivos como celular, tablet o laptop, para poder consultar mi inventario, registrar ventas o revisar reportes sin depender de una sola computadora o ubicación física. | **Escenario 1: Acceso desde celular**<br>**Dado que** tengo conexión a internet y un usuario registrado<br>**Cuando** ingreso al sistema desde un smartphone<br>**Entonces** la interfaz debe adaptarse correctamente a la pantalla y permitir el uso fluido de todas las funciones principales.<br><br>**Escenario 2: Acceso desde tablet**<br>**Dado que** utilizo una tablet, tengo conexión a internet y un usuario registrado<br>**Cuando** ingreso a la aplicación desde el navegador<br>**Entonces** la interfaz debe organizarse de forma optimizada y sin pérdida de funcionalidades.<br><br>**Escenario 3: Acceso desde laptop o PC**<br>**Dado que** uso una laptop o computadora para revisar mis operaciones y cuento con conexion a internet<br>**Cuando** accedo al sistema desde el navegador<br>**Entonces** debo tener acceso completo a todas las herramientas con una visualización clara y sin errores de diseño responsivo. |
-| US04 | Registro de ventas con datos del cliente      | Como dueño de negocio, quiero registrar ventas con los datos del cliente para seguimiento.              | **Escenario 1: Registro de venta con cliente nuevo**<br>**Dado que** estoy en el módulo de ventas<br>**Cuando** ingreso los datos del cliente y guardo la venta<br>**Entonces** el cliente y la venta deben quedar registrados.<br><br>**Escenario 2: Registro de venta con cliente ya registrado**<br>**Dado que** selecciono un cliente existente<br>**Cuando** registro una venta<br>**Entonces** se debe asociar al mismo cliente. |
-| US05 | Reportes visuales de ventas e inventario      | Como dueño de negocio, quiero visualizar reportes para tomar decisiones basadas en datos.               | **Escenario 1: Generar reporte por rango de fechas**<br>**Dado que** tengo ventas registradas<br>**Cuando** selecciono un rango de fechas<br>**Entonces** el sistema debe mostrar el reporte correspondiente.<br><br>**Escenario 2: Reporte por producto**<br>**Dado que** deseo analizar un producto específico<br>**Cuando** filtro por producto<br>**Entonces** el sistema debe mostrar las estadísticas filtradas. |
-| US06 | Migración desde Excel                         | Como dueño de negocio, quiero migrar mis datos desde Excel para no empezar de cero.                     | **Escenario 1: Importación de archivo válido**<br>**Dado que** tengo un archivo Excel compatible<br>**Cuando** lo subo e identifico las columnas<br>**Entonces** el sistema debe registrar los productos correctamente.<br><br>**Escenario 2: Archivo con errores**<br>**Dado que** el archivo tiene datos incompletos<br>**Cuando** intento importarlo<br>**Entonces** el sistema debe mostrar los errores fila por fila. |
-| US07 | Historial de compras de clientes              | Como dueño de negocio, quiero revisar el historial de compras por cliente para ofrecer promociones.      | **Escenario 1: Visualizar historial**<br>**Dado que** un cliente ha realizado compras<br>**Cuando** ingreso a su perfil<br>**Entonces** debo ver todas sus compras ordenadas por fecha.<br><br>**Escenario 2: Cliente sin historial**<br>**Dado que** el cliente no ha comprado antes<br>**Cuando** ingreso a su perfil<br>**Entonces** el sistema debe indicarlo y mostrar mensaje “Sin compras registradas”. |
-| US08  | Control de accesos y ubicación                | Como dueño de negocio, quiero ver desde qué ubicaciones se accede al sistema para validar su uso.        | **Escenario 1: Visualizar historial de accesos**<br>**Dado que** tengo varios usuarios en mi cuenta<br>**Cuando** ingreso a la sección de accesos<br>**Entonces** debo ver fecha, IP y dispositivo de cada ingreso.<br><br>**Escenario 2: Acceso sospechoso**<br>**Dado que** se detecta un nuevo dispositivo o país<br>**Cuando** sucede<br>**Entonces** el sistema debe notificarme para confirmar o bloquear. |
-| US09  | Segmentación de clientes con precios diferenciados | Como dueño de negocio, quiero poder categorizar a mis clientes como minoristas o mayoristas, para que al momento de registrar una venta o cuando ellos consulten por catálogo o WhatsApp, el sistema les muestre automáticamente el precio correspondiente según su tipo de cliente. | **Escenario 1: Asignación de tipo de cliente**<br>**Dado que** estoy registrando o editando un cliente en el sistema<br>**Cuando** selecciono si es “minorista” o “mayorista”<br>**Entonces** el cliente debe quedar guardado con esa categoría.<br><br>**Escenario 2: Visualización automática del precio correcto**<br>**Dado que** un cliente tiene una categoría asignada<br>**Cuando** se registra una venta o el cliente consulta por catálogo o WhatsApp<br>**Entonces** el sistema debe mostrar automáticamente el precio correspondiente a su categoría (minorista o mayorista), sin requerir selección manual.<br><br>**Escenario 3: Cambio de tipo de cliente**<br>**Dado que** un cliente cambia su condición comercial<br>**Cuando** edito su perfil<br>**Entonces** el nuevo tipo de cliente debe aplicarse a futuras ventas y consultas de precios. |
-
-
+| US01  | Registro de productos                         | Como dueño de negocio, quiero registrar mis productos fácilmente para tener control del inventario.     | **Escenario 1: Registro exitoso de un producto**<br>**Dado que** estoy en el módulo de productos<br>**Cuando** completo los campos requeridos y guardo<br>**Entonces** el sistema debe registrar el producto correctamente.<br><br>**Escenario 2: Validación de campos obligatorios**<br>**Dado que** intento registrar un producto<br>**Cuando** dejo campos requeridos vacíos<br>**Entonces** el sistema debe mostrar un mensaje de error. | EP01 |
+| US02  | Alerta de productos por agotarse              | Como dueño de negocio, quiero recibir alertas cuando un producto esté por agotarse para saber que productos volver a pedir y en que cantidad                     | **Escenario 1: Activación de alerta de stock bajo**<br>**Dado que** un producto tiene una cantidad mínima definida<br>**Cuando** su stock cae por debajo del mínimo<br>**Entonces** el sistema debe generar una alerta visible o enviada por notificación.<br><br>**Escenario 2: No activar alerta si no se ha definido mínimo**<br>**Dado que** el producto no tiene umbral configurado<br>**Cuando** baja el stock<br>**Entonces** no se debe generar alerta. | EP01 |
+| US03  | Acceso multiplataforma                        | Como dueño de negocio, quiero acceder al sistema desde distintos dispositivos como celular, tablet o laptop, para poder consultar mi inventario, registrar ventas o revisar reportes sin depender de una sola computadora o ubicación física. | **Escenario 1: Acceso desde celular**<br>**Dado que** tengo conexión a internet y un usuario registrado<br>**Cuando** ingreso al sistema desde un smartphone<br>**Entonces** la interfaz debe adaptarse correctamente a la pantalla y permitir el uso fluido de todas las funciones principales.<br><br>**Escenario 2: Acceso desde tablet**<br>**Dado que** utilizo una tablet, tengo conexión a internet y un usuario registrado<br>**Cuando** ingreso a la aplicación desde el navegador<br>**Entonces** la interfaz debe organizarse de forma optimizada y sin pérdida de funcionalidades.<br><br>**Escenario 3: Acceso desde laptop o PC**<br>**Dado que** uso una laptop o computadora para revisar mis operaciones y cuento con conexion a internet<br>**Cuando** accedo al sistema desde el navegador<br>**Entonces** debo tener acceso completo a todas las herramientas con una visualización clara y sin errores de diseño responsivo. | EP04 |
+| US04 | Registro de ventas con datos del cliente      | Como dueño de negocio, quiero registrar ventas con los datos del cliente para seguimiento.              | **Escenario 1: Registro de venta con cliente nuevo**<br>**Dado que** estoy en el módulo de ventas<br>**Cuando** ingreso los datos del cliente y guardo la venta<br>**Entonces** el cliente y la venta deben quedar registrados.<br><br>**Escenario 2: Registro de venta con cliente ya registrado**<br>**Dado que** selecciono un cliente existente<br>**Cuando** registro una venta<br>**Entonces** se debe asociar al mismo cliente. | EP02 |
+| US05 | Reportes visuales de ventas e inventario      | Como dueño de negocio, quiero visualizar reportes para tomar decisiones basadas en datos.               | **Escenario 1: Generar reporte por rango de fechas**<br>**Dado que** tengo ventas registradas<br>**Cuando** selecciono un rango de fechas<br>**Entonces** el sistema debe mostrar el reporte correspondiente.<br><br>**Escenario 2: Reporte por producto**<br>**Dado que** deseo analizar un producto específico<br>**Cuando** filtro por producto<br>**Entonces** el sistema debe mostrar las estadísticas filtradas. | EP03 |
+| US06 | Migración desde Excel                         | Como dueño de negocio, quiero migrar mis datos desde Excel para no empezar de cero.                     | **Escenario 1: Importación de archivo válido**<br>**Dado que** tengo un archivo Excel compatible<br>**Cuando** lo subo e identifico las columnas<br>**Entonces** el sistema debe registrar los productos correctamente.<br><br>**Escenario 2: Archivo con errores**<br>**Dado que** el archivo tiene datos incompletos<br>**Cuando** intento importarlo<br>**Entonces** el sistema debe mostrar los errores fila por fila. | EP01 |
+| US07 | Historial de compras de clientes              | Como dueño de negocio, quiero revisar el historial de compras por cliente para ofrecer promociones.      | **Escenario 1: Visualizar historial**<br>**Dado que** un cliente ha realizado compras<br>**Cuando** ingreso a su perfil<br>**Entonces** debo ver todas sus compras ordenadas por fecha.<br><br>**Escenario 2: Cliente sin historial**<br>**Dado que** el cliente no ha comprado antes<br>**Cuando** ingreso a su perfil<br>**Entonces** el sistema debe indicarlo y mostrar mensaje “Sin compras registradas”. | EP02 |
+| US08  | Control de accesos y ubicación                | Como dueño de negocio, quiero ver desde qué ubicaciones se accede al sistema para validar su uso.        | **Escenario 1: Visualizar historial de accesos**<br>**Dado que** tengo varios usuarios en mi cuenta<br>**Cuando** ingreso a la sección de accesos<br>**Entonces** debo ver fecha, IP y dispositivo de cada ingreso.<br><br>**Escenario 2: Acceso sospechoso**<br>**Dado que** se detecta un nuevo dispositivo o país<br>**Cuando** sucede<br>**Entonces** el sistema debe notificarme para confirmar o bloquear. | EP04 |
+| US09  | Segmentación de clientes con precios diferenciados | Como dueño de negocio, quiero poder categorizar a mis clientes como minoristas o mayoristas, para que al momento de registrar una venta o cuando ellos consulten por catálogo o WhatsApp, el sistema les muestre automáticamente el precio correspondiente según su tipo de cliente. | **Escenario 1: Asignación de tipo de cliente**<br>**Dado que** estoy registrando o editando un cliente en el sistema<br>**Cuando** selecciono si es “minorista” o “mayorista”<br>**Entonces** el cliente debe quedar guardado con esa categoría.<br><br>**Escenario 2: Visualización automática del precio correcto**<br>**Dado que** un cliente tiene una categoría asignada<br>**Cuando** se registra una venta o el cliente consulta por catálogo o WhatsApp<br>**Entonces** el sistema debe mostrar automáticamente el precio correspondiente a su categoría (minorista o mayorista), sin requerir selección manual.<br><br>**Escenario 3: Cambio de tipo de cliente**<br>**Dado que** un cliente cambia su condición comercial<br>**Cuando** edito su perfil<br>**Entonces** el nuevo tipo de cliente debe aplicarse a futuras ventas y consultas de precios. | EP02 |
+| US10 | Inventario en tiempo real | Como dueño de negocio, quiero ver en tiempo real el stock actualizado para tomar decisiones sin errores. | **Escenario 1: Visualización de stock actualizado**<br>**Dado que** tengo productos con movimientos recientes<br>**Cuando** consulto el inventario<br>**Entonces** el sistema debe mostrar el stock actualizado automáticamente.<br><br>**Escenario 2: Movimiento manual de stock**<br>**Dado que** un producto necesita ser ajustado<br>**Cuando** ingreso una entrada o salida manual<br>**Entonces** el sistema debe reflejar el nuevo stock en tiempo real.<br><br>**Escenario 3: Error en registro de movimiento**<br>**Dado que** ingreso un valor no numérico o negativo inválido<br>**Cuando** intento guardar<br>**Entonces** el sistema debe mostrar un mensaje de validación. | EP01 |
+| US11 | Gestión de usuarios del sistema | Como dueño de negocio, quiero poder crear y administrar cuentas para mi equipo con diferentes niveles de acceso. | **Escenario 1: Creación de usuario con rol específico**<br>**Dado que** estoy en el panel de configuración<br>**Cuando** creo un nuevo usuario y asigno un rol (ej. vendedor, administrador)<br>**Entonces** el sistema debe guardar el usuario con sus permisos.<br><br>**Escenario 2: Restricción de acceso por rol**<br>**Dado que** un usuario tiene el rol de vendedor<br>**Cuando** intenta acceder a reportes financieros<br>**Entonces** el sistema debe bloquear el acceso y mostrar un mensaje de restricción.<br><br>**Escenario 3: Edición y desactivación de usuarios**<br>**Dado que** un usuario ya no trabaja en el negocio<br>**Cuando** lo desactivo<br>**Entonces** su acceso debe ser bloqueado automáticamente. | EP04 |
+| US12 | Generación de catálogos digitales | Como dueño de negocio, quiero generar catálogos con productos y precios actualizados para compartirlos fácilmente. | **Escenario 1: Generar catálogo por categoría**<br>**Dado que** tengo productos agrupados<br>**Cuando** selecciono una categoría<br>**Entonces** el sistema debe generar un catálogo con los productos correspondientes.<br><br>**Escenario 2: Catálogo con precios según tipo de cliente**<br>**Dado que** un cliente es mayorista<br>**Cuando** genero o comparto el catálogo<br>**Entonces** los precios deben corresponder a su categoría.<br><br>**Escenario 3: Compartir catálogo por WhatsApp o enlace**<br>**Dado que** genero un catálogo<br>**Cuando** selecciono "compartir"<br>**Entonces** el sistema debe generar un enlace o permitir compartir directo por WhatsApp. | EP05 |
+| US13 | Panel de indicadores del negocio | Como dueño de negocio, quiero ver un panel con indicadores clave para evaluar el rendimiento del negocio en tiempo real. | **Escenario 1: Visualizar ventas del día**<br>**Dado que** se han registrado ventas<br>**Cuando** accedo al panel principal<br>**Entonces** debo ver el total de ventas del día actual.<br><br>**Escenario 2: Indicadores semanales o mensuales**<br>**Dado que** quiero ver el rendimiento por período<br>**Cuando** selecciono semana o mes<br>**Entonces** el panel debe actualizar los indicadores.<br><br>**Escenario 3: Notificaciones por metas no alcanzadas**<br>**Dado que** defino una meta mensual de ventas<br>**Cuando** el sistema detecta que está por debajo<br>**Entonces** debe enviarme una notificación de advertencia. | EP03 |
+| US14 | Integración con pagos digitales | Como dueño de negocio, quiero registrar pagos realizados por Yape o Plin para tener trazabilidad completa. | **Escenario 1: Registro de pago por Yape**<br>**Dado que** el cliente me paga por Yape<br>**Cuando** ingreso el monto y selecciono “Yape” como medio<br>**Entonces** el sistema debe registrar la venta con ese método de pago.<br><br>**Escenario 2: Validación de monto exacto**<br>**Dado que** ingreso el pago<br>**Cuando** el monto no coincide con el total<br>**Entonces** el sistema debe pedir confirmación y advertir del desajuste.<br><br>**Escenario 3: Reporte de ventas por método de pago**<br>**Dado que** quiero analizar los métodos de pago usados<br>**Cuando** accedo al reporte<br>**Entonces** el sistema debe mostrar estadísticas separadas por efectivo, Yape, Plin, etc. | EP02 |
+| US15 | Visualización clara de beneficios | Como visitante, quiero entender rápidamente los beneficios de la plataforma, para decidir si me interesa registrarme. | **Escenario 1: Sección visible al ingresar**<br>**Dado que** ingreso a la landing page<br>**Cuando** me desplazo o espero unos segundos<br>**Entonces** debo ver una sección destacada que explica los beneficios clave (ahorro de tiempo, control de inventario, recordatorios, etc).<br><br>**Escenario 2: Visualización en móvil y desktop**<br>**Dado que** visito la landing desde distintos dispositivos<br>**Cuando** accedo a la página<br>**Entonces** la sección debe ser legible y ordenada en cualquier tamaño de pantalla. | EP06 |
+| US16 | Llamado a la acción claro y accesible | Como visitante, quiero encontrar fácilmente un botón para registrarme o agendar una demo, para tomar acción sin complicaciones. | **Escenario 1: Botón visible al cargar la página**<br>**Dado que** ingreso a la página<br>**Cuando** la veo por primera vez<br>**Entonces** el botón “Regístrate gratis” o “Pide una demo” debe estar visible sin necesidad de hacer scroll.<br><br>**Escenario 2: CTA persistente**<br>**Dado que** navego hacia abajo<br>**Cuando** hago scroll<br>**Entonces** debe haber un botón fijo o repetido que me permita registrarme fácilmente. |EP06  |
+| US17 | Testimonios o casos de éxito | Como visitante, quiero leer experiencias reales de otros dueños de negocio, para confiar más en la plataforma. | **Escenario 1: Visualización de testimonios**<br>**Dado que** estoy en la sección de testimonios<br>**Cuando** veo los perfiles<br>**Entonces** deben mostrarse nombres, negocios reales y breves frases de usuarios reales.<br><br>**Escenario 2: Diseño atractivo**<br>**Dado que** navego la sección<br>**Cuando** reviso los testimonios<br>**Entonces** deben mostrarse con diseño visual atractivo (cards, sliders, etc). | EP06 |
+| US19 | Formulario de contacto funcional | Como visitante, quiero poder dejar mis datos fácilmente para que me contacten si tengo dudas, sin tener que registrarme aún. | **Escenario 1: Envío exitoso**<br>**Dado que** ingreso mi nombre, correo y mensaje<br>**Cuando** hago clic en “Enviar”<br>**Entonces** el sistema debe registrar los datos y mostrar mensaje de confirmación.<br><br>**Escenario 2: Validación de campos**<br>**Dado que** envío un formulario incompleto o con correo inválido<br>**Cuando** hago clic en enviar<br>**Entonces** debe mostrarse un mensaje de error específico y no enviarse. | EP06 |
+| EP01    | Gestión de productos e inventario        | Como dueño de negocio, quiero registrar mis productos y controlar el inventario en tiempo real para tener una gestión organizada y actualizada de mi stock. |
+| EP02    | Ventas y clientes                        | Como dueño de negocio, quiero registrar ventas y datos de mis clientes para llevar seguimiento comercial y ofrecer una atención más personalizada. |
+| EP03    | Reportes y análisis                      | Como dueño de negocio, quiero generar reportes visuales y paneles de indicadores para tomar decisiones informadas basadas en datos reales. |
+| EP04    | Accesibilidad y seguridad                | Como dueño de negocio, quiero acceder al sistema desde cualquier dispositivo y controlar quién entra, para garantizar flexibilidad y seguridad. |
+| EP05    | Catálogo y automatización con clientes   | Como dueño de negocio, quiero automatizar la atención al cliente mediante catálogos y precios personalizados para ahorrar tiempo y mejorar la experiencia de compra. |
+| EP06    | Página web y captación de usuarios       | Como visitante, quiero entender los beneficios, leer experiencias reales y contactar fácilmente para decidir si la plataforma es adecuada para mí. |
 
  ## 3.3. Impact Mapping
 
 
  ## 3.4. Product Backlog
+ | # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+ |--------:|:--------------|:----------------------------|:------------------------------------------------------------------------|:-----------------------------|
+ | 1 | US01 | Registro de productos | Como dueño de negocio, quiero registrar mis productos fácilmente para tener control del inventario. | 3 |
+ | 2 | US02 | Alerta de stock bajo | Como dueño de negocio, quiero recibir alertas cuando un producto esté por agotarse para saber qué productos volver a pedir y en qué cantidad. | 3 |
+ | 3 | US03 | Acceso multiplataforma | Como dueño de negocio, quiero acceder al sistema desde distintos dispositivos como celular, tablet o laptop, para poder consultar mi inventario, registrar ventas o revisar reportes sin depender de una sola computadora o ubicación física. | 5 |
+ | 4 | US04 | Registro de ventas con cliente | Como dueño de negocio, quiero registrar ventas con los datos del cliente para seguimiento. | 2 |
+ | 5 | US05 | Reportes visuales | Como dueño de negocio, quiero visualizar reportes para tomar decisiones basadas en datos. | 2 |
+ | 6 | US06 | Migración desde Excel | Como dueño de negocio, quiero migrar mis datos desde Excel para no empezar de cero. | 3 |
+ | 7 | US07 | Historial de compras | Como dueño de negocio, quiero revisar el historial de compras por cliente para ofrecer promociones. | 2 |
+ | 8 | US08 | Control de accesos y ubicación | Como dueño de negocio, quiero ver desde qué ubicaciones se accede al sistema para validar su uso. | 2 |
+ | 9 | US09 | Segmentación de clientes | Como dueño de negocio, quiero categorizar a mis clientes para que el sistema les muestre el precio correspondiente según su tipo. | 3 |
+ | 10 | US10 | Inventario en tiempo real | Como dueño de negocio, quiero ver en tiempo real el stock actualizado para tomar decisiones sin errores. | 3 |
+ | 11 | US11 | Gestión de usuarios | Como dueño de negocio, quiero poder crear y administrar cuentas para mi equipo con diferentes niveles de acceso. | 2 |
+ | 12 | US12 | Catálogos digitales | Como dueño de negocio, quiero generar catálogos con productos y precios actualizados para compartirlos fácilmente. | 3 |
+ | 13 | US13 | Panel de indicadores | Como dueño de negocio, quiero ver un panel con indicadores clave para evaluar el rendimiento del negocio en tiempo real. | 2 |
+ | 14 | US14 | Pagos digitales | Como dueño de negocio, quiero registrar pagos por Yape o Plin para tener trazabilidad completa. | 2 |
+ | 15 | US15 | Visualización de beneficios | Como visitante, quiero entender rápidamente los beneficios de la plataforma, para decidir si me interesa registrarme. | 1 |
+ | 16 | US16 | Llamado a la acción claro | Como visitante, quiero encontrar fácilmente un botón para registrarme o agendar una demo, para tomar acción sin complicaciones. | 1 |
+ | 17 | US17 | Testimonios reales | Como visitante, quiero leer experiencias reales de otros dueños de negocio, para confiar más en la plataforma. | 1 |
+ | 18 | US19 | Formulario de contacto | Como visitante, quiero poder dejar mis datos fácilmente para que me contacten si tengo dudas, sin tener que registrarme aún. | 1 |
 
-
-# Capítulo IV: Product Desing
- ## 4.1. Style Guidelines
+# Capítulo IV: Product Design
+  ## 4.1. Style Guidelines
+**Un "Style Guideline"** es un conjunto de directrices y normas que establecen los estándares y criterios a seguir en la redacción, diseño y presentación de documentos, contenido web, software y otros productos creativos. A continuación, se presentan las especificaciones detalladas de los parámetros implementados en la estructura del proyecto.
   ### 4.1.1. General Style Guidelines
+**Branding**
+
+Para el desarrollo del logo de StockHunters, hemos elegido un diseño que encapsula la esencia de la aplicación y sus funcionalidades. El logotipo presenta una tipografía sofisticada y clara, que aporta modernidad y profesionalismo. El ícono, simboliza la eficiencia, el orden y la agilidad. La elección de colores vibrantes y dinámicos, en una combinación de tonos azules y blancos, transmite una sensación de confianza y estabilidad. La integración de estos elementos busca comunicar visualmente el compromiso de StockHunters con la innovación y la excelencia en la gestión de inventarios.
+
+<p align="center">
+<img src="resources/Imagotipo.png" alt="Logo de StockHunters" width="350" height="200">
+</p>
+
+**Typography:**
+
+Para el diseño tipográfico de StockHunters, se ha seleccionado una combinación de fuentes que refleja modernidad y funcionalidad. La tipografía principal, **SpaceGrotesk**, fue elegida por su claridad y legibilidad en pantallas digitales, otorgando al diseño un aire sofisticado en nuestros encabezados. Para los párrafos, hemos optado por **Poppins**, una fuente destacada por su capacidad para resaltar la información clave, favoreciendo una experiencia visual atractiva y dinámica para el usuario. 
+
+A continuación, se detallan las tipografías adoptadas para StockHunters:
+<p align="center">
+<img src="resources/fonts.PNG" alt="Fonts de StockHunters" width="350" height="250">
+</p>
+
+**Colors**
+
+La paleta de colores de **StockHunters** fue seleccionada para reflejar los valores de confianza, eficiencia y modernidad que definen a nuestro sistema. Los tonos predominantes, **azul** y **gris**, evocan sensaciones de profesionalismo, claridad y orden, elementos esenciales para una herramienta orientada al control y optimización de recursos. Esta combinación de colores refuerza la identidad visual del producto como una solución tecnológica y amigable para el usuario.
+
+A continuación, se detallan los colores seleccionados para StockHunters:
+
+<p align="center">
+<img src="resources/colors.PNG" alt="Colors de StockHunters" width="350" height="170">
+</p>
+
+**Spacing**
+
+El espaciado en **StockHunters** está cuidadosamente definido para garantizar una interfaz limpia y organizada. Se emplea una separación uniforme entre elementos, lo que mejora la legibilidad, facilita la navegación y aporta equilibrio visual al diseño.
+
+<p align="center">
+<img src="resources/spacing.PNG" alt="Spacing de StockHunters" width="350" height="130">
+</p>
+
   ### 4.1.2. Web Style Guidelines
+**StockHunters** cuenta con un diseño web adaptable para garantizar una experiencia fluida en cualquier dispositivo. Utilizamos el patrón de diseño en forma de **Z**, ideal para destacar funciones clave como la gestión de inventarios y ventas.
+El logotipo se ubica en la esquina superior izquierda, mientras que la barra de navegación y el llamado a la acción a probrar nuestra aplicación se sitúan a la derecha, guiando al usuario de forma intuitiva.
 
  ## 4.2. Information Architecture
   ### 4.2.1. Organization Systems
@@ -1026,6 +1126,37 @@ directa durante la primera semana.
   Para los administradores se tendra una sección de producto en Stock, que sera actualizado en tiempo real y mostrara en un cuadro la cantidad exacta del producto que hay disponible ese dia. Además, hay una sección de registro de compras, en donde, se ingresara la información (Producto, cantidad vendida, cliente, fecha y una verificación de seguridad) para realizar un historial de ventas, que mostrara todas las ventas realizadas al mes. Finalmente, se mostraran alertas de productos que se agoten y una sección de reportes donde se informara, con graficas, de qué tan popular es un producto y cuanto se vendio del mismo.
 
   ### 4.2.3. SEO Tags and Meta Tags
+  
+  Los SEO tags son etiquetas HTML que ayudan a los motores de búsqueda a entender y posicionar en los resultados. Los meta tags son etiquetas que proporcionan información sobre la página, como su descripción, palabras clave y autor lo cual ayuda al ser buscado en el navegador.
+A continuacion se presentan los SEO tags y meta tags que se utilizarán en la plataforma:
+Title Tag: Este tag define el título de la página y es uno de los factores más importantes para el SEO. Debe ser único y contener palabras clave relevantes.
+```html
+<title>Lubrimax - Servicio de gestion de inventario y venta</title>
+```
+Meta Description: Este tag proporciona una breve descripción del contenido de la página. Permite a los usuarios entender de qué trata la página antes de hacer clic en el enlace. Debe ser conciso y atractivo.
+```html
+<meta name="description" content="Lubrimax es una plataforma de gestión de inventario y ventas que permite a los negocios físicos digitalizar su operación y automatizar la atención al cliente mediante WhatsApp y un catálogo web.">
+```
+Language tag: Este tag indica el idioma principal del contenido de la página. Es importante para la accesibilidad y el SEO.
+```html
+<meta http-equiv="Content-Language" content="es-ES">
+```
+Robots tag: Este tag indica a los motores de búsqueda cómo deben indexar la página. Puede ser utilizado para evitar que ciertas páginas sean indexadas.
+```html
+<meta name="robots" content="index, follow">
+```
+Author tag: Este tag indica el autor del contenido de la página. Es útil para dar crédito a los creadores de contenido.
+```html
+<meta name="author" content="uTime Team">
+```
+Meta Viewport: Este tag es esencial para que la página sea responsiva en dispositivos móviles. Mejora la experiencia del usuario y es un factor importante para el SEO técnico.
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+Canonical Tag: Este tag especifica la URL canónica de la página para evitar problemas de contenido duplicado en motores de búsqueda. Ayuda a consolidar el posicionamiento de una sola versión de la página.
+```html
+<link rel="canonical" href="https://www.lubrimax.com/">
+```
   ### 4.2.4. Searching Systems
 
   Para encontrar ciertas funcionalidades de nuestra aplicación, usamos varios botones y empleamos varios indicadores visuales para que el usuario sepa donde encontrar lo que necesita. A continuación se muestra los ejemplos de los tipos de busqueda que usaremos:
@@ -1048,176 +1179,381 @@ directa durante la primera semana.
   4. Ayuda: esto permite a los usuarios reportar a nuestro equipo de soporte tecnico de algún inconveniente que ha tenido con el aplicativo. 
 
  ## 4.3. Landing Page UI Desing
+ El diseño de la interfaz de usuario en la landing page de **StockHunters** será clave para causar una primera impresión positiva. Buscamos ofrecer una experiencia visual atractiva y funcional que invite a los usuarios a explorar el sistema.
+
   ### 4.3.1. Landing Page Wireframes
+  **Landing Page para Desktop Web Browser**
+  <p align="center">
+<img src="resources/lp1.PNG" alt="1" width="400" height="450">
+</p>
+
+<p align="center">
+<img src="resources/lp2.PNG" alt="2" width="400" height="500">
+</p>
+
+<p align="center">
+<img src="resources/ld3.PNG" alt="3" width="400" height="500">
+</p>
+
+<p align="center">
+<img src="resources/mb1.PNG" alt="mb1" width="250" height="300">
+</p>
+
+<p align="center">
+<img src="resources/mb2.PNG" alt="mb2" width="250" height="400">
+</p>
+
+<p align="center">
+<img src="resources/mb3.PNG" alt="mb3" width="250" height="250">
+</p>
+
+<p align="center">
+<img src="resources/mb5.PNG" alt="mb5" width="250" height="380">
+</p>
+
   ### 4.3.2. Landing Page Mock-Up
 
- ## 4.4. Web Applications UX/UI Desing
-  ### 4.4.1. Web Applications Wireframes
-  ### 4.4.2. Web Applications Wireflow Diagrams
-  ### 4.4.3. Web Applications User Flow Diagrams
+<p align="center">
+<img src="resources/lm1.PNG" alt="1" width="400" height="450">
+</p>
 
+<p align="center">
+<img src="resources/lm2.PNG" alt="2" width="400" height="550">
+</p>
+
+<p align="center">
+<img src="resources/lm3.PNG" alt="3" width="400" height="500">
+</p>
+
+<p align="center">
+<img src="resources/mm1.PNG" alt="mm1" width="250" height="300">
+</p>
+
+<p align="center">
+<img src="resources/mm2.PNG" alt="mm2" width="250" height="400">
+</p>
+
+<p align="center">
+<img src="resources/mm3.PNG" alt="mm3" width="250" height="260">
+</p>
+
+<p align="center">
+<img src="resources/mm4.PNG" alt="mm4" width="200" height="300">
+</p>
+
+ ## 4.4. Web Applications UX/UI Desing
+
+ El diseño de experiencia de usuario (UX) y diseño de interfaz de usuario (UI) en aplicaciones web busca crear experiencias digitales intuitivas y satisfactorias. La UX se enfoca en comprender las necesidades del usuario y diseñar flujos de interacción eficientes, mientras que la UI se encarga del aspecto visual, como botones, menús y disposición de contenido. Un diseño UX/UI exitoso fusiona estética y funcionalidad, ofreciendo una experiencia fluida y memorable.
+  ### 4.4.1. Web Applications Wireframes
+<p align="center">
+<img src="resources/mob1.PNG" alt="mm2" width="300" height="220">
+</p>
+
+<p align="center">
+<img src="resources/mob2.PNG" alt="mm3" width="300" height="220">
+</p>
+
+<p align="center">
+<img src="resources/mob3.PNG" alt="mm4" width="400" height="200">
+</p>
+
+<p align="center">
+<img src="resources/mob4.PNG" alt="mm2" width="300" height="220">
+</p>
+
+<p align="center">
+<img src="resources/mob5.PNG" alt="mm3" width="300" height="220">
+</p>
+
+<p align="center">
+<img src="resources/mob6.PNG" alt="mm4" width="400" height="200">
+</p>
+
+  ### 4.4.2. Web Applications Wireflow Diagrams
+<p align="center">
+<img src="resources/uf.PNG" alt="mm4" width="400" height="600">
+</p>
+
+  ### 4.4.3. Web Applications User Flow Diagrams
+El diagrama de flujo de usuario es una representación visual de las acciones que un usuario realiza al interactuar con una aplicación o sitio web. Se detalla la secuencia de pasos necesarios para completar una tarea, lo que permite identificar áreas de mejora y optimizar la experiencia del usuario.
+
+**Leyenda**
+<p align="center">
+<img src="resources/legend.PNG" alt="mm4" width="400" height="100">
+</p>
+
+**Vista general del flujo del Usuario**
+
+<p align="center">
+<img src="resources/ui.PNG" alt="mm4" width="600" height="600">
+</p>
  ## 4.5. Web Applications Prototyping
+ Prototipo de StockHunters en Figma
+ https://www.figma.com/proto/5IiHYIgt85kgRWLgpMnTqw/Landing-Page-UI-Desing?node-id=0-1&t=X91d0D62Wegvuk7E-1
  
  ## 4.6. Domain-Driven Software Architecture
   ### 4.6.1. Software Architecture Context Diagram
-  
-  >[!CAUTION]
-  > Reemplazar esto es un ejemplo 
-  
-  ~~~mermaid
-      C4Context
-      title System Context diagram for EXAMPLE
-      Enterprise_Boundary(b0, "BankBoundary0") {
-        Person(customerA, "Banking Customer A", "A customer of the bank, with personal bank accounts.")
-        Person(customerB, "Banking Customer B")
-        Person_Ext(customerC, "Banking Customer C", "desc")
 
-        Person(customerD, "Banking Customer D", "A customer of the bank, <br/> with personal bank accounts.")
+ ~~~mermaid
+  C4Context
+  title System Context diagram
+  Enterprise_Boundary(b0, "Boundary"){
+    Person(Administrator, "Administrator", "Manages products, views statistics<br> and handles orders/invoices.")
+    Person(Customer, "Customer", $descr="Places orders, tracks orders,<br> and downloads invoices.")
+    System(AutomotiveProductSalesManagementSystem, "Automotive Product<br> Sales Management System", $descr="A web application for managing automotive product<br> sales, built with Vue.js, C#/.NET, and microservices.")
+  }
+  Rel(Administrator, AutomotiveProductSalesManagementSystem, "Logs in, manages products,<br> views sales/stock statistics,<br> manages orders/invoices")
+  Rel(Customer, AutomotiveProductSalesManagementSystem, "Logs in, places orders,<br> tracks orders with code,<br> downloads invoices")
 
-        System(SystemAA, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
-
-        Enterprise_Boundary(b1, "BankBoundary") {
-
-          SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
-
-          System_Boundary(b2, "BankBoundary2") {
-            System(SystemA, "Banking System A")
-            System(SystemB, "Banking System B", "A system of the bank, with personal bank accounts. next line.")
-          }
-
-          System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
-          SystemDb(SystemD, "Banking System D Database", "A system of the bank, with personal bank accounts.")
-
-          Boundary(b3, "BankBoundary3", "boundary") {
-            SystemQueue(SystemF, "Banking System F Queue", "A system of the bank.")
-            SystemQueue_Ext(SystemG, "Banking System G Queue", "A system of the bank, with personal bank accounts.")
-          }
-        }
-      }
-
-      BiRel(customerA, SystemAA, "Uses")
-      BiRel(SystemAA, SystemE, "Uses")
-      Rel(SystemAA, SystemC, "Sends e-mails", "SMTP")
-      Rel(SystemC, customerA, "Sends e-mails to")
-
-      UpdateElementStyle(customerA, $fontColor="red", $bgColor="grey", $borderColor="red")
-      UpdateRelStyle(customerA, SystemAA, $textColor="blue", $lineColor="blue", $offsetX="5")
-      UpdateRelStyle(SystemAA, SystemE, $textColor="blue", $lineColor="blue", $offsetY="-10")
-      UpdateRelStyle(SystemAA, SystemC, $textColor="blue", $lineColor="blue", $offsetY="-40", $offsetX="-50")
-      UpdateRelStyle(SystemC, customerA, $textColor="red", $lineColor="red", $offsetX="-50", $offsetY="20")
-
-      UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
-
-
+  UpdateLayoutConfig($c4ShapeInRow="2", $c4BoundaryInRow="1")
   ~~~
- 
-  ### 4.6.2. Software Architecture Container Diagram
 
-  >[!CAUTION]
-  > Reemplazar esto es un ejemplo 
-  
+### 4.6.2. Software Architecture Container Diagram
+
   ~~~mermaid
-      C4Container
-    title Container diagram for EXAMPLE
+C4Container
 
-    System_Ext(email_system, "E-Mail System", "The internal Microsoft Exchange system", $tags="v1.0")
-    Person(customer, Customer, "A customer of the bank, with personal bank accounts", $tags="v1.0")
+title Automotive Product Sales Management System - Containers
 
-    Container_Boundary(c1, "Internet Banking") {
-        Container(spa, "Single-Page App", "JavaScript, Angular", "Provides all the Internet banking functionality to customers via their web browser")
-        Container_Ext(mobile_app, "Mobile App", "C#, Xamarin", "Provides a limited subset of the Internet banking functionality to customers via their mobile device")
-        Container(web_app, "Web Application", "Java, Spring MVC", "Delivers the static content and the Internet banking SPA")
-        ContainerDb(database, "Database", "SQL Database", "Stores user registration information, hashed auth credentials, access logs, etc.")
-        ContainerDb_Ext(backend_api, "API Application", "Java, Docker Container", "Provides Internet banking functionality via API")
+Person(Administrator, "Administrator", $descr="Manages products,<br> views statistics, and handles<br> orders/invoices.", $tags="v1.0", $link="v1.0")
+Person(Customer, "Customer", $descr="Places orders, tracks orders,<br> and downloads invoices.", $tags="v1.0", $link="v1.0")
 
-    }
+System_Boundary("AutomotiveProductSalesManagementSystem_boundary", "Automotive Product Sales Management System", $tags="v1.0") {
 
-    System_Ext(banking_system, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+  Container(AutomotiveProductSalesManagementSystem.OrderService, "Order Service", $techn="C#/.NET", $descr="Handles order creation<br> and tracking.", $tags="v1.0", $link="v1.0")
 
-    Rel(customer, web_app, "Uses", "HTTPS")
-    UpdateRelStyle(customer, web_app, $offsetY="60", $offsetX="90")
-    Rel(customer, spa, "Uses", "HTTPS")
-    UpdateRelStyle(customer, spa, $offsetY="-40")
-    Rel(customer, mobile_app, "Uses")
-    UpdateRelStyle(customer, mobile_app, $offsetY="-30")
+  Container(AutomotiveProductSalesManagementSystem.APIGateway, "API Gateway", $techn="C#/.NET", $descr="Routes requests and <br>handles authentication.", $tags="v1.0", $link="v1.0")
 
-    Rel(web_app, spa, "Delivers")
-    UpdateRelStyle(web_app, spa, $offsetX="130")
-    Rel(spa, backend_api, "Uses", "async, JSON/HTTPS")
-    Rel(mobile_app, backend_api, "Uses", "async, JSON/HTTPS")
-    Rel_Back(database, backend_api, "Reads from and writes to", "sync, JDBC")
-
-    Rel(email_system, customer, "Sends e-mails to")
-    UpdateRelStyle(email_system, customer, $offsetX="-45")
-    Rel(backend_api, email_system, "Sends e-mails using", "sync, SMTP")
-    UpdateRelStyle(backend_api, email_system, $offsetY="-60")
-    Rel(backend_api, banking_system, "Uses", "sync/async, XML/HTTPS")
-    UpdateRelStyle(backend_api, banking_system, $offsetY="-50", $offsetX="-140")
-
-
-  ~~~
-  ### 4.6.3. Software Architecture Components Diagram
-
-  >[!CAUTION]
-  > Reemplazar esto es un ejemplo 
+  Container(AutomotiveProductSalesManagementSystem.WebApplication, "Web Application", $techn="Vue.js", $descr="Provides user interface<br> for admins and customers.", $tags="v1.0", $link="v1.0")
   
-  ~~~mermaid
-      C4Component
-    title Component diagram for EXAMPLE
+  Container(AutomotiveProductSalesManagementSystem.ProductService, "Product Service", $techn="C#/.NET", $descr="Manages product details <br>and stock.", $tags="v1.0", $link="v1.0")
 
-    Container(spa, "Single Page Application", "javascript and angular", "Provides all the internet banking functionality to customers via their web browser.")
-    Container(ma, "Mobile App", "Xamarin", "Provides a limited subset to the internet banking functionality to customers via their mobile mobile device.")
-    ContainerDb(db, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
-    System_Ext(mbs, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+  Container(AutomotiveProductSalesManagementSystem.UserService, "User Service", $techn="C#/.NET", $descr="Manages user authentication<br> and access levels.", $tags="v1.0", $link="v1.0")
 
-    Container_Boundary(api, "API Application") {
-        Component(sign, "Sign In Controller", "MVC Rest Controller", "Allows users to sign in to the internet banking system")
-        Component(accounts, "Accounts Summary Controller", "MVC Rest Controller", "Provides customers with a summary of their bank accounts")
-        Component(security, "Security Component", "Spring Bean", "Provides functionality related to singing in, changing passwords, etc.")
-        Component(mbsfacade, "Mainframe Banking System Facade", "Spring Bean", "A facade onto the mainframe banking system.")
+  Container(AutomotiveProductSalesManagementSystem.InvoiceService, "Invoice Service", $techn="C#/.NET", $descr="Manages invoice generation<br> and downloads.", $tags="v1.0", $link="v1.0")
+  
+  Container(AutomotiveProductSalesManagementSystem.Database, "Database", $techn="SQL Server", $descr="Stores products, customers,<br> orders, invoices, and stock.", $tags="v1.0", $link="v1.0")
+}
 
-        Rel(sign, security, "Uses")
-        Rel(accounts, mbsfacade, "Uses")
-        Rel(security, db, "Read & write to", "JDBC")
-        Rel(mbsfacade, mbs, "Uses", "XML/HTTPS")
-    }
+Rel(Administrator, AutomotiveProductSalesManagementSystem.WebApplication, "Uses", $techn="HTTPS", $tags="v1.0", $link="v1.0")
+Rel(Customer, AutomotiveProductSalesManagementSystem.WebApplication, "Uses", $techn="HTTPS", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.WebApplication, AutomotiveProductSalesManagementSystem.APIGateway, "Makes RESTful API calls", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.ProductService, "Routes requests", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.OrderService, "Routes requests", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.InvoiceService, "Routes requests", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.UserService, "Routes requests", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.ProductService, AutomotiveProductSalesManagementSystem.Database, "Reads/writes data", $techn="SQL", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.OrderService, AutomotiveProductSalesManagementSystem.Database, "Reads/writes data", $techn="SQL", $tags="v1.0", $link="v1.0")
 
-    Rel_Back(spa, sign, "Uses", "JSON/HTTPS")
-    Rel(spa, accounts, "Uses", "JSON/HTTPS")
 
-    Rel(ma, sign, "Uses", "JSON/HTTPS")
-    Rel(ma, accounts, "Uses", "JSON/HTTPS")
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService, AutomotiveProductSalesManagementSystem.Database, "Reads/writes data", $techn="SQL", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.UserService, AutomotiveProductSalesManagementSystem.Database, "Reads/writes data", $techn="SQL", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.OrderService, AutomotiveProductSalesManagementSystem.ProductService, "Checks stock availability", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService, AutomotiveProductSalesManagementSystem.OrderService, "Retrieves order data", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
 
-    UpdateRelStyle(spa, sign, $offsetY="-40")
-    UpdateRelStyle(spa, accounts, $offsetX="40", $offsetY="40")
-
-    UpdateRelStyle(ma, sign, $offsetX="-90", $offsetY="40")
-    UpdateRelStyle(ma, accounts, $offsetY="-40")
-
-        UpdateRelStyle(sign, security, $offsetX="-160", $offsetY="10")
-        UpdateRelStyle(accounts, mbsfacade, $offsetX="140", $offsetY="10")
-        UpdateRelStyle(security, db, $offsetY="-40")
-        UpdateRelStyle(mbsfacade, mbs, $offsetY="-40")
-
+UpdateLayoutConfig($c4ShapeInRow="3")
 
   ~~~
 
- ## 4.7. Software Object-Oriented Desing
-  ### 4.7.1. Class Diagram
+### 4.6.3. Software Architecture Components Diagram
 
-  >[!CAUTION]
-  > Reemplazar esto es un ejemplo 
-  
   ~~~mermaid
-  ---
-  title: Bank example
-  ---
-  classDiagram
-      class Example
-      Example : +String owner
-      Example : +Bigdecimal balance
-      Example : +deposit(amount)
-      Example : +withdrawal(amount)
+C4Component
+title Automotive Product Sales Management System - API Gateway - Components
+
+Container_Boundary("AutomotiveProductSalesManagementSystem.APIGateway_boundary", "API Gateway", $tags="v1.0") {
+  Component(AutomotiveProductSalesManagementSystem.APIGateway.RequestRouter, "Request Router", $techn="C#/.NET", $descr="Routes RESTful requests.", $tags="v1.0", $link="v1.0")
+  Component(AutomotiveProductSalesManagementSystem.APIGateway.AuthenticationMiddleware, "Authentication Middleware", $techn="C#/.NET", $descr="Validates user access.", $tags="v1.0", $link="v1.0")
+}
+
+Container(AutomotiveProductSalesManagementSystem.InvoiceService, "Invoice Service", $techn="C#/.NET", $descr="Manages invoice generation and downloads.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.OrderService, "Order Service", $techn="C#/.NET", $descr="Handles order creation and tracking.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.UserService, "User Service", $techn="C#/.NET", $descr="Manages user authentication and access levels.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.ProductService, "Product Service", $techn="C#/.NET", $descr="Manages product details and stock.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.WebApplication, "Web Application", $techn="Vue.js", $descr="Provides user interface for admins and customers.", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.WebApplication, AutomotiveProductSalesManagementSystem.APIGateway.AuthenticationMiddleware, "Calls POST /login", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.WebApplication, AutomotiveProductSalesManagementSystem.APIGateway.RequestRouter, "Calls GET/POST /products", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway.RequestRouter, AutomotiveProductSalesManagementSystem.ProductService, "Routes /products", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway.RequestRouter, AutomotiveProductSalesManagementSystem.OrderService, "Routes /orders", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway.RequestRouter, AutomotiveProductSalesManagementSystem.InvoiceService, "Routes /invoices", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway.RequestRouter, AutomotiveProductSalesManagementSystem.UserService, "Routes /login", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.APIGateway.AuthenticationMiddleware, AutomotiveProductSalesManagementSystem.UserService, "Validates tokens", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.OrderService, AutomotiveProductSalesManagementSystem.ProductService, "Checks stock", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService, AutomotiveProductSalesManagementSystem.OrderService, "Retrieves order data", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+  ~~~
+
+  ~~~mermaid
+C4Component
+title Automotive Product Sales Management System - Invoice Service - Components
+
+Container(AutomotiveProductSalesManagementSystem.APIGateway, "API Gateway", $techn="C#/.NET", $descr="Routes requests and handles authentication.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.OrderService, "Order Service", $techn="C#/.NET", $descr="Handles order creation and tracking.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.Database, "Database", $techn="SQL Server", $descr="Stores products, customers, orders, invoices, and stock.", $tags="v1.0", $link="v1.0")
+
+Container_Boundary("AutomotiveProductSalesManagementSystem.InvoiceService_boundary", "Invoice Service", $tags="v1.0") {
+  Component(AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceController, "Invoice Controller", $techn="C#/.NET", $descr="Handles RESTful requests.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceAggregate, "Invoice Aggregate", $techn="C#/.NET", $descr="Manages invoice logic.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceRepository, "Invoice Repository", $techn="C#/.NET", $descr="Manages database operations.", $tags="v1.0", $link="v1.0")
+}
+
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.OrderService, "Routes /orders", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceController, "Routes /invoices", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.OrderService, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceController, AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceAggregate, "Invokes", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceAggregate, AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceRepository, "Uses", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceRepository, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService.InvoiceAggregate, AutomotiveProductSalesManagementSystem.OrderService, "Retrieves order data", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+  ~~~
+
+~~~mermaid
+C4Component
+title Automotive Product Sales Management System - Order Service - Components
+
+Container(AutomotiveProductSalesManagementSystem.APIGateway, "API Gateway", $techn="C#/.NET", $descr="Routes requests and handles authentication.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.ProductService, "Product Service", $techn="C#/.NET", $descr="Manages product details and stock.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.Database, "Database", $techn="SQL Server", $descr="Stores products, customers, orders, invoices, and stock.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.InvoiceService, "Invoice Service", $techn="C#/.NET", $descr="Manages invoice generation and downloads.", $tags="v1.0", $link="v1.0")
+
+Container_Boundary("AutomotiveProductSalesManagementSystem.OrderService_boundary", "Order Service", $tags="v1.0") {
+  Component(AutomotiveProductSalesManagementSystem.OrderService.OrderController, "Order Controller", $techn="C#/.NET", $descr="Handles RESTful requests.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.OrderService.OrderAggregate, "Order Aggregate", $techn="C#/.NET", $descr="Manages order logic.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.OrderService.OrderRepository, "Order Repository", $techn="C#/.NET", $descr="Manages database operations.", $tags="v1.0", $link="v1.0")
+}
+
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.ProductService, "Routes /products", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.OrderService.OrderController, "Routes /orders", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.InvoiceService, "Routes /invoices", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.ProductService, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.OrderService.OrderController, AutomotiveProductSalesManagementSystem.OrderService.OrderAggregate, "Invokes", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.OrderService.OrderAggregate, AutomotiveProductSalesManagementSystem.OrderService.OrderRepository, "Uses", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.OrderService.OrderRepository, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.OrderService.OrderAggregate, AutomotiveProductSalesManagementSystem.ProductService, "Checks stock", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.InvoiceService, AutomotiveProductSalesManagementSystem.OrderService.OrderController, "Retrieves order data", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+~~~
+
+~~~mermaid
+C4Component
+title Automotive Product Sales Management System - Product Service - Components
+
+Container(AutomotiveProductSalesManagementSystem.APIGateway, "API Gateway", $techn="C#/.NET", $descr="Routes requests and handles authentication.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.OrderService, "Order Service", $techn="C#/.NET", $descr="Handles order creation and tracking.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.Database, "Database", $techn="SQL Server", $descr="Stores products, customers, orders, invoices, and stock.", $tags="v1.0", $link="v1.0")
+
+Container_Boundary("AutomotiveProductSalesManagementSystem.ProductService_boundary", "Product Service", $tags="v1.0") {
+  Component(AutomotiveProductSalesManagementSystem.ProductService.ProductController, "Product Controller", $techn="C#/.NET", $descr="Handles RESTful requests.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.ProductService.ProductAggregate, "Product Aggregate", $techn="C#/.NET", $descr="Encapsulates product domain logic.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.ProductService.ProductRepository, "Product Repository", $techn="C#/.NET", $descr="Manages database operations.", $tags="v1.0", $link="v1.0")
+}
+
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.ProductService.ProductController, "Routes /products", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.OrderService, "Routes /orders", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+Rel(AutomotiveProductSalesManagementSystem.ProductService.ProductController, AutomotiveProductSalesManagementSystem.ProductService.ProductAggregate, "Invokes", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.ProductService.ProductAggregate, AutomotiveProductSalesManagementSystem.ProductService.ProductRepository, "Uses", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.ProductService.ProductRepository, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.OrderService, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.OrderService, AutomotiveProductSalesManagementSystem.ProductService.ProductController, "Checks stock", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+~~~
+
+~~~mermaid
+C4Component
+title Automotive Product Sales Management System - User Service - Components
+
+Container(AutomotiveProductSalesManagementSystem.APIGateway, "API Gateway", $techn="C#/.NET", $descr="Routes requests and handles authentication.", $tags="v1.0", $link="v1.0")
+
+Container(AutomotiveProductSalesManagementSystem.Database, "Database", $techn="SQL Server", $descr="Stores products, customers, orders, invoices, and stock.", $tags="v1.0", $link="v1.0")
+
+Container_Boundary("AutomotiveProductSalesManagementSystem.UserService_boundary", "User Service", $tags="v1.0") {
+  Component(AutomotiveProductSalesManagementSystem.UserService.UserController, "User Controller", $techn="C#/.NET", $descr="Handles RESTful requests.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.UserService.UserAggregate, "User Aggregate", $techn="C#/.NET", $descr="Manages user logic.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.UserService.UserRepository, "User Repository", $techn="C#/.NET", $descr="Manages database operations.", $tags="v1.0", $link="v1.0")
+}
+
+Rel(AutomotiveProductSalesManagementSystem.APIGateway, AutomotiveProductSalesManagementSystem.UserService.UserController, "Routes /login", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.UserService.UserController, AutomotiveProductSalesManagementSystem.UserService.UserAggregate, "Invokes", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.UserService.UserAggregate, AutomotiveProductSalesManagementSystem.UserService.UserRepository, "Uses", $techn="v1.0", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.UserService.UserRepository, AutomotiveProductSalesManagementSystem.Database, "Queries", $techn="SQL", $tags="v1.0", $link="v1.0")
+
+~~~
+
+~~~mermaid
+C4Component
+title Automotive Product Sales Management System - Web Application - Components
+
+Container(AutomotiveProductSalesManagementSystem.APIGateway, "API Gateway", $techn="C#/.NET", $descr="Routes requests and handles authentication.", $tags="v1.0", $link="v1.0")
+
+Container_Boundary("AutomotiveProductSalesManagementSystem.WebApplication_boundary", "Web Application", $tags="v1.0") {
+  Component(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, "Statistics Component", $techn="Vue.js", $descr="Displays sales/stock statistics.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.WebApplication.LoginComponent, "Login Component", $techn="Vue.js", $descr="Handles user authentication.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.WebApplication.ProductCatalogComponent, "Product Catalog Component", $techn="Vue.js", $descr="Displays and manages products.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.WebApplication.OrderPlacementComponent, "Order Placement Component", $techn="Vue.js", $descr="Creates orders.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.WebApplication.OrderTrackingComponent, "Order Tracking Component", $techn="Vue.js", $descr="Tracks orders using a code.", $tags="v1.0", $link="v1.0")
+
+  Component(AutomotiveProductSalesManagementSystem.WebApplication.InvoiceDownloadComponent, "Invoice Download Component", $techn="Vue.js", $descr="Downloads invoices.", $tags="v1.0", $link="v1.0")
+}
+
+Rel(AutomotiveProductSalesManagementSystem.WebApplication.LoginComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls POST /login", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.WebApplication.ProductCatalogComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls GET/POST /products", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.WebApplication.OrderPlacementComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls POST /orders", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.WebApplication.OrderTrackingComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls GET /orders/{code}", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.WebApplication.InvoiceDownloadComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls GET /invoices/{id}", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
+
+Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls GET /statistics", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
   ~~~
 
   ### 4.7.2. Class Dictionary
@@ -1237,23 +1573,10 @@ directa durante la primera semana.
       Example : +withdrawal(amount)
   ~~~
 
- ## 4.8. Database Desing
+ ## 4.8. Database Design
   ### 4.8.1. Database Diagram
-
-  >[!CAUTION]
-  > Reemplazar esto es un ejemplo 
-
-  ~~~mermaid
-  ---
-  title: Bank example
-  ---
-  classDiagram
-      class Example
-      Example : +String owner
-      Example : +Bigdecimal balance
-      Example : +deposit(amount)
-      Example : +withdrawal(amount)
-  ~~~
+  
+![Database Diagram](resources/database_diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
  ## 5.1. Software Configuration Management
@@ -1264,7 +1587,8 @@ directa durante la primera semana.
 |---|---|
 | Yum Gonzales, Jorge Suin   | jsyumg, myussu  |
 |  Miranda Ayasta, Rogger Faryd | r0ggdev |
-|   |   |
+|  Alva Abanto, Luis Andres | luisalvaabanto |
+
   
   *URL de repositorio de Landing Page:* 
   *URL de repositorio de Web Services:* 
@@ -1285,6 +1609,19 @@ directa durante la primera semana.
   
   ### 5.1.3. Source Code Style Guide & Conventions
   ### 5.1.4. Software Deployment Configuration
+  Para el despliegue de ambos el landing page y la aplicacion web se utilizara Git, para mantener el control de versiones, la integracion continua y para mantener un workflow organizado en equipo para las futuras versiones gracias al uso de GitFlow.
+
+  **Landing Page:**
+  * El despliegue de la landing page se realizará mediante GitHub Pages, aprovechando su integración nativa con los repositorios de GitHub.
+
+  * La landing se ubicará en una carpeta /docs dentro del branch principal del repositorio. GitHub Pages detectará automáticamente esta estructura para generar y servir el sitio.
+  
+  * Este servicio ofrece hosting gratuito, confiable y con certificado SSL incluido, lo que garantiza una conexión segura (HTTPS).
+  
+  * Se generará una URL pública (https://usuario.github.io/repositorio) para compartir la página fácilmente o incluso integrarla a un dominio personalizado si se desea escalar.
+  ![GitHubPages](resources/GitHub-Pages.png)
+  En un futuro se podra cambiar la URL a un dominio propio en servicios de hosting y dominio como GoDaddy o Namecheap.
+
 
  ## 5.2. Landing Page, Service & Applications Implementation
  
@@ -1302,27 +1639,226 @@ directa durante la primera semana.
    #### 5.2.x.7. Software Deployment Evidence for Sprint Review
    #### 5.2.x.8. Team Collaboration Insights during Sprint
  ~~~
+   ### 5.2.1 Sprint 1
+   #### 5.2.1.1 Sprint Planning 1
+   A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 1. Se discution los objetivos, etapa de tiempo y tareas a realizar.
    
    <div>
     <table>
       <thead>
         <tr>
-          <th colspan=3>Sprints</th>
+          <th>#️⃣ Número</th>
+          <th>Sprint 1</th>
         </tr>
         <tr>
-          <th>#️⃣ Número</th>
-          <th>💬 Resumen</th>
-          <th>🔗 Link </th>
+          <th colspan=2>Sprint Planning Background</th>
         </tr>
       </thead>
       <tr align='center'>
-        <td> 1 </td>
-        <td> Resume </td>
-        <td> <a href='/sprints/Sprint-1.md'>🔗</a> </td>
+        <td> Date </td>
+        <td> 2025-04-18 </td>
+      </tr>
+      <tr>
+        <td>Time</td>
+        <td> 10:00PM - 11:00PM </td>
+      </tr>
+      <tr>
+        <td>Location</td>
+        <td> Meet </td>
+      </tr>
+      <tr>
+        <td>Prepared by</td>
+        <td> Yum Gonzales, Jorge Suin </td>
+      </tr>
+      <tr>
+        <td>Attendees</td>
+        <td> Yum Gonzales, Jorge Suin <br> Miranda Ayasta, Rogger Faryd <br> Alva Abanto, Luis Andres <br> Vargas Javier, Jose Enrique</td>
+      </tr>
+      <tr>
+        <td>Sprint n-1 Review Summary</td>
+        <td>No hubo sprint anterior</td>
+      </tr>
+      <tr>
+        <td>Sprint n-1 Retrospective Summary</td>
+        <td>No hubo sprint anterior</td>
+      </tr>
+      <tr>
+        <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+      </tr>
+      <tr>
+        <td>Sprint 1 Goal</td>
+        <td> Crear la landing page:<br>Our focus is on creating a clear, responsive, and functional landing page that effectively communicates the benefits of our platform.
+          We believe it delivers a professional first impression and builds trust with potential customers and visitors, making it easier for them to register or request a demo.
+          This will be confirmed when users visit the page is deployed on github through github pages </td>
+      </tr>
+      <tr>
+        <td>Sprint 1 velocity</td>
+        <td> 10 </td>
+      </tr>
+      <tr>
+        <td>Sum of Story Points</td>
+        <td> 10 </td>
       </tr>
     </table>
    </div>
 
+   #### 5.2.1.2 Aspect Leaders and Collaborators
+   <table>
+    <tr>
+      <th>Team member</th>
+      <th>Github username</th>
+      <th>Beneficios</th>
+      <th>Planes</th>
+      <th>Testimonios</th>
+      <th>Responsive</th>
+      <th>Soporte</th>
+    </tr>
+    <tr>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>jsyumg, myussu</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Miranda Ayasta, Rogger Faryd</td>
+      <td>r0ggdev</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Alva Abanto, Luis Andres</td>
+      <td>luisalva</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    tr>
+      <td>Vargas Javier, Jose Enrique</td>
+      <td>KenRi7</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+   </table>
+
+ #### 5.2.1.3 Sprint 1 Backlog
+ <table>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 1</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-item / Task</strong></td>
+  </tr>
+  <tr>
+    <td><strong>ID</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>ID</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Estimation (Hours)</strong></td>
+    <td><strong>Assigned to</strong></td>
+    <td><strong>Status</strong></td>
+  </tr>
+
+  <tr>
+    <td>US15</td>
+    <td>Visualización clara de beneficios</td>
+    <td>Task 1</td>
+    <td>Redactar contenido</td>
+    <td>Escribir el texto principal que explica los beneficios clave de la plataforma.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US15</td>
+    <td>Visualización clara de beneficios</td>
+    <td>Task 2</td>
+    <td>Diseño de sección beneficios</td>
+    <td>Diseñar visualmente la sección de beneficios en la landing page (desktop y móvil).</td>
+    <td>3</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Llamado a la acción claro</td>
+    <td>Task 3</td>
+    <td>Diseñar botón CTA</td>
+    <td>Crear el botón de "Regístrate gratis" o "Pide una demo" y asegurar su visibilidad.</td>
+    <td>1</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Llamado a la acción claro</td>
+    <td>Task 4</td>
+    <td>Implementar CTA persistente</td>
+    <td>Agregar botón fijo que acompañe al usuario durante el scroll.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Testimonios o casos de éxito</td>
+    <td>Task 5</td>
+    <td>Reunir testimonios</td>
+    <td>Recopilar frases de usuarios reales y sus datos para mostrar credibilidad.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Testimonios o casos de éxito</td>
+    <td>Task 6</td>
+    <td>Diseño visual de testimonios</td>
+    <td>Diseñar los testimonios en formato visual atractivo (cards o sliders).</td>
+    <td>3</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US19</td>
+    <td>Formulario de contacto funcional</td>
+    <td>Task 7</td>
+    <td>Diseño de formulario</td>
+    <td>Diseñar e implementar el formulario de contacto en la landing page.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US19</td>
+    <td>Formulario de contacto funcional</td>
+    <td>Task 8</td>
+    <td>Validación de campos</td>
+    <td>Agregar validaciones de campos requeridos y formato de correo electrónico.</td>
+    <td>2</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+
+</table>
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
  ## 5.3. Validation Interviews
   ### 5.3.1. Diseño de Entrevistas
