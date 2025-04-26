@@ -811,7 +811,7 @@ directa durante la primera semana.
    <table style="width:100%" align='center'>
    <tr>
    <th>📌Dueño de compania de productos de lubricantes de motores</th>
-   <th>📌Tituko</th>
+   <th>📌Gerente de compañia de productos agroquimicos</th>
    <th>📌Titulo</th>
    </tr>
 
