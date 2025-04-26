@@ -26,7 +26,7 @@ string[] Integrantes() {
         "🧑‍💻 Yum Gonzales, Jorge Suin - U202210838",
         "👩‍💻 Miranda Ayasta, Rogger Faryd - U202319239",
         "👩‍💻 Alva Abanto, Luis Andres - u202310877",
-        "👩‍💻 Apellidos, Nombres - Codigo",
+        "👩‍💻 Costa Morales, Christofer William - U202315968",
         "👩‍💻 Vargas Javier, Jose Enrique - U20221F693"
     };
 }
@@ -237,7 +237,13 @@ Abril del 2025 🗓️
    <img src="link-img" alt="name" width="100" align='right'>
 
    ~~~txt
-   Descripción
+   Soy estudiante de la carrera de ingenieria de software de la UPC.
+   Poseo experiencia con los lenguajes de progamación siguientes:
+   ➡️ C++
+   ➡️ Python
+   ➡️ JavaScript
+   ➡️ HTML & CSS
+   En lo personal siento que estoy en la capacidad de ayudar y contribuir de la mejor manera con este equipo
    ~~~
 
    </div>
@@ -873,7 +879,7 @@ directa durante la primera semana.
    </a>
    </td>
    <td align='center'>
-   <a href="" target='_blank'>
+   <a href="https://youtu.be/2Nb_TZGTgGc" target='_blank'>
     <img src="resources/Interview-3.png" alt="Tercera entrevista del primer segmento objetivo">
    </a>
    </td>
@@ -895,8 +901,11 @@ directa durante la primera semana.
     <b>🗣️Entrevistado:</b> name
    </td>
       <td>
-    <b>📝Entrevistador:</b> name <br>
-    <b>🗣️Entrevistado:</b> name
+    <b>📝Entrevistador:</b> Christofer William Costa Morales <br>
+    <b>🗣️Entrevistado:</b> Juan Josemaria Costa Morales<br>
+      <p>
+        Juan es un estudiante de Ingenieria de Software, el cual suele recurrir y revisar catalogos para comprar productos de comida o de esa área y valora mucho que sean claros y que esten actualizado en tiempo real. Considera que un catalogo que muestre en tiempo real qué productos hay es uno muy importante. Le interesa tambien la parte de la automatización de los pagos y de la atención en cuestiones sencillas cómo algún inconveniente con el producto o fallos. Además, si le gustaria mucho que las ofertas de las tiendas se puedan dirigir a los productos que les gustan
+      <p>
    </td>
    </tr>
    </table>
@@ -905,12 +914,73 @@ directa durante la primera semana.
 
    ## 2.3. Needfinding
    ### 2.3.1. User Personas
+   
+   ##### 📝 Administradores:
+
+   ![alt text](<resources/José Mendez.png>)
+
+   #### 📝 Clientes:
+
+   ![alt text](<resources/Maria Molero.png>)
+
    ### 2.3.2. User Task Matrix
+
+   En este cuadro tendremos a nuestros segmentos objetivos: Administradores de empresas y Clientes. Consideraremos tareas que haran para obtener un producto o hallar ofertas para planificar futuras compras.
+
+   ![alt text](<resources/User Task Matrix.jpg>)
+
+   En estos casos vemos que ambas parte dan importancia a consultar el inventario o Stock, pero los administradores son los más interesados en esta tarea, ya que es crucial mantener un inventario actualizado para su negocio. Además, vemos cómo ambas partes dan una gran importancia a los pagos en yape o con tarjeta, ya que estos son cruciales para que la compra o venta de un producto se logre. Finalmente, ambos dan importancia a las consultas y planeación de compras que se hicieron o haran en un futuro. El primero, para saber si los pedidos seran entregados de la mejor manera en el tiempo adecuado. El segundo, para saber que se tendra que vender el día siguiente, en el caso de los administradores, o comprar para la proxima semana, en el caso de los clientes.
+
    ### 2.3.3. User Journey Mapping
+
+   ##### 📝 Administradores:
+
+   ![alt text](<resources/Journey mapping Administradores.png>)
+   
+   #### 📝 Clientes:
+
+   ![alt text](<resources/journey maping clientes.png>)
+
    ### 2.3.4. Empathy Mapping
+
+   ##### 📝 Administradores:
+   ![alt text](<resources/Empathy map Administradores.png>)
+
+   #### 📝 Clientes:
+
+   ![alt text](<resources/Empathy maps Clientes.png>)
+
    ### 2.3.5. As-is Scenario Mapping
 
-   ## 2.4. Ubiquitous Language
+   #### 📝 Administradores:
+   ![alt text](<resources/As is scenario mapping Administradores.jpg>)
+
+   #### 📝 Clientes:
+
+   ![alt text](<resources/As is scenario mapping Clientes.jpg>)
+
+   ## 2.4. Ubiquitous Language:
+    Para esta sección determinaremos palabras que debemos saber su significado para el contexto de la problemática que intentamos resolver:
+
+    Stock: Referencia al inventario o a los productos que hay actualmente en la tienda o en los almacenes del negocio
+
+    Regular: En nuestro contexto, se refiere a los productos, clientes o ventas que son frecuentes en la tienda.
+
+    Precio real: Precio que el cliente pagará al final de la transacción, incluye las ofertas o promociones que la tienda ofrece.
+
+    Disponibilidad: Hace referencia a los estados de un producto en la tienda: En stock, agotado, próximo a reabastecer .
+
+    Oferta Personalizada: Es a las ofertas que los clientes obtienen, tomando en cuenta sus compras y los tipos de productos que suelen seleccionar
+
+    Catálogo Digital: Referencia al catálogo o revistas que las tiendas poseen para mostrar su inventario, pero de manera online y lo pueden ver desde el celular o laptop.
+
+    Alertas: nos referimos a las notificaciones de whatsapp o de email para los cambios u ofertas en las tiendas.
+
+    Yape/QR: con esto nos referimos a los métodos de pagos favoritos, en el Perú, donde se usa el celular para hacer transacciones, sin necesidad de tarjetas.
+
+    Delivery Tracking: Con esto nos referimos a el monitoreo que hay de los pedidos que se hacen a domicilio y en qué condiciones se pueden encontrar al llegar.
+
+    Lista de Deseos: Referencia a la lista de productos preferidos o que son comprados con mayor frecuencia por el cliente.
 
 
 # Capítulo III: Requeriments Specification
@@ -1011,8 +1081,43 @@ El logotipo se ubica en la esquina superior izquierda, mientras que la barra de 
 
  ## 4.2. Information Architecture
   ### 4.2.1. Organization Systems
+  ### 4.2.1.1. Visual Herarchy
+   1. Encabezado principal: En este tendremos el tendremos las principales funciones que nuestro aplicativo ofrece y ayuda a los usuarios a navegar por sus funcionalidades.
+   2. Selección de productos: ocupa un lugar en donde el usuario tendra que decidir que hacer con el producto que escoja, ya sea comprarlo, en el caso de los cliente, o venderlo, en caso de los administradores.
+  ### 4.2.1.2. Step by Step to acomplish
+
+  Este enfoque lo implementaremos, ya que nuestro apicativo necesita una secuencia clara y sencilla de comprender para que no haya errores en las compras o ventas de nuestro usuarios.
+  #### User Goal
+  Quiero manejar mis productos o comprarlos
+
+  #### User Flow
+
+  1. Selecciona el producto
+  2. Verifica el precio y la marca del producto
+  3. Agrega el producto a su compra o venta
+  4. Visualiza un reporte de lo que compro o vendió
+
+  #### Wireflow
+
+  1.  Selecciona el producto
+  El usuario filtra de todos los productos que se encuentran disponibles para hallar el correcto
+  2. Verifica el precio y la marca del producto
+  Al producto ser uno que posee variaciones se le muestra las opciones disponibles y el precio de cada una
+  3. Agrega el producto a su compra o venta
+  El usuario, si es un cliente, realiza el pago con algún metodo de pago aceptado por la emprea, si es un administrador, registra la venta del producto con su descripción y la fecha de venta.
+  4. Visualiza un reporte de lo que compro o vendió
+  El usuario, en caso del cliente, revisa su correo o whatsapp para ver la boleto u otro comprobante de pago, en el caso del administrador, se dirijira a una pantalla en donde le mostrara un registro del producto que vendio y una grafica de las ventas de dicho producto
+
   ### 4.2.2. Labeling Systems
+
+  La aplicación utiliza un sistema de etiquetas y botones que ofrecen al usuario, dependiendo de si es un administrador o cliente, una manera de regitrar y monitorear sus o los productos en los que estan interesados y se mostraran la información pertinente de ellos.
+
+  El cliente selecciona con un boton qué productos quiere agregar a su lista de compras, puede verificar el precio y aumentar o disminuir la cantidad. Además, puede ingresar datos para filtrar los productos que desea (marca, rango de precio, peso, etc). 
+
+  Para los administradores se tendra una sección de producto en Stock, que sera actualizado en tiempo real y mostrara en un cuadro la cantidad exacta del producto que hay disponible ese dia. Además, hay una sección de registro de compras, en donde, se ingresara la información (Producto, cantidad vendida, cliente, fecha y una verificación de seguridad) para realizar un historial de ventas, que mostrara todas las ventas realizadas al mes. Finalmente, se mostraran alertas de productos que se agoten y una sección de reportes donde se informara, con graficas, de qué tan popular es un producto y cuanto se vendio del mismo.
+
   ### 4.2.3. SEO Tags and Meta Tags
+  
   Los SEO tags son etiquetas HTML que ayudan a los motores de búsqueda a entender y posicionar en los resultados. Los meta tags son etiquetas que proporcionan información sobre la página, como su descripción, palabras clave y autor lo cual ayuda al ser buscado en el navegador.
 A continuacion se presentan los SEO tags y meta tags que se utilizarán en la plataforma:
 Title Tag: Este tag define el título de la página y es uno de los factores más importantes para el SEO. Debe ser único y contener palabras clave relevantes.
@@ -1044,7 +1149,25 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
 <link rel="canonical" href="https://www.lubrimax.com/">
 ```
   ### 4.2.4. Searching Systems
+
+  Para encontrar ciertas funcionalidades de nuestra aplicación, usamos varios botones y empleamos varios indicadores visuales para que el usuario sepa donde encontrar lo que necesita. A continuación se muestra los ejemplos de los tipos de busqueda que usaremos:
+
+  1. Busqueda de productos: para facilitar la busqueda de los producto que nuestros usuarios desean usamos una serie de filtros para que puedan hallar exactamente lo que quieren.
+
+  2. Busqueda por frecuencia: usamos los datos que obtenemos de los usuarios y sugerimos qué producto o sección de nuestra aplicación desea ir, después de varias repeticiones del usuario escogiendo la misma opción.
+
+  3. Busqueda de ventas: para los administradores se les da una forma de ir rapidamente a la sección de ventas o reporte de ventas para que puedan verificar esa información crucial para su negocio.
+
+
+
   ### 4.2.5. Navigation Systems
+  1. Registro: para poder entrar el usuario ingresara su cuenta y se registrara que tipo de usuario es: cliente que solo quiere registrar y getionar sus pedidos y recibir ofertas personalizadas o administrador que quiere el monitoreo, registro y seguimiento de las ventas: productos y clientes que frecuentan su tienda.
+
+  2. Productos: permite a los usuarios, dependiendo del tipo, manejar todo con respecto a los productos, desde su venta y compra, a las ofertas que se pueden ofrecer de estos.
+
+  3. Mi perfil: permite a los usuarios configurar sus preferencias, verificar sus credenciales, cambiar contraseña y cambiar, ya sea el caso, qué tipo de usuarios son.
+
+  4. Ayuda: esto permite a los usuarios reportar a nuestro equipo de soporte tecnico de algún inconveniente que ha tenido con el aplicativo. 
 
  ## 4.3. Landing Page UI Desing
  El diseño de la interfaz de usuario en la landing page de **StockHunters** será clave para causar una primera impresión positiva. Buscamos ofrecer una experiencia visual atractiva y funcional que invite a los usuarios a explorar el sistema.
