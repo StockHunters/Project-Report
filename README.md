@@ -464,7 +464,7 @@ y el análisis de desempeño? ¿Cómo podríamos permitir que los clientes consu
   Mejores reportes y visualización de estadísticas, reducción de errores humanos, registro eficiente de clientes, automatización de respuestas por WhatsApp, acceso a catálogo web en tiempo real, y mejora en la toma de decisiones estratégicas.
   <br>
 
-6. Vamos a adquirir la mayoría de nuestros clientes a través de:
+6. **Vamos a adquirir la mayoría de nuestros clientes a través de:**
   Estrategias de marketing digital, incluyendo publicaciones promocionales, demostraciones del software en redes sociales, campañas segmentadas y alianzas con distribuidores.
   <br>
 
