@@ -154,6 +154,8 @@ Abril del 2025 🗓️
     - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
     - [4.6.2. Software Architecture Container Diagram](#462-software-architecture-container-diagram)
     - [4.6.3. Software Architecture Components Diagram](#463-software-architecture-components-diagram)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagram](#471-class-diagram)
     - [4.7.2. Class Dictionary](#472-class-dictionary)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
@@ -1595,6 +1597,9 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.InvoiceDownloadCompone
 
 Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls GET /statistics", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
   ~~~
+
+  ## 4.7. Software Object-Oriented Design
+  ### 4.7.1. Class Diagram
 
   ### 4.7.2. Class Dictionary
 
