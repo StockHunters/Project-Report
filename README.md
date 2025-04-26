@@ -1748,6 +1748,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
    </div>
 
    #### 5.2.1.2 Aspect Leaders and Collaborators
+
    <table>
     <tr>
       <th>Team member</th>
@@ -1785,7 +1786,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
       <td>L</td>
       <td>C</td>
     </tr>
-    tr>
+    <tr>
       <td>Vargas Javier, Jose Enrique</td>
       <td>KenRi7</td>
       <td>C</td>
