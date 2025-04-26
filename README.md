@@ -126,6 +126,8 @@ Abril del 2025 🗓️
   - [2.4. Ubiquitous Language:](#24-ubiquitous-language)
 - [Capítulo III: Requeriments Specification](#capítulo-iii-requeriments-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+      - [📝 Administradores:](#-administradores-4)
+      - [📝 Clientes:](#-clientes-4)
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
@@ -928,7 +930,7 @@ directa durante la primera semana.
    </a>
    </td> 
    <td align='center'>
-   <a href="" target='_blank'>
+   <a href="https://youtu.be/3iKexM4Z7i8" target='_blank'>
     <img src="resources/Interview-2.png" alt="Segunda entrevista del primer segmento objetivo">
    </a>
    </td>
