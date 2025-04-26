@@ -52,7 +52,7 @@ Abril del 2025 🗓️
   <tr>
     <td>TB1</td>
     <td>2025-04-20</td>
-    <td> <ul> <li>Jorge Suin Yum Gonzales</li> <li>Pongan sus nombres</li> </ul></td>
+    <td> <ul> <li>Jorge Suin Yum Gonzales</li> <li>Luis Andres Alva Abanto</li> </ul></td>
     <td> Se han incluído los siguientes capítulos:
         <ul>
           <li>Capítulo I: Introducción</li>
