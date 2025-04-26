@@ -42,6 +42,31 @@ Abril del 2025 🗓️
 
 ## Registro de versiones del Informe
 
+<table>
+  <tr>
+    <th>Version</th>
+    <th>Fecha</th>
+    <th>Autor</th>
+    <th>Descripción de modificación </th>
+  </tr>
+  <tr>
+    <td>TB1</td>
+    <td>2025-04-20</td>
+    <td> <ul> <li>Jorge Suin Yum Gonzales</li> <li>Luis Andres Alva Abanto</li> <li> Rogger Faryd Miranda Ayasta </li></ul></td>
+    <td> Se han incluído los siguientes capítulos:
+        <ul>
+          <li>Capítulo I: Introducción</li>
+          <li>Capítulo II: Requirements Elicitation & Analysis</li>
+          <li>Capítulo III: Requirements Specification</li>
+          <li>Capítulo IV: Product Design</li>
+          <li>Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+        </ul></td>
+  </tr>
+  
+  
+</table>
+
 ## Project Report Collaboration Insights
 
 <div>
@@ -86,22 +111,35 @@ Abril del 2025 🗓️
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
+        - [📝 Administradores:](#-administradores)
+      - [📝 Clientes:](#-clientes)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+        - [📝 Administradores:](#-administradores-1)
+      - [📝 Clientes:](#-clientes-1)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+        - [📝 Administradores:](#-administradores-2)
+      - [📝 Clientes:](#-clientes-2)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+      - [📝 Administradores:](#-administradores-3)
+      - [📝 Clientes:](#-clientes-3)
+  - [2.4. Ubiquitous Language:](#24-ubiquitous-language)
 - [Capítulo III: Requeriments Specification](#capítulo-iii-requeriments-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Desing](#capítulo-iv-product-desing)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
   - [4.2. Information Architecture](#42-information-architecture)
     - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.1.1. Visual Herarchy](#4211-visual-herarchy)
+    - [4.2.1.2. Step by Step to acomplish](#4212-step-by-step-to-acomplish)
+      - [User Goal](#user-goal)
+      - [User Flow](#user-flow)
+      - [Wireflow](#wireflow)
     - [4.2.2. Labeling Systems](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4. Searching Systems](#424-searching-systems)
@@ -118,10 +156,10 @@ Abril del 2025 🗓️
     - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
     - [4.6.2. Software Architecture Container Diagram](#462-software-architecture-container-diagram)
     - [4.6.3. Software Architecture Components Diagram](#463-software-architecture-components-diagram)
-  - [4.7. Software Object-Oriented Desing](#47-software-object-oriented-desing)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
     - [4.7.1. Class Diagram](#471-class-diagram)
     - [4.7.2. Class Dictionary](#472-class-dictionary)
-  - [4.8. Database Desing](#48-database-desing)
+  - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
@@ -131,6 +169,14 @@ Abril del 2025 🗓️
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Service \& Applications Implementation](#52-landing-page-service--applications-implementation)
     - [5.2.x. Sprints](#52x-sprints)
+    - [5.2.1 Sprint 1](#521-sprint-1)
+      - [5.2.1.1 Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2 Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3 Sprint 1 Backlog](#5213-sprint-1-backlog)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -139,9 +185,17 @@ Abril del 2025 🗓️
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
-
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 ## Student Outcome
+ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+
+| Criterio | Acciones realizadas | Conclusiones|
+|---------|--------------------|------------|
+|Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web. <br> **Luis Alva:**<br> **TB1:** <br> A través de las entrevistas realizadas a personas representativas de nuestros segmentos objetivo pudimos recolectar información valiosa para definir los requerimientos de nuestro proyecto, y diseñar pilares clave como la arquitectura de software a través de Domain Driven Design. <br> **Rogger Faryd**<br>**TB1:** <br> Durante el trabajo en equipo, mantuvimos una comunicación oral constante y clara, lo que nos permitió organizarnos, repartir tareas y asumir distintos roles de liderazgo según lo necesitábamos. Gracias a eso, avanzamos en el diseño en Figma, hicimos la landing page, preparamos las preguntas para las entrevistas y armamos el diagrama de clases, cumpliendo con lo que nos propusimos.|------------|
+|Comunica por escrito con efectividad a diferentes rangos de audiencia.| **Jorge Yum**: <br> **TB1:** <br> En esta primera entrega, se elaboró la descripción de la startup, se analizó detalladamente el contexto, los antecedentes y la problemática principal, se aplicó el proceso de Lean UX para definir hipótesis y validarlas, se realizó un análisis competitivo para identificar oportunidades de diferenciación, y se definieron los segmentos objetivos del mercado con sustento estadístico. **Luis Alva:**<br> **TB1:** <br> Se diseñaron una cantidad de preguntas acorde a nuestras necesidades para hacer en las entrevistas, las cuales representan el sustento de muchas de las decisiones de diseño en nuestro proyecto. Nos ayudó aplicar el modelo Lean UX tanto como para definir la problemática como para procesar la información obtenida acerca de los usuarios. **Rogger Faryd**<br>**TB1:** <br> A lo largo del sprint, nos enfocamos en comunicarnos por escrito de forma clara y efectiva. Desde la redacción de contenido para la landing page hasta la elaboración de documentación técnica y preguntas de entrevistas, adaptamos el estilo según el público: más directo y persuasivo para los usuarios, y más estructurado y técnico para el equipo de desarrollo. Esto nos ayudó a mantener alineado al equipo y a transmitir el valor de nuestra plataforma a diferentes audiencias.|------------|
+
 
 </div>
 
@@ -151,8 +205,6 @@ Abril del 2025 🗓️
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
-
-
 
 ### 1.1.1. Descripción de la Startup
   
@@ -190,7 +242,7 @@ Abril del 2025 🗓️
 **> 🧑‍💻 Rogger Faryd Miranda Ayasta**
    <div align='center'>
 
-   <img src="" alt="Rogger Faryd Miranda Ayasta" width="100" align='right'>
+   <img src="https://files.catbox.moe/uo7qnb.webp" alt="Rogger Faryd Miranda Ayasta" width="100" align='right'>
 
    ~~~txt
    🎓 Soy estudiante de Ingeniería de Software, 
@@ -264,7 +316,7 @@ Abril del 2025 🗓️
    💻 En todo este camino me he formado en lenguajes de programacion, tales como:
 
     ➡️ C++
-       ➡️ Python
+    ➡️ Python
     ➡️ SQL
 
    🎉 Mi habilidad competitiva es comprometerme 
@@ -413,7 +465,7 @@ y el análisis de desempeño? ¿Cómo podríamos permitir que los clientes consu
   Mejores reportes y visualización de estadísticas, reducción de errores humanos, registro eficiente de clientes, automatización de respuestas por WhatsApp, acceso a catálogo web en tiempo real, y mejora en la toma de decisiones estratégicas.
   <br>
 
-6. Vamos a adquirir la mayoría de nuestros clientes a través de:
+6. **Vamos a adquirir la mayoría de nuestros clientes a través de:**
   Estrategias de marketing digital, incluyendo publicaciones promocionales, demostraciones del software en redes sociales, campañas segmentadas y alianzas con distribuidores.
   <br>
 
@@ -578,7 +630,7 @@ directa durante la primera semana.
   </tr>
   <tr>
       <th>Descripción</th>
-      <td>Clientes finales que compran productos o servicios de los negocios registrados. Sus datos son almacenados para seguimiento, historial, promociones o fidelización. Ahora, también pueden consultar disponibilidad y precios de productos a través de WhatsApp o una página web con catálogo actualizado, sin depender de atención directa del personal.</td>
+      <td>Clientes finales que compran productos o servicios de los negocios registrados. Sus datos son almacenados para seguimiento, historial, promociones o fidelización. También pueden consultar disponibilidad y precios de productos a través de WhatsApp o una página web con catálogo actualizado, sin depender de atención directa del personal.</td>
     </tr>
     <tr>
       <th>Edad</th>
@@ -813,7 +865,7 @@ directa durante la primera semana.
    
    ### 2.2.2. Registro de entrevistas
 
-   **1️⃣ Primer Segmento Objetivo**
+   **1️⃣ Primer Segmento Objetivo: Administradores de negocios con inventario físico**
    <table style="width:100%" align='center'>
    <tr>
    <th>📌Dueño de compania de productos de lubricantes de motores</th>
@@ -860,7 +912,7 @@ directa durante la primera semana.
    </tr>
    </table>
 
-   **2️⃣ Segundo Segmento Objetivo**
+   **2️⃣ Segundo Segmento Objetivo: Compradores o clientes registrados**
 
    <table style="width:100%" align='center'>
    <tr>
@@ -899,8 +951,11 @@ directa durante la primera semana.
        </p>
    </td>
    <td>
-    <b>📝Entrevistador:</b> name <br>
-    <b>🗣️Entrevistado:</b> name
+    <b>📝Entrevistador:</b> Rogger Faryd <br>
+    <b>🗣️Entrevistado:</b> Jahaziel
+    <p>
+    Jahaziel revisa catálogos en línea antes de comprar, valorando precios claros, disponibilidad actualizada y buenas fotos. Prefiere un proceso de compra digital sin necesidad de llamadas y le parece útil ver stock en tiempo real. Mencionó que los problemas comunes son las respuestas lentas en redes sociales. Le gustaría leer reseñas y estaría dispuesto a compartir catálogos que le gusten, prefiriendo productos organizados por categorías y marcas.
+    </p>
    </td>
       <td>
     <b>📝Entrevistador:</b> Christofer William Costa Morales <br>
@@ -913,6 +968,38 @@ directa durante la primera semana.
    </table>
    
    ### 2.2.3. Análisis de entrevistas
+   **1️⃣ Primer Segmento Objetivo: Administradores de negocios con inventario físico**
+   En las entrevistas, la mayoría de los negocios (alrededor del 70%) usa hojas de cálculo como Excel para gestionar su inventario y ventas, lo que genera problemas de errores y omisiones, dedicando entre 3 a 5 horas a la semana en este proceso.
+   ![alt text](resources/question7.png)
+   ![alt text](resources/question8.png)
+  
+  El 75% de los encuestados considera importante tener un sistema que alerte sobre productos por agotarse, mientras que un 100% estaría interesado en que sus clientes pudieran ver el catálogo en línea.
+  ![alt text](resources/question9.png)
+  ![alt text](resources/question10.png)
+
+  Además, el 100% de los entrevistados valora la posibilidad de acceder al sistema desde dispositivos móviles y considera esencial que el sistema sea fácil de usar para gestionar ventas, inventario y clientes de manera más eficiente.
+  ![alt text](resources/question11.png)
+
+  Este resumen muestra las necesidades comunes de los negocios en cuanto a optimización de la gestión de inventario y ventas.
+
+   **2️⃣ Segundo Segmento Objetivo: Compradores o clientes registrados**
+   En las entrevistas realizadas, se observó que la mayoría de los participantes (alrededor del 69%) revisan catálogos en línea antes de hacer una compra. La mayoría valora especialmente que los catálogos tengan fotos y descripciones detalladas de los productos, así como precios claros y disponibilidad actualizada. Además, todos los entrevistados prefieren comprar en tiendas que tienen una presentación ordenada en línea, lo que facilita la navegación.
+   ![resumen pregunta 1](resources/question1.png)
+   ![alt text](resources/question2.png)
+  
+  La posibilidad de ver si un producto está disponible en tiempo real es algo que muchos consideran muy útil (aproximadamente el 92%). También se destacó que el 30% de los participantes encuentran útil ver promociones o combos destacados de manera visible y fácil de encontrar.
+  ![alt text](resources/question3.png)
+  ![alt text](resources/question4.png)
+
+  En cuanto al proceso de compra, la mayoría prefiere hacer pedidos sin tener que llamar directamente, con un 46,2% indicando que prefieren una experiencia completamente digital. Sin embargo, uno de los problemas más comunes que enfrentan al comprar por redes sociales es la respuesta lenta, y muchos también mencionaron la falta de precios claros y información sobre disponibilidad.
+  ![alt text](resources/question5.png)
+
+  Un punto importante es que el 84% de los encuestados expresó interés en poder leer o dejar reseñas de otros compradores, lo cual muestra la importancia de la confianza en las experiencias compartidas. En relación a compartir catálogos, el 60% estaría dispuesto a hacerlo si les gusta lo que ven, lo que destaca un buen nivel de recomendación entre consumidores.
+  ![alt text](resources/question6.png)
+
+  Finalmente, la mayoría prefiere que los productos estén organizados por categorías y marcas, lo que facilita la búsqueda dentro del catálogo.
+
+  En resumen, los consumidores valoran una experiencia de compra en línea clara, ordenada y accesible, con buena información sobre precios y stock. También aprecian la opción de hacer pedidos sin llamadas, y la facilidad de acceder a promociones y reseñas de otros usuarios.
 
    ## 2.3. Needfinding
    ### 2.3.1. User Personas
@@ -1560,6 +1647,114 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.InvoiceDownloadCompone
 Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls GET /statistics", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
   ~~~
 
+  ## 4.7. Software Object-Oriented Design
+  ### 4.7.1. Class Diagram
+  ~~~mermaid
+  classDiagram
+    %% ========= DOMAIN =========
+    %% Entidades
+    class Producto {
+        +UUID id
+        +string nombre
+        +Descripcion descripcion
+        +CantidadStock stock
+        +Precio precio
+        +Categoria categoria
+        +actualizarStock(CantidadStock cantidad)
+    }
+
+    class Categoria {
+        +UUID id
+        +string nombre
+        +string descripcion
+    }
+
+    %% Value Objects
+    class Descripcion {
+        -string valor
+        +string obtenerValor()
+    }
+
+    class CantidadStock {
+        -int valor
+        +int obtenerValor()
+        +esMayorQue(CantidadStock): bool
+        +sumar(CantidadStock): CantidadStock
+        +restar(CantidadStock): CantidadStock
+    }
+
+    class Precio {
+        -float valor
+        +float obtenerValor()
+        +conDescuento(float porcentaje): Precio
+    }
+
+    %% Agregado
+    class Inventario {
+        +UUID id
+        +List~Producto~ productos
+        +agregarProducto(Producto p)
+        +removerProducto(UUID id)
+        +buscarProducto(UUID id): Producto
+        +actualizarStock(UUID productoId, CantidadStock nuevaCantidad)
+    }
+
+    %% Repositorio (interfaz)
+    class IInventarioRepositorio {
+        +Inventario obtenerPorId(UUID id)
+        +void guardar(Inventario inventario)
+    }
+
+    %% Servicio de Dominio
+    class ServicioDeStock {
+        +void ajustarStock(UUID productoId, CantidadStock cantidad)
+    }
+
+    %% ========= APPLICATION =========
+    class ServicioAplicacionInventario {
+        +DTOInventario obtenerInventario(UUID id)
+        +void agregarProducto(DTOProducto producto)
+        +void ajustarStock(UUID productoId, int cantidad)
+    }
+
+    class DTOProducto {
+        +UUID id
+        +string nombre
+        +string descripcion
+        +float precio
+        +string categoria
+        +int stock
+    }
+
+    class DTOInventario {
+        +UUID id
+        +List~DTOProducto~ productos
+    }
+
+    %% ========= INFRASTRUCTURE =========
+    class InventarioRepositorioSQL {
+        +Inventario obtenerPorId(UUID id)
+        +void guardar(Inventario inventario)
+    }
+
+    %% ========= RELACIONES =========
+    Producto --> Descripcion
+    Producto --> CantidadStock
+    Producto --> Precio
+    Producto --> Categoria
+    Inventario --> Producto
+    ServicioDeStock --> Inventario
+    ServicioDeStock --> IInventarioRepositorio
+
+    ServicioAplicacionInventario --> ServicioDeStock
+    ServicioAplicacionInventario --> IInventarioRepositorio
+    ServicioAplicacionInventario --> DTOProducto
+    ServicioAplicacionInventario --> DTOInventario
+
+    InventarioRepositorioSQL ..|> IInventarioRepositorio
+
+  ~~~
+
   ### 4.7.2. Class Dictionary
 
   >[!CAUTION]
@@ -1584,7 +1779,27 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 
 # Capítulo V: Product Implementation, Validation & Deployment
  ## 5.1. Software Configuration Management
+ Durante el desarrollo del proyecto se implementó una gestión de configuración de software básica pero funcional, utilizando herramientas estándar para el control de versiones, documentación y colaboración en equipo. Esto aseguró que el código fuente se mantuviera organizado, accesible y sincronizado entre todos los miembros del equipo, facilitando la integración continua de cambios.
+
   ### 5.1.1. Software Development Environment Configuration
+  Para el entorno de desarrollo, cada miembro del equipo configuró su máquina con las siguientes herramientas:
+  
+  - Editor de código: Visual Studio Code
+   
+  - Control de versiones: Git
+   
+  - Repositorio remoto: GitHub
+   
+  - Framework web: Astro
+   
+  - Estilizado: CSS
+   
+  - Gestor de paquetes: npm
+
+  - Despliegue: GitHub Pages para la landing page
+
+Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, Prettier y GitLens, para asegurar una experiencia de desarrollo coherente y productiva entre los miembros.
+
   ### 5.1.2. Source Code Management
   Usuarios de github:
 |  Integrantes |Usuarios de github   | 
@@ -1595,9 +1810,9 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 | Costa Morales Christofer William| miniChorri|
 
   
-  *URL de repositorio de Landing Page:* 
+  *URL de repositorio de Landing Page:* https://github.com/st0ckhunters/landingPage.git
   *URL de repositorio de Web Services:* 
-  *URL de repositorio de FrontEnd Aplication:*
+  *URL de repositorio de FrontEnd Aplication:* 
 
   Para el desarrollo de cada repositorio se usara GitFlow como estrategia de versionado, el cual consiste en crear ramas para cada funcionalidad o bug que se desee implementar para mantener un trabajo organizado. Las ramas principales seran main, develop, feature, release y hotfix. A continuacion se describen cada una de estas ramas:
 
@@ -1613,6 +1828,20 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 
   
   ### 5.1.3. Source Code Style Guide & Conventions
+  Para mantener la calidad y legibilidad del código, el equipo adoptó una guía de estilo basada en las siguientes convenciones:
+  
+  - Lenguaje principal: HTML, CSS
+  
+  - Formato: Estándares de Prettier con ajustes personalizados en .prettierrc
+  
+  - Nombres de variables: camelCase para variables y funciones, PascalCase para componentes
+  
+  - Comentarios: Se fomenta el uso de comentarios claros en bloques complejos de código
+  
+  - Commits: Convención tipo: descripción, por ejemplo feat: crear componente de beneficios o fix: corregir validación del formulario
+
+ Estas convenciones se comunicaron desde el inicio y se reforzaron mediante revisiones de código en los pull requests.
+
   ### 5.1.4. Software Deployment Configuration
   Para el despliegue de ambos el landing page y la aplicacion web se utilizara Git, para mantener el control de versiones, la integracion continua y para mantener un workflow organizado en equipo para las futuras versiones gracias al uso de GitFlow.
 
@@ -1708,6 +1937,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
    </div>
 
    #### 5.2.1.2 Aspect Leaders and Collaborators
+
    <table>
     <tr>
       <th>Team member</th>
@@ -1745,7 +1975,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
       <td>L</td>
       <td>C</td>
     </tr>
-    tr>
+    <tr>
       <td>Vargas Javier, Jose Enrique</td>
       <td>KenRi7</td>
       <td>C</td>
@@ -1861,9 +2091,19 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 </table>
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
+ Durante el Sprint 1, se completaron todas las tareas planificadas del backlog, enfocadas en la creación de la landing page. Se redactaron los textos, se diseñaron secciones visuales (beneficios, testimonios y CTA), y se implementó el formulario de contacto con validaciones. Todo el avance quedó registrado en GitHub, donde se pueden verificar los commits, branches y pull requests correspondientes. Además, se presentó una demo del sitio durante el Sprint Review para validar funcionalidad y diseño.
+ 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+ En este sprint, la documentación se centró en describir la estructura y funcionalidad de la landing page. Se utilizaron archivos Markdown en el repositorio para documentar los componentes desarrollados, los flujos de interacción del formulario de contacto, y detalles técnicos como validaciones aplicadas. Esta documentación fue clave para alinear al equipo de cara a los próximos sprints donde se implementarán servicios backend.
+
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+ Se realizó el despliegue exitoso de la landing page mediante GitHub Pages. Esta versión incluye todo lo trabajado en el sprint: sección de beneficios, testimonios, formulario de contacto y botones de llamada a la acción. El enlace fue compartido durante la revisión para facilitar la validación del equipo y obtener retroalimentación directa. Esto permitió identificar pequeños ajustes visuales que serán considerados en el próximo sprint.
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+ El equipo trabajó de manera organizada y colaborativa, con una buena distribución de tareas según habilidades. Se mantuvo una comunicación fluida por Meet y Discord, y se usaron herramientas como GitHub y Trello para hacer seguimiento al progreso. Cada integrante asumió responsabilidades claras y también apoyó a otros cuando fue necesario. Destacó la actitud inclusiva y el liderazgo compartido, permitiendo avanzar de forma eficiente y cumplir los objetivos del sprint.
+
+
 
  ## 5.3. Validation Interviews
   ### 5.3.1. Diseño de Entrevistas
@@ -1875,3 +2115,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 # Conclusiones
  ## Conclusiones y recomendaciones
  ## Video About-the-Team
+
+# Bibliografía
+
+# Anexos 
