@@ -1540,7 +1540,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
       </tr>
       <tr>
         <td>Attendees</td>
-        <td> Yum Gonzales, Jorge Suin <br> Miranda Ayasta, Rogger Faryd <br> Alva Abanto, Luis Andres </td>
+        <td> Yum Gonzales, Jorge Suin <br> Miranda Ayasta, Rogger Faryd <br> Alva Abanto, Luis Andres <br> Vargas Javier, Jose Enrique</td>
       </tr>
       <tr>
         <td>Sprint n-1 Review Summary</td>
