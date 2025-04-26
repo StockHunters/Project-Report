@@ -953,6 +953,13 @@ directa durante la primera semana.
 
 # Capítulo III: Requeriments Specification
  ## 3.1. To-Be Scenario Mapping
+ #### 📝 Administradores:
+ ![alt text](<resources/To be scenario administradores.jpg>)
+
+ #### 📝 Clientes:
+ 
+ ![alt text](<resources/To be scenario clientes.jpg>)
+
  ## 3.2. User Stories
  |Epic  / User Story ID|Título|Descripción|Criterios de Aceptación |Relacionado con (Epic ID)|
 | :- | :- | :- | :- | :- |
@@ -971,6 +978,8 @@ directa durante la primera semana.
 
 
  ## 3.3. Impact Mapping
+
+
  ## 3.4. Product Backlog
 
 
@@ -1017,8 +1026,6 @@ directa durante la primera semana.
   Para los administradores se tendra una sección de producto en Stock, que sera actualizado en tiempo real y mostrara en un cuadro la cantidad exacta del producto que hay disponible ese dia. Además, hay una sección de registro de compras, en donde, se ingresara la información (Producto, cantidad vendida, cliente, fecha y una verificación de seguridad) para realizar un historial de ventas, que mostrara todas las ventas realizadas al mes. Finalmente, se mostraran alertas de productos que se agoten y una sección de reportes donde se informara, con graficas, de qué tan popular es un producto y cuanto se vendio del mismo.
 
   ### 4.2.3. SEO Tags and Meta Tags
-
-
   ### 4.2.4. Searching Systems
 
   Para encontrar ciertas funcionalidades de nuestra aplicación, usamos varios botones y empleamos varios indicadores visuales para que el usuario sepa donde encontrar lo que necesita. A continuación se muestra los ejemplos de los tipos de busqueda que usaremos:
