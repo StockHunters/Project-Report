@@ -53,6 +53,15 @@ Abril del 2025 🗓️
     <td>TB1</td>
     <td>2025-04-20</td>
     <td> <ul> <li>Jorge Suin Yum Gonzales</li> </ul></td>
+    <td> Se han incluído los siguientes capítulos:
+        <ul>
+          <li>Capítulo I: Introducción</li>
+          <li>Capítulo II: Requirements Elicitation & Analysis</li>
+          <li>Capítulo III: Requirements Specification</li>
+          <li>Capítulo IV: Product Design</li>
+          <li>Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+        </ul></td>
   </tr>
 </table>
 
@@ -100,11 +109,19 @@ Abril del 2025 🗓️
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
+        - [📝 Administradores:](#-administradores)
+      - [📝 Clientes:](#-clientes)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+        - [📝 Administradores:](#-administradores-1)
+      - [📝 Clientes:](#-clientes-1)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+        - [📝 Administradores:](#-administradores-2)
+      - [📝 Clientes:](#-clientes-2)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+      - [📝 Administradores:](#-administradores-3)
+      - [📝 Clientes:](#-clientes-3)
+  - [2.4. Ubiquitous Language:](#24-ubiquitous-language)
 - [Capítulo III: Requeriments Specification](#capítulo-iii-requeriments-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
@@ -116,6 +133,11 @@ Abril del 2025 🗓️
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
   - [4.2. Information Architecture](#42-information-architecture)
     - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.1.1. Visual Herarchy](#4211-visual-herarchy)
+    - [4.2.1.2. Step by Step to acomplish](#4212-step-by-step-to-acomplish)
+      - [User Goal](#user-goal)
+      - [User Flow](#user-flow)
+      - [Wireflow](#wireflow)
     - [4.2.2. Labeling Systems](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4. Searching Systems](#424-searching-systems)
