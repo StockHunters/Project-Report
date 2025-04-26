@@ -42,6 +42,20 @@ Abril del 2025 🗓️
 
 ## Registro de versiones del Informe
 
+<table>
+  <tr>
+    <th>Version</th>
+    <th>Fecha</th>
+    <th>Autor</th>
+    <th>Descripción de modificación </th>
+  </tr>
+  <tr>
+    <td>TB1</td>
+    <td>2025-04-20</td>
+    <td> <ul> <li>Jorge Suin Yum Gonzales</li> </ul></td>
+  </tr>
+</table>
+
 ## Project Report Collaboration Insights
 
 <div>
@@ -96,7 +110,7 @@ Abril del 2025 🗓️
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Desing](#capítulo-iv-product-desing)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -118,10 +132,8 @@ Abril del 2025 🗓️
     - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
     - [4.6.2. Software Architecture Container Diagram](#462-software-architecture-container-diagram)
     - [4.6.3. Software Architecture Components Diagram](#463-software-architecture-components-diagram)
-  - [4.7. Software Object-Oriented Desing](#47-software-object-oriented-desing)
-    - [4.7.1. Class Diagram](#471-class-diagram)
     - [4.7.2. Class Dictionary](#472-class-dictionary)
-  - [4.8. Database Desing](#48-database-desing)
+  - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
@@ -131,6 +143,14 @@ Abril del 2025 🗓️
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Service \& Applications Implementation](#52-landing-page-service--applications-implementation)
     - [5.2.x. Sprints](#52x-sprints)
+    - [5.2.1 Sprint 1](#521-sprint-1)
+      - [5.2.1.1 Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2 Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3 Sprint 1 Backlog](#5213-sprint-1-backlog)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
