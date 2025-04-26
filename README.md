@@ -283,10 +283,10 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 
    <!--TODO: integrante 4 -->
 
-**> 🧑‍💻 Integrante 4**
+**> 🧑‍💻  Christofer William Costa Morales**
    <div align='center'>
 
-   <img src="link-img" alt="Costa Morales, Christofer William" width="100" align='right'>
+   <img src="resources/Christofer Costa.jpg" alt="Christofer William Costa Morales" width="100" align='right'>
 
    ~~~txt
    Soy estudiante de la carrera de ingenieria de software de la UPC.
@@ -885,7 +885,7 @@ directa durante la primera semana.
    </a>
    </td>
    <td align='center'>
-   <a href="" target='_blank'>
+   <a href="https://youtu.be/nJlLy_sWxCM" target='_blank'>
     <img src="resources/Interview-3.png" alt="Tercera entrevista del primer segmento objetivo">
    </a>
    </td>
@@ -904,8 +904,10 @@ directa durante la primera semana.
    Cree que una aplicación web para consultar inventario desde cualquier dispositivo le ahorraría tiempo. Está dispuesta a pagar por una solución así, aunque le preocupa la curva de aprendizaje al cambiar de sistema.</p>
    </td>
       <td>
-    <b>📝Entrevistador:</b> name <br>
-    <b>🗣️Entrevistado:</b> name
+    <b>📝Entrevistador:</b> Christofer William Costa Morales <br>
+    <b>🗣️Entrevistado:</b> Maria Morales Mendez
+     <p>Maria Morales es dueña de una empresa que vende productos naturales o bajo en químicos. Usa Excel y un sistema llamado Bsale para gestionar inventario, ventas y seguimiento de clientes. Con esta información mapean de manera manual a los clientes más frecuentes y les envian ofertas o promociones. Dedica unas 2 horas diarias a generar un registro del inventario manualmente y otras 2 para el registro de sus ventas. Sus principales dificultades está en tener que mantener el control de inventario de manera manual e ingresar esos datos indivualmente en un excel, de manera diaria y, luego, debe de actualizar esos datos en sus redes sociales y sitio web. Ella le resulta importante el monitoreo del inventario en tiempo real, ya que este le ayudaria a ahorrarse tiempo y le permitiria estar más libre para hacer otras actividades. Tambien, le interesa mucho la automatización de los reportes y que estos los muestren en gráficos para poder saber qué productos deberia invertir más o dejar de lado para evitar costos innecesarios.
+     </p>
    </td>
    </tr>
    </table>
@@ -1072,6 +1074,13 @@ directa durante la primera semana.
 
 # Capítulo III: Requeriments Specification
  ## 3.1. To-Be Scenario Mapping
+ #### 📝 Administradores:
+ ![alt text](<resources/To be scenario administradores.jpg>)
+
+ #### 📝 Clientes:
+ 
+ ![alt text](<resources/To be scenario clientes.jpg>)
+
  ## 3.2. User Stories
  |Epic  / User Story ID|Título|Descripción|Criterios de Aceptación |Relacionado con (Epic ID)|
 | :- | :- | :- | :- | :- |
@@ -1101,6 +1110,10 @@ directa durante la primera semana.
 | EP06    | Página web y captación de usuarios       | Como visitante, quiero entender los beneficios, leer experiencias reales y contactar fácilmente para decidir si la plataforma es adecuada para mí. |
 
  ## 3.3. Impact Mapping
+
+ ![alt text](<resources/Impact Mapping.png>)
+
+
  ## 3.4. Product Backlog
  | # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
  |--------:|:--------------|:----------------------------|:------------------------------------------------------------------------|:-----------------------------|
@@ -1794,6 +1807,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
 | Yum Gonzales, Jorge Suin   | jsyumg, myussu  |
 |  Miranda Ayasta, Rogger Faryd | r0ggdev |
 |  Alva Abanto, Luis Andres | luisalvaabanto |
+| Costa Morales Christofer William| miniChorri|
 
   
   *URL de repositorio de Landing Page:* https://github.com/st0ckhunters/landingPage.git
