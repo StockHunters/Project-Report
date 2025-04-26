@@ -1182,8 +1182,12 @@ El logotipo se ubica en la esquina superior izquierda, mientras que la barra de 
  ## 4.2. Information Architecture
   ### 4.2.1. Organization Systems
   ### 4.2.1.1. Visual Herarchy
-   1. Encabezado principal: En este tendremos el tendremos las principales funciones que nuestro aplicativo ofrece y ayuda a los usuarios a navegar por sus funcionalidades.
-   2. Selección de productos: ocupa un lugar en donde el usuario tendra que decidir que hacer con el producto que escoja, ya sea comprarlo, en el caso de los cliente, o venderlo, en caso de los administradores.
+  Para esta sección usaremos la jerarquia visual, lo cual nos ayuda a dar un orden de importancia para las funcionalidades que se muestran en la pantalla . para ello lo utilizaremos en las siguientes partes del proyecto:
+   1. Log in y Sign in: en estas pantallas se deben de transmitir un orden y la importancia de las secciones que debe rellenar los usuarios para poder acceder a su cuenta de una manera rápida y sencilla.
+   2. Encabezado principal: En este debemos dar mayor importancia con colores que resalten o imagenes que sean llamativasm ya que, las principales funciones que nuestro aplicativo ofrece y ayuda a los usuarios a navegar por sus funcionalidades.
+   3. Selección de productos: ocupa un lugar en donde el usuario tendra que decidir que hacer con el producto que escoja, ya sea comprarlo, en el caso de los cliente, o venderlo, en caso de los administradores.
+
+
   ### 4.2.1.2. Step by Step to acomplish
 
   Este enfoque lo implementaremos, ya que nuestro apicativo necesita una secuencia clara y sencilla de comprender para que no haya errores en las compras o ventas de nuestro usuarios.
@@ -1200,13 +1204,22 @@ El logotipo se ubica en la esquina superior izquierda, mientras que la barra de 
   #### Wireflow
 
   1.  Selecciona el producto
-  El usuario filtra de todos los productos que se encuentran disponibles para hallar el correcto
+  El usuario filtra de todos los productos que se encuentran disponibles para hallar el correcto.
   2. Verifica el precio y la marca del producto
-  Al producto ser uno que posee variaciones se le muestra las opciones disponibles y el precio de cada una
+  Al producto ser uno que posee variaciones se le muestra las opciones disponibles y el precio de cada una.
   3. Agrega el producto a su compra o venta
   El usuario, si es un cliente, realiza el pago con algún metodo de pago aceptado por la emprea, si es un administrador, registra la venta del producto con su descripción y la fecha de venta.
   4. Visualiza un reporte de lo que compro o vendió
-  El usuario, en caso del cliente, revisa su correo o whatsapp para ver la boleto u otro comprobante de pago, en el caso del administrador, se dirijira a una pantalla en donde le mostrara un registro del producto que vendio y una grafica de las ventas de dicho producto
+  El usuario, en caso del cliente, revisa su correo o whatsapp para ver la boleto u otro comprobante de pago, en el caso del administrador, se dirijira a una pantalla en donde le mostrara un registro del producto que vendio y una grafica de las ventas de dicho producto.
+  
+  ### 4.2.1.3. Esquemas de categorización:
+
+  Para esta parte mencionaremos las partes de nuestro proyecto dónde usaremos el esquema de categorización indicado:
+
+  1. Alfabético: Lo usaremos la busqueda de los productos y los filtros para estos, para que se puedan mostrar de una manera ordenada y que el usuario pueda modificarlo a su gusto.
+  2. Cronológico: Lo usaremos para los registros, los reportes y los graficos de las ventas de los productos, ya que los empresarios les importa mucho la información más reciente y actualizada para manejar mejor su negocio diariamente.
+  3. Por tópico: En este lo usaremos para las ofertas y promociones personalizadas, ya que cada cliente posee gustos y preferencias distintas y el empresario debe de saber cuales son, por ello que se mostraran los productos y marcas dependiendo de estos factores.
+  4. Según audiencia: Esto seria al iniciar sesión y en la pantalla de inicio, ya que dependera de quién es el que esta ingresando al aplicativo. Si es un cliente, se mostraran ofertas y se le ayudara para escoger productos y realizar pagos. Si es un empresario, se mostraran el Stock de los productos y las opciones de registro, gráficos y de reportes de las ventas de los productos.
 
   ### 4.2.2. Labeling Systems
 
