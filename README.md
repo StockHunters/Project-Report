@@ -2124,8 +2124,21 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
 
 # Conclusiones
  ## Conclusiones y recomendaciones
+ Este primer sprint nos permitió dar los primeros pasos importantes en el desarrollo de nuestra aplicación. A través de una buena planificación y trabajo en equipo, pudimos cumplir con las tareas que nos propusimos, como diseñar la landing page, avanzar en el prototipo en Figma, preparar las entrevistas y definir aspectos técnicos como el diagrama de clases y la configuración del entorno de desarrollo.
+
+El trabajo colaborativo fue clave para lograr estos avances. Nos organizamos bien, repartimos responsabilidades de manera equitativa y nos apoyamos entre todos cuando alguien lo necesitaba. Además, aprendimos a comunicarnos mejor, tanto de forma oral como escrita, dependiendo del tipo de información y del público al que iba dirigida.
+
+También empezamos a aplicar buenas prácticas de desarrollo, como el uso de GitHub, el manejo de versiones y la documentación del proyecto. Aunque aún hay cosas por mejorar, este primer sprint nos ayudó a conocernos mejor como equipo y a sentar una base sólida para los próximos pasos del proyecto.
  ## Video About-the-Team
 
 # Bibliografía
 
 # Anexos 
+
+**Link de las entrevistas**
+https://youtu.be/mwxyupflToU
+https://youtu.be/9L7HESPibVA
+https://youtu.be/nJlLy_sWxCM
+https://www.youtube.com/watch?v=barIe2mUUn8
+https://youtu.be/3iKexM4Z7i8
+https://youtu.be/2Nb_TZGTgGc
