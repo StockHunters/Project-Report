@@ -833,7 +833,7 @@ directa durante la primera semana.
    </a>
    </td>
    <td align='center'>
-   <a href="" target='_blank'>
+   <a href="https://youtu.be/nJlLy_sWxCM" target='_blank'>
     <img src="resources/Interview-3.png" alt="Tercera entrevista del primer segmento objetivo">
    </a>
    </td>
@@ -852,8 +852,10 @@ directa durante la primera semana.
    Cree que una aplicación web para consultar inventario desde cualquier dispositivo le ahorraría tiempo. Está dispuesta a pagar por una solución así, aunque le preocupa la curva de aprendizaje al cambiar de sistema.</p>
    </td>
       <td>
-    <b>📝Entrevistador:</b> name <br>
-    <b>🗣️Entrevistado:</b> name
+    <b>📝Entrevistador:</b> Christofer William Costa Morales <br>
+    <b>🗣️Entrevistado:</b> Maria Morales Mendez
+     <p>Maria Morales es dueña de una empresa que vende productos naturales o bajo en químicos. Usa Excel y un sistema llamado Bsale para gestionar inventario, ventas y seguimiento de clientes. Con esta información mapean de manera manual a los clientes más frecuentes y les envian ofertas o promociones. Dedica unas 2 horas diarias a generar un registro del inventario manualmente y otras 2 para el registro de sus ventas. Sus principales dificultades está en tener que mantener el control de inventario de manera manual e ingresar esos datos indivualmente en un excel, de manera diaria y, luego, debe de actualizar esos datos en sus redes sociales y sitio web. Ella le resulta importante el monitoreo del inventario en tiempo real, ya que este le ayudaria a ahorrarse tiempo y le permitiria estar más libre para hacer otras actividades. Tambien, le interesa mucho la automatización de los reportes y que estos los muestren en gráficos para poder saber qué productos deberia invertir más o dejar de lado para evitar costos innecesarios.
+     </p>
    </td>
    </tr>
    </table>
