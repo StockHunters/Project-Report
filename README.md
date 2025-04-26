@@ -629,7 +629,7 @@ directa durante la primera semana.
   </tr>
   <tr>
       <th>Descripción</th>
-      <td>Clientes finales que compran productos o servicios de los negocios registrados. Sus datos son almacenados para seguimiento, historial, promociones o fidelización. Ahora, también pueden consultar disponibilidad y precios de productos a través de WhatsApp o una página web con catálogo actualizado, sin depender de atención directa del personal.</td>
+      <td>Clientes finales que compran productos o servicios de los negocios registrados. Sus datos son almacenados para seguimiento, historial, promociones o fidelización. También pueden consultar disponibilidad y precios de productos a través de WhatsApp o una página web con catálogo actualizado, sin depender de atención directa del personal.</td>
     </tr>
     <tr>
       <th>Edad</th>
