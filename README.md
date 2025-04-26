@@ -52,7 +52,7 @@ Abril del 2025 🗓️
   <tr>
     <td>TB1</td>
     <td>2025-04-20</td>
-    <td> <ul> <li>Jorge Suin Yum Gonzales</li> <li>Luis Andres Alva Abanto</li> </ul></td>
+    <td> <ul> <li>Jorge Suin Yum Gonzales</li> <li>Luis Andres Alva Abanto</li> <li> Rogger Faryd Miranda Ayasta </li></ul></td>
     <td> Se han incluído los siguientes capítulos:
         <ul>
           <li>Capítulo I: Introducción</li>
@@ -63,6 +63,8 @@ Abril del 2025 🗓️
           <li>Avance de Conclusiones, Bibliografía y Anexos</li>
         </ul></td>
   </tr>
+  
+  
 </table>
 
 ## Project Report Collaboration Insights
@@ -191,8 +193,9 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 
 | Criterio | Acciones realizadas | Conclusiones|
 |---------|--------------------|------------|
-|Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web. <br> **Luis Alva:**<br> **TB1:** <br> A través de las entrevistas realizadas a personas representativas de nuestros segmentos objetivo pudimos recolectar información valiosa para definir los requerimientos de nuestro proyecto, y diseñar pilares clave como la arquitectura de software a través de Domain Driven Design. |------------|
+|Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web. <br> **Luis Alva:**<br> **TB1:** <br> A través de las entrevistas realizadas a personas representativas de nuestros segmentos objetivo pudimos recolectar información valiosa para definir los requerimientos de nuestro proyecto, y diseñar pilares clave como la arquitectura de software a través de Domain Driven Design. <br> **Rogger Faryd**<br>**TB1:** <br> Trabajando en equipo de manera colaborativa y con un ambiente inclusivo, pudimos organizarnos bien, repartir tareas y asumir distintos roles de liderazgo según lo necesitábamos. Gracias a eso, avanzamos en el diseño en Figma, hicimos la landing page, preparamos las preguntas para las entrevistas y armamos el diagrama de clases, cumpliendo con lo que nos propusimos.|------------|
 |Comunica por escrito con efectividad a diferentes rangos de audiencia.| **Jorge Yum**: <br> **TB1:** <br> En esta primera entrega, se elaboró la descripción de la startup, se analizó detalladamente el contexto, los antecedentes y la problemática principal, se aplicó el proceso de Lean UX para definir hipótesis y validarlas, se realizó un análisis competitivo para identificar oportunidades de diferenciación, y se definieron los segmentos objetivos del mercado con sustento estadístico. **Luis Alva:**<br> **TB1:** <br> Se diseñaron una cantidad de preguntas acorde a nuestras necesidades para hacer en las entrevistas, las cuales representan el sustento de muchas de las decisiones de diseño en nuestro proyecto. Nos ayudó aplicar el modelo Lean UX tanto como para definir la problemática como para procesar la información obtenida acerca de los usuarios. |------------|
+
 
 </div>
 
@@ -202,8 +205,6 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
-
-
 
 ### 1.1.1. Descripción de la Startup
   
@@ -241,7 +242,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 **> 🧑‍💻 Rogger Faryd Miranda Ayasta**
    <div align='center'>
 
-   <img src="" alt="Rogger Faryd Miranda Ayasta" width="100" align='right'>
+   <img src="https://files.catbox.moe/uo7qnb.webp" alt="Rogger Faryd Miranda Ayasta" width="100" align='right'>
 
    ~~~txt
    🎓 Soy estudiante de Ingeniería de Software, 
@@ -285,7 +286,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 **> 🧑‍💻 Integrante 4**
    <div align='center'>
 
-   <img src="link-img" alt="name" width="100" align='right'>
+   <img src="link-img" alt="Costa Morales, Christofer William" width="100" align='right'>
 
    ~~~txt
    Soy estudiante de la carrera de ingenieria de software de la UPC.
@@ -315,7 +316,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
    💻 En todo este camino me he formado en lenguajes de programacion, tales como:
 
     ➡️ C++
-       ➡️ Python
+    ➡️ Python
     ➡️ SQL
 
    🎉 Mi habilidad competitiva es comprometerme 
@@ -864,7 +865,7 @@ directa durante la primera semana.
    
    ### 2.2.2. Registro de entrevistas
 
-   **1️⃣ Primer Segmento Objetivo**
+   **1️⃣ Primer Segmento Objetivo: Administradores de negocios con inventario físico**
    <table style="width:100%" align='center'>
    <tr>
    <th>📌Dueño de compania de productos de lubricantes de motores</th>
@@ -909,7 +910,7 @@ directa durante la primera semana.
    </tr>
    </table>
 
-   **2️⃣ Segundo Segmento Objetivo**
+   **2️⃣ Segundo Segmento Objetivo: Compradores o clientes registrados**
 
    <table style="width:100%" align='center'>
    <tr>
@@ -1600,6 +1601,111 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 
   ## 4.7. Software Object-Oriented Design
   ### 4.7.1. Class Diagram
+  ~~~mermaid
+  classDiagram
+    %% ========= DOMAIN =========
+    %% Entidades
+    class Producto {
+        +UUID id
+        +string nombre
+        +Descripcion descripcion
+        +CantidadStock stock
+        +Precio precio
+        +Categoria categoria
+        +actualizarStock(CantidadStock cantidad)
+    }
+
+    class Categoria {
+        +UUID id
+        +string nombre
+        +string descripcion
+    }
+
+    %% Value Objects
+    class Descripcion {
+        -string valor
+        +string obtenerValor()
+    }
+
+    class CantidadStock {
+        -int valor
+        +int obtenerValor()
+        +esMayorQue(CantidadStock): bool
+        +sumar(CantidadStock): CantidadStock
+        +restar(CantidadStock): CantidadStock
+    }
+
+    class Precio {
+        -float valor
+        +float obtenerValor()
+        +conDescuento(float porcentaje): Precio
+    }
+
+    %% Agregado
+    class Inventario {
+        +UUID id
+        +List~Producto~ productos
+        +agregarProducto(Producto p)
+        +removerProducto(UUID id)
+        +buscarProducto(UUID id): Producto
+        +actualizarStock(UUID productoId, CantidadStock nuevaCantidad)
+    }
+
+    %% Repositorio (interfaz)
+    class IInventarioRepositorio {
+        +Inventario obtenerPorId(UUID id)
+        +void guardar(Inventario inventario)
+    }
+
+    %% Servicio de Dominio
+    class ServicioDeStock {
+        +void ajustarStock(UUID productoId, CantidadStock cantidad)
+    }
+
+    %% ========= APPLICATION =========
+    class ServicioAplicacionInventario {
+        +DTOInventario obtenerInventario(UUID id)
+        +void agregarProducto(DTOProducto producto)
+        +void ajustarStock(UUID productoId, int cantidad)
+    }
+
+    class DTOProducto {
+        +UUID id
+        +string nombre
+        +string descripcion
+        +float precio
+        +string categoria
+        +int stock
+    }
+
+    class DTOInventario {
+        +UUID id
+        +List~DTOProducto~ productos
+    }
+
+    %% ========= INFRASTRUCTURE =========
+    class InventarioRepositorioSQL {
+        +Inventario obtenerPorId(UUID id)
+        +void guardar(Inventario inventario)
+    }
+
+    %% ========= RELACIONES =========
+    Producto --> Descripcion
+    Producto --> CantidadStock
+    Producto --> Precio
+    Producto --> Categoria
+    Inventario --> Producto
+    ServicioDeStock --> Inventario
+    ServicioDeStock --> IInventarioRepositorio
+
+    ServicioAplicacionInventario --> ServicioDeStock
+    ServicioAplicacionInventario --> IInventarioRepositorio
+    ServicioAplicacionInventario --> DTOProducto
+    ServicioAplicacionInventario --> DTOInventario
+
+    InventarioRepositorioSQL ..|> IInventarioRepositorio
+
+  ~~~
 
   ### 4.7.2. Class Dictionary
 
@@ -1625,7 +1731,27 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 
 # Capítulo V: Product Implementation, Validation & Deployment
  ## 5.1. Software Configuration Management
+ Durante el desarrollo del proyecto se implementó una gestión de configuración de software básica pero funcional, utilizando herramientas estándar para el control de versiones, documentación y colaboración en equipo. Esto aseguró que el código fuente se mantuviera organizado, accesible y sincronizado entre todos los miembros del equipo, facilitando la integración continua de cambios.
+
   ### 5.1.1. Software Development Environment Configuration
+  Para el entorno de desarrollo, cada miembro del equipo configuró su máquina con las siguientes herramientas:
+  
+  - Editor de código: Visual Studio Code
+   
+  - Control de versiones: Git
+   
+  - Repositorio remoto: GitHub
+   
+  - Framework web: Astro
+   
+  - Estilizado: CSS
+   
+  - Gestor de paquetes: npm
+
+  - Despliegue: GitHub Pages para la landing page
+
+Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, Prettier y GitLens, para asegurar una experiencia de desarrollo coherente y productiva entre los miembros.
+
   ### 5.1.2. Source Code Management
   Usuarios de github:
 |  Integrantes |Usuarios de github   | 
@@ -1637,7 +1763,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
   
   *URL de repositorio de Landing Page:* https://github.com/st0ckhunters/landingPage.git
   *URL de repositorio de Web Services:* 
-  *URL de repositorio de FrontEnd Aplication:*
+  *URL de repositorio de FrontEnd Aplication:* 
 
   Para el desarrollo de cada repositorio se usara GitFlow como estrategia de versionado, el cual consiste en crear ramas para cada funcionalidad o bug que se desee implementar para mantener un trabajo organizado. Las ramas principales seran main, develop, feature, release y hotfix. A continuacion se describen cada una de estas ramas:
 
@@ -1653,6 +1779,20 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 
   
   ### 5.1.3. Source Code Style Guide & Conventions
+  Para mantener la calidad y legibilidad del código, el equipo adoptó una guía de estilo basada en las siguientes convenciones:
+  
+  - Lenguaje principal: HTML, CSS
+  
+  - Formato: Estándares de Prettier con ajustes personalizados en .prettierrc
+  
+  - Nombres de variables: camelCase para variables y funciones, PascalCase para componentes
+  
+  - Comentarios: Se fomenta el uso de comentarios claros en bloques complejos de código
+  
+  - Commits: Convención tipo: descripción, por ejemplo feat: crear componente de beneficios o fix: corregir validación del formulario
+
+ Estas convenciones se comunicaron desde el inicio y se reforzaron mediante revisiones de código en los pull requests.
+
   ### 5.1.4. Software Deployment Configuration
   Para el despliegue de ambos el landing page y la aplicacion web se utilizara Git, para mantener el control de versiones, la integracion continua y para mantener un workflow organizado en equipo para las futuras versiones gracias al uso de GitFlow.
 
@@ -1902,9 +2042,19 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 </table>
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
+ Durante el Sprint 1, se completaron todas las tareas planificadas del backlog, enfocadas en la creación de la landing page. Se redactaron los textos, se diseñaron secciones visuales (beneficios, testimonios y CTA), y se implementó el formulario de contacto con validaciones. Todo el avance quedó registrado en GitHub, donde se pueden verificar los commits, branches y pull requests correspondientes. Además, se presentó una demo del sitio durante el Sprint Review para validar funcionalidad y diseño.
+ 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+ En este sprint, la documentación se centró en describir la estructura y funcionalidad de la landing page. Se utilizaron archivos Markdown en el repositorio para documentar los componentes desarrollados, los flujos de interacción del formulario de contacto, y detalles técnicos como validaciones aplicadas. Esta documentación fue clave para alinear al equipo de cara a los próximos sprints donde se implementarán servicios backend.
+
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+ Se realizó el despliegue exitoso de la landing page mediante GitHub Pages. Esta versión incluye todo lo trabajado en el sprint: sección de beneficios, testimonios, formulario de contacto y botones de llamada a la acción. El enlace fue compartido durante la revisión para facilitar la validación del equipo y obtener retroalimentación directa. Esto permitió identificar pequeños ajustes visuales que serán considerados en el próximo sprint.
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+ El equipo trabajó de manera organizada y colaborativa, con una buena distribución de tareas según habilidades. Se mantuvo una comunicación fluida por Meet y Discord, y se usaron herramientas como GitHub y Trello para hacer seguimiento al progreso. Cada integrante asumió responsabilidades claras y también apoyó a otros cuando fue necesario. Destacó la actitud inclusiva y el liderazgo compartido, permitiendo avanzar de forma eficiente y cumplir los objetivos del sprint.
+
+
 
  ## 5.3. Validation Interviews
   ### 5.3.1. Diseño de Entrevistas
