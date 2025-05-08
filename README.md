@@ -52,7 +52,7 @@ Abril del 2025 🗓️
   <tr>
     <td>TB1</td>
     <td>2025-04-20</td>
-    <td> <ul> <li>Jorge Suin Yum Gonzales</li> <li>Luis Andres Alva Abanto</li> <li> Rogger Faryd Miranda Ayasta </li><li>Christofer William Costa Morales</li></ul></td>
+    <td> <ul> <li>Jorge Suin Yum Gonzales</li> <li>Luis Andres Alva Abanto</li> <li> Rogger Faryd Miranda Ayasta </li><li>Christofer William Costa Morales</li><li>Jose Enrique Vargas Javier</li></ul></td>
     <td> Se han incluído los siguientes capítulos:
         <ul>
           <li>Capítulo I: Introducción</li>
@@ -213,8 +213,8 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 
 | Criterio | Acciones realizadas | Conclusiones|
 |---------|--------------------|------------|
-|Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web. <br> **Luis Alva:**<br> **TB1:** <br> A través de las entrevistas realizadas a personas representativas de nuestros segmentos objetivo pudimos recolectar información valiosa para definir los requerimientos de nuestro proyecto, y diseñar pilares clave como la arquitectura de software a través de Domain Driven Design. <br> **Rogger Faryd**<br>**TB1:** <br> Durante el trabajo en equipo, mantuvimos una comunicación oral constante y clara, lo que nos permitió organizarnos, repartir tareas y asumir distintos roles de liderazgo según lo necesitábamos. Gracias a eso, avanzamos en el diseño en Figma, hicimos la landing page, preparamos las preguntas para las entrevistas y armamos el diagrama de clases, cumpliendo con lo que nos propusimos.<br> **Christofer William**<br>**TB1:** <br>Para esta entrega, realice fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Todo lo anterior, se pudo lograr gracias a la comunicación que tuvimos con los posibles clientes y cómo les explicamos nuestro proyecto para poder sacar la información necesaria, para satisfacer sus necesidades y preferencias.|------------|
-|Comunica por escrito con efectividad a diferentes rangos de audiencia.| **Jorge Yum**: <br> **TB1:** <br> En esta primera entrega, se elaboró la descripción de la startup, se analizó detalladamente el contexto, los antecedentes y la problemática principal, se aplicó el proceso de Lean UX para definir hipótesis y validarlas, se realizó un análisis competitivo para identificar oportunidades de diferenciación, y se definieron los segmentos objetivos del mercado con sustento estadístico. <br>**Luis Alva:**<br> **TB1:** <br> Se diseñaron una cantidad de preguntas acorde a nuestras necesidades para hacer en las entrevistas, las cuales representan el sustento de muchas de las decisiones de diseño en nuestro proyecto. Nos ayudó aplicar el modelo Lean UX tanto como para definir la problemática como para procesar la información obtenida acerca de los usuarios. <br>**Rogger Faryd**<br>**TB1:** <br> A lo largo del sprint, nos enfocamos en comunicarnos por escrito de forma clara y efectiva. Desde la redacción de contenido para la landing page hasta la elaboración de documentación técnica y preguntas de entrevistas, adaptamos el estilo según el público: más directo y persuasivo para los usuarios, y más estructurado y técnico para el equipo de desarrollo. Esto nos ayudó a mantener alineado al equipo y a transmitir el valor de nuestra plataforma a diferentes audiencias.<br>**Christofer William**<br>**TB1:** <br> Las acciones que realice fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Durante toda la elaboración del trabajo, todo lo que escribimos, mostramos y estructurado, debe de poder ser entendidos por personas de cualquier condición o discapacidad. Con esto, podemos transmitir nuestro projecto a una mayor base de personas que requieran nuestro apoyo y nos puedan ayudar con mejor feedback.|------------|
+|Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web. <br> **Luis Alva:**<br> **TB1:** <br> A través de las entrevistas realizadas a personas representativas de nuestros segmentos objetivo pudimos recolectar información valiosa para definir los requerimientos de nuestro proyecto, y diseñar pilares clave como la arquitectura de software a través de Domain Driven Design. <br> **Rogger Faryd**<br>**TB1:** <br> Durante el trabajo en equipo, mantuvimos una comunicación oral constante y clara, lo que nos permitió organizarnos, repartir tareas y asumir distintos roles de liderazgo según lo necesitábamos. Gracias a eso, avanzamos en el diseño en Figma, hicimos la landing page, preparamos las preguntas para las entrevistas y armamos el diagrama de clases, cumpliendo con lo que nos propusimos.<br> **Christofer William**<br>**TB1:** <br>Para esta entrega, realice fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Todo lo anterior, se pudo lograr gracias a la comunicación que tuvimos con los posibles clientes y cómo les explicamos nuestro proyecto para poder sacar la información necesaria, para satisfacer sus necesidades y preferencias.<br> **Jose Enrique Vargas**<br>**TB1:** <br> Durante esta primera etapa, participé activamente en el diseño de la página web mediante Figma, contribuyendo en la elaboración de pantallas clave para la aplicación. Además, mantuve una comunicación constante con el equipo para coordinar avances y asegurar la coherencia del proyecto.|------------|
+|Comunica por escrito con efectividad a diferentes rangos de audiencia.| **Jorge Yum**: <br> **TB1:** <br> En esta primera entrega, se elaboró la descripción de la startup, se analizó detalladamente el contexto, los antecedentes y la problemática principal, se aplicó el proceso de Lean UX para definir hipótesis y validarlas, se realizó un análisis competitivo para identificar oportunidades de diferenciación, y se definieron los segmentos objetivos del mercado con sustento estadístico. <br>**Luis Alva:**<br> **TB1:** <br> Se diseñaron una cantidad de preguntas acorde a nuestras necesidades para hacer en las entrevistas, las cuales representan el sustento de muchas de las decisiones de diseño en nuestro proyecto. Nos ayudó aplicar el modelo Lean UX tanto como para definir la problemática como para procesar la información obtenida acerca de los usuarios. <br>**Rogger Faryd**<br>**TB1:** <br> A lo largo del sprint, nos enfocamos en comunicarnos por escrito de forma clara y efectiva. Desde la redacción de contenido para la landing page hasta la elaboración de documentación técnica y preguntas de entrevistas, adaptamos el estilo según el público: más directo y persuasivo para los usuarios, y más estructurado y técnico para el equipo de desarrollo. Esto nos ayudó a mantener alineado al equipo y a transmitir el valor de nuestra plataforma a diferentes audiencias.<br>**Christofer William**<br>**TB1:** <br> Las acciones que realice fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Durante toda la elaboración del trabajo, todo lo que escribimos, mostramos y estructurado, debe de poder ser entendidos por personas de cualquier condición o discapacidad. Con esto, podemos transmitir nuestro projecto a una mayor base de personas que requieran nuestro apoyo y nos puedan ayudar con mejor feedback. <br>**Jose Enrique**<br>**TB1:** <br> En esta primera entrega, se trabajó en la elaboración de los general style guidelines y web style guidelines para asegurar una identidad visual consistente en la aplicación. Además, se desarrolló los wireframes y mockups de la landing page y de la aplicación web, así como diagramas de flujo de usuario (user flow diagrams) y prototipos interactivos en Figma. Estos avances permitieron consolidar una base visual y estructural sólida para el diseño y desarrollo posterior del proyecto.|------------|
 
 
 </div>
@@ -326,7 +326,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 **> 🧑‍💻 Jose Enrique Vargas Javier**
    <div align='center'>
 
-   <img src="link-img" alt="Jose Enrique Vargas Javier" width="100" align='right'>
+   <img src="resources/ev.PNG" alt="Jose Enrique Vargas Javier" width="100" align='right'>
 
    ~~~txt
    👾 Soy estudiante de Ingeniería de Software 
@@ -704,7 +704,7 @@ directa durante la primera semana.
     <td valign="top">Microsoft Excel</td>
   </tr>
   <tr>
-    <td valign="top"><img src="/resources/lubrimax.png" alt="Logo Mi Startup" height="100px"></td>
+    <td valign="top"><img src="resources/lubrimax.png" alt="Logo Mi Startup" height="100px"></td>
     <td valign="top"><img src="https://yt3.googleusercontent.com/kH5MizoIzldC54QkNt1zNehJxroIU4D71l9gQRroMPr04WToKg1BfQbigz-_Ki5ZUDgdpmckzmk=s160-c-k-c0x00ffffff-no-rj" alt="Logo Bsale" height="100px"></td>
     <td valign="top"><img src="https://yt3.googleusercontent.com/bly9PPL4rYGzO7BdSc32EBQOScwskQ-pXmIw7y64dvTp5hog-AJ3n7b-GgcRVAaovXPH_8NARA=s900-c-k-c0x00ffffff-no-rj" alt="Logo Defontana" height="100px"></td>
     <td valign="top"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" alt="Logo Excel" height="100px"></td>
@@ -1202,12 +1202,8 @@ El logotipo se ubica en la esquina superior izquierda, mientras que la barra de 
  ## 4.2. Information Architecture
   ### 4.2.1. Organization Systems
   ### 4.2.1.1. Visual Herarchy
-  Para esta sección usaremos la jerarquia visual, lo cual nos ayuda a dar un orden de importancia para las funcionalidades que se muestran en la pantalla . para ello lo utilizaremos en las siguientes partes del proyecto:
-   1. Log in y Sign in: en estas pantallas se deben de transmitir un orden y la importancia de las secciones que debe rellenar los usuarios para poder acceder a su cuenta de una manera rápida y sencilla.
-   2. Encabezado principal: En este debemos dar mayor importancia con colores que resalten o imagenes que sean llamativasm ya que, las principales funciones que nuestro aplicativo ofrece y ayuda a los usuarios a navegar por sus funcionalidades.
-   3. Selección de productos: ocupa un lugar en donde el usuario tendra que decidir que hacer con el producto que escoja, ya sea comprarlo, en el caso de los cliente, o venderlo, en caso de los administradores.
-
-
+   1. Encabezado principal: En este tendremos el tendremos las principales funciones que nuestro aplicativo ofrece y ayuda a los usuarios a navegar por sus funcionalidades.
+   2. Selección de productos: ocupa un lugar en donde el usuario tendra que decidir que hacer con el producto que escoja, ya sea comprarlo, en el caso de los cliente, o venderlo, en caso de los administradores.
   ### 4.2.1.2. Step by Step to acomplish
 
   Este enfoque lo implementaremos, ya que nuestro apicativo necesita una secuencia clara y sencilla de comprender para que no haya errores en las compras o ventas de nuestro usuarios.
@@ -1224,22 +1220,13 @@ El logotipo se ubica en la esquina superior izquierda, mientras que la barra de 
   #### Wireflow
 
   1.  Selecciona el producto
-  El usuario filtra de todos los productos que se encuentran disponibles para hallar el correcto.
+  El usuario filtra de todos los productos que se encuentran disponibles para hallar el correcto
   2. Verifica el precio y la marca del producto
-  Al producto ser uno que posee variaciones se le muestra las opciones disponibles y el precio de cada una.
+  Al producto ser uno que posee variaciones se le muestra las opciones disponibles y el precio de cada una
   3. Agrega el producto a su compra o venta
   El usuario, si es un cliente, realiza el pago con algún metodo de pago aceptado por la emprea, si es un administrador, registra la venta del producto con su descripción y la fecha de venta.
   4. Visualiza un reporte de lo que compro o vendió
-  El usuario, en caso del cliente, revisa su correo o whatsapp para ver la boleto u otro comprobante de pago, en el caso del administrador, se dirijira a una pantalla en donde le mostrara un registro del producto que vendio y una grafica de las ventas de dicho producto.
-  
-  ### 4.2.1.3. Esquemas de categorización:
-
-  Para esta parte mencionaremos las partes de nuestro proyecto dónde usaremos el esquema de categorización indicado:
-
-  1. Alfabético: Lo usaremos la busqueda de los productos y los filtros para estos, para que se puedan mostrar de una manera ordenada y que el usuario pueda modificarlo a su gusto.
-  2. Cronológico: Lo usaremos para los registros, los reportes y los graficos de las ventas de los productos, ya que los empresarios les importa mucho la información más reciente y actualizada para manejar mejor su negocio diariamente.
-  3. Por tópico: En este lo usaremos para las ofertas y promociones personalizadas, ya que cada cliente posee gustos y preferencias distintas y el empresario debe de saber cuales son, por ello que se mostraran los productos y marcas dependiendo de estos factores.
-  4. Según audiencia: Esto seria al iniciar sesión y en la pantalla de inicio, ya que dependera de quién es el que esta ingresando al aplicativo. Si es un cliente, se mostraran ofertas y se le ayudara para escoger productos y realizar pagos. Si es un empresario, se mostraran el Stock de los productos y las opciones de registro, gráficos y de reportes de las ventas de los productos.
+  El usuario, en caso del cliente, revisa su correo o whatsapp para ver la boleto u otro comprobante de pago, en el caso del administrador, se dirijira a una pantalla en donde le mostrara un registro del producto que vendio y una grafica de las ventas de dicho producto
 
   ### 4.2.2. Labeling Systems
 
@@ -1789,21 +1776,28 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
   ~~~
 
   ### 4.7.2. Class Dictionary
-
-  >[!CAUTION]
-  > Reemplazar esto es un ejemplo 
-
-  ~~~mermaid
-  ---
-  title: Bank example
-  ---
-  classDiagram
-      class Example
-      Example : +String owner
-      Example : +Bigdecimal balance
-      Example : +deposit(amount)
-      Example : +withdrawal(amount)
-  ~~~
+  <table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr><td><code>Producto</code></td><td>Entidad que representa un producto, con información como nombre, descripción, stock, precio y categoría.</td></tr>
+<tr><td><code>Categoria</code></td><td>Entidad que agrupa productos bajo un nombre y descripción específica.</td></tr>
+<tr><td><code>Descripcion</code></td><td>Value Object que encapsula la descripción de un producto.</td></tr>
+<tr><td><code>CantidadStock</code></td><td>Value Object que gestiona la cantidad de stock de un producto y sus operaciones.</td></tr>
+<tr><td><code>Precio</code></td><td>Value Object que representa el precio de un producto y permite aplicar descuentos.</td></tr>
+<tr><td><code>Inventario</code></td><td>Agregado que gestiona un conjunto de productos, permitiendo agregarlos, eliminarlos y actualizar su stock.</td></tr>
+<tr><td><code>IInventarioRepositorio</code></td><td>Interfaz que define las operaciones de persistencia para el Inventario.</td></tr>
+<tr><td><code>ServicioDeStock</code></td><td>Servicio de dominio que ajusta el stock de productos dentro del Inventario.</td></tr>
+<tr><td><code>ServicioAplicacionInventario</code></td><td>Servicio de aplicación que orquesta operaciones de alto nivel sobre el Inventario.</td></tr>
+<tr><td><code>DTOProducto</code></td><td>Data Transfer Object que representa la estructura de un producto para la capa de aplicación.</td></tr>
+<tr><td><code>DTOInventario</code></td><td>Data Transfer Object que representa un Inventario completo en la capa de aplicación.</td></tr>
+<tr><td><code>InventarioRepositorioSQL</code></td><td>Implementación concreta de repositorio usando SQL para persistir el Inventario.</td></tr>
+</tbody>
+</table>
 
  ## 4.8. Database Design
   ### 4.8.1. Database Diagram
@@ -1841,6 +1835,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
 |  Miranda Ayasta, Rogger Faryd | r0ggdev |
 |  Alva Abanto, Luis Andres | luisalvaabanto |
 | Costa Morales Christofer William| miniChorri|
+| Vargas Javier, Jose Enrique | KenRi7 |
 
   
   *URL de repositorio de Landing Page:* https://github.com/st0ckhunters/landingPage.git
@@ -2147,8 +2142,21 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
 
 # Conclusiones
  ## Conclusiones y recomendaciones
+ Este primer sprint nos permitió dar los primeros pasos importantes en el desarrollo de nuestra aplicación. A través de una buena planificación y trabajo en equipo, pudimos cumplir con las tareas que nos propusimos, como diseñar la landing page, avanzar en el prototipo en Figma, preparar las entrevistas y definir aspectos técnicos como el diagrama de clases y la configuración del entorno de desarrollo.
+
+El trabajo colaborativo fue clave para lograr estos avances. Nos organizamos bien, repartimos responsabilidades de manera equitativa y nos apoyamos entre todos cuando alguien lo necesitaba. Además, aprendimos a comunicarnos mejor, tanto de forma oral como escrita, dependiendo del tipo de información y del público al que iba dirigida.
+
+También empezamos a aplicar buenas prácticas de desarrollo, como el uso de GitHub, el manejo de versiones y la documentación del proyecto. Aunque aún hay cosas por mejorar, este primer sprint nos ayudó a conocernos mejor como equipo y a sentar una base sólida para los próximos pasos del proyecto.
  ## Video About-the-Team
 
 # Bibliografía
 
 # Anexos 
+
+**Link de las entrevistas**
+https://youtu.be/mwxyupflToU
+https://youtu.be/9L7HESPibVA
+https://youtu.be/nJlLy_sWxCM
+https://www.youtube.com/watch?v=barIe2mUUn8
+https://youtu.be/3iKexM4Z7i8
+https://youtu.be/2Nb_TZGTgGc
