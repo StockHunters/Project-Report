@@ -87,6 +87,7 @@ Abril del 2025 🗓️
 
 ## Project Report Collaboration Insights
 Enlace al trabajo de github: https://github.com/StockHunters/Project-Report.git
+A continuación se presentaran los commit realizados por los contribuidores para el avance del TB1:
 
 <div>
 
