@@ -86,6 +86,7 @@ Abril del 2025 🗓️
 </table>
 
 ## Project Report Collaboration Insights
+Enlace al trabajo de github: https://github.com/StockHunters/Project-Report.git
 
 <div>
 
