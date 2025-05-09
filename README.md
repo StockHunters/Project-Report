@@ -197,6 +197,15 @@ Abril del 2025 🗓️
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+  - [5.2.2 Sprint 2](#522-sprint-2)
+    - [5.2.2.1 Sprint Planning 2](#5221-sprint-planning-2)
+    - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+    - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+    - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+    - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+    - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+    - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
+    - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -2131,7 +2140,115 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
  El equipo trabajó de manera organizada y colaborativa, con una buena distribución de tareas según habilidades. Se mantuvo una comunicación fluida por Meet y Discord, y se usaron herramientas como GitHub y Trello para hacer seguimiento al progreso. Cada integrante asumió responsabilidades claras y también apoyó a otros cuando fue necesario. Destacó la actitud inclusiva y el liderazgo compartido, permitiendo avanzar de forma eficiente y cumplir los objetivos del sprint.
 
+## 5.2.2 Sprint 2
 
+### 5.2.2.1 Sprint Planning 2
+  A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 2. Se discution los objetivos, etapa de tiempo y tareas a realizar.
+  
+  <div>
+   <table>
+     <thead>
+       <tr>
+         <th>#️⃣ Número</th>
+         <th>Sprint 2</th>
+       </tr>
+       <tr>
+         <th colspan=2>Sprint Planning Background</th>
+       </tr>
+     </thead>
+     <tr align='center'>
+       <td> Date </td>
+       <td> 2025-05-01 </td>
+     </tr>
+     <tr>
+       <td>Time</td>
+       <td> 10:00PM - 11:00PM </td>
+     </tr>
+     <tr>
+       <td>Location</td>
+       <td> Presencial (En salon) </td>
+     </tr>
+     <tr>
+       <td>Prepared by</td>
+       <td> Yum Gonzales, Jorge Suin </td>
+     </tr>
+     <tr>
+       <td>Attendees</td>
+       <td> Yum Gonzales, Jorge Suin <br> Miranda Ayasta, Rogger Faryd <br> Alva Abanto, Luis Andres <br> Vargas Javier, Jose Enrique</td>
+     </tr>
+     <tr>
+       <td>Sprint n-1 Review Summary</td>
+       <td> En el Sprint 1, se creo y deployo el landing page estatico en Github Pages</td>
+     </tr>
+     <tr>
+       <td>Sprint n-1 Retrospective Summary</td>
+       <td>En la anterior entrega se ocasionaron percances y atrasos de fecha lo cual causo falta en el landing page y en el informe. Se implemento otro sistema de segmentacion por figma para evitar esto.</td>
+     </tr>
+      <tr>
+        <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+      </tr>
+      <tr>
+        <td>Sprint 2 Goal</td>
+        <td> Crear el prototipo de la aplicacion web </td>
+      </tr>
+      <tr>
+        <td>Sprint 2 velocity</td>
+        <td> <!--cambiar luego--> </td>
+      </tr>
+      <tr>
+        <td>Sum of Story Points</td>
+        <td> <!--cambiar luego--></td>
+      </tr>
+
+   </table>
+
+  ### 5.2.2.2. Aspect Leaders and Collaborators
+   <table>
+    <tr>
+      <th>Team member</th>
+      <th>Github username</th>
+      <th>Login</th>
+      <th>Product Catalog</th>
+      <th>Order Placement</th>
+      <th>Order Tracking</th>
+      <th>Invoice Download</th>
+    </tr>
+    <tr>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>jsyumg, myussu</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Miranda Ayasta, Rogger Faryd</td>
+      <td>r0ggdev</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Alva Abanto, Luis Andres</td>
+      <td>luisalvaabanto</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+
+  </tr>
+  </table>
+
+  ### 5.2.2.3. Sprint Backlog 2.
+### 5.2.2.4. Development Evidence for Sprint Review.
+### 5.2.2.5. Execution Evidence for Sprint Review.
+### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+### 5.2.2.8. Team Collaboration Insights during Sprint.
 
  ## 5.3. Validation Interviews
   ### 5.3.1. Diseño de Entrevistas
