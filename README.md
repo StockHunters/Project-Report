@@ -2216,34 +2216,157 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <tr>
       <td>Yum Gonzales, Jorge Suin</td>
       <td>jsyumg, myussu</td>
-      <td>C</td>
-      <td>C</td>
-      <td>L</td>
-      <td>C</td>
-      <td>C</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>Miranda Ayasta, Rogger Faryd</td>
       <td>r0ggdev</td>
-      <td>C</td>
-      <td>C</td>
-      <td>C</td>
-      <td>L</td>
-      <td>C</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>Alva Abanto, Luis Andres</td>
       <td>luisalvaabanto</td>
-      <td>C</td>
-      <td>C</td>
-      <td>L</td>
-      <td>C</td>
-      <td>C</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
 
   </tr>
   </table>
 
   ### 5.2.2.3. Sprint Backlog 2.
+  <table>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 2</strong></td>
+</tr>
+<tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-item / Task</strong></td>
+</tr>
+<tr>
+    <td><strong>ID</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>ID</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Estimation (Hours)</strong></td>
+    <td><strong>Assigned to</strong></td>
+    <td><strong>Status</strong></td>
+</tr>
+
+<tr>
+    <td>US01</td>
+    <td>Registro de productos</td>
+    <td>T01</td>
+    <td>Creación de la vista de registro de productos</td>
+    <td>Implementar la vista de registro con los campos requeridos.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US03</td>
+    <td>Acceso multiplataforma</td>
+    <td>T02</td>
+    <td>Implementar diseño responsive</td>
+    <td>Asegurar que las vistas del sistema se adapten correctamente a distintos dispositivos.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US04</td>
+    <td>Registro de ventas con cliente</td>
+    <td>T03</td>
+    <td>Creación de formulario de ventas</td>
+    <td>Crear la interfaz para registrar ventas y seleccionar clientes.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US05</td>
+    <td>Reportes visuales</td>
+    <td>T04</td>
+    <td>Maquetar la vista de reportes</td>
+    <td>Crear la estructura básica de la sección de reportes.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US12</td>
+    <td>Catálogos digitales</td>
+    <td>T05</td>
+    <td>Crear vista de catálogo web</td>
+    <td>Desarrollar la vista del catálogo de productos con precios.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US15</td>
+    <td>Visualización de beneficios</td>
+    <td>T06</td>
+    <td>Maquetar sección de beneficios</td>
+    <td>Crear la sección informativa de beneficios en la landing page.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US16</td>
+    <td>Llamado a la acción claro</td>
+    <td>T07</td>
+    <td>Implementar CTA en landing</td>
+    <td>Agregar botones visibles de registro y contacto en la landing page.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US17</td>
+    <td>Testimonios reales</td>
+    <td>T08</td>
+    <td>Maquetar sección de testimonios</td>
+    <td>Crear un slider o cards visuales para mostrar testimonios de clientes.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US19</td>
+    <td>Formulario de contacto</td>
+    <td>T09</td>
+    <td>Crear formulario de contacto</td>
+    <td>Maquetar formulario en la landing page para capturar datos de contacto.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+</table>
+
+
+
 ### 5.2.2.4. Development Evidence for Sprint Review.
 ### 5.2.2.5. Execution Evidence for Sprint Review.
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review.
