@@ -397,7 +397,12 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
   potencialmente podrian mejorar las deicisiones futuras. Finalmente este tipo de registro causa que la base de datos o
   el medio en que se esté guardando la información tenga que ser copiado o movido para trabajar en ello lo cual puede
   causar errores de asincronización o falta de datos causados por error humano.
-  <br>
+ 
+  Tambien podemos ver que una gran parte de las pequeñas empresas sigue gestionando su inventario manualmente, lo que genera errores y falta de precisión. Según Blue Ridge Global, “el 43% de las pequeñas empresas no realiza un seguimiento del inventario o lo hace mediante un sistema manual” (Blue Ridge Global, s.f.).
+  
+- **¿Qué consecuencias tiene?**
+  Esta falta de control produce pérdidas de ventas y retrasos. Blue Ridge Global señala que “el 34% de las empresas ha enviado un pedido con retraso por haber vendido inadvertidamente un producto que no estaba en stock” (Blue Ridge Global, s.f.).
+
 
 ##### 🟡 WHEN (CUANDO)
 
@@ -447,7 +452,11 @@ Negocios con inventario físico que necesitan optimizar sus procesos de gestión
   obsoletos o limitados que no se adaptan a las necesidades actuales de movilidad, análisis rápido y disponibilidad de
   la información en tiempo real. Al mismo tiempo los clientes (especialmente los de mayor edad) no pueden encontrar un
   servicio que encaje con sus requisitos ellos recurren a lo que a pesar de ser ineficiente, funciona.
+
+  Como menciona UpKaizen, “la digitalización del inventario permite realizar un seguimiento en tiempo real, reduciendo el riesgo de errores y retrasos en la actualización de los niveles de stock” (UpKaizen, s.f.).
   <br>
+- **¿Por qué es importante automatizar?**
+La automatización mejora la precisión y reduce costos. Según MasterBase, “los sistemas automatizados permiten un seguimiento constante en tiempo real y optimizan el control de stock” (MasterBase, s.f.).
 
 ##### 🟡 HOW (COMO)
 
@@ -464,6 +473,10 @@ Negocios con inventario físico que necesitan optimizar sus procesos de gestión
   registro duplicado o desactualizado, y permite una mejor planificación comercial basada en datos precisos y siempre
   disponibles.
   <br>
+
+- **¿Qué beneficios se obtienen al digitalizar y automatizar?**
+Las empresas que implementan estas soluciones logran grandes mejoras. MRPeasy afirma que “la digitalización y automatización pueden reducir los errores humanos y optimizar los niveles de existencias, lo que se traduce en menores costos operativos y mejor trazabilidad” (MRPeasy, s.f.).
+
 
 ### 1.2.2 Lean Ux Process
 
@@ -546,7 +559,7 @@ y el análisis de desempeño? ¿Cómo podríamos permitir que los clientes consu
 ##### User Outcomes
 
 * **¿Quién es nuestro usuario?**
-  Administradores, encargados de ventas o personal de logística de negocios con inventario físico, responsables de controlar stock, registrar ventas y brindar atención a clientes y los clientes que son los posibles compradores del producto en inventario.
+  El usuario principal de nuestro producto serian los aadministradores, encargados de ventas o personal de logística de negocios con inventario físico, responsables de controlar stock, registrar ventas y brindar atención a clientes y los clientes que son los posibles compradores del producto en inventario.
 
 * **¿Qué problema tiene nuestro producto y cómo se puede resolver?**
   La ineficiencia operativa, la falta de visibilidad en tiempo real y la carga manual de atención al cliente se resuelven con un sistema centralizado, automatizado y accesible desde cualquier lugar, que también permite responder consultas de forma digital.
@@ -1152,6 +1165,11 @@ directa durante la primera semana.
 | US16 | Llamado a la acción claro y accesible | Como visitante, quiero encontrar fácilmente un botón para registrarme o agendar una demo, para tomar acción sin complicaciones. | **Escenario 1: Botón visible al cargar la página**<br>**Dado que** ingreso a la página<br>**Cuando** la veo por primera vez<br>**Entonces** el botón “Regístrate gratis” o “Pide una demo” debe estar visible sin necesidad de hacer scroll.<br><br>**Escenario 2: CTA persistente**<br>**Dado que** navego hacia abajo<br>**Cuando** hago scroll<br>**Entonces** debe haber un botón fijo o repetido que me permita registrarme fácilmente. |EP06  |
 | US17 | Testimonios o casos de éxito | Como visitante, quiero leer experiencias reales de otros dueños de negocio, para confiar más en la plataforma. | **Escenario 1: Visualización de testimonios**<br>**Dado que** estoy en la sección de testimonios<br>**Cuando** veo los perfiles<br>**Entonces** deben mostrarse nombres, negocios reales y breves frases de usuarios reales.<br><br>**Escenario 2: Diseño atractivo**<br>**Dado que** navego la sección<br>**Cuando** reviso los testimonios<br>**Entonces** deben mostrarse con diseño visual atractivo (cards, sliders, etc). | EP06 |
 | US19 | Formulario de contacto funcional | Como visitante, quiero poder dejar mis datos fácilmente para que me contacten si tengo dudas, sin tener que registrarme aún. | **Escenario 1: Envío exitoso**<br>**Dado que** ingreso mi nombre, correo y mensaje<br>**Cuando** hago clic en “Enviar”<br>**Entonces** el sistema debe registrar los datos y mostrar mensaje de confirmación.<br><br>**Escenario 2: Validación de campos**<br>**Dado que** envío un formulario incompleto o con correo inválido<br>**Cuando** hago clic en enviar<br>**Entonces** debe mostrarse un mensaje de error específico y no enviarse. | EP06 |
+| TS01                 | API Registro de Productos | Como **developer**, quiero implementar un endpoint POST `/api/products` para registrar nuevos productos en la base de datos.                 | **Scenario: Registro exitoso**<br>Given que envío un JSON válido con los campos requeridos<br>When realizo una solicitud POST a `/api/products`<br>Then la respuesta debe tener código 201 y retornar el objeto creado.<br><br>**Scenario: Campos obligatorios faltantes**<br>Given que envío un JSON sin campos requeridos<br>When realizo la solicitud POST<br>Then la respuesta debe ser 400 Bad Request con el detalle de los errores. | EP01                      |
+| TS02                 | API Consulta de Productos | Como **developer**, quiero implementar un endpoint GET `/api/products` para obtener la lista de productos.                                   | **Scenario: Consulta exitosa**<br>Given que existen productos registrados<br>When realizo una solicitud GET a `/api/products`<br>Then la respuesta debe ser 200 OK y retornar la lista de productos.<br><br>**Scenario: Consulta sin resultados**<br>Given que no existen productos registrados<br>When realizo la solicitud GET<br>Then la respuesta debe ser 200 OK con una lista vacía.                                                 | EP01                      |
+| TS03                 | API Registro de Ventas    | Como **developer**, quiero implementar un endpoint POST `/api/sales` para registrar las ventas realizadas.                                   | **Scenario: Registro de venta exitosa**<br>Given que envío un JSON con los datos de la venta<br>When realizo la solicitud POST a `/api/sales`<br>Then la respuesta debe ser 201 Created con los datos de la venta.<br><br>**Scenario: Venta con datos incompletos**<br>Given que envío un JSON con campos faltantes<br>When realizo la solicitud POST<br>Then la respuesta debe ser 400 Bad Request con mensaje de error.                  | EP02                      |
+| TS04                 | API Historial de Compras  | Como **developer**, quiero implementar un endpoint GET `/api/customers/{id}/purchases` para consultar el historial de compras de un cliente. | **Scenario: Historial existente**<br>Given que el cliente tiene compras registradas<br>When realizo la solicitud GET a `/api/customers/123/purchases`<br>Then la respuesta debe ser 200 OK con la lista de compras.<br><br>**Scenario: Sin historial de compras**<br>Given que el cliente no tiene compras<br>When realizo la solicitud GET<br>Then la respuesta debe ser 200 OK con una lista vacía.                                      | EP02                      |
+| TS05                 | API Consulta de Stock     | Como **developer**, quiero implementar un endpoint GET `/api/stock` para visualizar el stock actualizado de los productos.                   | **Scenario: Consulta exitosa**<br>Given que existen productos en inventario<br>When realizo la solicitud GET a `/api/stock`<br>Then la respuesta debe ser 200 OK con los datos de stock en tiempo real.<br><br>**Scenario: Producto sin stock**<br>Given que un producto no tiene stock disponible<br>When consulto `/api/stock`<br>Then la respuesta debe incluir el stock en 0 para dicho producto.                                      | EP01                      |
 | EP01    | Gestión de productos e inventario        | Como dueño de negocio, quiero registrar mis productos y controlar el inventario en tiempo real para tener una gestión organizada y actualizada de mi stock. |
 | EP02    | Ventas y clientes                        | Como dueño de negocio, quiero registrar ventas y datos de mis clientes para llevar seguimiento comercial y ofrecer una atención más personalizada. |
 | EP03    | Reportes y análisis                      | Como dueño de negocio, quiero generar reportes visuales y paneles de indicadores para tomar decisiones informadas basadas en datos reales. |
@@ -2237,34 +2255,157 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <tr>
       <td>Yum Gonzales, Jorge Suin</td>
       <td>jsyumg, myussu</td>
-      <td>C</td>
-      <td>C</td>
-      <td>L</td>
-      <td>C</td>
-      <td>C</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>Miranda Ayasta, Rogger Faryd</td>
       <td>r0ggdev</td>
-      <td>C</td>
-      <td>C</td>
-      <td>C</td>
-      <td>L</td>
-      <td>C</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>Alva Abanto, Luis Andres</td>
       <td>luisalvaabanto</td>
-      <td>C</td>
-      <td>C</td>
-      <td>L</td>
-      <td>C</td>
-      <td>C</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
 
   </tr>
   </table>
 
   ### 5.2.2.3. Sprint Backlog 2.
+  <table>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 2</strong></td>
+</tr>
+<tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-item / Task</strong></td>
+</tr>
+<tr>
+    <td><strong>ID</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>ID</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Estimation (Hours)</strong></td>
+    <td><strong>Assigned to</strong></td>
+    <td><strong>Status</strong></td>
+</tr>
+
+<tr>
+    <td>US01</td>
+    <td>Registro de productos</td>
+    <td>T01</td>
+    <td>Creación de la vista de registro de productos</td>
+    <td>Implementar la vista de registro con los campos requeridos.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US03</td>
+    <td>Acceso multiplataforma</td>
+    <td>T02</td>
+    <td>Implementar diseño responsive</td>
+    <td>Asegurar que las vistas del sistema se adapten correctamente a distintos dispositivos.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US04</td>
+    <td>Registro de ventas con cliente</td>
+    <td>T03</td>
+    <td>Creación de formulario de ventas</td>
+    <td>Crear la interfaz para registrar ventas y seleccionar clientes.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US05</td>
+    <td>Reportes visuales</td>
+    <td>T04</td>
+    <td>Maquetar la vista de reportes</td>
+    <td>Crear la estructura básica de la sección de reportes.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US12</td>
+    <td>Catálogos digitales</td>
+    <td>T05</td>
+    <td>Crear vista de catálogo web</td>
+    <td>Desarrollar la vista del catálogo de productos con precios.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US15</td>
+    <td>Visualización de beneficios</td>
+    <td>T06</td>
+    <td>Maquetar sección de beneficios</td>
+    <td>Crear la sección informativa de beneficios en la landing page.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US16</td>
+    <td>Llamado a la acción claro</td>
+    <td>T07</td>
+    <td>Implementar CTA en landing</td>
+    <td>Agregar botones visibles de registro y contacto en la landing page.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US17</td>
+    <td>Testimonios reales</td>
+    <td>T08</td>
+    <td>Maquetar sección de testimonios</td>
+    <td>Crear un slider o cards visuales para mostrar testimonios de clientes.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>US19</td>
+    <td>Formulario de contacto</td>
+    <td>T09</td>
+    <td>Crear formulario de contacto</td>
+    <td>Maquetar formulario en la landing page para capturar datos de contacto.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+</table>
+
+
+
 ### 5.2.2.4. Development Evidence for Sprint Review.
 ### 5.2.2.5. Execution Evidence for Sprint Review.
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review.
@@ -2288,6 +2429,14 @@ También empezamos a aplicar buenas prácticas de desarrollo, como el uso de Git
  ## Video About-the-Team
 
 # Bibliografía
+
+- Blue Ridge Global. (s.f.). *10 Eye-Popping Statistics About Retail Inventory Planning*. Recuperado de [https://blueridgeglobal.com/es/blog/10-eye-popping-statistics-about-retail-inventory-planning/](https://blueridgeglobal.com/es/blog/10-eye-popping-statistics-about-retail-inventory-planning/)
+
+- UpKaizen. (s.f.). *Del papel a los píxeles: los beneficios y desafíos de digitalizar su inventario*. Recuperado de [https://upkaizen.com/es/del-papel-a-los-pixeles-los-beneficios-y-desafios-de-digitalizar-su-inventario/](https://upkaizen.com/es/del-papel-a-los-pixeles-los-beneficios-y-desafios-de-digitalizar-su-inventario/)
+
+- MasterBase. (s.f.). *Cómo la automatización de procesos revoluciona la gestión de inventarios*. Recuperado de [https://masterbase.com/es/como-la-automatizacion-de-procesos-revoluciona-la-gestion-de-inventarios/](https://masterbase.com/es/como-la-automatizacion-de-procesos-revoluciona-la-gestion-de-inventarios/)
+
+- MRPeasy. (s.f.). *¿Qué es la gestión automatizada de inventarios?*. Recuperado de [https://www.mrpeasy.com/blog/es/gestion-automatizada-de-inventarios/](https://www.mrpeasy.com/blog/es/gestion-automatizada-de-inventarios/)
 
 # Anexos 
 
