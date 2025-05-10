@@ -86,6 +86,26 @@ Abril del 2025 🗓️
 </table>
 
 ## Project Report Collaboration Insights
+Enlace al trabajo de github: https://github.com/StockHunters/Project-Report.git
+A continuación se presentaran los commit realizados por los contribuidores para el avance del TB1:
+
+![alt text](resources/Insigths.png)
+
+Cabe recalcar que no toma en cuenta los merge commits y los commit de uno de nuestro compañero que su cuenta de github aparecia con otro nombre y no se guardo en los insights:
+
+![alt text](resources/Commit_Christofer.png)
+
+Commits en la semana 2:
+
+![alt text](resources/Commits_semana2.png)
+
+commits en la semana 3:
+
+![alt text](resources/Commits_semana3.png)
+
+commits en la semana 4:
+
+![alt text](resources/Commits_semana4.png)
 
 <div>
 
