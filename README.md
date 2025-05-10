@@ -1087,11 +1087,11 @@ directa durante la primera semana.
 
    ##### 📝 Administradores:
 
-   ![alt text](<resources/Journey mapping Administradores.png>)
+   ![alt text](<resources/User journey maping administradores.png>)
    
    #### 📝 Clientes:
 
-   ![alt text](<resources/journey maping clientes.png>)
+   ![alt text](<resources/User journey mapping Clientes.png>)
 
    ### 2.3.4. Empathy Mapping
 
