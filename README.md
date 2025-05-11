@@ -933,7 +933,7 @@ directa durante la primera semana.
    <tr>
    <th>📌Dueño de compania de productos de lubricantes de motores</th>
    <th>📌Gerente de compañia de productos agroquimicos</th>
-   <th>📌Titulo</th>
+   <th>📌Gerente de compañia de productos saludables</th>
    </tr>
 
    <tr>
@@ -980,8 +980,8 @@ directa durante la primera semana.
    <table style="width:100%" align='center'>
    <tr>
    <th>📌Estudiante</th>
-   <th>📌Titulo</th>
-   <th>📌Titulo</th>
+   <th>📌Cliente</th>
+   <th>📌Cliente</th>
    </tr>
 
    <tr>
@@ -1033,31 +1033,40 @@ directa durante la primera semana.
    ### 2.2.3. Análisis de entrevistas
    **1️⃣ Primer Segmento Objetivo: Administradores de negocios con inventario físico**
    En las entrevistas, la mayoría de los negocios (alrededor del 70%) usa hojas de cálculo como Excel para gestionar su inventario y ventas, lo que genera problemas de errores y omisiones, dedicando entre 3 a 5 horas a la semana en este proceso.
+   
    ![alt text](resources/question7.png)
    ![alt text](resources/question8.png)
   
   El 75% de los encuestados considera importante tener un sistema que alerte sobre productos por agotarse, mientras que un 100% estaría interesado en que sus clientes pudieran ver el catálogo en línea.
+  
   ![alt text](resources/question9.png)
   ![alt text](resources/question10.png)
 
   Además, el 100% de los entrevistados valora la posibilidad de acceder al sistema desde dispositivos móviles y considera esencial que el sistema sea fácil de usar para gestionar ventas, inventario y clientes de manera más eficiente.
+  
   ![alt text](resources/question11.png)
 
   Este resumen muestra las necesidades comunes de los negocios en cuanto a optimización de la gestión de inventario y ventas.
 
    **2️⃣ Segundo Segmento Objetivo: Compradores o clientes registrados**
    En las entrevistas realizadas, se observó que la mayoría de los participantes (alrededor del 69%) revisan catálogos en línea antes de hacer una compra. La mayoría valora especialmente que los catálogos tengan fotos y descripciones detalladas de los productos, así como precios claros y disponibilidad actualizada. Además, todos los entrevistados prefieren comprar en tiendas que tienen una presentación ordenada en línea, lo que facilita la navegación.
+   
    ![resumen pregunta 1](resources/question1.png)
+   
    ![alt text](resources/question2.png)
   
   La posibilidad de ver si un producto está disponible en tiempo real es algo que muchos consideran muy útil (aproximadamente el 92%). También se destacó que el 30% de los participantes encuentran útil ver promociones o combos destacados de manera visible y fácil de encontrar.
+  
   ![alt text](resources/question3.png)
+  
   ![alt text](resources/question4.png)
 
   En cuanto al proceso de compra, la mayoría prefiere hacer pedidos sin tener que llamar directamente, con un 46,2% indicando que prefieren una experiencia completamente digital. Sin embargo, uno de los problemas más comunes que enfrentan al comprar por redes sociales es la respuesta lenta, y muchos también mencionaron la falta de precios claros y información sobre disponibilidad.
+  
   ![alt text](resources/question5.png)
 
   Un punto importante es que el 84% de los encuestados expresó interés en poder leer o dejar reseñas de otros compradores, lo cual muestra la importancia de la confianza en las experiencias compartidas. En relación a compartir catálogos, el 60% estaría dispuesto a hacerlo si les gusta lo que ven, lo que destaca un buen nivel de recomendación entre consumidores.
+  
   ![alt text](resources/question6.png)
 
   Finalmente, la mayoría prefiere que los productos estén organizados por categorías y marcas, lo que facilita la búsqueda dentro del catálogo.
@@ -2060,6 +2069,15 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
       <td>C</td>
       <td>C</td>
     </tr>
+    <tr>
+      <td>Costa Morales, Christofer William</td>
+      <td>miniChorri</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
    </table>
 
  #### 5.2.1.3 Sprint 1 Backlog
@@ -2273,6 +2291,16 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <tr>
       <td>Alva Abanto, Luis Andres</td>
       <td>luisalvaabanto</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+
+  </tr>
+   <tr>
+      <td>Costa Morales, Christofer William</td>
+      <td>miniChorri</td>
       <td></td>
       <td></td>
       <td></td>
