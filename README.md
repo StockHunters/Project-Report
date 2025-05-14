@@ -2347,6 +2347,16 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
       <td></td>
 
   </tr>
+  <tr>
+      <td>Vargas Javier, Jose Enrique</td>
+      <td>KenRi7</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+
+  </tr>
   </table>
 
   ### 5.2.2.3. Sprint Backlog 2.
@@ -2413,7 +2423,6 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>Jorge Suin Yum Gonzales</td>
     <td>In Process</td>
 </tr>
-
 <tr>
     <td>US12</td>
     <td>Catálogos digitales</td>
@@ -2435,18 +2444,36 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>Jorge Suin Yum Gonzales</td>
     <td>In Process</td>
 </tr>
-
+<tr>
+    <td>US11</td>
+    <td>Gestión de usuarios</td>
+    <td>T07</td>
+    <td>Crear y administrar cuenta</td>
+    <td>Desarrollar la vista de cuentas del equipo con diferentes niveles de acceso.</td>
+    <td>2 Horas</td>
+    <td>Jose Enrique Vargas Javier</td>
+    <td>In Process</td>
+</tr>
+<tr>
+    <td>US16</td>
+    <td>Llamado a la  acción</td>
+    <td>T08</td>
+    <td>Crear boton para registrarme</td>
+    <td>Registrarme o agendar una demo para tomar acción</td>
+    <td>1 Hora</td>
+    <td>Jose Enrique Vargas Javier</td>
+    <td>In Process</td>
+</tr>
 <tr>
     <td>US19</td>
     <td>Formulario de contacto</td>
-    <td>T09</td>
+    <td>T10</td>
     <td>Crear formulario de contacto</td>
     <td>Maquetar formulario en la landing page para capturar datos de contacto.</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>1 Hora</td>
+    <td>Jose Enrique Vargas Javier</td>
+    <td>In Process</td>
 </tr>
-
 </table>
 
 
