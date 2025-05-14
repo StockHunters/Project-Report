@@ -1860,8 +1860,153 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 
  ## 4.8. Database Design
   ### 4.8.1. Database Diagram
-  
-![Database Diagram](resources/database_diagram.png)
+
+  ~~~mermaid
+  erDiagram
+    Clients ||--o{ Sales : "realiza"
+    Products ||--o{ Sales : "vendido en"
+    Products ||--o{ Product_Locations : "almacenado en"
+    Locations ||--o{ Product_Locations : "contiene"
+    Categories ||--o{ Products : "clasifica"
+    Users ||--o{ Sales : "registra"
+    Users ||--o{ Activities : "genera"
+    Users ||--o{ Reports : "crea"
+    Users ||--o{ Purchases : "registra"
+    Users ||--o{ Audit_Logs : "registra"
+    Suppliers ||--o{ Product_Suppliers : "suministra"
+    Products ||--o{ Product_Suppliers : "suministrado por"
+    Suppliers ||--o{ Purchases : "proveedor de"
+    Products ||--o{ Purchases : "comprado en"
+
+    Clients {
+        int client_id PK
+        string first_name
+        string last_name
+        string phone
+        string email UK
+        date registration_date
+        string dni UK
+        enum status
+        string company
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Products {
+        int product_id PK
+        string name
+        string image_url
+        int stock
+        int category_id FK
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Locations {
+        int location_id PK
+        string name
+        string address
+        string city
+        string country
+        timestamp created_at
+    }
+
+    Product_Locations {
+        int product_id PK,FK
+        int location_id PK,FK
+        int stock
+    }
+
+    Categories {
+        int category_id PK
+        string name
+        string description
+        timestamp created_at
+    }
+
+    Sales {
+        int sale_id PK
+        date sale_date
+        int product_id FK
+        int quantity
+        enum status
+        int customer_id FK
+        int user_id FK
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Users {
+        int user_id PK
+        string username UK
+        string email UK
+        string password_hash
+        string first_name
+        string last_name
+        string profile_image_url
+        enum role
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Activities {
+        int activity_id PK
+        int user_id FK
+        enum activity_type
+        string description
+        timestamp activity_date
+    }
+
+    Reports {
+        int report_id PK
+        int user_id FK
+        enum report_type
+        timestamp generated_date
+        string file_url
+        json parameters
+        timestamp created_at
+    }
+
+    Suppliers {
+        int supplier_id PK
+        string name
+        string contact_name
+        string phone
+        string email
+        string address
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Product_Suppliers {
+        int product_id PK,FK
+        int supplier_id PK,FK
+        decimal supply_price
+        timestamp created_at
+    }
+
+    Purchases {
+        int purchase_id PK
+        int supplier_id FK
+        int product_id FK
+        int quantity
+        date purchase_date
+        enum status
+        int user_id FK
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Audit_Logs {
+        int audit_id PK
+        int user_id FK
+        string entity_type
+        int entity_id
+        string action
+        json details
+        timestamp audit_date
+    }
+  ~~~
 
 # Capítulo V: Product Implementation, Validation & Deployment
  ## 5.1. Software Configuration Management
@@ -1939,9 +2084,11 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
   
   * Este servicio ofrece hosting gratuito, confiable y con certificado SSL incluido, lo que garantiza una conexión segura (HTTPS).
   
-  * Se generará una URL pública (https://usuario.github.io/repositorio) para compartir la página fácilmente o incluso integrarla a un dominio personalizado si se desea escalar.
+  * Se generará una URL pública (https://stockhunters.github.io/LandingPage/) para compartir la página fácilmente o incluso integrarla a un dominio personalizado si se desea escalar.
   ![GitHubPages](resources/GitHub-Pages.png)
-  En un futuro se podra cambiar la URL a un dominio propio en servicios de hosting y dominio como GoDaddy o Namecheap.
+  En un futuro se podra cambiar la URL a un dominio propio en servicios de hosting y dominio como GoDaddy o Namecheap. 
+  ![LandingPage](resources/landing.png)
+
 
 
  ## 5.2. Landing Page, Service & Applications Implementation
