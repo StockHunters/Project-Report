@@ -837,6 +837,44 @@ directa durante la primera semana.
   </tr>
 </table>
 
+<table>
+  <tr>
+    <th colspan="4" valign="top">📊 Benchmark de Costos</th>
+  </tr>
+  <tr>
+    <td><strong>Competidor</strong></td>
+    <td><strong>Costo Mensual</strong></td>
+    <td><strong>Costo Anual</strong></td>
+    <td><strong>Notas Adicionales</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Nuestra Startup</strong></td>
+    <td>Desde S/ 69*</td>
+    <td>Desde S/ 828*</td>
+    <td>Incluye soporte técnico, catálogo en línea, automatización por WhatsApp en planes premium.</td>
+  </tr>
+  <tr>
+    <td>Bsale</td>
+    <td>S/ 89</td>
+    <td>S/ 1,068</td>
+    <td>Facturación electrónica incluida, sin comisiones por ventas.</td>
+  </tr>
+  <tr>
+    <td>Defontana</td>
+    <td>$50 USD (~S/ 190)</td>
+    <td>$600 USD (~S/ 2,280)</td>
+    <td>ERP completo, requiere mayor tiempo de implementación.</td>
+  </tr>
+  <tr>
+    <td>Microsoft Excel</td>
+    <td>Gratis / Incluido en Office</td>
+    <td>Gratis / Incluido en Office</td>
+    <td>Limitado a control manual, sin automatización ni reportes integrados.</td>
+  </tr>
+</table>
+<p><i>* Precios referenciales sujetos a cambios según funcionalidades y promociones.</i></p>
+
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
   **🔷 Estrategias**
@@ -2439,6 +2477,16 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <tr>
       <td>Alva Abanto, Luis Andres</td>
       <td>luis-alva0</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td></td>
+
+  </tr>
+   <tr>
+      <td>Costa Morales, Christofer William</td>
+      <td>miniChorri</td>
       <td></td>
       <td></td>
       <td></td>
@@ -2446,9 +2494,9 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
       <td></td>
 
   </tr>
-   <tr>
-      <td>Costa Morales, Christofer William</td>
-      <td>miniChorri</td>
+  <tr>
+      <td>Vargas Javier, Jose Enrique</td>
+      <td>KenRi7</td>
       <td></td>
       <td></td>
       <td></td>
@@ -2522,7 +2570,6 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>Jorge Suin Yum Gonzales</td>
     <td>In Process</td>
 </tr>
-
 <tr>
     <td>US12</td>
     <td>Catálogos digitales</td>
@@ -2544,18 +2591,36 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>Jorge Suin Yum Gonzales</td>
     <td>In Process</td>
 </tr>
-
+<tr>
+    <td>US11</td>
+    <td>Gestión de usuarios</td>
+    <td>T07</td>
+    <td>Crear y administrar cuenta</td>
+    <td>Desarrollar la vista de cuentas del equipo con diferentes niveles de acceso.</td>
+    <td>2 Horas</td>
+    <td>Jose Enrique Vargas Javier</td>
+    <td>In Process</td>
+</tr>
+<tr>
+    <td>US16</td>
+    <td>Llamado a la  acción</td>
+    <td>T08</td>
+    <td>Crear boton para registrarme</td>
+    <td>Registrarme o agendar una demo para tomar acción</td>
+    <td>1 Hora</td>
+    <td>Jose Enrique Vargas Javier</td>
+    <td>In Process</td>
+</tr>
 <tr>
     <td>US19</td>
     <td>Formulario de contacto</td>
-    <td>T09</td>
+    <td>T10</td>
     <td>Crear formulario de contacto</td>
     <td>Maquetar formulario en la landing page para capturar datos de contacto.</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>1 Hora</td>
+    <td>Jose Enrique Vargas Javier</td>
+    <td>In Process</td>
 </tr>
-
 </table>
 
 
@@ -2567,37 +2632,107 @@ Repositorio Landing Page: https://github.com/StockHunters/LandingPage.git
 
 Repositorio FrontEnd: https://github.com/StockHunters/Frontend-Web-Application.git
 
-
-| Repository | Branch   | Commit Id | Commit Message                                                                 | Commited on (Date) |
-|------------|----------|-----------|-------------------------------------------------------------------------------|--------------------|
-| webapp     | develop  | 71a69b7   | ✨ Feat: product filter logic. Close #19                                      | 13/05/2025         |
-| webapp     | develop  | 77f7801   | ✨ Feat: product filter logic                                                 | 13/05/2025         |
-| webapp     | develop  | 29308e8   | 🐛 Fixed image rendering un product catalog                                   | 13/05/2025         |
-| webapp     | develop  | 8c661b8   | ✨ Products card & catalog. Close #18                                         | 13/05/2025         |
-| webapp     | develop  | 690c64a   | feat: simulacion de metodo de pagos #24                                       | 12/05/2025         |
-| webapp     | develop  | 5fddf6f   | [feat] #22 Finished, falta cambiar el date de Api por DATE()                  | 11/05/2025         |
-| webapp     | develop  | 6333364   | Merge branch 'feature/clientList' into develop                                | 11/05/2025         |
-| webapp     | develop  | 04ee000   | ✨ [feat] close #23 - Vista y detalles terminados, falta implementar con resto de pagina | 11/05/2025 |
-| webapp     | develop  | 0d1f5b9   | ✨ [feat] Added client details view for each client                           | 11/05/2025         |
-| webapp     | develop  | 57b952c   | ✨ [feat] Added client list, still updating                                   | 11/05/2025         |
-| webapp     | develop  | 0a7489a   | 📝 Docs: add table of contents to README                                      | 08/05/2025         |
-| webapp     | develop  | 7a4c172   | 🎉 Chore: initial project with Vite and Vue 3                                 | 08/05/2025         |
-| webapp     | develop  | 4d8f018   | 📝 Doc: add readme.md                                                         | 08/05/2025         |
-| webapp     | develop  | 4ff0113   | 📦️ Chore: add package.json and lockfile                                      | 08/05/2025         |
-| webapp     | develop  | 94bab95   | 🔧 Chore: initialize vite config file                                         | 08/05/2025         |
-| webapp     | develop  | 1a763f8   | 🔧 Chore: add .vscode settings folder                                         | 08/05/2025         |
-| webapp     | develop  | 406e6fa   | 🙈 Chore: .gitignore file added                                               | 08/05/2025         |
-| webapp     | main     | 868b684   | initialization                                                                 | 09/05/2025         |
-| webapp     | main     | 0a7489a   | 📝 Docs: add table of contents to README                                      | 08/05/2025         |
-| webapp     | main     | 7a4c172   | 🎉 Chore: initial project with Vite and Vue 3                                 | 08/05/2025         |
-| webapp     | main     | 4d8f018   | 📝 Doc: add readme.md                                                         | 08/05/2025         |
-| webapp     | main     | 4ff0113   | 📦️ Chore: add package.json and lockfile                                      | 08/05/2025         |
-| webapp     | main     | 94bab95   | 🔧 Chore: initialize vite config file                                         | 08/05/2025         |
-| webapp     | main     | 1a763f8   | 🔧 Chore: add .vscode settings folder                                         | 08/05/2025         |
-| webapp     | main     | 406e6fa   | 🙈 Chore: .gitignore file added                                               | 08/05/2025         |
+| Repo | Branch | Commit | Message | Date |
+|------|--------|--------|---------|------|
+| webapp | release/0.2.0 | f310fa0 | Merge pull request #26 from StockHunters/feature/rogger | 14/05/2025 |
+| webapp | release/0.2.0 | cddc8d7 | fix name | 14/05/2025 |
+| webapp | release/0.2.0 | 27ac727 | added test button | 14/05/2025 |
+| webapp | release/0.2.0 | 1ac781e | fix router for deployment | 14/05/2025 |
+| webapp | release/0.2.0 | 02beced | ✨ Feat: new implementations added | 14/05/2025 |
+| webapp | main | f310fa0 | Merge pull request #26 from StockHunters/feature/rogger | 14/05/2025 |
+| webapp | main | cddc8d7 | fix name | 14/05/2025 |
+| webapp | main | 65d3d34 | fix router ling | 14/05/2025 |
+| webapp | main | 282ffdb | Merge branch 'release/0.2.0' | 14/05/2025 |
+| webapp | main | 27ac727 | added test button | 14/05/2025 |
+| webapp | main | 1ac781e | fix router for deployment | 14/05/2025 |
+| webapp | main | 02beced | ✨ Feat: new implementations added | 14/05/2025 |
+| webapp | develop | f310fa0 | Merge pull request #26 from StockHunters/feature/rogger | 14/05/2025 |
+| webapp | develop | cddc8d7 | fix name | 14/05/2025 |
+| webapp | develop | 27ac727 | added test button | 14/05/2025 |
+| webapp | develop | 1ac781e | fix router for deployment | 14/05/2025 |
+| webapp | develop | 02beced | ✨ Feat: new implementations added | 14/05/2025 |
+| webapp | release/0.2.0 | 8c661b8 | ✨ Products card & catalog. Close #18 | 13/05/2025 |
+| webapp | release/0.2.0 | 77f7801 | ✨ Feat: product filter logic | 13/05/2025 |
+| webapp | release/0.2.0 | 71a69b7 | ✨ Feat: product filter logic. Close #19 | 13/05/2025 |
+| webapp | release/0.2.0 | 29308e8 | 🐛 Fixed image rendering un product catalog | 13/05/2025 |
+| webapp | main | 8c661b8 | ✨ Products card & catalog. Close #18 | 13/05/2025 |
+| webapp | main | 77f7801 | ✨ Feat: product filter logic | 13/05/2025 |
+| webapp | main | 71a69b7 | ✨ Feat: product filter logic. Close #19 | 13/05/2025 |
+| webapp | main | 29308e8 | 🐛 Fixed image rendering un product catalog | 13/05/2025 |
+| webapp | feature/develop2 | 8c661b8 | ✨ Products card & catalog. Close #18 | 13/05/2025 |
+| webapp | feature/develop2 | 77f7801 | ✨ Feat: product filter logic | 13/05/2025 |
+| webapp | feature/develop2 | 71a69b7 | ✨ Feat: product filter logic. Close #19 | 13/05/2025 |
+| webapp | feature/develop2 | 29308e8 | 🐛 Fixed image rendering un product catalog | 13/05/2025 |
+| webapp | develop | 8c661b8 | ✨ Products card & catalog. Close #18 | 13/05/2025 |
+| webapp | develop | 77f7801 | ✨ Feat: product filter logic | 13/05/2025 |
+| webapp | develop | 71a69b7 | ✨ Feat: product filter logic. Close #19 | 13/05/2025 |
+| webapp | develop | 29308e8 | 🐛 Fixed image rendering un product catalog | 13/05/2025 |
+| webapp | release/0.2.0 | 690c64a | feat: simulacion de metodo de pagos #24 | 12/05/2025 |
+| webapp | main | 690c64a | feat: simulacion de metodo de pagos #24 | 12/05/2025 |
+| webapp | feature/develop2 | 690c64a | feat: simulacion de metodo de pagos #24 | 12/05/2025 |
+| webapp | develop | 690c64a | feat: simulacion de metodo de pagos #24 | 12/05/2025 |
+| webapp | release/0.2.0 | 6333364 | Merge branch 'feature/clientList' into develop | 11/05/2025 |
+| webapp | release/0.2.0 | 5fddf6f | [feat] #22 Finished, falta cambiar el date de Api por DATE() | 11/05/2025 |
+| webapp | release/0.2.0 | 57b952c | ✨ [feat] Added client list, still updating | 11/05/2025 |
+| webapp | release/0.2.0 | 0d1f5b9 | ✨ [feat] Added client details view for each client | 11/05/2025 |
+| webapp | release/0.2.0 | 04ee000 | ✨ [feat] close #23 - Vista y detalles terminados, falta implementar con resto de pagina | 11/05/2025 |
+| webapp | main | 6333364 | Merge branch 'feature/clientList' into develop | 11/05/2025 |
+| webapp | main | 5fddf6f | [feat] #22 Finished, falta cambiar el date de Api por DATE() | 11/05/2025 |
+| webapp | main | 57b952c | ✨ [feat] Added client list, still updating | 11/05/2025 |
+| webapp | main | 0d1f5b9 | ✨ [feat] Added client details view for each client | 11/05/2025 |
+| webapp | main | 04ee000 | ✨ [feat] close #23 - Vista y detalles terminados, falta implementar con resto de pagina | 11/05/2025 |
+| webapp | feature/develop2 | 6333364 | Merge branch 'feature/clientList' into develop | 11/05/2025 |
+| webapp | feature/develop2 | 5fddf6f | [feat] #22 Finished, falta cambiar el date de Api por DATE() | 11/05/2025 |
+| webapp | feature/develop2 | 57b952c | ✨ [feat] Added client list, still updating | 11/05/2025 |
+| webapp | feature/develop2 | 0d1f5b9 | ✨ [feat] Added client details view for each client | 11/05/2025 |
+| webapp | feature/develop2 | 04ee000 | ✨ [feat] close #23 - Vista y detalles terminados, falta implementar con resto de pagina | 11/05/2025 |
+| webapp | develop | 6333364 | Merge branch 'feature/clientList' into develop | 11/05/2025 |
+| webapp | develop | 5fddf6f | [feat] #22 Finished, falta cambiar el date de Api por DATE() | 11/05/2025 |
+| webapp | develop | 57b952c | ✨ [feat] Added client list, still updating | 11/05/2025 |
+| webapp | develop | 0d1f5b9 | ✨ [feat] Added client details view for each client | 11/05/2025 |
+| webapp | develop | 04ee000 | ✨ [feat] close #23 - Vista y detalles terminados, falta implementar con resto de pagina | 11/05/2025 |
+| webapp | main | 868b684 | initialization | 09/05/2025 |
+| webapp | develop | 406e6fa | 🙈 Chore: .gitignore file added | 08/05/2025 |
+| webapp | release/0.2.0 | 406e6fa | 🙈 Chore: .gitignore file added | 08/05/2025 |
+| webapp | main | 406e6fa | 🙈 Chore: .gitignore file added | 08/05/2025 |
+| webapp | release/0.2.0 | 94bab95 | 🔧 Chore: initialize vite config file | 08/05/2025 |
+| webapp | release/0.2.0 | 7a4c172 | 🎉 Chore: initial project with Vite and Vue 3 | 08/05/2025 |
+| webapp | release/0.2.0 | 4ff0113 | 📦️ Chore: add package.json and lockfile | 08/05/2025 |
+| webapp | release/0.2.0 | 4d8f018 | 📝 Doc: add readme.md | 08/05/2025 |
+| webapp | release/0.2.0 | 1a763f8 | 🔧 Chore: add .vscode settings folder | 08/05/2025 |
+| webapp | release/0.2.0 | 0a7489a | 📝 Docs: add table of contents to README | 08/05/2025 |
+| webapp | main | 94bab95 | 🔧 Chore: initialize vite config file | 08/05/2025 |
+| webapp | main | 7a4c172 | 🎉 Chore: initial project with Vite and Vue 3 | 08/05/2025 |
+| webapp | main | 4ff0113 | 📦️ Chore: add package.json and lockfile | 08/05/2025 |
+| webapp | main | 4d8f018 | 📝 Doc: add readme.md | 08/05/2025 |
+| webapp | main | 1a763f8 | 🔧 Chore: add .vscode settings folder | 08/05/2025 |
+| webapp | main | 0a7489a | 📝 Docs: add table of contents to README | 08/05/2025 |
+| webapp | feature/develop2 | 94bab95 | 🔧 Chore: initialize vite config file | 08/05/2025 |
+| webapp | feature/develop2 | 7a4c172 | 🎉 Chore: initial project with Vite and Vue 3 | 08/05/2025 |
+| webapp | feature/develop2 | 4ff0113 | 📦️ Chore: add package.json and lockfile | 08/05/2025 |
+| webapp | feature/develop2 | 4d8f018 | 📝 Doc: add readme.md | 08/05/2025 |
+| webapp | feature/develop2 | 406e6fa | 🙈 Chore: .gitignore file added | 08/05/2025 |
+| webapp | feature/develop2 | 1a763f8 | 🔧 Chore: add .vscode settings folder | 08/05/2025 |
+| webapp | feature/develop2 | 0a7489a | 📝 Docs: add table of contents to README | 08/05/2025 |
+| webapp | develop | 94bab95 | 🔧 Chore: initialize vite config file | 08/05/2025 |
+| webapp | develop | 7a4c172 | 🎉 Chore: initial project with Vite and Vue 3 | 08/05/2025 |
+| webapp | develop | 4ff0113 | 📦️ Chore: add package.json and lockfile | 08/05/2025 |
+| webapp | develop | 4d8f018 | 📝 Doc: add readme.md | 08/05/2025 |
+| webapp | develop | 1a763f8 | 🔧 Chore: add .vscode settings folder | 08/05/2025 |
+| webapp | develop | 0a7489a | 📝 Docs: add table of contents to README | 08/05/2025 |
 
 
 ### 5.2.2.5. Execution Evidence for Sprint Review.
+
+![Products](</resources/products1.png>)
+Primera version del catalogo de productos, consumidos mediante una fake api, y organizados en cards mostrando solo la información clave.
+
+![Products](</resources/products2.png>)
+Capacidad para ver y ocultar los detalles de cada producto mediante el botón "ver detalles".
+
+![Products](</resources/products3.png>)
+Filtro de búsqueda mediante categorías, rango de precio y disponibilidad. 
+
 
 #### Manager Side:
 
@@ -2613,8 +2748,55 @@ Repositorio FrontEnd: https://github.com/StockHunters/Frontend-Web-Application.g
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
 
+
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+Se deployo nuestro frontend en la plataforma github pages y este usa el fake api de json-server desplegado en render. Esto fue posible de la siguiente manera:
+```bash
+npm install --save-dev gh-pages
+```
+Se configuro el app.config.js para que el build se haga en la carpeta dist, y se agregaron los scripts de deploy en el package.json:
+```bash
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+
+export default defineConfig({
+  base: '/Frontend-Web-Application/', 
+  plugins: [vue()],
+});
+```
+Se actualizo el router configuration:
+```bash
+import { createRouter, createWebHistory } from 'vue-router';
+
+const router = createRouter({
+  history: createWebHistory('/Frontend-Web-Application/'),
+  routes: routes,
+});
+export default router;
+```
+
+Se agregaron los scripts de deploy en el package.json:
+```bash
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
+}
+```
+Luego se ejecuta el siguiente comando para hacer el deploy:
+```bash
+npm run build
+npm run deploy
+```
+![deploy](image.png)
+
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un contro de versiones adecuados. Aqui se detalla el flujo y los contribuidores:
+
+![networkGraph](resources/sprint2-networkgraph.png)
+![contributors](resources/sprint2-contributors.png)
 
  ## 5.3. Validation Interviews
   ### 5.3.1. Diseño de Entrevistas
