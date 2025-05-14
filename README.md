@@ -244,7 +244,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 
 | Criterio | Acciones realizadas | Conclusiones|
 |---------|--------------------|------------|
-|Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, realicé la  identificación clara de la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web, para diferenciarse de posibles competidores. Además, realicé una entrevista a una persona que encaja en nuestros segmento objetivo. Con esta información y con lo obetenido por mis otros compañeros, se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web.<br> **TP:** <br> Para esta entrega, a partir de los comentarios y observaciones que recibimos, realize las correcciones necesarias a los technical stories, evidencia de mercado y competencias. Al mismo tiempo realize un avanze al FrontEnd y los bounded context de sales, clients y payment. Se discutio los features necesarios para el sprint 2 y los pasos para su desarrollo. <br> **Luis Alva:**<br> **TB1:** <br> A través de las entrevistas realizadas a personas representativas de nuestros segmentos objetivo pude recolectar información valiosa para definir los requerimientos de nuestro proyecto, y diseñar pilares clave como la arquitectura de software a través de Domain Driven Design. Con lo anterior, me refiero a que pude realizar los diagramas de contexto, contenedores y de componentes para el trabajo. <br> **Rogger Faryd**<br>**TB1:** <br> Durante el trabajo en equipo, mantuvimos una comunicación oral constante y clara, lo que nos permitió organizarnos, repartir tareas y asumir distintos roles de liderazgo según lo necesitábamos. Gracias a eso, pude avanzar en el diseño en Figma, hice el landing page, ayude en preparar las preguntas para las entrevistas y armar el diagrama de clases, cumpliendo con lo que nos propusimos.<br> **Christofer William**<br>**TB1:** <br>Para esta entrega, realicé fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Todo lo anterior, lo pude lograr gracias a la comunicación que tuvimos con los posibles clientes y cómo les explicamos nuestro proyecto para poder sacar la información necesaria, para satisfacer sus necesidades y preferencias.<br> **Jose Enrique Vargas**<br>**TB1:** <br> Durante esta primera etapa, participé activamente en el diseño de la página web mediante Figma, contribuyendo en la elaboración de pantallas clave para la aplicación. Por ejemplo, realicé el . Además, mantuve una comunicación constante con el equipo para coordinar avances y asegurar la coherencia del proyecto.  |------------|
+|Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, realicé la  identificación clara de la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web, para diferenciarse de posibles competidores. Además, realicé una entrevista a una persona que encaja en nuestros segmento objetivo. Con esta información y con lo obetenido por mis otros compañeros, se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web.<br> **TP:** <br> Para esta entrega, a partir de los comentarios y observaciones que recibimos, realize las correcciones necesarias a los technical stories, evidencia de mercado y competencias. Al mismo tiempo realize un avanze al FrontEnd y los bounded context de sales, clients y payment. Se discutio los features necesarios para el sprint 2 y los pasos para su desarrollo. <br> **Luis Alva:**<br> **TB1:** <br> A través de las entrevistas realizadas a personas representativas de nuestros segmentos objetivo pude recolectar información valiosa para definir los requerimientos de nuestro proyecto, y diseñar pilares clave como la arquitectura de software a través de Domain Driven Design. Con lo anterior, me refiero a que pude realizar los diagramas de contexto, contenedores y de componentes para el trabajo. <br> **Rogger Faryd**<br>**TB1:** <br> Durante el trabajo en equipo, mantuvimos una comunicación oral constante y clara, lo que nos permitió organizarnos, repartir tareas y asumir distintos roles de liderazgo según lo necesitábamos. Gracias a eso, pude avanzar en el diseño en Figma, hice el landing page, ayude en preparar las preguntas para las entrevistas y armar el diagrama de clases, cumpliendo con lo que nos propusimos.<br> **Christofer William**<br>**TB1:** <br>Para esta entrega, realicé fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Todo lo anterior, lo pude lograr gracias a la comunicación que tuvimos con los posibles clientes y cómo les explicamos nuestro proyecto para poder sacar la información necesaria, para satisfacer sus necesidades y preferencias.<br>**TP:** <br> Para esta entrega<br>**Jose Enrique Vargas**<br>**TB1:** <br> Durante esta primera etapa, participé activamente en el diseño de la página web mediante Figma, contribuyendo en la elaboración de pantallas clave para la aplicación. Por ejemplo, realicé el . Además, mantuve una comunicación constante con el equipo para coordinar avances y asegurar la coherencia del proyecto.  |------------|
 |Comunica por escrito con efectividad a diferentes rangos de audiencia.| **Jorge Yum**: <br> **TB1:** <br> En esta primera entrega, realicé la descripción de la startup, analicé detalladamente el contexto, los antecedentes y la problemática principal, aplique el proceso de Lean UX para definir hipótesis y validarlas, realicé un análisis competitivo para identificar oportunidades de diferenciación, y pude definir los segmentos objetivos del mercado con sustento estadístico. <br> **TP:** <br> Para esta entrega, de forma escrita se discutio el desarrollo del sprint 2 junto con los miembros del equipo y a partir de los resultados, desarrolle los features necesarios para nuestra aplicacion web. Asimismo realize correcciones en el informe a partir de los comentarios recibidos en la primera entrega.  <br><br>**Luis Alva:**<br> **TB1:** <br> Se diseñaron una cantidad de preguntas acorde a nuestras necesidades para hacer en las entrevistas, las cuales representan el sustento de muchas de las decisiones de diseño en nuestro proyecto. Lo anterior, me ayudo a tomar en cuenta cuál seria el rango de audiencia para realizar la parte de Domain-Driven Software Architechture y poder expresar mis ideas a estas personas. <br>**Rogger Faryd**<br>**TB1:** <br> A lo largo del sprint, nos enfocamos en comunicarnos por escrito de forma clara y efectiva. Gracias a lo anterior, pude realizar desde la redacción de contenido para el landing page hasta la documentación técnica y preguntas de entrevistas. Además, adaptamos el estilo según el público: más directo y persuasivo para los usuarios, y más estructurado y técnico para el equipo de desarrollo. Esto nos ayudó a mantener alineado al equipo y a transmitir el valor de nuestra plataforma a diferentes audiencias.<br>**Christofer William**<br>**TB1:** <br> Las acciones que realicé fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Durante toda la elaboración del trabajo, todo lo que escribimos, mostramos y estructurado, debe de poder ser entendidos por personas de cualquier condición o discapacidad. Con esto, podemos transmitir nuestro projecto a una mayor base de personas que requieran nuestro apoyo y nos puedan ayudar con mejor feedback.<br>**TP:** <br>  <br>**Jose Enrique**<br>**TB1:** <br> En esta primera entrega, realicé la elaboración de los general style guidelines y web style guidelines para asegurar una identidad visual consistente en la aplicación. Además, ayude en el desarrolló de los wireframes y mockups de la landing page y de la aplicación web, así como diagramas de flujo de usuario (user flow diagrams) y prototipos interactivos en Figma. Estos avances permitieron consolidar una base visual y estructural sólida para el diseño y desarrollo posterior del proyecto.|------------|
 
 
@@ -2308,7 +2308,6 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
       <th>Product Catalog</th>
       <th>Client List</th>
       <th>Sales List</th>
-      <th></th>
     </tr>
     <tr>
       <td>Yum Gonzales, Jorge Suin</td>
@@ -2325,7 +2324,6 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>Alva Abanto, Luis Andres</td>
@@ -2334,17 +2332,15 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
       <td>L</td>
       <td>C</td>
       <td>C</td>
-      <td></td>
 
   </tr>
    <tr>
       <td>Costa Morales, Christofer William</td>
       <td>miniChorri</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
 
   </tr>
   </table>
@@ -2532,7 +2528,7 @@ El trabajo colaborativo fue clave para lograr estos avances. Nos organizamos bie
 
 También empezamos a aplicar buenas prácticas de desarrollo, como el uso de GitHub, el manejo de versiones y la documentación del proyecto. Aunque aún hay cosas por mejorar, este primer sprint nos ayudó a conocernos mejor como equipo y a sentar una base sólida para los próximos pasos del proyecto.
  ## Video About-the-Team
-
+ <!--agregar luego-->
 # Bibliografía
 
 - Blue Ridge Global. (s.f.). *10 Eye-Popping Statistics About Retail Inventory Planning*. Recuperado de [https://blueridgeglobal.com/es/blog/10-eye-popping-statistics-about-retail-inventory-planning/](https://blueridgeglobal.com/es/blog/10-eye-popping-statistics-about-retail-inventory-planning/)
