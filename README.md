@@ -2468,11 +2468,11 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <tr>
       <td>Miranda Ayasta, Rogger Faryd</td>
       <td>r0ggdev</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>L</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
     </tr>
     <tr>
       <td>Alva Abanto, Luis Andres</td>
