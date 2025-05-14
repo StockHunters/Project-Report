@@ -837,6 +837,44 @@ directa durante la primera semana.
   </tr>
 </table>
 
+<table>
+  <tr>
+    <th colspan="4" valign="top">📊 Benchmark de Costos</th>
+  </tr>
+  <tr>
+    <td><strong>Competidor</strong></td>
+    <td><strong>Costo Mensual</strong></td>
+    <td><strong>Costo Anual</strong></td>
+    <td><strong>Notas Adicionales</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Nuestra Startup</strong></td>
+    <td>Desde S/ 69*</td>
+    <td>Desde S/ 828*</td>
+    <td>Incluye soporte técnico, catálogo en línea, automatización por WhatsApp en planes premium.</td>
+  </tr>
+  <tr>
+    <td>Bsale</td>
+    <td>S/ 89</td>
+    <td>S/ 1,068</td>
+    <td>Facturación electrónica incluida, sin comisiones por ventas.</td>
+  </tr>
+  <tr>
+    <td>Defontana</td>
+    <td>$50 USD (~S/ 190)</td>
+    <td>$600 USD (~S/ 2,280)</td>
+    <td>ERP completo, requiere mayor tiempo de implementación.</td>
+  </tr>
+  <tr>
+    <td>Microsoft Excel</td>
+    <td>Gratis / Incluido en Office</td>
+    <td>Gratis / Incluido en Office</td>
+    <td>Limitado a control manual, sin automatización ni reportes integrados.</td>
+  </tr>
+</table>
+<p><i>* Precios referenciales sujetos a cambios según funcionalidades y promociones.</i></p>
+
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
   **🔷 Estrategias**
