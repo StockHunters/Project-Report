@@ -244,8 +244,8 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 
 | Criterio | Acciones realizadas | Conclusiones|
 |---------|--------------------|------------|
-|Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, realicé la  identificación clara de la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web, para diferenciarse de posibles competidores. Además, realicé una entrevista a una persona que encaja en nuestros segmento objetivo. Con esta información y con lo obetenido por mis otros compañeros, se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web.<br> **TP:** <br> Para esta entrega, a partir de los comentarios y observaciones que recibimos, realize las correcciones necesarias a los technical stories, evidencia de mercado y competencias. Al mismo tiempo realize un avanze al FrontEnd y los bounded context de sales, clients y payment. Se discutio los features necesarios para el sprint 2 y los pasos para su desarrollo. <br> **Luis Alva:**<br> **TB1:** <br> A través de las entrevistas realizadas a personas representativas de nuestros segmentos objetivo pude recolectar información valiosa para definir los requerimientos de nuestro proyecto, y diseñar pilares clave como la arquitectura de software a través de Domain Driven Design. Con lo anterior, me refiero a que pude realizar los diagramas de contexto, contenedores y de componentes para el trabajo. <br> **Rogger Faryd**<br>**TB1:** <br> Durante el trabajo en equipo, mantuvimos una comunicación oral constante y clara, lo que nos permitió organizarnos, repartir tareas y asumir distintos roles de liderazgo según lo necesitábamos. Gracias a eso, pude avanzar en el diseño en Figma, hice el landing page, ayude en preparar las preguntas para las entrevistas y armar el diagrama de clases, cumpliendo con lo que nos propusimos.<br> **Christofer William**<br>**TB1:** <br>Para esta entrega, realicé fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Todo lo anterior, lo pude lograr gracias a la comunicación que tuvimos con los posibles clientes y cómo les explicamos nuestro proyecto para poder sacar la información necesaria, para satisfacer sus necesidades y preferencias.<br>**TP:** <br> Para esta entrega<br>**Jose Enrique Vargas**<br>**TB1:** <br> Durante esta primera etapa, participé activamente en el diseño de la página web mediante Figma, contribuyendo en la elaboración de pantallas clave para la aplicación. Por ejemplo, realicé el . Además, mantuve una comunicación constante con el equipo para coordinar avances y asegurar la coherencia del proyecto.  |------------|
-|Comunica por escrito con efectividad a diferentes rangos de audiencia.| **Jorge Yum**: <br> **TB1:** <br> En esta primera entrega, realicé la descripción de la startup, analicé detalladamente el contexto, los antecedentes y la problemática principal, aplique el proceso de Lean UX para definir hipótesis y validarlas, realicé un análisis competitivo para identificar oportunidades de diferenciación, y pude definir los segmentos objetivos del mercado con sustento estadístico. <br> **TP:** <br> Para esta entrega, de forma escrita se discutio el desarrollo del sprint 2 junto con los miembros del equipo y a partir de los resultados, desarrolle los features necesarios para nuestra aplicacion web. Asimismo realize correcciones en el informe a partir de los comentarios recibidos en la primera entrega.  <br><br>**Luis Alva:**<br> **TB1:** <br> Se diseñaron una cantidad de preguntas acorde a nuestras necesidades para hacer en las entrevistas, las cuales representan el sustento de muchas de las decisiones de diseño en nuestro proyecto. Lo anterior, me ayudo a tomar en cuenta cuál seria el rango de audiencia para realizar la parte de Domain-Driven Software Architechture y poder expresar mis ideas a estas personas. <br>**Rogger Faryd**<br>**TB1:** <br> A lo largo del sprint, nos enfocamos en comunicarnos por escrito de forma clara y efectiva. Gracias a lo anterior, pude realizar desde la redacción de contenido para el landing page hasta la documentación técnica y preguntas de entrevistas. Además, adaptamos el estilo según el público: más directo y persuasivo para los usuarios, y más estructurado y técnico para el equipo de desarrollo. Esto nos ayudó a mantener alineado al equipo y a transmitir el valor de nuestra plataforma a diferentes audiencias.<br>**Christofer William**<br>**TB1:** <br> Las acciones que realicé fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Durante toda la elaboración del trabajo, todo lo que escribimos, mostramos y estructurado, debe de poder ser entendidos por personas de cualquier condición o discapacidad. Con esto, podemos transmitir nuestro projecto a una mayor base de personas que requieran nuestro apoyo y nos puedan ayudar con mejor feedback.<br>**TP:** <br>  <br>**Jose Enrique**<br>**TB1:** <br> En esta primera entrega, realicé la elaboración de los general style guidelines y web style guidelines para asegurar una identidad visual consistente en la aplicación. Además, ayude en el desarrolló de los wireframes y mockups de la landing page y de la aplicación web, así como diagramas de flujo de usuario (user flow diagrams) y prototipos interactivos en Figma. Estos avances permitieron consolidar una base visual y estructural sólida para el diseño y desarrollo posterior del proyecto.|------------|
+|Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, realicé la  identificación clara de la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web, para diferenciarse de posibles competidores. Además, realicé una entrevista a una persona que encaja en nuestros segmento objetivo. Con esta información y con lo obetenido por mis otros compañeros, se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web.<br> **TP:** <br> Para esta entrega, a partir de los comentarios y observaciones que recibimos, realize las correcciones necesarias a los technical stories, evidencia de mercado y competencias. Al mismo tiempo realize un avanze al FrontEnd y los bounded context de sales, clients y payment. Se discutio los features necesarios para el sprint 2 y los pasos para su desarrollo. <br> **Luis Alva:**<br> **TB1:** <br> A través de las entrevistas realizadas a personas representativas de nuestros segmentos objetivo pude recolectar información valiosa para definir los requerimientos de nuestro proyecto, y diseñar pilares clave como la arquitectura de software a través de Domain Driven Design. Con lo anterior, me refiero a que pude realizar los diagramas de contexto, contenedores y de componentes para el trabajo. <br> **Rogger Faryd**<br>**TB1:** <br> Durante el trabajo en equipo, mantuvimos una comunicación oral constante y clara, lo que nos permitió organizarnos, repartir tareas y asumir distintos roles de liderazgo según lo necesitábamos. Gracias a eso, pude avanzar en el diseño en Figma, hice el landing page, ayude en preparar las preguntas para las entrevistas y armar el diagrama de clases, cumpliendo con lo que nos propusimos.<br> **TP:** Durante este avance par el trabajo en equipo tratamos de mantener una constante comunicación, lo que nos permitio repartirnos tareas y asumir distintos roles. Gracias a eso, logré avanzar con el desarrollo de los endpoints, parte visual de la web, terminar algunos aspectos para la landing page.<br>**Christofer William**<br>**TB1:** <br>Para esta entrega, realicé fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Todo lo anterior, lo pude lograr gracias a la comunicación que tuvimos con los posibles clientes y cómo les explicamos nuestro proyecto para poder sacar la información necesaria, para satisfacer sus necesidades y preferencias.<br> **Jose Enrique Vargas**<br>**TB1:** <br> Durante esta primera etapa, participé activamente en el diseño de la página web mediante Figma, contribuyendo en la elaboración de pantallas clave para la aplicación. Por ejemplo, realicé el . Además, mantuve una comunicación constante con el equipo para coordinar avances y asegurar la coherencia del proyecto.  |------------|
+|Comunica por escrito con efectividad a diferentes rangos de audiencia.| **Jorge Yum**: <br> **TB1:** <br> En esta primera entrega, realicé la descripción de la startup, analicé detalladamente el contexto, los antecedentes y la problemática principal, aplique el proceso de Lean UX para definir hipótesis y validarlas, realicé un análisis competitivo para identificar oportunidades de diferenciación, y pude definir los segmentos objetivos del mercado con sustento estadístico. <br> **TP:** <br> Para esta entrega, de forma escrita se discutio el desarrollo del sprint 2 junto con los miembros del equipo y a partir de los resultados, desarrolle los features necesarios para nuestra aplicacion web. Asimismo realize correcciones en el informe a partir de los comentarios recibidos en la primera entrega.  <br><br>**Luis Alva:**<br> **TB1:** <br> Se diseñaron una cantidad de preguntas acorde a nuestras necesidades para hacer en las entrevistas, las cuales representan el sustento de muchas de las decisiones de diseño en nuestro proyecto. Lo anterior, me ayudo a tomar en cuenta cuál seria el rango de audiencia para realizar la parte de Domain-Driven Software Architechture y poder expresar mis ideas a estas personas. <br>**Rogger Faryd**<br>**TB1:** <br> A lo largo del sprint, nos enfocamos en comunicarnos por escrito de forma clara y efectiva. Gracias a lo anterior, pude realizar desde la redacción de contenido para el landing page hasta la documentación técnica y preguntas de entrevistas. Además, adaptamos el estilo según el público: más directo y persuasivo para los usuarios, y más estructurado y técnico para el equipo de desarrollo. Esto nos ayudó a mantener alineado al equipo y a transmitir el valor de nuestra plataforma a diferentes audiencias.<br>**TP:** Para el ddesarrollo de este Sprint 2 logramos desarrollar diferentes diferentes aspectos de lo referente a la web application, parte del frontend. En mi caso logré desarrollar la pagina de login, la pagina de de registro, reportes, etc.<br>**Christofer William**<br>**TB1:** <br> Las acciones que realicé fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Durante toda la elaboración del trabajo, todo lo que escribimos, mostramos y estructurado, debe de poder ser entendidos por personas de cualquier condición o discapacidad. Con esto, podemos transmitir nuestro projecto a una mayor base de personas que requieran nuestro apoyo y nos puedan ayudar con mejor feedback.<br>**TP:** <br>  <br>**Jose Enrique**<br>**TB1:** <br> En esta primera entrega, realicé la elaboración de los general style guidelines y web style guidelines para asegurar una identidad visual consistente en la aplicación. Además, ayude en el desarrolló de los wireframes y mockups de la landing page y de la aplicación web, así como diagramas de flujo de usuario (user flow diagrams) y prototipos interactivos en Figma. Estos avances permitieron consolidar una base visual y estructural sólida para el diseño y desarrollo posterior del proyecto.|------------|
 
 
 </div>
@@ -1898,8 +1898,153 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 
  ## 4.8. Database Design
   ### 4.8.1. Database Diagram
-  
-![Database Diagram](resources/database_diagram.png)
+
+  ~~~mermaid
+  erDiagram
+    Clients ||--o{ Sales : "realiza"
+    Products ||--o{ Sales : "vendido en"
+    Products ||--o{ Product_Locations : "almacenado en"
+    Locations ||--o{ Product_Locations : "contiene"
+    Categories ||--o{ Products : "clasifica"
+    Users ||--o{ Sales : "registra"
+    Users ||--o{ Activities : "genera"
+    Users ||--o{ Reports : "crea"
+    Users ||--o{ Purchases : "registra"
+    Users ||--o{ Audit_Logs : "registra"
+    Suppliers ||--o{ Product_Suppliers : "suministra"
+    Products ||--o{ Product_Suppliers : "suministrado por"
+    Suppliers ||--o{ Purchases : "proveedor de"
+    Products ||--o{ Purchases : "comprado en"
+
+    Clients {
+        int client_id PK
+        string first_name
+        string last_name
+        string phone
+        string email UK
+        date registration_date
+        string dni UK
+        enum status
+        string company
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Products {
+        int product_id PK
+        string name
+        string image_url
+        int stock
+        int category_id FK
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Locations {
+        int location_id PK
+        string name
+        string address
+        string city
+        string country
+        timestamp created_at
+    }
+
+    Product_Locations {
+        int product_id PK,FK
+        int location_id PK,FK
+        int stock
+    }
+
+    Categories {
+        int category_id PK
+        string name
+        string description
+        timestamp created_at
+    }
+
+    Sales {
+        int sale_id PK
+        date sale_date
+        int product_id FK
+        int quantity
+        enum status
+        int customer_id FK
+        int user_id FK
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Users {
+        int user_id PK
+        string username UK
+        string email UK
+        string password_hash
+        string first_name
+        string last_name
+        string profile_image_url
+        enum role
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Activities {
+        int activity_id PK
+        int user_id FK
+        enum activity_type
+        string description
+        timestamp activity_date
+    }
+
+    Reports {
+        int report_id PK
+        int user_id FK
+        enum report_type
+        timestamp generated_date
+        string file_url
+        json parameters
+        timestamp created_at
+    }
+
+    Suppliers {
+        int supplier_id PK
+        string name
+        string contact_name
+        string phone
+        string email
+        string address
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Product_Suppliers {
+        int product_id PK,FK
+        int supplier_id PK,FK
+        decimal supply_price
+        timestamp created_at
+    }
+
+    Purchases {
+        int purchase_id PK
+        int supplier_id FK
+        int product_id FK
+        int quantity
+        date purchase_date
+        enum status
+        int user_id FK
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Audit_Logs {
+        int audit_id PK
+        int user_id FK
+        string entity_type
+        int entity_id
+        string action
+        json details
+        timestamp audit_date
+    }
+  ~~~
 
 # Capítulo V: Product Implementation, Validation & Deployment
  ## 5.1. Software Configuration Management
@@ -1977,9 +2122,11 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
   
   * Este servicio ofrece hosting gratuito, confiable y con certificado SSL incluido, lo que garantiza una conexión segura (HTTPS).
   
-  * Se generará una URL pública (https://usuario.github.io/repositorio) para compartir la página fácilmente o incluso integrarla a un dominio personalizado si se desea escalar.
+  * Se generará una URL pública (https://stockhunters.github.io/LandingPage/) para compartir la página fácilmente o incluso integrarla a un dominio personalizado si se desea escalar.
   ![GitHubPages](resources/GitHub-Pages.png)
-  En un futuro se podra cambiar la URL a un dominio propio en servicios de hosting y dominio como GoDaddy o Namecheap.
+  En un futuro se podra cambiar la URL a un dominio propio en servicios de hosting y dominio como GoDaddy o Namecheap. 
+  ![LandingPage](resources/landing.png)
+
 
 
  ## 5.2. Landing Page, Service & Applications Implementation
@@ -2320,10 +2467,11 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <tr>
       <td>Miranda Ayasta, Rogger Faryd</td>
       <td>r0ggdev</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>L</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
     </tr>
     <tr>
       <td>Alva Abanto, Luis Andres</td>
@@ -2339,6 +2487,15 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
       <td>miniChorri</td>
       <td>C</td>
       <td>C</td>
+      <td>C</td>
+      <td>C</td>
+
+  </tr>
+  <tr>
+      <td>Vargas Javier, Jose Enrique</td>
+      <td>KenRi7</td>
+      <td>C</td>
+      <td>L</td>
       <td>C</td>
       <td>C</td>
 
@@ -2409,7 +2566,6 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>Jorge Suin Yum Gonzales</td>
     <td>In Process</td>
 </tr>
-
 <tr>
     <td>US12</td>
     <td>Catálogos digitales</td>
@@ -2431,18 +2587,36 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>Jorge Suin Yum Gonzales</td>
     <td>In Process</td>
 </tr>
-
+<tr>
+    <td>US11</td>
+    <td>Gestión de usuarios</td>
+    <td>T07</td>
+    <td>Crear y administrar cuenta</td>
+    <td>Desarrollar la vista de cuentas del equipo con diferentes niveles de acceso.</td>
+    <td>2 Horas</td>
+    <td>Jose Enrique Vargas Javier</td>
+    <td>In Process</td>
+</tr>
+<tr>
+    <td>US16</td>
+    <td>Llamado a la  acción</td>
+    <td>T08</td>
+    <td>Crear boton para registrarme</td>
+    <td>Registrarme o agendar una demo para tomar acción</td>
+    <td>1 Hora</td>
+    <td>Jose Enrique Vargas Javier</td>
+    <td>In Process</td>
+</tr>
 <tr>
     <td>US19</td>
     <td>Formulario de contacto</td>
-    <td>T09</td>
+    <td>T10</td>
     <td>Crear formulario de contacto</td>
     <td>Maquetar formulario en la landing page para capturar datos de contacto.</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>1 Hora</td>
+    <td>Jose Enrique Vargas Javier</td>
+    <td>In Process</td>
 </tr>
-
 </table>
 
 
@@ -2454,34 +2628,94 @@ Repositorio Landing Page: https://github.com/StockHunters/LandingPage.git
 
 Repositorio FrontEnd: https://github.com/StockHunters/Frontend-Web-Application.git
 
-
-| Repository | Branch   | Commit Id | Commit Message                                                                 | Commited on (Date) |
-|------------|----------|-----------|-------------------------------------------------------------------------------|--------------------|
-| webapp     | develop  | 71a69b7   | ✨ Feat: product filter logic. Close #19                                      | 13/05/2025         |
-| webapp     | develop  | 77f7801   | ✨ Feat: product filter logic                                                 | 13/05/2025         |
-| webapp     | develop  | 29308e8   | 🐛 Fixed image rendering un product catalog                                   | 13/05/2025         |
-| webapp     | develop  | 8c661b8   | ✨ Products card & catalog. Close #18                                         | 13/05/2025         |
-| webapp     | develop  | 690c64a   | feat: simulacion de metodo de pagos #24                                       | 12/05/2025         |
-| webapp     | develop  | 5fddf6f   | [feat] #22 Finished, falta cambiar el date de Api por DATE()                  | 11/05/2025         |
-| webapp     | develop  | 6333364   | Merge branch 'feature/clientList' into develop                                | 11/05/2025         |
-| webapp     | develop  | 04ee000   | ✨ [feat] close #23 - Vista y detalles terminados, falta implementar con resto de pagina | 11/05/2025 |
-| webapp     | develop  | 0d1f5b9   | ✨ [feat] Added client details view for each client                           | 11/05/2025         |
-| webapp     | develop  | 57b952c   | ✨ [feat] Added client list, still updating                                   | 11/05/2025         |
-| webapp     | develop  | 0a7489a   | 📝 Docs: add table of contents to README                                      | 08/05/2025         |
-| webapp     | develop  | 7a4c172   | 🎉 Chore: initial project with Vite and Vue 3                                 | 08/05/2025         |
-| webapp     | develop  | 4d8f018   | 📝 Doc: add readme.md                                                         | 08/05/2025         |
-| webapp     | develop  | 4ff0113   | 📦️ Chore: add package.json and lockfile                                      | 08/05/2025         |
-| webapp     | develop  | 94bab95   | 🔧 Chore: initialize vite config file                                         | 08/05/2025         |
-| webapp     | develop  | 1a763f8   | 🔧 Chore: add .vscode settings folder                                         | 08/05/2025         |
-| webapp     | develop  | 406e6fa   | 🙈 Chore: .gitignore file added                                               | 08/05/2025         |
-| webapp     | main     | 868b684   | initialization                                                                 | 09/05/2025         |
-| webapp     | main     | 0a7489a   | 📝 Docs: add table of contents to README                                      | 08/05/2025         |
-| webapp     | main     | 7a4c172   | 🎉 Chore: initial project with Vite and Vue 3                                 | 08/05/2025         |
-| webapp     | main     | 4d8f018   | 📝 Doc: add readme.md                                                         | 08/05/2025         |
-| webapp     | main     | 4ff0113   | 📦️ Chore: add package.json and lockfile                                      | 08/05/2025         |
-| webapp     | main     | 94bab95   | 🔧 Chore: initialize vite config file                                         | 08/05/2025         |
-| webapp     | main     | 1a763f8   | 🔧 Chore: add .vscode settings folder                                         | 08/05/2025         |
-| webapp     | main     | 406e6fa   | 🙈 Chore: .gitignore file added                                               | 08/05/2025         |
+| Repo | Branch | Commit | Message | Date |
+|------|--------|--------|---------|------|
+| webapp | release/0.2.0 | f310fa0 | Merge pull request #26 from StockHunters/feature/rogger | 14/05/2025 |
+| webapp | release/0.2.0 | cddc8d7 | fix name | 14/05/2025 |
+| webapp | release/0.2.0 | 27ac727 | added test button | 14/05/2025 |
+| webapp | release/0.2.0 | 1ac781e | fix router for deployment | 14/05/2025 |
+| webapp | release/0.2.0 | 02beced | ✨ Feat: new implementations added | 14/05/2025 |
+| webapp | main | f310fa0 | Merge pull request #26 from StockHunters/feature/rogger | 14/05/2025 |
+| webapp | main | cddc8d7 | fix name | 14/05/2025 |
+| webapp | main | 65d3d34 | fix router ling | 14/05/2025 |
+| webapp | main | 282ffdb | Merge branch 'release/0.2.0' | 14/05/2025 |
+| webapp | main | 27ac727 | added test button | 14/05/2025 |
+| webapp | main | 1ac781e | fix router for deployment | 14/05/2025 |
+| webapp | main | 02beced | ✨ Feat: new implementations added | 14/05/2025 |
+| webapp | develop | f310fa0 | Merge pull request #26 from StockHunters/feature/rogger | 14/05/2025 |
+| webapp | develop | cddc8d7 | fix name | 14/05/2025 |
+| webapp | develop | 27ac727 | added test button | 14/05/2025 |
+| webapp | develop | 1ac781e | fix router for deployment | 14/05/2025 |
+| webapp | develop | 02beced | ✨ Feat: new implementations added | 14/05/2025 |
+| webapp | release/0.2.0 | 8c661b8 | ✨ Products card & catalog. Close #18 | 13/05/2025 |
+| webapp | release/0.2.0 | 77f7801 | ✨ Feat: product filter logic | 13/05/2025 |
+| webapp | release/0.2.0 | 71a69b7 | ✨ Feat: product filter logic. Close #19 | 13/05/2025 |
+| webapp | release/0.2.0 | 29308e8 | 🐛 Fixed image rendering un product catalog | 13/05/2025 |
+| webapp | main | 8c661b8 | ✨ Products card & catalog. Close #18 | 13/05/2025 |
+| webapp | main | 77f7801 | ✨ Feat: product filter logic | 13/05/2025 |
+| webapp | main | 71a69b7 | ✨ Feat: product filter logic. Close #19 | 13/05/2025 |
+| webapp | main | 29308e8 | 🐛 Fixed image rendering un product catalog | 13/05/2025 |
+| webapp | feature/develop2 | 8c661b8 | ✨ Products card & catalog. Close #18 | 13/05/2025 |
+| webapp | feature/develop2 | 77f7801 | ✨ Feat: product filter logic | 13/05/2025 |
+| webapp | feature/develop2 | 71a69b7 | ✨ Feat: product filter logic. Close #19 | 13/05/2025 |
+| webapp | feature/develop2 | 29308e8 | 🐛 Fixed image rendering un product catalog | 13/05/2025 |
+| webapp | develop | 8c661b8 | ✨ Products card & catalog. Close #18 | 13/05/2025 |
+| webapp | develop | 77f7801 | ✨ Feat: product filter logic | 13/05/2025 |
+| webapp | develop | 71a69b7 | ✨ Feat: product filter logic. Close #19 | 13/05/2025 |
+| webapp | develop | 29308e8 | 🐛 Fixed image rendering un product catalog | 13/05/2025 |
+| webapp | release/0.2.0 | 690c64a | feat: simulacion de metodo de pagos #24 | 12/05/2025 |
+| webapp | main | 690c64a | feat: simulacion de metodo de pagos #24 | 12/05/2025 |
+| webapp | feature/develop2 | 690c64a | feat: simulacion de metodo de pagos #24 | 12/05/2025 |
+| webapp | develop | 690c64a | feat: simulacion de metodo de pagos #24 | 12/05/2025 |
+| webapp | release/0.2.0 | 6333364 | Merge branch 'feature/clientList' into develop | 11/05/2025 |
+| webapp | release/0.2.0 | 5fddf6f | [feat] #22 Finished, falta cambiar el date de Api por DATE() | 11/05/2025 |
+| webapp | release/0.2.0 | 57b952c | ✨ [feat] Added client list, still updating | 11/05/2025 |
+| webapp | release/0.2.0 | 0d1f5b9 | ✨ [feat] Added client details view for each client | 11/05/2025 |
+| webapp | release/0.2.0 | 04ee000 | ✨ [feat] close #23 - Vista y detalles terminados, falta implementar con resto de pagina | 11/05/2025 |
+| webapp | main | 6333364 | Merge branch 'feature/clientList' into develop | 11/05/2025 |
+| webapp | main | 5fddf6f | [feat] #22 Finished, falta cambiar el date de Api por DATE() | 11/05/2025 |
+| webapp | main | 57b952c | ✨ [feat] Added client list, still updating | 11/05/2025 |
+| webapp | main | 0d1f5b9 | ✨ [feat] Added client details view for each client | 11/05/2025 |
+| webapp | main | 04ee000 | ✨ [feat] close #23 - Vista y detalles terminados, falta implementar con resto de pagina | 11/05/2025 |
+| webapp | feature/develop2 | 6333364 | Merge branch 'feature/clientList' into develop | 11/05/2025 |
+| webapp | feature/develop2 | 5fddf6f | [feat] #22 Finished, falta cambiar el date de Api por DATE() | 11/05/2025 |
+| webapp | feature/develop2 | 57b952c | ✨ [feat] Added client list, still updating | 11/05/2025 |
+| webapp | feature/develop2 | 0d1f5b9 | ✨ [feat] Added client details view for each client | 11/05/2025 |
+| webapp | feature/develop2 | 04ee000 | ✨ [feat] close #23 - Vista y detalles terminados, falta implementar con resto de pagina | 11/05/2025 |
+| webapp | develop | 6333364 | Merge branch 'feature/clientList' into develop | 11/05/2025 |
+| webapp | develop | 5fddf6f | [feat] #22 Finished, falta cambiar el date de Api por DATE() | 11/05/2025 |
+| webapp | develop | 57b952c | ✨ [feat] Added client list, still updating | 11/05/2025 |
+| webapp | develop | 0d1f5b9 | ✨ [feat] Added client details view for each client | 11/05/2025 |
+| webapp | develop | 04ee000 | ✨ [feat] close #23 - Vista y detalles terminados, falta implementar con resto de pagina | 11/05/2025 |
+| webapp | main | 868b684 | initialization | 09/05/2025 |
+| webapp | develop | 406e6fa | 🙈 Chore: .gitignore file added | 08/05/2025 |
+| webapp | release/0.2.0 | 406e6fa | 🙈 Chore: .gitignore file added | 08/05/2025 |
+| webapp | main | 406e6fa | 🙈 Chore: .gitignore file added | 08/05/2025 |
+| webapp | release/0.2.0 | 94bab95 | 🔧 Chore: initialize vite config file | 08/05/2025 |
+| webapp | release/0.2.0 | 7a4c172 | 🎉 Chore: initial project with Vite and Vue 3 | 08/05/2025 |
+| webapp | release/0.2.0 | 4ff0113 | 📦️ Chore: add package.json and lockfile | 08/05/2025 |
+| webapp | release/0.2.0 | 4d8f018 | 📝 Doc: add readme.md | 08/05/2025 |
+| webapp | release/0.2.0 | 1a763f8 | 🔧 Chore: add .vscode settings folder | 08/05/2025 |
+| webapp | release/0.2.0 | 0a7489a | 📝 Docs: add table of contents to README | 08/05/2025 |
+| webapp | main | 94bab95 | 🔧 Chore: initialize vite config file | 08/05/2025 |
+| webapp | main | 7a4c172 | 🎉 Chore: initial project with Vite and Vue 3 | 08/05/2025 |
+| webapp | main | 4ff0113 | 📦️ Chore: add package.json and lockfile | 08/05/2025 |
+| webapp | main | 4d8f018 | 📝 Doc: add readme.md | 08/05/2025 |
+| webapp | main | 1a763f8 | 🔧 Chore: add .vscode settings folder | 08/05/2025 |
+| webapp | main | 0a7489a | 📝 Docs: add table of contents to README | 08/05/2025 |
+| webapp | feature/develop2 | 94bab95 | 🔧 Chore: initialize vite config file | 08/05/2025 |
+| webapp | feature/develop2 | 7a4c172 | 🎉 Chore: initial project with Vite and Vue 3 | 08/05/2025 |
+| webapp | feature/develop2 | 4ff0113 | 📦️ Chore: add package.json and lockfile | 08/05/2025 |
+| webapp | feature/develop2 | 4d8f018 | 📝 Doc: add readme.md | 08/05/2025 |
+| webapp | feature/develop2 | 406e6fa | 🙈 Chore: .gitignore file added | 08/05/2025 |
+| webapp | feature/develop2 | 1a763f8 | 🔧 Chore: add .vscode settings folder | 08/05/2025 |
+| webapp | feature/develop2 | 0a7489a | 📝 Docs: add table of contents to README | 08/05/2025 |
+| webapp | develop | 94bab95 | 🔧 Chore: initialize vite config file | 08/05/2025 |
+| webapp | develop | 7a4c172 | 🎉 Chore: initial project with Vite and Vue 3 | 08/05/2025 |
+| webapp | develop | 4ff0113 | 📦️ Chore: add package.json and lockfile | 08/05/2025 |
+| webapp | develop | 4d8f018 | 📝 Doc: add readme.md | 08/05/2025 |
+| webapp | develop | 1a763f8 | 🔧 Chore: add .vscode settings folder | 08/05/2025 |
+| webapp | develop | 0a7489a | 📝 Docs: add table of contents to README | 08/05/2025 |
 
 
 ### 5.2.2.5. Execution Evidence for Sprint Review.
@@ -2510,8 +2744,55 @@ Filtro de búsqueda mediante categorías, rango de precio y disponibilidad.
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
 
+
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+Se deployo nuestro frontend en la plataforma github pages y este usa el fake api de json-server desplegado en render. Esto fue posible de la siguiente manera:
+```bash
+npm install --save-dev gh-pages
+```
+Se configuro el app.config.js para que el build se haga en la carpeta dist, y se agregaron los scripts de deploy en el package.json:
+```bash
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+
+export default defineConfig({
+  base: '/Frontend-Web-Application/', 
+  plugins: [vue()],
+});
+```
+Se actualizo el router configuration:
+```bash
+import { createRouter, createWebHistory } from 'vue-router';
+
+const router = createRouter({
+  history: createWebHistory('/Frontend-Web-Application/'),
+  routes: routes,
+});
+export default router;
+```
+
+Se agregaron los scripts de deploy en el package.json:
+```bash
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
+}
+```
+Luego se ejecuta el siguiente comando para hacer el deploy:
+```bash
+npm run build
+npm run deploy
+```
+![deploy](image.png)
+
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un contro de versiones adecuados. Aqui se detalla el flujo y los contribuidores:
+
+![networkGraph](resources/sprint2-networkgraph.png)
+![contributors](resources/sprint2-contributors.png)
 
  ## 5.3. Validation Interviews
   ### 5.3.1. Diseño de Entrevistas
