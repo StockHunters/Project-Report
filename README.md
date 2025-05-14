@@ -2291,10 +2291,10 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <tr>
       <td>Alva Abanto, Luis Andres</td>
       <td>luis-alva0</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
       <td></td>
 
   </tr>
@@ -2421,6 +2421,16 @@ Repositorio FrontEnd: https://github.com/StockHunters/Frontend-Web-Application.g
 
 
 ### 5.2.2.5. Execution Evidence for Sprint Review.
+
+![Products](</resources/products1.png>)
+Primera version del catalogo de productos, consumidos mediante una fake api, y organizados en cards mostrando solo la información clave.
+
+![Products](</resources/products2.png>)
+Capacidad para ver y ocultar los detalles de cada producto mediante el botón "ver detalles".
+
+![Products](</resources/products3.png>)
+Filtro de búsqueda mediante categorías, rango de precio y disponibilidad. 
+
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
