@@ -138,6 +138,7 @@ commits en la semana 4:
         - [User Outcomes](#user-outcomes)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+        - [Resumen](#resumen)
   - [Segmentos Objetivos](#segmentos-objetivos)
 - [Capítulo II: Requeriments Elicitation \& Analysis](#capítulo-ii-requeriments-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
@@ -2266,18 +2267,17 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
       <th>Github username</th>
       <th>Login</th>
       <th>Product Catalog</th>
-      <th>Order Placement</th>
-      <th>Order Tracking</th>
-      <th>Invoice Download</th>
+      <th>Client List</th>
+      <th>Sales List</th>
+      <th></th>
     </tr>
     <tr>
       <td>Yum Gonzales, Jorge Suin</td>
       <td>jsyumg, myussu</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>L</td>
     </tr>
     <tr>
       <td>Miranda Ayasta, Rogger Faryd</td>
@@ -2348,9 +2348,9 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>T02</td>
     <td>Implementar diseño responsive</td>
     <td>Asegurar que las vistas del sistema se adapten correctamente a distintos dispositivos.</td>
+    <td>3 Horas</td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>In Process</td>
 </tr>
 
 <tr>
@@ -2359,9 +2359,9 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>T03</td>
     <td>Creación de formulario de ventas</td>
     <td>Crear la interfaz para registrar ventas y seleccionar clientes.</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>3 Horas</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>In Process</td>
 </tr>
 
 <tr>
@@ -2370,9 +2370,9 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>T04</td>
     <td>Maquetar la vista de reportes</td>
     <td>Crear la estructura básica de la sección de reportes.</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>3 Horas</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>In Process</td>
 </tr>
 
 <tr>
@@ -2387,36 +2387,14 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
 </tr>
 
 <tr>
-    <td>US15</td>
-    <td>Visualización de beneficios</td>
+    <td>US07</td>
+    <td>Historial de compras de clientes</td>
     <td>T06</td>
-    <td>Maquetar sección de beneficios</td>
-    <td>Crear la sección informativa de beneficios en la landing page.</td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-
-<tr>
-    <td>US16</td>
-    <td>Llamado a la acción claro</td>
-    <td>T07</td>
-    <td>Implementar CTA en landing</td>
-    <td>Agregar botones visibles de registro y contacto en la landing page.</td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-
-<tr>
-    <td>US17</td>
-    <td>Testimonios reales</td>
-    <td>T08</td>
-    <td>Maquetar sección de testimonios</td>
-    <td>Crear un slider o cards visuales para mostrar testimonios de clientes.</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Crear vista de historial de venta por cliente</td>
+    <td>Desarrollar en la vista de la informacion de cada cliente, el historial de venta que ha tenido cada uno.</td>
+    <td>3 Horas</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>In Process</td>
 </tr>
 
 <tr>
@@ -2435,6 +2413,13 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
 
 
 ### 5.2.2.4. Development Evidence for Sprint Review.
+Se realizaron los siguientes avances en el desarrollo de la aplicación web y landing page con los commits correspondientes en GitHub:
+
+Repositorio Landing Page: https://github.com/StockHunters/LandingPage.git
+
+Repositorio FrontEnd: https://github.com/StockHunters/Frontend-Web-Application.git
+
+
 ### 5.2.2.5. Execution Evidence for Sprint Review.
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
