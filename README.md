@@ -2576,8 +2576,46 @@ Filtro de búsqueda mediante categorías, rango de precio y disponibilidad.
 
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+Se deployo nuestro frontend en la plataforma github pages y este usa el fake api de json-server desplegado en render. Esto fue posible de la siguiente manera:
+```bash
+npm install --save-dev gh-pages
+```
+Se configuro el app.config.js para que el build se haga en la carpeta dist, y se agregaron los scripts de deploy en el package.json:
+```bash
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
 
+export default defineConfig({
+  base: '/Frontend-Web-Application/', 
+  plugins: [vue()],
+});
+```
+Se actualizo el router configuration:
+```bash
+import { createRouter, createWebHistory } from 'vue-router';
 
+const router = createRouter({
+  history: createWebHistory('/Frontend-Web-Application/'),
+  routes: routes,
+});
+export default router;
+```
+
+Se agregaron los scripts de deploy en el package.json:
+```bash
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
+}
+```
+Luego se ejecuta el siguiente comando para hacer el deploy:
+```bash
+npm run build
+npm run deploy
+```
+![deploy](image.png)
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
 
