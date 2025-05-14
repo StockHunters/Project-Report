@@ -2497,11 +2497,10 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
   <tr>
       <td>Vargas Javier, Jose Enrique</td>
       <td>KenRi7</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
 
   </tr>
   </table>
