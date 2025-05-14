@@ -1891,7 +1891,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
 |---|---|
 | Yum Gonzales, Jorge Suin   | jsyumg, myussu  |
 |  Miranda Ayasta, Rogger Faryd | r0ggdev |
-|  Alva Abanto, Luis Andres | luisalvaabanto |
+|  Alva Abanto, Luis Andres | luis-alva0 |
 | Costa Morales Christofer William| miniChorri|
 | Vargas Javier, Jose Enrique | KenRi7 |
 
@@ -2054,7 +2054,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     </tr>
     <tr>
       <td>Alva Abanto, Luis Andres</td>
-      <td>luisalva</td>
+      <td>luis-alva0</td>
       <td>C</td>
       <td>C</td>
       <td>C</td>
@@ -2290,7 +2290,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     </tr>
     <tr>
       <td>Alva Abanto, Luis Andres</td>
-      <td>luisalvaabanto</td>
+      <td>luis-alva0</td>
       <td></td>
       <td></td>
       <td></td>
@@ -2381,9 +2381,9 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>T05</td>
     <td>Crear vista de catálogo web</td>
     <td>Desarrollar la vista del catálogo de productos con precios.</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>3 Horas</td>
+    <td>Luis Andres Alva Abanto</td>
+    <td>Done</td>
 </tr>
 
 <tr>
