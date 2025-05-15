@@ -2471,7 +2471,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
       <td>L</td>
       <td>C</td>
       <td>C</td>
-      <td>C</td>
+      <td></td>
     </tr>
     <tr>
       <td>Alva Abanto, Luis Andres</td>
@@ -2503,6 +2503,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
   </table>
 
   ### 5.2.2.3. Sprint Backlog 2.
+  ![alt text](resources/Kanban-github.png)
   <table>
   <tr>
     <td><strong>Sprint #</strong></td>
@@ -2742,8 +2743,22 @@ Filtro de búsqueda mediante categorías, rango de precio y disponibilidad.
 ![Payment Template](resources/payment-page.png)
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+Para el Srpint 2 se planifico el avance para la webapp y se desarrollo algunos enpoints necesarios para su correcta implementación. Para ello, se vio necesario poder desplegar una fakeapi. Se utilizó la herramienta `render` en conjunto con `github` para dicho proposito. En un principio, nuestros endpoints cuentan con 100 datos base. 
+
+> [!Note]
+> https://fakeapi-3oxx.onrender.com/api/<name>
 
 
+![alt text](resources/fakeapi-gh.png)
+![alt text](resources/fakeapi-render.png)
+
+| Endpoint    | Details |
+|-------------|---------|
+| `/products` | Se implementaron las operaciones CRUD |
+| `/sales`    | Se implementaron las operaciones CRUD | 
+| `/clients`  | Se implementaron las operaciones CRUD |
+
+![alt text](resources/apifake-serverJs.png)
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 Se deployo nuestro frontend en la plataforma github pages y este usa el fake api de json-server desplegado en render. Esto fue posible de la siguiente manera:
