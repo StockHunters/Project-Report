@@ -52,7 +52,15 @@ Abril del 2025 🗓️
   <tr>
     <td>TB1</td>
     <td>2025-04-20</td>
-    <td> <ul> <li>Jorge Suin Yum Gonzales</li> <li>Luis Andres Alva Abanto</li> <li> Rogger Faryd Miranda Ayasta </li><li>Christofer William Costa Morales</li><li>Jose Enrique Vargas Javier</li></ul></td>
+    <td>
+      <ul> 
+        <li>Jorge Suin Yum Gonzales</li> 
+        <li>Luis Andres Alva Abanto</li> 
+        <li>Rogger Faryd Miranda Ayasta </li>
+        <li>Christofer William Costa Morales</li>
+        <li>Jose Enrique Vargas Javier</li>
+      </ul>
+    </td>
     <td> Se han incluído los siguientes capítulos:
         <ul>
           <li>Capítulo I: Introducción</li>
@@ -66,7 +74,15 @@ Abril del 2025 🗓️
   <tr>
     <td>TP</td>
     <td>2025-05-13</td>
-    <td> <ul> <li>Jorge Suin Yum Gonzales</li> <li>Luis Andres Alva Abanto</li> <li> Rogger Faryd Miranda Ayasta </li><li>Christofer William Costa Morales</li><li>Jose Enrique Vargas Javier</li></ul></td>
+    <td>
+      <ul> 
+        <li>Jorge Suin Yum Gonzales</li> 
+        <li>Luis Andres Alva Abanto</li> 
+        <li>Rogger Faryd Miranda Ayasta </li>
+        <li>Christofer William Costa Morales</li>
+        <li>Jose Enrique Vargas Javier</li>
+      </ul>
+    </td>
     <td> Se han incluído los siguientes capítulos y secciones:
         <ul>
           <li>Capitulo V: Product Implementation, Validation & Deployment, desde el punto 5.2.2. hasta 5.2.2.8.</li>
@@ -82,7 +98,37 @@ Abril del 2025 🗓️
           <li>Avance de Conclusiones, Bibliografía y Anexos.</li>
         </ul></td>
   </tr>
-  
+  <tr>
+    <td>TB2</td>
+    <td>2025-06-16</td>
+    <td>
+      <ul> 
+        <li>Jorge Suin Yum Gonzales</li> 
+        <li>Luis Andres Alva Abanto</li> 
+        <li>Rogger Faryd Miranda Ayasta </li>
+        <li>Christofer William Costa Morales</li>
+        <li>Jose Enrique Vargas Javier</li>
+      </ul>
+    </td>
+    <td> Se han incluído los siguientes capítulos y secciones:
+        <ul>
+          <li>5.3.2. Sprint 3</li>
+          <li>5.3.2.1.Sprint Planning 3.</li>
+          <li>5.3.2.2. Aspect Leaders and Collaborators.</li>
+          <li>5.3.2.3.Sprint Backlog 3.</li>
+          <li>5.3.2.4.Development Evidence for Sprint Review</li>
+          <li>5.3.2.5.Execution Evidence for Sprint Review.</li>
+          <li>5.3.2.6.Services Documentation Evidence for Sprint Review.</li>
+          <li>5.3.2.7.Software Deployment Evidence for Sprint Review</li>
+          <li>5.3.2.8.Team Collaboration Insights during Sprint.</li>
+          <li>5.3. Validation Interviews.</li>
+          <li>5.3.1. Diseño de Entrevistas.</li>
+          <li>5.3.2. Registro de Entrevistas.</li>
+          <li>5.3.3. Evaluaciones según heurísticas.</li>
+          <li>5.4. Video About-the-Product.</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos.</li>
+        </ul></td>
+  </tr>
 </table>
 
 ## Project Report Collaboration Insights
