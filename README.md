@@ -132,28 +132,31 @@ Abril del 2025 🗓️
 </table>
 
 ## Project Report Collaboration Insights
-Enlace al trabajo de github: https://github.com/StockHunters/Project-Report.git
-A continuación se presentaran los commit realizados por los contribuidores para el avance del TB1:
+![Enlace al trabajo de github](https://img.shields.io/badge/Report-blue?style=for-the-badge&logo=refinedgithub&logoColor=white&link=https%3A%2F%2Fgithub.com%2FStockHunters%2FProject-Report.git)
 
-![alt text](resources/Contributors.png)
+A continuación se presentaran los commit realizados por los contribuidores:
 
-![alt text](resources/contribuitors2.png)
+- ⏩ Avance del **TB1**
+
+![Contributors TB1](resources/Collaboration-Insghts/TB1/Contributors.png)
+
+![Commits TB1](resources/Collaboration-Insghts/TB1/Commits.png)
 
 Cabe recalcar que no toma en cuenta los merge commits y los commit de uno de nuestro compañero que su cuenta de github aparecia con otro nombre y no se guardo en los insights:
 
-![alt text](resources/Commit_Christofer.png)
+![Christofer Error](resources/Collaboration-Insghts/Christofer_Error.png)
 
-Commits en la semana 2:
+- ⏩ Avance del **TP**
 
-![alt text](resources/Commits_semana2.png)
+![Contributors TP](resources/Collaboration-Insghts/TP/Contributors.png)
 
-commits en la semana 3:
+![Commits TP](resources/Collaboration-Insghts/TP/Commits.png)
 
-![alt text](resources/Commits_semana3.png)
+- ⏩ Avance del **TB2**
 
-commits en la semana 4:
+![Contributors TB2](resources/Collaboration-Insghts/TB2/Contributors.png)
 
-![alt text](resources/Commits_semana4.png)
+![Commits TB2](resources/Collaboration-Insghts/TB2/Commits.png)
 
 <div>
 
@@ -165,7 +168,6 @@ commits en la semana 4:
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Contenido](#contenido)
   - [Student Outcome](#student-outcome)
-- [|Comunica por escrito con efectividad a diferentes rangos de audiencia.| **Jorge Yum**:  **TB1:**  En esta primera entrega, realicé la descripción de la startup, analicé detalladamente el contexto, los antecedentes y la problemática principal, aplique el proceso de Lean UX para definir hipótesis y validarlas, realicé un análisis competitivo para identificar oportunidades de diferenciación, y pude definir los segmentos objetivos del mercado con sustento estadístico.  **TP:**  Para esta entrega, de forma escrita se discutio el desarrollo del sprint 2 junto con los miembros del equipo y a partir de los resultados, desarrolle los features necesarios para nuestra aplicacion web. Asimismo realize correcciones en el informe a partir de los comentarios recibidos en la primera entrega.  **Luis Alva:** **TB1:**  Se diseñaron una cantidad de preguntas acorde a nuestras necesidades para hacer en las entrevistas, las cuales representan el sustento de muchas de las decisiones de diseño en nuestro proyecto. Lo anterior, me ayudo a tomar en cuenta cuál seria el rango de audiencia para realizar la parte de Domain-Driven Software Architechture y poder expresar mis ideas a estas personas. **Rogger Faryd****TB1:**  A lo largo del sprint, nos enfocamos en comunicarnos por escrito de forma clara y efectiva. Gracias a lo anterior, pude realizar desde la redacción de contenido para el landing page hasta la documentación técnica y preguntas de entrevistas. Además, adaptamos el estilo según el público: más directo y persuasivo para los usuarios, y más estructurado y técnico para el equipo de desarrollo. Esto nos ayudó a mantener alineado al equipo y a transmitir el valor de nuestra plataforma a diferentes audiencias.**TP:** Para el ddesarrollo de este Sprint 2 logramos desarrollar diferentes diferentes aspectos de lo referente a la web application, parte del frontend. En mi caso logré desarrollar la pagina de login, la pagina de de registro, reportes, etc.**Christofer William****TB1:**  Las acciones que realicé fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Durante toda la elaboración del trabajo, todo lo que escribimos, mostramos y estructurado, debe de poder ser entendidos por personas de cualquier condición o discapacidad. Con esto, podemos transmitir nuestro projecto a una mayor base de personas que requieran nuestro apoyo y nos puedan ayudar con mejor feedback.**TP:**   **Jose Enrique****TB1:**  En esta primera entrega, realicé la elaboración de los general style guidelines y web style guidelines para asegurar una identidad visual consistente en la aplicación. Además, ayude en el desarrolló de los wireframes y mockups de la landing page y de la aplicación web, así como diagramas de flujo de usuario (user flow diagrams) y prototipos interactivos en Figma. Estos avances permitieron consolidar una base visual y estructural sólida para el diseño y desarrollo posterior del proyecto.  **TP:**  Para el desarrollo del Sprint 2 completamos Users Storys para la parte Frontend. En mi caso pude hacer los componentes iniciales de la pagina principal de la página web.|------------|](#comunica-por-escrito-con-efectividad-a-diferentes-rangos-de-audiencia-jorge-yum--tb1--en-esta-primera-entrega-realicé-la-descripción-de-la-startup-analicé-detalladamente-el-contexto-los-antecedentes-y-la-problemática-principal-aplique-el-proceso-de-lean-ux-para-definir-hipótesis-y-validarlas-realicé-un-análisis-competitivo-para-identificar-oportunidades-de-diferenciación-y-pude-definir-los-segmentos-objetivos-del-mercado-con-sustento-estadístico--tp--para-esta-entrega-de-forma-escrita-se-discutio-el-desarrollo-del-sprint-2-junto-con-los-miembros-del-equipo-y-a-partir-de-los-resultados-desarrolle-los-features-necesarios-para-nuestra-aplicacion-web-asimismo-realize-correcciones-en-el-informe-a-partir-de-los-comentarios-recibidos-en-la-primera-entrega--luis-alva-tb1--se-diseñaron-una-cantidad-de-preguntas-acorde-a-nuestras-necesidades-para-hacer-en-las-entrevistas-las-cuales-representan-el-sustento-de-muchas-de-las-decisiones-de-diseño-en-nuestro-proyecto-lo-anterior-me-ayudo-a-tomar-en-cuenta-cuál-seria-el-rango-de-audiencia-para-realizar-la-parte-de-domain-driven-software-architechture-y-poder-expresar-mis-ideas-a-estas-personas-rogger-farydtb1--a-lo-largo-del-sprint-nos-enfocamos-en-comunicarnos-por-escrito-de-forma-clara-y-efectiva-gracias-a-lo-anterior-pude-realizar-desde-la-redacción-de-contenido-para-el-landing-page-hasta-la-documentación-técnica-y-preguntas-de-entrevistas-además-adaptamos-el-estilo-según-el-público-más-directo-y-persuasivo-para-los-usuarios-y-más-estructurado-y-técnico-para-el-equipo-de-desarrollo-esto-nos-ayudó-a-mantener-alineado-al-equipo-y-a-transmitir-el-valor-de-nuestra-plataforma-a-diferentes-audienciastp-para-el-ddesarrollo-de-este-sprint-2-logramos-desarrollar-diferentes-diferentes-aspectos-de-lo-referente-a-la-web-application-parte-del-frontend-en-mi-caso-logré-desarrollar-la-pagina-de-login-la-pagina-de-de-registro-reportes-etcchristofer-williamtb1--las-acciones-que-realicé-fueron-needfinding-el-to-be-scenario-el-impact-mapping-y-el-information-architechture-durante-toda-la-elaboración-del-trabajo-todo-lo-que-escribimos-mostramos-y-estructurado-debe-de-poder-ser-entendidos-por-personas-de-cualquier-condición-o-discapacidad-con-esto-podemos-transmitir-nuestro-projecto-a-una-mayor-base-de-personas-que-requieran-nuestro-apoyo-y-nos-puedan-ayudar-con-mejor-feedbacktp---jose-enriquetb1--en-esta-primera-entrega-realicé-la-elaboración-de-los-general-style-guidelines-y-web-style-guidelines-para-asegurar-una-identidad-visual-consistente-en-la-aplicación-además-ayude-en-el-desarrolló-de-los-wireframes-y-mockups-de-la-landing-page-y-de-la-aplicación-web-así-como-diagramas-de-flujo-de-usuario-user-flow-diagrams-y-prototipos-interactivos-en-figma-estos-avances-permitieron-consolidar-una-base-visual-y-estructural-sólida-para-el-diseño-y-desarrollo-posterior-del-proyecto--tp--para-el-desarrollo-del-sprint-2-completamos-users-storys-para-la-parte-frontend-en-mi-caso-pude-hacer-los-componentes-iniciales-de-la-pagina-principal-de-la-página-web------------)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -290,17 +292,146 @@ commits en la semana 4:
 
 ## Student Outcome
 ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
-
-| Criterio | Acciones realizadas | Conclusiones|
-|---------|--------------------|------------|
-<<<<<<< HEAD
-|Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, realicé la  identificación clara de la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web, para diferenciarse de posibles competidores. Además, realicé una entrevista a una persona que encaja en nuestros segmento objetivo. Con esta información y con lo obetenido por mis otros compañeros, se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web.<br> **TP:** <br> Para esta entrega, a partir de los comentarios y observaciones que recibimos, realize las correcciones necesarias a los technical stories, evidencia de mercado y competencias. Al mismo tiempo realize un avanze al FrontEnd y los bounded context de sales, clients y payment. Se discutio los features necesarios para el sprint 2 y los pasos para su desarrollo. <br> **Luis Alva:**<br> **TB1:** <br> A través de las entrevistas realizadas a personas representativas de nuestros segmentos objetivo pude recolectar información valiosa para definir los requerimientos de nuestro proyecto, y diseñar pilares clave como la arquitectura de software a través de Domain Driven Design. Con lo anterior, me refiero a que pude realizar los diagramas de contexto, contenedores y de componentes para el trabajo. <br> **Rogger Faryd**<br>**TB1:** <br> Durante el trabajo en equipo, mantuvimos una comunicación oral constante y clara, lo que nos permitió organizarnos, repartir tareas y asumir distintos roles de liderazgo según lo necesitábamos. Gracias a eso, pude avanzar en el diseño en Figma, hice el landing page, ayude en preparar las preguntas para las entrevistas y armar el diagrama de clases, cumpliendo con lo que nos propusimos.<br> **TP:** Durante este avance par el trabajo en equipo tratamos de mantener una constante comunicación, lo que nos permitio repartirnos tareas y asumir distintos roles. Gracias a eso, logré avanzar con el desarrollo de los endpoints, parte visual de la web, terminar algunos aspectos para la landing page.<br>**Christofer William**<br>**TB1:** <br>Para esta entrega, realicé fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Todo lo anterior, lo pude lograr gracias a la comunicación que tuvimos con los posibles clientes y cómo les explicamos nuestro proyecto para poder sacar la información necesaria, para satisfacer sus necesidades y preferencias.<br> **Jose Enrique Vargas**<br>**TB1:** <br> Durante esta primera etapa, participé activamente en el diseño de la página web mediante Figma, contribuyendo en la elaboración de pantallas clave para la aplicación. Por ejemplo, realicé el . Además, mantuve una comunicación constante con el equipo para coordinar avances y asegurar la coherencia del proyecto.  <br> **TP:** <br> En esta entrega estuve encargado de completar parte del Figma para su desarrollo y deployamiento en la web, estuve a cargo de hacer la parte visual del proyecto.|------------|
-|Comunica por escrito con efectividad a diferentes rangos de audiencia.| **Jorge Yum**: <br> **TB1:** <br> En esta primera entrega, realicé la descripción de la startup, analicé detalladamente el contexto, los antecedentes y la problemática principal, aplique el proceso de Lean UX para definir hipótesis y validarlas, realicé un análisis competitivo para identificar oportunidades de diferenciación, y pude definir los segmentos objetivos del mercado con sustento estadístico. <br> **TP:** <br> Para esta entrega, de forma escrita se discutio el desarrollo del sprint 2 junto con los miembros del equipo y a partir de los resultados, desarrolle los features necesarios para nuestra aplicacion web. Asimismo realize correcciones en el informe a partir de los comentarios recibidos en la primera entrega.  <br><br>**Luis Alva:**<br> **TB1:** <br> Se diseñaron una cantidad de preguntas acorde a nuestras necesidades para hacer en las entrevistas, las cuales representan el sustento de muchas de las decisiones de diseño en nuestro proyecto. Lo anterior, me ayudo a tomar en cuenta cuál seria el rango de audiencia para realizar la parte de Domain-Driven Software Architechture y poder expresar mis ideas a estas personas. <br>**Rogger Faryd**<br>**TB1:** <br> A lo largo del sprint, nos enfocamos en comunicarnos por escrito de forma clara y efectiva. Gracias a lo anterior, pude realizar desde la redacción de contenido para el landing page hasta la documentación técnica y preguntas de entrevistas. Además, adaptamos el estilo según el público: más directo y persuasivo para los usuarios, y más estructurado y técnico para el equipo de desarrollo. Esto nos ayudó a mantener alineado al equipo y a transmitir el valor de nuestra plataforma a diferentes audiencias.<br>**TP:** Para el ddesarrollo de este Sprint 2 logramos desarrollar diferentes diferentes aspectos de lo referente a la web application, parte del frontend. En mi caso logré desarrollar la pagina de login, la pagina de de registro, reportes, etc.<br>**Christofer William**<br>**TB1:** <br> Las acciones que realicé fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Durante toda la elaboración del trabajo, todo lo que escribimos, mostramos y estructurado, debe de poder ser entendidos por personas de cualquier condición o discapacidad. Con esto, podemos transmitir nuestro projecto a una mayor base de personas que requieran nuestro apoyo y nos puedan ayudar con mejor feedback.<br>**TP:** <br>  <br>**Jose Enrique**<br>**TB1:** <br> En esta primera entrega, realicé la elaboración de los general style guidelines y web style guidelines para asegurar una identidad visual consistente en la aplicación. Además, ayude en el desarrolló de los wireframes y mockups de la landing page y de la aplicación web, así como diagramas de flujo de usuario (user flow diagrams) y prototipos interactivos en Figma. Estos avances permitieron consolidar una base visual y estructural sólida para el diseño y desarrollo posterior del proyecto. <br> **TP:** <br> Para el desarrollo del Sprint 2 completamos Users Storys para la parte Frontend. En mi caso pude hacer los componentes iniciales de la pagina principal de la página web.|------------|
-=======
-
+<div>
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Nombre</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Criterio 1 -->
+    <tr>
+      <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+      <td>Jorge Yum</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Identifiqué claramente la problemática de nuestra startup, los segmentos objetivos y realicé la investigación necesaria para definir los requisitos de la aplicación web. También realicé una entrevista con un usuario del segmento.<br>
+        <strong>ℹ️ TP:</strong><br>
+        Corrigí los technical stories y evidencias con base en los comentarios recibidos. Avancé en el FrontEnd y definí los bounded contexts para ventas, clientes y pagos. Participé en la discusión y planeación del sprint 2.<br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+      <td rowspan="5">Me comunico oralmente de manera clara y estructurada, aportando al análisis técnico y estratégico del proyecto.</td>
+    </tr>
+    <tr>
+      <td>Luis Alva</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Realicé entrevistas para recolectar información clave y diseñé la arquitectura de software basada en Domain Driven Design, elaborando diagramas de contexto, contenedores y componentes.<br>
+        <strong>ℹ️ TP:</strong><br>
+        <br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Rogger Faryd</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Mantuve comunicación constante con el equipo, avancé en el diseño en Figma, participé en la elaboración de la landing page, y preparé preguntas para entrevistas y diagramas de clases.<br>
+        <strong>ℹ️ TP:</strong><br>
+        Distribuí tareas y roles, avancé en el desarrollo de endpoints, parte visual de la web y detalles de la landing page.<br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Christofer William</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Realicé needfinding, escenarios to-be, impact mapping e Information Architecture, y recolecté información gracias a la comunicación con los posibles clientes.<br>
+        <strong>ℹ️ TP:</strong><br>
+        <br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Enrique Vargas</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Participé activamente en el diseño de la página web mediante Figma y mantuve comunicación constante para coordinar avances y coherencia del proyecto.<br>
+        <strong>ℹ️ TP:</strong><br>
+        Me encargué de completar la parte visual del proyecto y de su despliegue en la web.<br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+    <!-- Criterio 2 -->
+    <tr>
+      <td rowspan="6">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
+      <td>Jorge Yum</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Describí la startup, el contexto y los antecedentes, apliqué Lean UX para definir hipótesis y validarlas, realicé un análisis competitivo y definí segmentos objetivos con sustento estadístico.<br>
+        <strong>ℹ️ TP:</strong><br>
+        Documenté el desarrollo del sprint 2, corregí el informe basado en comentarios y definí los features necesarios para la aplicación web.<br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+      <td rowspan="6">Redacto con claridad, adaptando mi comunicación escrita a públicos técnicos y no técnicos.</td>
+    </tr>
+    <tr>
+      <td>Luis Alva</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Diseñé preguntas para entrevistas que sustentan decisiones de diseño y expresé ideas técnicas para el desarrollo basado en la investigación.<br>
+        <strong>ℹ️ TP:</strong><br>
+        <br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Rogger Faryd</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Redacté contenido para la landing page y documentación técnica, adaptando el estilo según el público (usuarios o equipo técnico).<br>
+        <strong>ℹ️ TP:</strong><br>
+        Desarrollé páginas de login, registro y reportes para la web.<br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Christofer William</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Documenté procesos con accesibilidad y claridad para que cualquier persona pueda entender el proyecto.<br>
+        <strong>ℹ️ TP:</strong><br>
+        <br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Enrique Vargas</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Elaboré guías de estilo visual y web, wireframes, diagramas de flujo y prototipos interactivos en Figma.<br>
+        <strong>ℹ️ TP:</strong><br>
+        Desarrollé user stories y componentes para la página principal.<br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
 </div>
-
-
 <!--* contenido -->
 
 # Capítulo I: Introducción
@@ -387,7 +518,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 **> 🧑‍💻  Christofer William Costa Morales**
    <div align='center'>
 
-   <img src="resources/Christofer Costa.jpg" alt="Christofer William Costa Morales" width="100" align='right'>
+   <img src="resources/team/Christofer.jpg" alt="Christofer William Costa Morales" width="100" align='right'>
 
    ~~~txt
    Soy estudiante de la carrera de ingenieria de software de la UPC.
@@ -407,7 +538,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 **> 🧑‍💻 Jose Enrique Vargas Javier**
    <div align='center'>
 
-   <img src="resources/ev.PNG" alt="Jose Enrique Vargas Javier" width="100" align='right'>
+   <img src="resources/team/Enrique.PNG" alt="Jose Enrique Vargas Javier" width="100" align='right'>
 
    ~~~txt
    👾 Soy estudiante de Ingeniería de Software 
@@ -686,7 +817,7 @@ directa durante la primera semana.
 
 #### 1.2.2.4. Lean UX Canvas
 
-![Lean UX Canvas](resources/LeanUX_canvas_v5.jpg)
+![Lean UX Canvas](resources/Chapter-I/LeanUXCanvas.png)
 
 ##### Resumen 
 ## Segmentos Objetivos
@@ -952,48 +1083,46 @@ directa durante la primera semana.
 
    **Segmento Objetivo 1️⃣: Administradores de negocios con inventario físico**
 
-   > [!NOTE] 
-   > <a href="https://forms.gle/XV26rSaBf8PUVVsL7" target='_blank'>Cuestionario 🔗</a>
+   ![formulario para el primer Segmento Objetivo](https://img.shields.io/badge/Cuestionario-blue?style=for-the-badge&logo=libreofficebase&logoColor=white&link=https%3A%2F%2Fforms.gle%2FXV26rSaBf8PUVVsL7)
 
    ~~~txt    
     1. ¿Qué tipo de productos vendes o distribuyes en tu negocio?
     
     2 ¿Actualmente cómo gestionas tu inventario y tus ventas?
     
-    3. ¿Cómo haces seguimiento a los pedidos de tus clientes?
+    2. ¿Cómo haces seguimiento a los pedidos de tus clientes?
     
-    4. ¿Llevas un historial de compras de tus clientes para darles seguimiento o promociones?
+    3. ¿Llevas un historial de compras de tus clientes para darles seguimiento o promociones?
     
-    5. ¿Qué tan importante sería para ti tener un sistema que te alerte de productos por agotarse?
+    4. ¿Qué tan importante sería para ti tener un sistema que te alerte de productos por agotarse?
 
-    6. ¿Con qué frecuencia necesitas generar reportes de ventas o inventario?
+    5. ¿Con qué frecuencia necesitas generar reportes de ventas o inventario?
 
     7.¿Cuánto tiempo estimas que dedicas cada semana a controlar tu inventario o ventas manualmente?
     
-    8. ¿Qué dificultades enfrentas al llevar tu control de stock o ventas?
+    6. ¿Qué dificultades enfrentas al llevar tu control de stock o ventas?
     
-    9. ¿Te gustaría que tus clientes puedan ver tu catálogo de productos en línea?
+    7. ¿Te gustaría que tus clientes puedan ver tu catálogo de productos en línea?
     
-    10.  ¿Qué temores tienes al momento de cambiar tu sistema de control actual?
+    8.   ¿Qué temores tienes al momento de cambiar tu sistema de control actual?
     
-    11.  ¿Qué funcionalidades crees que son imprescindibles en un sistema de inventario y ventas?
+    9.   ¿Qué funcionalidades crees que son imprescindibles en un sistema de inventario y ventas?
     
-    12. ¿Te gustaría poder acceder al sistema desde tu celular u otros dispositivos?
+    10. ¿Te gustaría poder acceder al sistema desde tu celular u otros dispositivos?
     
-    13. ¿Estarías dispuesto a pagar por una solución que te ahorre tiempo y errores?
+    11. ¿Estarías dispuesto a pagar por una solución que te ahorre tiempo y errores?
 
-    14. ¿Qué opina de una aplicación que le permita gestionar su inventario desde la web, y mantener un registro de ventas con la información de los clientes y automatizar la atención a sus clientes mediante WhatsApp o un catálogo en línea?
+    12. ¿Qué opina de una aplicación que le permita gestionar su inventario desde la web, y mantener un registro de ventas con la información de los clientes y automatizar la atención a sus clientes mediante WhatsApp o un catálogo en línea?
     
-    15. ¿Qué tan importante es para ti poder analizar tus ventas e inventario a través de reportes o gráficos que te ayuden a tomar mejores decisiones para tu negocio?
+    13. ¿Qué tan importante es para ti poder analizar tus ventas e inventario a través de reportes o gráficos que te ayuden a tomar mejores decisiones para tu negocio?
 
-    16. ¿Qué otras características le gustaría que tuviera esta aplicación?
+    14. ¿Qué otras características le gustaría que tuviera esta aplicación?
   ~~~
 
    **Segmento Objetivo 2️⃣: Compradores o clientes registrados**
 
-   > [!NOTE] 
-   > <a href="https://forms.gle/PNxnomycpCKBD1rw5" target='_blank'>Cuestionario 🔗</a>
-
+   ![formulario para el segundo Segmento Objetivo](https://img.shields.io/badge/Cuestionario-blue?style=for-the-badge&logo=libreofficebase&logoColor=white&link=https%3A%2F%2Fforms.gle%2FPNxnomycpCKBD1rw5)
+   
   ~~~txt
     1. ¿Sueles revisar catálogos o productos en línea antes de comprar?
 
@@ -1027,21 +1156,21 @@ directa durante la primera semana.
    </tr>
 
    <tr>
-   <td align='center'>
-   <a href="https://youtu.be/mwxyupflToU" target='blank'>
-    <img src="resources/Interview-1.png" alt="Primera entrevista del primer segmento objetivo">
-   </a>
-   </td> 
-   <td align='center'>
-    <a href="https://youtu.be/9L7HESPibVA" target='_blank'>
-    <img src="resources/Interview-2.png" alt="Segunda entrevista del primer segmento objetivo">
-   </a>
-   </td>
-   <td align='center'>
-   <a href="https://youtu.be/nJlLy_sWxCM" target='_blank'>
-    <img src="resources/Interview-3.png" alt="Tercera entrevista del primer segmento objetivo">
-   </a>
-   </td>
+    <td align='center'>
+      <a href="https://youtu.be/mwxyupflToU" target='_blank'>
+      <img src="resources/interviews/Interview1.png" alt="Primera entrevista del primer segmento objetivo">
+      </a>
+    </td> 
+    <td align='center'>
+      <a href="https://youtu.be/9L7HESPibVA" target='_blank'>
+      <img src="resources/interviews/Interview2.png" alt="Segunda entrevista del primer segmento objetivo">
+      </a>
+    </td>
+    <td align='center'>
+      <a href="https://youtu.be/nJlLy_sWxCM" target='_blank'>
+      <img src="resources/interviews/Interview3.png" alt="Tercera entrevista del primer segmento objetivo">
+      </a>
+    </td>
    </tr>
 
    <tr>
@@ -1077,17 +1206,17 @@ directa durante la primera semana.
    <tr>
    <td align='center'>
    <a href="https://www.youtube.com/watch?v=barIe2mUUn8" target='_blank'>
-    <img src="resources/Interview-1.png" alt="Primera entrevista del primer segmento objetivo">
+    <img src="resources/interviews/Interview1.png" alt="Primera entrevista del segundo segmento objetivo">
    </a>
    </td> 
    <td align='center'>
    <a href="https://youtu.be/3iKexM4Z7i8" target='_blank'>
-    <img src="resources/Interview-2.png" alt="Segunda entrevista del primer segmento objetivo">
+    <img src="resources/interviews/Interview2.png" alt="Segunda entrevista del segundo segmento objetivo">
    </a>
    </td>
    <td align='center'>
    <a href="https://youtu.be/2Nb_TZGTgGc" target='_blank'>
-    <img src="resources/Interview-3.png" alt="Tercera entrevista del primer segmento objetivo">
+    <img src="resources/interviews/Interview3.png" alt="Tercera entrevista del segundo segmento objetivo">
    </a>
    </td>
    </tr>
