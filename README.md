@@ -1081,7 +1081,7 @@ directa durante la primera semana.
 
    **Segmento Objetivo 1️⃣: Administradores de negocios con inventario físico**
 
-   [![formulario para el primer Segmento Objetivo](https://img.shields.io/badge/Cuestionario-Segmento1-blue?style=for-the-badge&logo=libreofficebase&logoColor=white)](https://forms.gle/XV26rSaBf8PUVVsL7)
+   [![form for first objective segment](https://img.shields.io/badge/Cuestionario-Segmento1-blue?style=for-the-badge&logo=libreofficebase&logoColor=white)](https://forms.gle/XV26rSaBf8PUVVsL7)
 
    ~~~txt    
     1. ¿Qué tipo de productos vendes o distribuyes en tu negocio?
@@ -1110,21 +1110,25 @@ directa durante la primera semana.
     
     11. ¿Estarías dispuesto a pagar por una solución que te ahorre tiempo y errores?
 
-    12. ¿Qué opina de una aplicación que le permita gestionar su inventario desde la web, y mantener un registro de ventas con la información de los clientes y automatizar la atención a sus clientes mediante WhatsApp o un catálogo en línea?
+    12. ¿Qué opina de una aplicación que le permita gestionar su inventario desde la web, 
+    y mantener un registro de ventas con la información de los clientes y automatizar la atención a sus 
+    clientes mediante WhatsApp o un catálogo en línea?
     
-    13. ¿Qué tan importante es para ti poder analizar tus ventas e inventario a través de reportes o gráficos que te ayuden a tomar mejores decisiones para tu negocio?
+    13. ¿Qué tan importante es para ti poder analizar tus ventas e inventario a través de reportes o gráficos 
+    que te ayuden a tomar mejores decisiones para tu negocio?
 
     14. ¿Qué otras características le gustaría que tuviera esta aplicación?
   ~~~
 
    **Segmento Objetivo 2️⃣: Compradores o clientes registrados**
 
-   [![formulario para el segundo Segmento Objetivo](https://img.shields.io/badge/Cuestionario-Segmento2-blue?style=for-the-badge&logo=libreofficebase&logoColor=white)](https://forms.gle/PNxnomycpCKBD1rw5)
+   [![form for second objective segment](https://img.shields.io/badge/Cuestionario-Segmento2-blue?style=for-the-badge&logo=libreofficebase&logoColor=white)](https://forms.gle/PNxnomycpCKBD1rw5)
    
   ~~~txt
     1. ¿Sueles revisar catálogos o productos en línea antes de comprar?
 
-    2. ¿Qué valoras más al revisar un catálogo en línea? (ej. precios claros, disponibilidad, promociones, etc.)
+    2. ¿Qué valoras más al revisar un catálogo en línea? (ej. precios claros, 
+    disponibilidad, promociones, etc.)
    
     3. ¿Prefieres comprar en negocios que tienen una presentación más ordenada en línea?
    
@@ -1251,40 +1255,40 @@ directa durante la primera semana.
    **1️⃣ Primer Segmento Objetivo: Administradores de negocios con inventario físico**
    En las entrevistas, la mayoría de los negocios (alrededor del 70%) usa hojas de cálculo como Excel para gestionar su inventario y ventas, lo que genera problemas de errores y omisiones, dedicando entre 3 a 5 horas a la semana en este proceso.
    
-   ![alt text](resources/question7.png)
-   ![alt text](resources/question8.png)
+   ![Question 2](resources/interviews/OS1/S1-pos1_q2.png)
+   ![Question 7](resources/interviews/OS1/S1-pos2_q7.png)
   
   El 75% de los encuestados considera importante tener un sistema que alerte sobre productos por agotarse, mientras que un 100% estaría interesado en que sus clientes pudieran ver el catálogo en línea.
   
-  ![alt text](resources/question9.png)
-  ![alt text](resources/question10.png)
+  ![Question 5](resources/interviews/OS1/S1-pos3_q5.png)
+  ![Question 9](resources/interviews/OS1/S1-pos4_q9.png)
 
   Además, el 100% de los entrevistados valora la posibilidad de acceder al sistema desde dispositivos móviles y considera esencial que el sistema sea fácil de usar para gestionar ventas, inventario y clientes de manera más eficiente.
   
-  ![alt text](resources/question11.png)
+  ![Question 12](resources/interviews/OS1/S1-pos5_q12.png)
 
   Este resumen muestra las necesidades comunes de los negocios en cuanto a optimización de la gestión de inventario y ventas.
 
    **2️⃣ Segundo Segmento Objetivo: Compradores o clientes registrados**
    En las entrevistas realizadas, se observó que la mayoría de los participantes (alrededor del 69%) revisan catálogos en línea antes de hacer una compra. La mayoría valora especialmente que los catálogos tengan fotos y descripciones detalladas de los productos, así como precios claros y disponibilidad actualizada. Además, todos los entrevistados prefieren comprar en tiendas que tienen una presentación ordenada en línea, lo que facilita la navegación.
    
-   ![resumen pregunta 1](resources/question1.png)
+   ![Question 1](resources/interviews/OS2/S2-pos1_q1.png)
    
-   ![alt text](resources/question2.png)
+   ![Question 2](resources/interviews/OS2/S2-pos2_q2.png)
   
   La posibilidad de ver si un producto está disponible en tiempo real es algo que muchos consideran muy útil (aproximadamente el 92%). También se destacó que el 30% de los participantes encuentran útil ver promociones o combos destacados de manera visible y fácil de encontrar.
   
-  ![alt text](resources/question3.png)
+  ![Question 4](resources/interviews/OS2/S2-pos3_q4.png)
   
-  ![alt text](resources/question4.png)
+  ![Question 5](resources/interviews/OS2/S2-pos4_q5.png)
 
   En cuanto al proceso de compra, la mayoría prefiere hacer pedidos sin tener que llamar directamente, con un 46,2% indicando que prefieren una experiencia completamente digital. Sin embargo, uno de los problemas más comunes que enfrentan al comprar por redes sociales es la respuesta lenta, y muchos también mencionaron la falta de precios claros y información sobre disponibilidad.
   
-  ![alt text](resources/question5.png)
+  ![Question 6](resources/interviews/OS2/S2-pos5_q6.png)
 
   Un punto importante es que el 84% de los encuestados expresó interés en poder leer o dejar reseñas de otros compradores, lo cual muestra la importancia de la confianza en las experiencias compartidas. En relación a compartir catálogos, el 60% estaría dispuesto a hacerlo si les gusta lo que ven, lo que destaca un buen nivel de recomendación entre consumidores.
   
-  ![alt text](resources/question6.png)
+  ![Question 8](resources/interviews/OS2/S2-pos6_q8.png)
 
   Finalmente, la mayoría prefiere que los productos estén organizados por categorías y marcas, lo que facilita la búsqueda dentro del catálogo.
 
