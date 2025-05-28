@@ -215,9 +215,11 @@ Cabe recalcar que no toma en cuenta los merge commits y los commit de uno de nue
   - [2.4. Ubiquitous Language:](#24-ubiquitous-language)
 - [Capítulo III: Requeriments Specification](#capítulo-iii-requeriments-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-      - [📝 Administradores:](#-administradores-4)
-      - [📝 Clientes:](#-clientes-4)
+      - [📝 Administradores](#-administradores-4)
+      - [📝 Clientes](#-clientes-4)
   - [3.2. User Stories](#32-user-stories)
+    - [Technical Stoies](#technical-stoies)
+    - [Epic](#epic)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
@@ -1353,12 +1355,12 @@ directa durante la primera semana.
 
 # Capítulo III: Requeriments Specification
  ## 3.1. To-Be Scenario Mapping
- #### 📝 Administradores:
- ![alt text](<resources/To be scenario administradores.jpg>)
+ #### 📝 Administradores
+ ![To be Scenario Admin](resources/Chapter-III/To_be_scenario-admin.jpg)
 
- #### 📝 Clientes:
+ #### 📝 Clientes
  
- ![alt text](<resources/To be scenario clientes.jpg>)
+ ![To be Scenario Clients](resources/Chapter-III/To_be_scenario-clients.jpg)
 
  ## 3.2. User Stories
  |Epic  / User Story ID|Título|Descripción|Criterios de Aceptación |Relacionado con (Epic ID)|
@@ -1381,11 +1383,21 @@ directa durante la primera semana.
 | US16 | Llamado a la acción claro y accesible | Como visitante, quiero encontrar fácilmente un botón para registrarme o agendar una demo, para tomar acción sin complicaciones. | **Escenario 1: Botón visible al cargar la página**<br>**Dado que** ingreso a la página<br>**Cuando** la veo por primera vez<br>**Entonces** el botón “Regístrate gratis” o “Pide una demo” debe estar visible sin necesidad de hacer scroll.<br><br>**Escenario 2: CTA persistente**<br>**Dado que** navego hacia abajo<br>**Cuando** hago scroll<br>**Entonces** debe haber un botón fijo o repetido que me permita registrarme fácilmente. |EP06  |
 | US17 | Testimonios o casos de éxito | Como visitante, quiero leer experiencias reales de otros dueños de negocio, para confiar más en la plataforma. | **Escenario 1: Visualización de testimonios**<br>**Dado que** estoy en la sección de testimonios<br>**Cuando** veo los perfiles<br>**Entonces** deben mostrarse nombres, negocios reales y breves frases de usuarios reales.<br><br>**Escenario 2: Diseño atractivo**<br>**Dado que** navego la sección<br>**Cuando** reviso los testimonios<br>**Entonces** deben mostrarse con diseño visual atractivo (cards, sliders, etc). | EP06 |
 | US19 | Formulario de contacto funcional | Como visitante, quiero poder dejar mis datos fácilmente para que me contacten si tengo dudas, sin tener que registrarme aún. | **Escenario 1: Envío exitoso**<br>**Dado que** ingreso mi nombre, correo y mensaje<br>**Cuando** hago clic en “Enviar”<br>**Entonces** el sistema debe registrar los datos y mostrar mensaje de confirmación.<br><br>**Escenario 2: Validación de campos**<br>**Dado que** envío un formulario incompleto o con correo inválido<br>**Cuando** hago clic en enviar<br>**Entonces** debe mostrarse un mensaje de error específico y no enviarse. | EP06 |
+
+### Technical Stoies
+
+|Technical Stories ID|Título|Descripción|Criterios de Aceptación |Relacionado con (Epic ID)|
+| :- | :- | :- | :- | :- |
 | TS01                 | API Registro de Productos | Como **developer**, quiero implementar un endpoint POST `/api/products` para registrar nuevos productos en la base de datos.                 | **Scenario: Registro exitoso**<br>Given que envío un JSON válido con los campos requeridos<br>When realizo una solicitud POST a `/api/products`<br>Then la respuesta debe tener código 201 y retornar el objeto creado.<br><br>**Scenario: Campos obligatorios faltantes**<br>Given que envío un JSON sin campos requeridos<br>When realizo la solicitud POST<br>Then la respuesta debe ser 400 Bad Request con el detalle de los errores. | EP01                      |
 | TS02                 | API Consulta de Productos | Como **developer**, quiero implementar un endpoint GET `/api/products` para obtener la lista de productos.                                   | **Scenario: Consulta exitosa**<br>Given que existen productos registrados<br>When realizo una solicitud GET a `/api/products`<br>Then la respuesta debe ser 200 OK y retornar la lista de productos.<br><br>**Scenario: Consulta sin resultados**<br>Given que no existen productos registrados<br>When realizo la solicitud GET<br>Then la respuesta debe ser 200 OK con una lista vacía.                                                 | EP01                      |
 | TS03                 | API Registro de Ventas    | Como **developer**, quiero implementar un endpoint POST `/api/sales` para registrar las ventas realizadas.                                   | **Scenario: Registro de venta exitosa**<br>Given que envío un JSON con los datos de la venta<br>When realizo la solicitud POST a `/api/sales`<br>Then la respuesta debe ser 201 Created con los datos de la venta.<br><br>**Scenario: Venta con datos incompletos**<br>Given que envío un JSON con campos faltantes<br>When realizo la solicitud POST<br>Then la respuesta debe ser 400 Bad Request con mensaje de error.                  | EP02                      |
 | TS04                 | API Historial de Compras  | Como **developer**, quiero implementar un endpoint GET `/api/customers/{id}/purchases` para consultar el historial de compras de un cliente. | **Scenario: Historial existente**<br>Given que el cliente tiene compras registradas<br>When realizo la solicitud GET a `/api/customers/123/purchases`<br>Then la respuesta debe ser 200 OK con la lista de compras.<br><br>**Scenario: Sin historial de compras**<br>Given que el cliente no tiene compras<br>When realizo la solicitud GET<br>Then la respuesta debe ser 200 OK con una lista vacía.                                      | EP02                      |
 | TS05                 | API Consulta de Stock     | Como **developer**, quiero implementar un endpoint GET `/api/stock` para visualizar el stock actualizado de los productos.                   | **Scenario: Consulta exitosa**<br>Given que existen productos en inventario<br>When realizo la solicitud GET a `/api/stock`<br>Then la respuesta debe ser 200 OK con los datos de stock en tiempo real.<br><br>**Scenario: Producto sin stock**<br>Given que un producto no tiene stock disponible<br>When consulto `/api/stock`<br>Then la respuesta debe incluir el stock en 0 para dicho producto.                                      | EP01                      |
+
+### Epic
+
+|Epic ID  |Título|Descripción|
+| :-      | :-   | :-        | 
 | EP01    | Gestión de productos e inventario        | Como dueño de negocio, quiero registrar mis productos y controlar el inventario en tiempo real para tener una gestión organizada y actualizada de mi stock. |
 | EP02    | Ventas y clientes                        | Como dueño de negocio, quiero registrar ventas y datos de mis clientes para llevar seguimiento comercial y ofrecer una atención más personalizada. |
 | EP03    | Reportes y análisis                      | Como dueño de negocio, quiero generar reportes visuales y paneles de indicadores para tomar decisiones informadas basadas en datos reales. |
@@ -1393,9 +1405,10 @@ directa durante la primera semana.
 | EP05    | Catálogo y automatización con clientes   | Como dueño de negocio, quiero automatizar la atención al cliente mediante catálogos y precios personalizados para ahorrar tiempo y mejorar la experiencia de compra. |
 | EP06    | Página web y captación de usuarios       | Como visitante, quiero entender los beneficios, leer experiencias reales y contactar fácilmente para decidir si la plataforma es adecuada para mí. |
 
+
  ## 3.3. Impact Mapping
 
- ![alt text](<resources/Impact Mapping.png>)
+ ![Impact Mapping](resources/Chapter-III/Impact_Mapping.png)
 
 
  ## 3.4. Product Backlog
