@@ -261,7 +261,6 @@ Cabe recalcar que no toma en cuenta los merge commits y los commit de uno de nue
     - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Service \& Applications Implementation](#52-landing-page-service--applications-implementation)
-    - [5.2.x. Sprints](#52x-sprints)
     - [5.2.1 Sprint 1](#521-sprint-1)
       - [5.2.1.1 Sprint Planning 1](#5211-sprint-planning-1)
       - [5.2.1.2 Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
@@ -270,16 +269,16 @@ Cabe recalcar que no toma en cuenta los merge commits y los commit de uno de nue
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [5.2.2 Sprint 2](#522-sprint-2)
-    - [5.2.2.1 Sprint Planning 2](#5221-sprint-planning-2)
-    - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-    - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
-    - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
-    - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
-      - [Manager Side:](#manager-side)
-    - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
-    - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
-    - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.2 Sprint 2](#522-sprint-2)
+      - [5.2.2.1 Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+        - [Manager Side:](#manager-side)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -1382,7 +1381,7 @@ directa durante la primera semana.
 | US15 | Visualización clara de beneficios | Como visitante, quiero entender rápidamente los beneficios de la plataforma, para decidir si me interesa registrarme. | **Escenario 1: Sección visible al ingresar**<br>**Dado que** ingreso a la landing page<br>**Cuando** me desplazo o espero unos segundos<br>**Entonces** debo ver una sección destacada que explica los beneficios clave (ahorro de tiempo, control de inventario, recordatorios, etc).<br><br>**Escenario 2: Visualización en móvil y desktop**<br>**Dado que** visito la landing desde distintos dispositivos<br>**Cuando** accedo a la página<br>**Entonces** la sección debe ser legible y ordenada en cualquier tamaño de pantalla. | EP06 |
 | US16 | Llamado a la acción claro y accesible | Como visitante, quiero encontrar fácilmente un botón para registrarme o agendar una demo, para tomar acción sin complicaciones. | **Escenario 1: Botón visible al cargar la página**<br>**Dado que** ingreso a la página<br>**Cuando** la veo por primera vez<br>**Entonces** el botón “Regístrate gratis” o “Pide una demo” debe estar visible sin necesidad de hacer scroll.<br><br>**Escenario 2: CTA persistente**<br>**Dado que** navego hacia abajo<br>**Cuando** hago scroll<br>**Entonces** debe haber un botón fijo o repetido que me permita registrarme fácilmente. |EP06  |
 | US17 | Testimonios o casos de éxito | Como visitante, quiero leer experiencias reales de otros dueños de negocio, para confiar más en la plataforma. | **Escenario 1: Visualización de testimonios**<br>**Dado que** estoy en la sección de testimonios<br>**Cuando** veo los perfiles<br>**Entonces** deben mostrarse nombres, negocios reales y breves frases de usuarios reales.<br><br>**Escenario 2: Diseño atractivo**<br>**Dado que** navego la sección<br>**Cuando** reviso los testimonios<br>**Entonces** deben mostrarse con diseño visual atractivo (cards, sliders, etc). | EP06 |
-| US19 | Formulario de contacto funcional | Como visitante, quiero poder dejar mis datos fácilmente para que me contacten si tengo dudas, sin tener que registrarme aún. | **Escenario 1: Envío exitoso**<br>**Dado que** ingreso mi nombre, correo y mensaje<br>**Cuando** hago clic en “Enviar”<br>**Entonces** el sistema debe registrar los datos y mostrar mensaje de confirmación.<br><br>**Escenario 2: Validación de campos**<br>**Dado que** envío un formulario incompleto o con correo inválido<br>**Cuando** hago clic en enviar<br>**Entonces** debe mostrarse un mensaje de error específico y no enviarse. | EP06 |
+| US18 | Formulario de contacto funcional | Como visitante, quiero poder dejar mis datos fácilmente para que me contacten si tengo dudas, sin tener que registrarme aún. | **Escenario 1: Envío exitoso**<br>**Dado que** ingreso mi nombre, correo y mensaje<br>**Cuando** hago clic en “Enviar”<br>**Entonces** el sistema debe registrar los datos y mostrar mensaje de confirmación.<br><br>**Escenario 2: Validación de campos**<br>**Dado que** envío un formulario incompleto o con correo inválido<br>**Cuando** hago clic en enviar<br>**Entonces** debe mostrarse un mensaje de error específico y no enviarse. | EP06 |
 
 ### Technical Stoies
 
@@ -1431,7 +1430,7 @@ directa durante la primera semana.
  | 15 | US15 | Visualización de beneficios | Como visitante, quiero entender rápidamente los beneficios de la plataforma, para decidir si me interesa registrarme. | 1 |
  | 16 | US16 | Llamado a la acción claro | Como visitante, quiero encontrar fácilmente un botón para registrarme o agendar una demo, para tomar acción sin complicaciones. | 1 |
  | 17 | US17 | Testimonios reales | Como visitante, quiero leer experiencias reales de otros dueños de negocio, para confiar más en la plataforma. | 1 |
- | 18 | US19 | Formulario de contacto | Como visitante, quiero poder dejar mis datos fácilmente para que me contacten si tengo dudas, sin tener que registrarme aún. | 1 |
+ | 18 | US18 | Formulario de contacto | Como visitante, quiero poder dejar mis datos fácilmente para que me contacten si tengo dudas, sin tener que registrarme aún. | 1 |
 
 # Capítulo IV: Product Design
   ## 4.1. Style Guidelines
@@ -2259,10 +2258,9 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
 | Costa Morales Christofer William| miniChorri|
 | Vargas Javier, Jose Enrique | KenRi7 |
 
-  
-  *URL de repositorio de Landing Page:* https://github.com/st0ckhunters/landingPage.git
-  *URL de repositorio de Web Services:* 
-  *URL de repositorio de FrontEnd Aplication:* 
+  [![Repositorio Landing Page](https://img.shields.io/badge/Repositorio-LandingPage-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/StockHunters/LandingPage.git)
+  [![Repositorio Frontend](https://img.shields.io/badge/Repositorio-Frontend-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/StockHunters/Frontend-Web-Application.git)
+  [![Repositorio WebServices](https://img.shields.io/badge/Repositorio-WebServices-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/StockHunters/WebServices)
 
   Para el desarrollo de cada repositorio se usara GitFlow como estrategia de versionado, el cual consiste en crear ramas para cada funcionalidad o bug que se desee implementar para mantener un trabajo organizado. Las ramas principales seran main, develop, feature, release y hotfix. A continuacion se describen cada una de estas ramas:
 
@@ -2296,6 +2294,9 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
   Para el despliegue de ambos el landing page y la aplicacion web se utilizara Git, para mantener el control de versiones, la integracion continua y para mantener un workflow organizado en equipo para las futuras versiones gracias al uso de GitFlow.
 
   **Landing Page:**
+  [![Repositorio WebServices](https://img.shields.io/badge/Web-LandingPage-blue?style=for-the-badge&logo=github&logoColor=white)](https://stockhunters.github.io/LandingPage/)
+
+
   * El despliegue de la landing page se realizará mediante GitHub Pages, aprovechando su integración nativa con los repositorios de GitHub.
 
   * La landing se ubicará en una carpeta /docs dentro del branch principal del repositorio. GitHub Pages detectará automáticamente esta estructura para generar y servir el sitio.
@@ -2303,15 +2304,15 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
   * Este servicio ofrece hosting gratuito, confiable y con certificado SSL incluido, lo que garantiza una conexión segura (HTTPS).
   
   * Se generará una URL pública (https://stockhunters.github.io/LandingPage/) para compartir la página fácilmente o incluso integrarla a un dominio personalizado si se desea escalar.
-  ![GitHubPages](resources/GitHub-Pages.png)
+  ![GitHubPages](resources/Chapter-V/GitHub-Pages.png)
   En un futuro se podra cambiar la URL a un dominio propio en servicios de hosting y dominio como GoDaddy o Namecheap. 
-  ![LandingPage](resources/landing.png)
-
+  ![LandingPage](resources/Chapter-V/LandingPage.png)
 
 
  ## 5.2. Landing Page, Service & Applications Implementation
  
-  ### 5.2.x. Sprints
+  > [!NOTE]
+  > 5.2.x. Sprints
 
  ~~~md
  <!--- Estructura de los srpints --->
@@ -2325,7 +2326,8 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
    #### 5.2.x.7. Software Deployment Evidence for Sprint Review
    #### 5.2.x.8. Team Collaboration Insights during Sprint
  ~~~
-   ### 5.2.1 Sprint 1
+
+### 5.2.1 Sprint 1
    #### 5.2.1.1 Sprint Planning 1
    A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 1. Se discution los objetivos, etapa de tiempo y tareas a realizar.
    
@@ -2447,8 +2449,8 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     </tr>
    </table>
 
- #### 5.2.1.3 Sprint 1 Backlog
- <table>
+   #### 5.2.1.3 Sprint 1 Backlog
+   <table>
   <tr>
     <td><strong>Sprint #</strong></td>
     <td colspan="7"><strong>Sprint 1</strong></td>
@@ -2467,7 +2469,6 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td><strong>Assigned to</strong></td>
     <td><strong>Status</strong></td>
   </tr>
-
   <tr>
     <td>US15</td>
     <td>Visualización clara de beneficios</td>
@@ -2529,7 +2530,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>Done</td>
   </tr>
   <tr>
-    <td>US19</td>
+    <td>US18</td>
     <td>Formulario de contacto funcional</td>
     <td>Task 7</td>
     <td>Diseño de formulario</td>
@@ -2539,7 +2540,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>Done</td>
   </tr>
   <tr>
-    <td>US19</td>
+    <td>US18</td>
     <td>Formulario de contacto funcional</td>
     <td>Task 8</td>
     <td>Validación de campos</td>
@@ -2548,25 +2549,23 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td></td>
     <td>Done</td>
   </tr>
-
 </table>
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
- Durante el Sprint 1, se completaron todas las tareas planificadas del backlog, enfocadas en la creación de la landing page. Se redactaron los textos, se diseñaron secciones visuales (beneficios, testimonios y CTA), y se implementó el formulario de contacto con validaciones. Todo el avance quedó registrado en GitHub, donde se pueden verificar los commits, branches y pull requests correspondientes. Además, se presentó una demo del sitio durante el Sprint Review para validar funcionalidad y diseño.
+   #### 5.2.1.5. Execution Evidence for Sprint Review
+   Durante el Sprint 1, se completaron todas las tareas planificadas del backlog, enfocadas en la creación de la landing page. Se redactaron los textos, se diseñaron secciones visuales (beneficios, testimonios y CTA), y se implementó el formulario de contacto con validaciones. Todo el avance quedó registrado en GitHub, donde se pueden verificar los commits, branches y pull requests correspondientes. Además, se presentó una demo del sitio durante el Sprint Review para validar funcionalidad y diseño.
  
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
- En este sprint, la documentación se centró en describir la estructura y funcionalidad de la landing page. Se utilizaron archivos Markdown en el repositorio para documentar los componentes desarrollados, los flujos de interacción del formulario de contacto, y detalles técnicos como validaciones aplicadas. Esta documentación fue clave para alinear al equipo de cara a los próximos sprints donde se implementarán servicios backend.
+   #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+   En este sprint, la documentación se centró en describir la estructura y funcionalidad de la landing page. Se utilizaron archivos Markdown en el repositorio para documentar los componentes desarrollados, los flujos de interacción del formulario de contacto, y detalles técnicos como validaciones aplicadas. Esta documentación fue clave para alinear al equipo de cara a los próximos sprints donde se implementarán servicios backend.
 
+   #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+   Se realizó el despliegue exitoso de la landing page mediante GitHub Pages. Esta versión incluye todo lo trabajado en el sprint: sección de beneficios, testimonios, formulario de contacto y botones de llamada a la acción. El enlace fue compartido durante la revisión para facilitar la validación del equipo y obtener retroalimentación directa. Esto permitió identificar pequeños ajustes visuales que serán considerados en el próximo sprint.
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
- Se realizó el despliegue exitoso de la landing page mediante GitHub Pages. Esta versión incluye todo lo trabajado en el sprint: sección de beneficios, testimonios, formulario de contacto y botones de llamada a la acción. El enlace fue compartido durante la revisión para facilitar la validación del equipo y obtener retroalimentación directa. Esto permitió identificar pequeños ajustes visuales que serán considerados en el próximo sprint.
+   #### 5.2.1.8. Team Collaboration Insights during Sprint
+   El equipo trabajó de manera organizada y colaborativa, con una buena distribución de tareas según habilidades. Se mantuvo una comunicación fluida por Meet y Discord, y se usaron herramientas como GitHub y Trello para hacer seguimiento al progreso. Cada integrante asumió responsabilidades claras y también apoyó a otros cuando fue necesario. Destacó la actitud inclusiva y el liderazgo compartido, permitiendo avanzar de forma eficiente y cumplir los objetivos del sprint.
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
- El equipo trabajó de manera organizada y colaborativa, con una buena distribución de tareas según habilidades. Se mantuvo una comunicación fluida por Meet y Discord, y se usaron herramientas como GitHub y Trello para hacer seguimiento al progreso. Cada integrante asumió responsabilidades claras y también apoyó a otros cuando fue necesario. Destacó la actitud inclusiva y el liderazgo compartido, permitiendo avanzar de forma eficiente y cumplir los objetivos del sprint.
+### 5.2.2 Sprint 2
 
-## 5.2.2 Sprint 2
-
-### 5.2.2.1 Sprint Planning 2
+ #### 5.2.2.1 Sprint Planning 2
   A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 2. Se discution los objetivos, etapa de tiempo y tareas a realizar.
   
   <div>
@@ -2626,7 +2625,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
 
    </table>
 
-  ### 5.2.2.2. Aspect Leaders and Collaborators
+ #### 5.2.2.2. Aspect Leaders and Collaborators
    <table>
     <tr>
       <th>Team member</th>
@@ -2682,18 +2681,18 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
   </tr>
   </table>
 
-  ### 5.2.2.3. Sprint Backlog 2.
-  ![alt text](resources/Kanban-github.png)
+ #### 5.2.2.3. Sprint Backlog 2.
+  ![Kanban Github](resources/Chapter-V/Sprint-2/Kanban-github.png)
   <table>
   <tr>
     <td><strong>Sprint #</strong></td>
     <td colspan="7"><strong>Sprint 2</strong></td>
-</tr>
-<tr>
-    <td colspan="2"><strong>User Story</strong></td>
-    <td colspan="6"><strong>Work-item / Task</strong></td>
-</tr>
-<tr>
+  </tr>
+  <tr>
+      <td colspan="2"><strong>User Story</strong></td>
+      <td colspan="6"><strong>Work-item / Task</strong></td>
+  </tr>
+  <tr>
     <td><strong>ID</strong></td>
     <td><strong>Title</strong></td>
     <td><strong>ID</strong></td>
@@ -2789,7 +2788,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>In Process</td>
 </tr>
 <tr>
-    <td>US19</td>
+    <td>US18</td>
     <td>Formulario de contacto</td>
     <td>T10</td>
     <td>Crear formulario de contacto</td>
@@ -2802,12 +2801,10 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
 
 
 
-### 5.2.2.4. Development Evidence for Sprint Review.
+ #### 5.2.2.4. Development Evidence for Sprint Review.
 Se realizaron los siguientes avances en el desarrollo de la aplicación web y landing page con los commits correspondientes en GitHub:
-
-Repositorio Landing Page: https://github.com/StockHunters/LandingPage.git
-
-Repositorio FrontEnd: https://github.com/StockHunters/Frontend-Web-Application.git
+[![Repositorio Landing Page](https://img.shields.io/badge/Repositorio-LandingPage-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/StockHunters/LandingPage.git)
+[![Repositorio Frontend](https://img.shields.io/badge/Repositorio-Frontend-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/StockHunters/Frontend-Web-Application.git)
 
 | Repo | Branch | Commit | Message | Date |
 |------|--------|--------|---------|------|
@@ -2898,39 +2895,36 @@ Repositorio FrontEnd: https://github.com/StockHunters/Frontend-Web-Application.g
 | webapp | develop | 1a763f8 | 🔧 Chore: add .vscode settings folder | 08/05/2025 |
 | webapp | develop | 0a7489a | 📝 Docs: add table of contents to README | 08/05/2025 |
 
+ #### 5.2.2.5. Execution Evidence for Sprint Review.
 
-### 5.2.2.5. Execution Evidence for Sprint Review.
-
-![Products](</resources/products1.png>)
+![Products](resources/Chapter-V/Sprint-2/products1.png)
 Primera version del catalogo de productos, consumidos mediante una fake api, y organizados en cards mostrando solo la información clave.
 
-![Products](</resources/products2.png>)
+![Products](resources/Chapter-V/Sprint-2/products2.png)
 Capacidad para ver y ocultar los detalles de cada producto mediante el botón "ver detalles".
 
-![Products](</resources/products3.png>)
+![Products](resources/Chapter-V/Sprint-2/products3.png)
 Filtro de búsqueda mediante categorías, rango de precio y disponibilidad. 
 
+  ##### Manager Side:
+  **Lista de Clientes:** Permite visualizar todos los clientes registrados en el sistema, y añadir nuevos clientes.
+  ![Manager Side](resources/Chapter-V/Sprint-2/client-page.png)
+  **Detalles del Cliente:** Muestra información detallada de un cliente específico, incluyendo su historial de compras.
+  ![Manager Side](resources/Chapter-V/Sprint-2/client-item.png)
+  **Lista de Ventas:** Permite visualizar todas las ventas registradas en el sistema, y editar o eliminar ventas.
+  ![Manager Side](resources/Chapter-V/Sprint-2/sales-page.png)
+  **Seleccion de metodo de pago:** Permite seleccionar el método de pago para una venta específica.
+  ![Payment Template](resources/Chapter-V/Sprint-2/payment-page.png)
 
-#### Manager Side:
-
-**Lista de Clientes:** Permite visualizar todos los clientes registrados en el sistema, y añadir nuevos clientes.
-![Manager Side](resources/client-page.png)
-**Detalles del Cliente:** Muestra información detallada de un cliente específico, incluyendo su historial de compras.
-![Manager Side](resources/client-item.png)
-**Lista de Ventas:** Permite visualizar todas las ventas registradas en el sistema, y editar o eliminar ventas.
-![Manager Side](resources/sales-page.png)
-**Seleccion de metodo de pago:** Permite seleccionar el método de pago para una venta específica.
-![Payment Template](resources/payment-page.png)
-
-### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+ #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 Para el Srpint 2 se planifico el avance para la webapp y se desarrollo algunos enpoints necesarios para su correcta implementación. Para ello, se vio necesario poder desplegar una fakeapi. Se utilizó la herramienta `render` en conjunto con `github` para dicho proposito. En un principio, nuestros endpoints cuentan con 100 datos base. 
 
-> [!Note]
-> https://fakeapi-3oxx.onrender.com/api/<name>
+> [!IMPORTANT]
+> `https://fakeapi-3oxx.onrender.com/api/<name>`
 
 
-![alt text](resources/fakeapi-gh.png)
-![alt text](resources/fakeapi-render.png)
+![fakeapi github](resources/Chapter-V/Sprint-2/fakeapi-gh.png)
+![fakeapi render](resources/Chapter-V/Sprint-2/fakeapi-render.png)
 
 | Endpoint    | Details |
 |-------------|---------|
@@ -2938,9 +2932,9 @@ Para el Srpint 2 se planifico el avance para la webapp y se desarrollo algunos e
 | `/sales`    | Se implementaron las operaciones CRUD | 
 | `/clients`  | Se implementaron las operaciones CRUD |
 
-![alt text](resources/apifake-serverJs.png)
+![fakeapi code](resources/Chapter-V/Sprint-2/fakeapi-code.png)
 
-### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+ #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 Se deployo nuestro frontend en la plataforma github pages y este usa el fake api de json-server desplegado en render. Esto fue posible de la siguiente manera:
 ```bash
 npm install --save-dev gh-pages
@@ -2980,14 +2974,14 @@ Luego se ejecuta el siguiente comando para hacer el deploy:
 npm run build
 npm run deploy
 ```
-![deploy](image.png)
+![deploy](resources/Chapter-V/Sprint-2/deploy.png)
 
-### 5.2.2.8. Team Collaboration Insights during Sprint.
+ #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un contro de versiones adecuados. Aqui se detalla el flujo y los contribuidores:
 
-![networkGraph](resources/sprint2-networkgraph.png)
-![contributors](resources/sprint2-contributors.png)
+![networkGraph](resources/Chapter-V/Sprint-2/sprint2-networkgraph.png)
+![contributors](resources/Chapter-V/Sprint-2/sprint2-contributors.png)
 
  ## 5.3. Validation Interviews
   ### 5.3.1. Diseño de Entrevistas
@@ -2995,6 +2989,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
   ### 5.3.3. Evaluaciones según heurísticas
  
  ## 5.4. Video About-the-Product
+ [![About the Team Video](https://img.shields.io/badge/video-About%20the%20Team-blue?style=for-the-badge&logo=youtube&logoColor=white)](colocar-url) 
 
 # Conclusiones
  ## Conclusiones y recomendaciones
@@ -3009,7 +3004,9 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
   Aunque todavía quedan cosas por terminar y detalles por mejorar, estos dos primeros sprints nos dejaron claro que tenemos una buena visión del proyecto, que nos coordinamos bien y que seguimos un proceso ordenado para ir avanzando paso a paso. Todo esto nos prepara bien para los próximos retos y para seguir mejorando la aplicación.
 
  ## Video About-the-Team
- [![Static Badge](https://img.shields.io/badge/video-About%20the%20Team-blue?style=for-the-badge&logo=youtube&logoColor=white)](colocar-url) 
+ [![About the Team Video](https://img.shields.io/badge/video-About%20the%20Team-blue?style=for-the-badge&logo=youtube&logoColor=white)](colocar-url)
+
+ Conclusiones sobre el video
 
 # Bibliografía
 
@@ -3024,4 +3021,5 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
 # Anexos 
 
 **Entrevistas Stock Hunters**
-[![Static Badge](https://img.shields.io/badge/Entrevistas-playlist-blue?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PL-9ocGPgSml3bQemJ1ESEUNw4v_bBCcbC)
+
+[![Interview Playlist](https://img.shields.io/badge/Entrevistas-playlist-blue?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PL-9ocGPgSml3bQemJ1ESEUNw4v_bBCcbC)
