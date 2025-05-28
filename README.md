@@ -928,7 +928,7 @@ directa durante la primera semana.
     <td valign="top">Microsoft Excel</td>
   </tr>
   <tr>
-    <td valign="top"><img src="resources/lubrimax.png" alt="Logo Mi Startup" height="100px"></td>
+    <td valign="top"><img src="resources/stockHunters/Isotipo.png" alt="Logo Mi Startup" height="100px"></td>
     <td valign="top"><img src="https://yt3.googleusercontent.com/kH5MizoIzldC54QkNt1zNehJxroIU4D71l9gQRroMPr04WToKg1BfQbigz-_Ki5ZUDgdpmckzmk=s160-c-k-c0x00ffffff-no-rj" alt="Logo Bsale" height="100px"></td>
     <td valign="top"><img src="https://yt3.googleusercontent.com/bly9PPL4rYGzO7BdSc32EBQOScwskQ-pXmIw7y64dvTp5hog-AJ3n7b-GgcRVAaovXPH_8NARA=s900-c-k-c0x00ffffff-no-rj" alt="Logo Defontana" height="100px"></td>
     <td valign="top"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" alt="Logo Excel" height="100px"></td>
@@ -1076,7 +1076,7 @@ directa durante la primera semana.
   - Crear una **calculadora de ahorro** que muestre comparativamente el costo mensual de usar nuestro sistema vs. pagar múltiples módulos de forma separada con otras soluciones.
 
 
-   ## 2.2. Entrevistas 📝
+## 2.2. Entrevistas 📝
    ### 2.2.1. Diseño de entrevistas 
 
    **Segmento Objetivo 1️⃣: Administradores de negocios con inventario físico**
@@ -1102,9 +1102,9 @@ directa durante la primera semana.
     
     7. ¿Te gustaría que tus clientes puedan ver tu catálogo de productos en línea?
     
-    8.   ¿Qué temores tienes al momento de cambiar tu sistema de control actual?
+    8. ¿Qué temores tienes al momento de cambiar tu sistema de control actual?
     
-    9.   ¿Qué funcionalidades crees que son imprescindibles en un sistema de inventario y ventas?
+    9. ¿Qué funcionalidades crees que son imprescindibles en un sistema de inventario y ventas?
     
     10. ¿Te gustaría poder acceder al sistema desde tu celular u otros dispositivos?
     
@@ -1156,17 +1156,17 @@ directa durante la primera semana.
    <tr>
     <td align='center'>
       <a href="https://youtu.be/mwxyupflToU" target='_blank'>
-      <img src="resources/interviews/Interview1.png" alt="Primera entrevista del primer segmento objetivo">
+      <img src="resources/interviews/OS1/Interview1.png" alt="Primera entrevista del primer segmento objetivo">
       </a>
     </td> 
     <td align='center'>
-      <a href="https://youtu.be/9L7HESPibVA" target='_blank'>
-      <img src="resources/interviews/Interview2.png" alt="Segunda entrevista del primer segmento objetivo">
+      <a href="https://youtu.be/HSGQxafh1_o" target='_blank'>
+      <img src="resources/interviews/OS1/Interview2.png" alt="Segunda entrevista del primer segmento objetivo">
       </a>
     </td>
     <td align='center'>
-      <a href="https://youtu.be/nJlLy_sWxCM" target='_blank'>
-      <img src="resources/interviews/Interview3.png" alt="Tercera entrevista del primer segmento objetivo">
+      <a href="https://youtu.be/lcwlpcWjzDk" target='_blank'>
+      <img src="resources/interviews/OS1/Interview3.png" alt="Tercera entrevista del primer segmento objetivo">
       </a>
     </td>
    </tr>
@@ -1203,18 +1203,18 @@ directa durante la primera semana.
 
    <tr>
    <td align='center'>
-   <a href="https://www.youtube.com/watch?v=barIe2mUUn8" target='_blank'>
-    <img src="resources/interviews/Interview1.png" alt="Primera entrevista del segundo segmento objetivo">
+   <a href="https://youtu.be/denHHgueTKw" target='_blank'>
+    <img src="resources/interviews/OS2/Interview1.png" alt="Primera entrevista del segundo segmento objetivo">
    </a>
    </td> 
    <td align='center'>
    <a href="https://youtu.be/3iKexM4Z7i8" target='_blank'>
-    <img src="resources/interviews/Interview2.png" alt="Segunda entrevista del segundo segmento objetivo">
+    <img src="resources/interviews/OS2/Interview2.png" alt="Segunda entrevista del segundo segmento objetivo">
    </a>
    </td>
    <td align='center'>
-   <a href="https://youtu.be/2Nb_TZGTgGc" target='_blank'>
-    <img src="resources/interviews/Interview3.png" alt="Tercera entrevista del segundo segmento objetivo">
+   <a href="https://youtu.be/_JxjWn_h32s" target='_blank'>
+    <img src="resources/interviews/OS2/Interview3.png" alt="Tercera entrevista del segundo segmento objetivo">
    </a>
    </td>
    </tr>
@@ -3015,9 +3015,4 @@ También empezamos a aplicar buenas prácticas de desarrollo, como el uso de Git
 # Anexos 
 
 **Link de las entrevistas**
-https://youtu.be/mwxyupflToU
-https://youtu.be/9L7HESPibVA
-https://youtu.be/nJlLy_sWxCM
-https://www.youtube.com/watch?v=barIe2mUUn8
-https://youtu.be/3iKexM4Z7i8
-https://youtu.be/2Nb_TZGTgGc
+https://www.youtube.com/playlist?list=PL-9ocGPgSml3bQemJ1ESEUNw4v_bBCcbC
