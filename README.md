@@ -132,7 +132,7 @@ Abril del 2025 🗓️
 </table>
 
 ## Project Report Collaboration Insights
-![Enlace al trabajo de github](https://img.shields.io/badge/Report-blue?style=for-the-badge&logo=refinedgithub&logoColor=white&link=https%3A%2F%2Fgithub.com%2FStockHunters%2FProject-Report.git)
+[![Insights link](https://img.shields.io/badge/Insights-contributors-%230E2148?style=for-the-badge&color=%230E2148)](https://github.com/StockHunters/Project-Report/graphs/contributors)
 
 A continuación se presentaran los commit realizados por los contribuidores:
 
@@ -1083,7 +1083,7 @@ directa durante la primera semana.
 
    **Segmento Objetivo 1️⃣: Administradores de negocios con inventario físico**
 
-   ![formulario para el primer Segmento Objetivo](https://img.shields.io/badge/Cuestionario-blue?style=for-the-badge&logo=libreofficebase&logoColor=white&link=https%3A%2F%2Fforms.gle%2FXV26rSaBf8PUVVsL7)
+   [![formulario para el primer Segmento Objetivo](https://img.shields.io/badge/Cuestionario-Segmento1-blue?style=for-the-badge&logo=libreofficebase&logoColor=white)](https://forms.gle/XV26rSaBf8PUVVsL7)
 
    ~~~txt    
     1. ¿Qué tipo de productos vendes o distribuyes en tu negocio?
@@ -1121,7 +1121,7 @@ directa durante la primera semana.
 
    **Segmento Objetivo 2️⃣: Compradores o clientes registrados**
 
-   ![formulario para el segundo Segmento Objetivo](https://img.shields.io/badge/Cuestionario-blue?style=for-the-badge&logo=libreofficebase&logoColor=white&link=https%3A%2F%2Fforms.gle%2FPNxnomycpCKBD1rw5)
+   [![formulario para el segundo Segmento Objetivo](https://img.shields.io/badge/Cuestionario-Segmento2-blue?style=for-the-badge&logo=libreofficebase&logoColor=white)](https://forms.gle/PNxnomycpCKBD1rw5)
    
   ~~~txt
     1. ¿Sueles revisar catálogos o productos en línea antes de comprar?
