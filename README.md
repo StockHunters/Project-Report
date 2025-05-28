@@ -52,7 +52,15 @@ Abril del 2025 🗓️
   <tr>
     <td>TB1</td>
     <td>2025-04-20</td>
-    <td> <ul> <li>Jorge Suin Yum Gonzales</li> <li>Luis Andres Alva Abanto</li> <li> Rogger Faryd Miranda Ayasta </li><li>Christofer William Costa Morales</li><li>Jose Enrique Vargas Javier</li></ul></td>
+    <td>
+      <ul> 
+        <li>Jorge Suin Yum Gonzales</li> 
+        <li>Luis Andres Alva Abanto</li> 
+        <li>Rogger Faryd Miranda Ayasta </li>
+        <li>Christofer William Costa Morales</li>
+        <li>Jose Enrique Vargas Javier</li>
+      </ul>
+    </td>
     <td> Se han incluído los siguientes capítulos:
         <ul>
           <li>Capítulo I: Introducción</li>
@@ -66,7 +74,15 @@ Abril del 2025 🗓️
   <tr>
     <td>TP</td>
     <td>2025-05-13</td>
-    <td> <ul> <li>Jorge Suin Yum Gonzales</li> <li>Luis Andres Alva Abanto</li> <li> Rogger Faryd Miranda Ayasta </li><li>Christofer William Costa Morales</li><li>Jose Enrique Vargas Javier</li></ul></td>
+    <td>
+      <ul> 
+        <li>Jorge Suin Yum Gonzales</li> 
+        <li>Luis Andres Alva Abanto</li> 
+        <li>Rogger Faryd Miranda Ayasta </li>
+        <li>Christofer William Costa Morales</li>
+        <li>Jose Enrique Vargas Javier</li>
+      </ul>
+    </td>
     <td> Se han incluído los siguientes capítulos y secciones:
         <ul>
           <li>Capitulo V: Product Implementation, Validation & Deployment, desde el punto 5.2.2. hasta 5.2.2.8.</li>
@@ -82,32 +98,65 @@ Abril del 2025 🗓️
           <li>Avance de Conclusiones, Bibliografía y Anexos.</li>
         </ul></td>
   </tr>
-  
+  <tr>
+    <td>TB2</td>
+    <td>2025-06-16</td>
+    <td>
+      <ul> 
+        <li>Jorge Suin Yum Gonzales</li> 
+        <li>Luis Andres Alva Abanto</li> 
+        <li>Rogger Faryd Miranda Ayasta </li>
+        <li>Christofer William Costa Morales</li>
+        <li>Jose Enrique Vargas Javier</li>
+      </ul>
+    </td>
+    <td> Se han incluído los siguientes capítulos y secciones:
+        <ul>
+          <li>5.3.2. Sprint 3</li>
+          <li>5.3.2.1.Sprint Planning 3.</li>
+          <li>5.3.2.2. Aspect Leaders and Collaborators.</li>
+          <li>5.3.2.3.Sprint Backlog 3.</li>
+          <li>5.3.2.4.Development Evidence for Sprint Review</li>
+          <li>5.3.2.5.Execution Evidence for Sprint Review.</li>
+          <li>5.3.2.6.Services Documentation Evidence for Sprint Review.</li>
+          <li>5.3.2.7.Software Deployment Evidence for Sprint Review</li>
+          <li>5.3.2.8.Team Collaboration Insights during Sprint.</li>
+          <li>5.3. Validation Interviews.</li>
+          <li>5.3.1. Diseño de Entrevistas.</li>
+          <li>5.3.2. Registro de Entrevistas.</li>
+          <li>5.3.3. Evaluaciones según heurísticas.</li>
+          <li>5.4. Video About-the-Product.</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos.</li>
+        </ul></td>
+  </tr>
 </table>
 
 ## Project Report Collaboration Insights
-Enlace al trabajo de github: https://github.com/StockHunters/Project-Report.git
-A continuación se presentaran los commit realizados por los contribuidores para el avance del TB1:
+[![Insights link](https://img.shields.io/badge/Insights-contributors-%230E2148?style=for-the-badge&color=%230E2148)](https://github.com/StockHunters/Project-Report/graphs/contributors)
 
-![alt text](resources/Contributors.png)
+A continuación se presentaran los commit realizados por los contribuidores:
 
-![alt text](resources/contribuitors2.png)
+- ⏩ Avance del **TB1**
+
+![Contributors TB1](resources/Collaboration-Insghts/TB1/Contributors.png)
+
+![Commits TB1](resources/Collaboration-Insghts/TB1/Commits.png)
 
 Cabe recalcar que no toma en cuenta los merge commits y los commit de uno de nuestro compañero que su cuenta de github aparecia con otro nombre y no se guardo en los insights:
 
-![alt text](resources/Commit_Christofer.png)
+![Christofer Error](resources/Collaboration-Insghts/Christofer_Error.png)
 
-Commits en la semana 2:
+- ⏩ Avance del **TP**
 
-![alt text](resources/Commits_semana2.png)
+![Contributors TP](resources/Collaboration-Insghts/TP/Contributors.png)
 
-commits en la semana 3:
+![Commits TP](resources/Collaboration-Insghts/TP/Commits.png)
 
-![alt text](resources/Commits_semana3.png)
+- ⏩ Avance del **TB2**
 
-commits en la semana 4:
+![Contributors TB2](resources/Collaboration-Insghts/TB2/Contributors.png)
 
-![alt text](resources/Commits_semana4.png)
+![Commits TB2](resources/Collaboration-Insghts/TB2/Commits.png)
 
 <div>
 
@@ -119,7 +168,6 @@ commits en la semana 4:
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Contenido](#contenido)
   - [Student Outcome](#student-outcome)
-- [|Comunica por escrito con efectividad a diferentes rangos de audiencia.| **Jorge Yum**:  **TB1:**  En esta primera entrega, realicé la descripción de la startup, analicé detalladamente el contexto, los antecedentes y la problemática principal, aplique el proceso de Lean UX para definir hipótesis y validarlas, realicé un análisis competitivo para identificar oportunidades de diferenciación, y pude definir los segmentos objetivos del mercado con sustento estadístico.  **TP:**  Para esta entrega, de forma escrita se discutio el desarrollo del sprint 2 junto con los miembros del equipo y a partir de los resultados, desarrolle los features necesarios para nuestra aplicacion web. Asimismo realize correcciones en el informe a partir de los comentarios recibidos en la primera entrega.  **Luis Alva:** **TB1:**  Se diseñaron una cantidad de preguntas acorde a nuestras necesidades para hacer en las entrevistas, las cuales representan el sustento de muchas de las decisiones de diseño en nuestro proyecto. Lo anterior, me ayudo a tomar en cuenta cuál seria el rango de audiencia para realizar la parte de Domain-Driven Software Architechture y poder expresar mis ideas a estas personas. **Rogger Faryd****TB1:**  A lo largo del sprint, nos enfocamos en comunicarnos por escrito de forma clara y efectiva. Gracias a lo anterior, pude realizar desde la redacción de contenido para el landing page hasta la documentación técnica y preguntas de entrevistas. Además, adaptamos el estilo según el público: más directo y persuasivo para los usuarios, y más estructurado y técnico para el equipo de desarrollo. Esto nos ayudó a mantener alineado al equipo y a transmitir el valor de nuestra plataforma a diferentes audiencias.**TP:** Para el ddesarrollo de este Sprint 2 logramos desarrollar diferentes diferentes aspectos de lo referente a la web application, parte del frontend. En mi caso logré desarrollar la pagina de login, la pagina de de registro, reportes, etc.**Christofer William****TB1:**  Las acciones que realicé fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Durante toda la elaboración del trabajo, todo lo que escribimos, mostramos y estructurado, debe de poder ser entendidos por personas de cualquier condición o discapacidad. Con esto, podemos transmitir nuestro projecto a una mayor base de personas que requieran nuestro apoyo y nos puedan ayudar con mejor feedback.**TP:**   **Jose Enrique****TB1:**  En esta primera entrega, realicé la elaboración de los general style guidelines y web style guidelines para asegurar una identidad visual consistente en la aplicación. Además, ayude en el desarrolló de los wireframes y mockups de la landing page y de la aplicación web, así como diagramas de flujo de usuario (user flow diagrams) y prototipos interactivos en Figma. Estos avances permitieron consolidar una base visual y estructural sólida para el diseño y desarrollo posterior del proyecto.  **TP:**  Para el desarrollo del Sprint 2 completamos Users Storys para la parte Frontend. En mi caso pude hacer los componentes iniciales de la pagina principal de la página web.|------------|](#comunica-por-escrito-con-efectividad-a-diferentes-rangos-de-audiencia-jorge-yum--tb1--en-esta-primera-entrega-realicé-la-descripción-de-la-startup-analicé-detalladamente-el-contexto-los-antecedentes-y-la-problemática-principal-aplique-el-proceso-de-lean-ux-para-definir-hipótesis-y-validarlas-realicé-un-análisis-competitivo-para-identificar-oportunidades-de-diferenciación-y-pude-definir-los-segmentos-objetivos-del-mercado-con-sustento-estadístico--tp--para-esta-entrega-de-forma-escrita-se-discutio-el-desarrollo-del-sprint-2-junto-con-los-miembros-del-equipo-y-a-partir-de-los-resultados-desarrolle-los-features-necesarios-para-nuestra-aplicacion-web-asimismo-realize-correcciones-en-el-informe-a-partir-de-los-comentarios-recibidos-en-la-primera-entrega--luis-alva-tb1--se-diseñaron-una-cantidad-de-preguntas-acorde-a-nuestras-necesidades-para-hacer-en-las-entrevistas-las-cuales-representan-el-sustento-de-muchas-de-las-decisiones-de-diseño-en-nuestro-proyecto-lo-anterior-me-ayudo-a-tomar-en-cuenta-cuál-seria-el-rango-de-audiencia-para-realizar-la-parte-de-domain-driven-software-architechture-y-poder-expresar-mis-ideas-a-estas-personas-rogger-farydtb1--a-lo-largo-del-sprint-nos-enfocamos-en-comunicarnos-por-escrito-de-forma-clara-y-efectiva-gracias-a-lo-anterior-pude-realizar-desde-la-redacción-de-contenido-para-el-landing-page-hasta-la-documentación-técnica-y-preguntas-de-entrevistas-además-adaptamos-el-estilo-según-el-público-más-directo-y-persuasivo-para-los-usuarios-y-más-estructurado-y-técnico-para-el-equipo-de-desarrollo-esto-nos-ayudó-a-mantener-alineado-al-equipo-y-a-transmitir-el-valor-de-nuestra-plataforma-a-diferentes-audienciastp-para-el-ddesarrollo-de-este-sprint-2-logramos-desarrollar-diferentes-diferentes-aspectos-de-lo-referente-a-la-web-application-parte-del-frontend-en-mi-caso-logré-desarrollar-la-pagina-de-login-la-pagina-de-de-registro-reportes-etcchristofer-williamtb1--las-acciones-que-realicé-fueron-needfinding-el-to-be-scenario-el-impact-mapping-y-el-information-architechture-durante-toda-la-elaboración-del-trabajo-todo-lo-que-escribimos-mostramos-y-estructurado-debe-de-poder-ser-entendidos-por-personas-de-cualquier-condición-o-discapacidad-con-esto-podemos-transmitir-nuestro-projecto-a-una-mayor-base-de-personas-que-requieran-nuestro-apoyo-y-nos-puedan-ayudar-con-mejor-feedbacktp---jose-enriquetb1--en-esta-primera-entrega-realicé-la-elaboración-de-los-general-style-guidelines-y-web-style-guidelines-para-asegurar-una-identidad-visual-consistente-en-la-aplicación-además-ayude-en-el-desarrolló-de-los-wireframes-y-mockups-de-la-landing-page-y-de-la-aplicación-web-así-como-diagramas-de-flujo-de-usuario-user-flow-diagrams-y-prototipos-interactivos-en-figma-estos-avances-permitieron-consolidar-una-base-visual-y-estructural-sólida-para-el-diseño-y-desarrollo-posterior-del-proyecto--tp--para-el-desarrollo-del-sprint-2-completamos-users-storys-para-la-parte-frontend-en-mi-caso-pude-hacer-los-componentes-iniciales-de-la-pagina-principal-de-la-página-web------------)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -141,8 +189,7 @@ commits en la semana 4:
         - [User Outcomes](#user-outcomes)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-        - [Resumen](#resumen)
-  - [Segmentos Objetivos](#segmentos-objetivos)
+  - [1.3. Segmentos Objetivos](#13-segmentos-objetivos)
 - [Capítulo II: Requeriments Elicitation \& Analysis](#capítulo-ii-requeriments-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -168,9 +215,11 @@ commits en la semana 4:
   - [2.4. Ubiquitous Language:](#24-ubiquitous-language)
 - [Capítulo III: Requeriments Specification](#capítulo-iii-requeriments-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-      - [📝 Administradores:](#-administradores-4)
-      - [📝 Clientes:](#-clientes-4)
+      - [📝 Administradores](#-administradores-4)
+      - [📝 Clientes](#-clientes-4)
   - [3.2. User Stories](#32-user-stories)
+    - [Technical Stoies](#technical-stoies)
+    - [Epic](#epic)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
@@ -212,7 +261,6 @@ commits en la semana 4:
     - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Service \& Applications Implementation](#52-landing-page-service--applications-implementation)
-    - [5.2.x. Sprints](#52x-sprints)
     - [5.2.1 Sprint 1](#521-sprint-1)
       - [5.2.1.1 Sprint Planning 1](#5211-sprint-planning-1)
       - [5.2.1.2 Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
@@ -221,25 +269,16 @@ commits en la semana 4:
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [5.2.2 Sprint 2](#522-sprint-2)
-    - [5.2.2.1 Sprint Planning 2](#5221-sprint-planning-2)
-    - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-    - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
-    - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
-    - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
-      - [Manager Side:](#manager-side)
-    - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
-    - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
-    - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
-  - [5.2.3 Sprint 3](#523-sprint-3)
-    - [5.2.3.1 Sprint Planning 3](#5231-sprint-planning-3)
-    - [5.2.3.2 Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-    - [5.2.3.3 Sprint 3 Backlog](#5233-sprint-3-backlog)
-    - [5.2.3.4 Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-    - [5.2.3.5 Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-    - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-    - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-    - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.2 Sprint 2](#522-sprint-2)
+      - [5.2.2.1 Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+        - [Manager Side:](#manager-side)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -253,17 +292,146 @@ commits en la semana 4:
 
 ## Student Outcome
 ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
-
-| Criterio | Acciones realizadas | Conclusiones|
-|---------|--------------------|------------|
-<<<<<<< HEAD
-|Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, realicé la  identificación clara de la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web, para diferenciarse de posibles competidores. Además, realicé una entrevista a una persona que encaja en nuestros segmento objetivo. Con esta información y con lo obetenido por mis otros compañeros, se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web.<br> **TP:** <br> Para esta entrega, a partir de los comentarios y observaciones que recibimos, realize las correcciones necesarias a los technical stories, evidencia de mercado y competencias. Al mismo tiempo realize un avanze al FrontEnd y los bounded context de sales, clients y payment. Se discutio los features necesarios para el sprint 2 y los pasos para su desarrollo. <br> **Luis Alva:**<br> **TB1:** <br> A través de las entrevistas realizadas a personas representativas de nuestros segmentos objetivo pude recolectar información valiosa para definir los requerimientos de nuestro proyecto, y diseñar pilares clave como la arquitectura de software a través de Domain Driven Design. Con lo anterior, me refiero a que pude realizar los diagramas de contexto, contenedores y de componentes para el trabajo. <br> **Rogger Faryd**<br>**TB1:** <br> Durante el trabajo en equipo, mantuvimos una comunicación oral constante y clara, lo que nos permitió organizarnos, repartir tareas y asumir distintos roles de liderazgo según lo necesitábamos. Gracias a eso, pude avanzar en el diseño en Figma, hice el landing page, ayude en preparar las preguntas para las entrevistas y armar el diagrama de clases, cumpliendo con lo que nos propusimos.<br> **TP:** Durante este avance par el trabajo en equipo tratamos de mantener una constante comunicación, lo que nos permitio repartirnos tareas y asumir distintos roles. Gracias a eso, logré avanzar con el desarrollo de los endpoints, parte visual de la web, terminar algunos aspectos para la landing page.<br>**Christofer William**<br>**TB1:** <br>Para esta entrega, realicé fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Todo lo anterior, lo pude lograr gracias a la comunicación que tuvimos con los posibles clientes y cómo les explicamos nuestro proyecto para poder sacar la información necesaria, para satisfacer sus necesidades y preferencias.<br> **Jose Enrique Vargas**<br>**TB1:** <br> Durante esta primera etapa, participé activamente en el diseño de la página web mediante Figma, contribuyendo en la elaboración de pantallas clave para la aplicación. Por ejemplo, realicé el . Además, mantuve una comunicación constante con el equipo para coordinar avances y asegurar la coherencia del proyecto.  <br> **TP:** <br> En esta entrega estuve encargado de completar parte del Figma para su desarrollo y deployamiento en la web, estuve a cargo de hacer la parte visual del proyecto.|------------|
-|Comunica por escrito con efectividad a diferentes rangos de audiencia.| **Jorge Yum**: <br> **TB1:** <br> En esta primera entrega, realicé la descripción de la startup, analicé detalladamente el contexto, los antecedentes y la problemática principal, aplique el proceso de Lean UX para definir hipótesis y validarlas, realicé un análisis competitivo para identificar oportunidades de diferenciación, y pude definir los segmentos objetivos del mercado con sustento estadístico. <br> **TP:** <br> Para esta entrega, de forma escrita se discutio el desarrollo del sprint 2 junto con los miembros del equipo y a partir de los resultados, desarrolle los features necesarios para nuestra aplicacion web. Asimismo realize correcciones en el informe a partir de los comentarios recibidos en la primera entrega.  <br><br>**Luis Alva:**<br> **TB1:** <br> Se diseñaron una cantidad de preguntas acorde a nuestras necesidades para hacer en las entrevistas, las cuales representan el sustento de muchas de las decisiones de diseño en nuestro proyecto. Lo anterior, me ayudo a tomar en cuenta cuál seria el rango de audiencia para realizar la parte de Domain-Driven Software Architechture y poder expresar mis ideas a estas personas. <br>**Rogger Faryd**<br>**TB1:** <br> A lo largo del sprint, nos enfocamos en comunicarnos por escrito de forma clara y efectiva. Gracias a lo anterior, pude realizar desde la redacción de contenido para el landing page hasta la documentación técnica y preguntas de entrevistas. Además, adaptamos el estilo según el público: más directo y persuasivo para los usuarios, y más estructurado y técnico para el equipo de desarrollo. Esto nos ayudó a mantener alineado al equipo y a transmitir el valor de nuestra plataforma a diferentes audiencias.<br>**TP:** Para el ddesarrollo de este Sprint 2 logramos desarrollar diferentes diferentes aspectos de lo referente a la web application, parte del frontend. En mi caso logré desarrollar la pagina de login, la pagina de de registro, reportes, etc.<br>**Christofer William**<br>**TB1:** <br> Las acciones que realicé fueron: Needfinding, el to be scenario, el impact mapping y el Information Architechture. Durante toda la elaboración del trabajo, todo lo que escribimos, mostramos y estructurado, debe de poder ser entendidos por personas de cualquier condición o discapacidad. Con esto, podemos transmitir nuestro projecto a una mayor base de personas que requieran nuestro apoyo y nos puedan ayudar con mejor feedback.<br>**TP:** <br>  <br>**Jose Enrique**<br>**TB1:** <br> En esta primera entrega, realicé la elaboración de los general style guidelines y web style guidelines para asegurar una identidad visual consistente en la aplicación. Además, ayude en el desarrolló de los wireframes y mockups de la landing page y de la aplicación web, así como diagramas de flujo de usuario (user flow diagrams) y prototipos interactivos en Figma. Estos avances permitieron consolidar una base visual y estructural sólida para el diseño y desarrollo posterior del proyecto. <br> **TP:** <br> Para el desarrollo del Sprint 2 completamos Users Storys para la parte Frontend. En mi caso pude hacer los componentes iniciales de la pagina principal de la página web.|------------|
-=======
-
+<div>
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Nombre</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Criterio 1 -->
+    <tr>
+      <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+      <td>Jorge Yum</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Identifiqué claramente la problemática de nuestra startup, los segmentos objetivos y realicé la investigación necesaria para definir los requisitos de la aplicación web. También realicé una entrevista con un usuario del segmento.<br>
+        <strong>ℹ️ TP:</strong><br>
+        Corrigí los technical stories y evidencias con base en los comentarios recibidos. Avancé en el FrontEnd y definí los bounded contexts para ventas, clientes y pagos. Participé en la discusión y planeación del sprint 2.<br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+      <td rowspan="5">Me comunico oralmente de manera clara y estructurada, aportando al análisis técnico y estratégico del proyecto.</td>
+    </tr>
+    <tr>
+      <td>Luis Alva</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Realicé entrevistas para recolectar información clave y diseñé la arquitectura de software basada en Domain Driven Design, elaborando diagramas de contexto, contenedores y componentes.<br>
+        <strong>ℹ️ TP:</strong><br>
+        <br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Rogger Faryd</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Mantuve comunicación constante con el equipo, avancé en el diseño en Figma, participé en la elaboración de la landing page, y preparé preguntas para entrevistas y diagramas de clases.<br>
+        <strong>ℹ️ TP:</strong><br>
+        Distribuí tareas y roles, avancé en el desarrollo de endpoints, parte visual de la web y detalles de la landing page.<br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Christofer William</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Realicé needfinding, escenarios to-be, impact mapping e Information Architecture, y recolecté información gracias a la comunicación con los posibles clientes.<br>
+        <strong>ℹ️ TP:</strong><br>
+        <br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Enrique Vargas</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Participé activamente en el diseño de la página web mediante Figma y mantuve comunicación constante para coordinar avances y coherencia del proyecto.<br>
+        <strong>ℹ️ TP:</strong><br>
+        Me encargué de completar la parte visual del proyecto y de su despliegue en la web.<br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+    <!-- Criterio 2 -->
+    <tr>
+      <td rowspan="6">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
+      <td>Jorge Yum</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Describí la startup, el contexto y los antecedentes, apliqué Lean UX para definir hipótesis y validarlas, realicé un análisis competitivo y definí segmentos objetivos con sustento estadístico.<br>
+        <strong>ℹ️ TP:</strong><br>
+        Documenté el desarrollo del sprint 2, corregí el informe basado en comentarios y definí los features necesarios para la aplicación web.<br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+      <td rowspan="6">Redacto con claridad, adaptando mi comunicación escrita a públicos técnicos y no técnicos.</td>
+    </tr>
+    <tr>
+      <td>Luis Alva</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Diseñé preguntas para entrevistas que sustentan decisiones de diseño y expresé ideas técnicas para el desarrollo basado en la investigación.<br>
+        <strong>ℹ️ TP:</strong><br>
+        <br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Rogger Faryd</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Redacté contenido para la landing page y documentación técnica, adaptando el estilo según el público (usuarios o equipo técnico).<br>
+        <strong>ℹ️ TP:</strong><br>
+        Desarrollé páginas de login, registro y reportes para la web.<br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Christofer William</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Documenté procesos con accesibilidad y claridad para que cualquier persona pueda entender el proyecto.<br>
+        <strong>ℹ️ TP:</strong><br>
+        <br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+    <tr>
+      <td>Enrique Vargas</td>
+      <td>
+        <strong>ℹ️ TB1:</strong><br>
+        Elaboré guías de estilo visual y web, wireframes, diagramas de flujo y prototipos interactivos en Figma.<br>
+        <strong>ℹ️ TP:</strong><br>
+        Desarrollé user stories y componentes para la página principal.<br>
+        <strong>ℹ️ TB2:</strong><br>
+        <br>
+        <strong>ℹ️ TF:</strong><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
 </div>
-
-
 <!--* contenido -->
 
 # Capítulo I: Introducción
@@ -350,7 +518,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 **> 🧑‍💻  Christofer William Costa Morales**
    <div align='center'>
 
-   <img src="resources/Christofer Costa.jpg" alt="Christofer William Costa Morales" width="100" align='right'>
+   <img src="resources/team/Christofer.jpg" alt="Christofer William Costa Morales" width="100" align='right'>
 
    ~~~txt
    Soy estudiante de la carrera de ingenieria de software de la UPC.
@@ -359,7 +527,8 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
    ➡️ Python
    ➡️ JavaScript
    ➡️ HTML & CSS
-   En lo personal siento que estoy en la capacidad de ayudar y contribuir de la mejor manera con este equipo
+   En lo personal siento que estoy en la capacidad de ayudar y contribuir de la 
+   mejor manera con este equipo
    ~~~
 
    </div>
@@ -370,7 +539,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 **> 🧑‍💻 Jose Enrique Vargas Javier**
    <div align='center'>
 
-   <img src="resources/ev.PNG" alt="Jose Enrique Vargas Javier" width="100" align='right'>
+   <img src="resources/team/Enrique.PNG" alt="Jose Enrique Vargas Javier" width="100" align='right'>
 
    ~~~txt
    👾 Soy estudiante de Ingeniería de Software 
@@ -649,10 +818,9 @@ directa durante la primera semana.
 
 #### 1.2.2.4. Lean UX Canvas
 
-![Lean UX Canvas](resources/LeanUX_canvas_v5.jpg)
+![Lean UX Canvas](resources/Chapter-I/LeanUXCanvas.png)
 
-##### Resumen 
-## Segmentos Objetivos
+## 1.3. Segmentos Objetivos
 
 <table>
   <tr>
@@ -762,7 +930,7 @@ directa durante la primera semana.
     <td valign="top">Microsoft Excel</td>
   </tr>
   <tr>
-    <td valign="top"><img src="resources/lubrimax.png" alt="Logo Mi Startup" height="100px"></td>
+    <td valign="top"><img src="resources/stockHunters/Isotipo.png" alt="Logo Mi Startup" height="100px"></td>
     <td valign="top"><img src="https://yt3.googleusercontent.com/kH5MizoIzldC54QkNt1zNehJxroIU4D71l9gQRroMPr04WToKg1BfQbigz-_Ki5ZUDgdpmckzmk=s160-c-k-c0x00ffffff-no-rj" alt="Logo Bsale" height="100px"></td>
     <td valign="top"><img src="https://yt3.googleusercontent.com/bly9PPL4rYGzO7BdSc32EBQOScwskQ-pXmIw7y64dvTp5hog-AJ3n7b-GgcRVAaovXPH_8NARA=s900-c-k-c0x00ffffff-no-rj" alt="Logo Defontana" height="100px"></td>
     <td valign="top"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" alt="Logo Excel" height="100px"></td>
@@ -848,45 +1016,22 @@ directa durante la primera semana.
     <td valign="top">Competidores más accesibles para pymes.</td>
     <td valign="top">Sistemas web especializados que reemplazan su funcionalidad manual.</td>
   </tr>
-</table>
-
-<table>
   <tr>
-    <th colspan="4" valign="top">📊 Benchmark de Costos</th>
+    <td rowspan="4" valign="top">Precios y costos</td>
+    <td valign="top">Costo Anual</td>
+    <td valign="top">Desde S/ 828*</td>
+    <td valign="top">S/ 1,068	</td>
+    <td valign="top">$600 USD (~S/ 2,280)</td>
+    <td valign="top">$129.99 el paquete de office</td>
   </tr>
   <tr>
-    <td><strong>Competidor</strong></td>
-    <td><strong>Costo Mensual</strong></td>
-    <td><strong>Costo Anual</strong></td>
-    <td><strong>Notas Adicionales</strong></td>
-  </tr>
-  <tr>
-    <td><strong>Nuestra Startup</strong></td>
-    <td>Desde S/ 69*</td>
-    <td>Desde S/ 828*</td>
-    <td>Incluye soporte técnico, catálogo en línea, automatización por WhatsApp en planes premium.</td>
-  </tr>
-  <tr>
-    <td>Bsale</td>
-    <td>S/ 89</td>
-    <td>S/ 1,068</td>
-    <td>Facturación electrónica incluida, sin comisiones por ventas.</td>
-  </tr>
-  <tr>
-    <td>Defontana</td>
-    <td>$50 USD (~S/ 190)</td>
-    <td>$600 USD (~S/ 2,280)</td>
-    <td>ERP completo, requiere mayor tiempo de implementación.</td>
-  </tr>
-  <tr>
-    <td>Microsoft Excel</td>
-    <td>Gratis / Incluido en Office</td>
-    <td>Gratis / Incluido en Office</td>
-    <td>Limitado a control manual, sin automatización ni reportes integrados.</td>
+    <td valign="top">Mensual</td>
+    <td valign="top">Desde S/ 69	</td>
+    <td valign="top">S/89</td>
+    <td valign="top">$50 USD (~S/ 190)</td>
+    <td valign="top">$12.99 el paquete de office</td>
   </tr>
 </table>
-<p><i>* Precios referenciales sujetos a cambios según funcionalidades y promociones.</i></p>
-
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -910,57 +1055,59 @@ directa durante la primera semana.
   - Crear una **calculadora de ahorro** que muestre comparativamente el costo mensual de usar nuestro sistema vs. pagar múltiples módulos de forma separada con otras soluciones.
 
 
-   ## 2.2. Entrevistas 📝
+## 2.2. Entrevistas 📝
    ### 2.2.1. Diseño de entrevistas 
 
    **Segmento Objetivo 1️⃣: Administradores de negocios con inventario físico**
 
-   > [!NOTE] 
-   > <a href="https://forms.gle/XV26rSaBf8PUVVsL7" target='_blank'>Cuestionario 🔗</a>
+   [![form for first objective segment](https://img.shields.io/badge/Cuestionario-Segmento1-blue?style=for-the-badge&logo=libreofficebase&logoColor=white)](https://forms.gle/XV26rSaBf8PUVVsL7)
 
    ~~~txt    
     1. ¿Qué tipo de productos vendes o distribuyes en tu negocio?
     
     2 ¿Actualmente cómo gestionas tu inventario y tus ventas?
     
-    3. ¿Cómo haces seguimiento a los pedidos de tus clientes?
+    2. ¿Cómo haces seguimiento a los pedidos de tus clientes?
     
-    4. ¿Llevas un historial de compras de tus clientes para darles seguimiento o promociones?
+    3. ¿Llevas un historial de compras de tus clientes para darles seguimiento o promociones?
     
-    5. ¿Qué tan importante sería para ti tener un sistema que te alerte de productos por agotarse?
+    4. ¿Qué tan importante sería para ti tener un sistema que te alerte de productos por agotarse?
 
-    6. ¿Con qué frecuencia necesitas generar reportes de ventas o inventario?
+    5. ¿Con qué frecuencia necesitas generar reportes de ventas o inventario?
 
     7.¿Cuánto tiempo estimas que dedicas cada semana a controlar tu inventario o ventas manualmente?
     
-    8. ¿Qué dificultades enfrentas al llevar tu control de stock o ventas?
+    6. ¿Qué dificultades enfrentas al llevar tu control de stock o ventas?
     
-    9. ¿Te gustaría que tus clientes puedan ver tu catálogo de productos en línea?
+    7. ¿Te gustaría que tus clientes puedan ver tu catálogo de productos en línea?
     
-    10.  ¿Qué temores tienes al momento de cambiar tu sistema de control actual?
+    8. ¿Qué temores tienes al momento de cambiar tu sistema de control actual?
     
-    11.  ¿Qué funcionalidades crees que son imprescindibles en un sistema de inventario y ventas?
+    9. ¿Qué funcionalidades crees que son imprescindibles en un sistema de inventario y ventas?
     
-    12. ¿Te gustaría poder acceder al sistema desde tu celular u otros dispositivos?
+    10. ¿Te gustaría poder acceder al sistema desde tu celular u otros dispositivos?
     
-    13. ¿Estarías dispuesto a pagar por una solución que te ahorre tiempo y errores?
+    11. ¿Estarías dispuesto a pagar por una solución que te ahorre tiempo y errores?
 
-    14. ¿Qué opina de una aplicación que le permita gestionar su inventario desde la web, y mantener un registro de ventas con la información de los clientes y automatizar la atención a sus clientes mediante WhatsApp o un catálogo en línea?
+    12. ¿Qué opina de una aplicación que le permita gestionar su inventario desde la web, 
+    y mantener un registro de ventas con la información de los clientes y automatizar la atención a sus 
+    clientes mediante WhatsApp o un catálogo en línea?
     
-    15. ¿Qué tan importante es para ti poder analizar tus ventas e inventario a través de reportes o gráficos que te ayuden a tomar mejores decisiones para tu negocio?
+    13. ¿Qué tan importante es para ti poder analizar tus ventas e inventario a través de reportes o gráficos 
+    que te ayuden a tomar mejores decisiones para tu negocio?
 
-    16. ¿Qué otras características le gustaría que tuviera esta aplicación?
+    14. ¿Qué otras características le gustaría que tuviera esta aplicación?
   ~~~
 
    **Segmento Objetivo 2️⃣: Compradores o clientes registrados**
 
-   > [!NOTE] 
-   > <a href="https://forms.gle/PNxnomycpCKBD1rw5" target='_blank'>Cuestionario 🔗</a>
-
+   [![form for second objective segment](https://img.shields.io/badge/Cuestionario-Segmento2-blue?style=for-the-badge&logo=libreofficebase&logoColor=white)](https://forms.gle/PNxnomycpCKBD1rw5)
+   
   ~~~txt
     1. ¿Sueles revisar catálogos o productos en línea antes de comprar?
 
-    2. ¿Qué valoras más al revisar un catálogo en línea? (ej. precios claros, disponibilidad, promociones, etc.)
+    2. ¿Qué valoras más al revisar un catálogo en línea? (ej. precios claros, 
+    disponibilidad, promociones, etc.)
    
     3. ¿Prefieres comprar en negocios que tienen una presentación más ordenada en línea?
    
@@ -990,21 +1137,21 @@ directa durante la primera semana.
    </tr>
 
    <tr>
-   <td align='center'>
-   <a href="https://youtu.be/mwxyupflToU" target='blank'>
-    <img src="resources/Interview-1.png" alt="Primera entrevista del primer segmento objetivo">
-   </a>
-   </td> 
-   <td align='center'>
-    <a href="https://youtu.be/9L7HESPibVA" target='_blank'>
-    <img src="resources/Interview-2.png" alt="Segunda entrevista del primer segmento objetivo">
-   </a>
-   </td>
-   <td align='center'>
-   <a href="https://youtu.be/nJlLy_sWxCM" target='_blank'>
-    <img src="resources/Interview-3.png" alt="Tercera entrevista del primer segmento objetivo">
-   </a>
-   </td>
+    <td align='center'>
+      <a href="https://youtu.be/mwxyupflToU" target='_blank'>
+      <img src="resources/interviews/OS1/Interview1.png" alt="Primera entrevista del primer segmento objetivo">
+      </a>
+    </td> 
+    <td align='center'>
+      <a href="https://youtu.be/HSGQxafh1_o" target='_blank'>
+      <img src="resources/interviews/OS1/Interview2.png" alt="Segunda entrevista del primer segmento objetivo">
+      </a>
+    </td>
+    <td align='center'>
+      <a href="https://youtu.be/lcwlpcWjzDk" target='_blank'>
+      <img src="resources/interviews/OS1/Interview3.png" alt="Tercera entrevista del primer segmento objetivo">
+      </a>
+    </td>
    </tr>
 
    <tr>
@@ -1039,18 +1186,18 @@ directa durante la primera semana.
 
    <tr>
    <td align='center'>
-   <a href="https://www.youtube.com/watch?v=barIe2mUUn8" target='_blank'>
-    <img src="resources/Interview-1.png" alt="Primera entrevista del primer segmento objetivo">
+   <a href="https://youtu.be/denHHgueTKw" target='_blank'>
+    <img src="resources/interviews/OS2/Interview1.png" alt="Primera entrevista del segundo segmento objetivo">
    </a>
    </td> 
    <td align='center'>
    <a href="https://youtu.be/3iKexM4Z7i8" target='_blank'>
-    <img src="resources/Interview-2.png" alt="Segunda entrevista del primer segmento objetivo">
+    <img src="resources/interviews/OS2/Interview2.png" alt="Segunda entrevista del segundo segmento objetivo">
    </a>
    </td>
    <td align='center'>
-   <a href="https://youtu.be/2Nb_TZGTgGc" target='_blank'>
-    <img src="resources/Interview-3.png" alt="Tercera entrevista del primer segmento objetivo">
+   <a href="https://youtu.be/_JxjWn_h32s" target='_blank'>
+    <img src="resources/interviews/OS2/Interview3.png" alt="Tercera entrevista del segundo segmento objetivo">
    </a>
    </td>
    </tr>
@@ -1087,40 +1234,40 @@ directa durante la primera semana.
    **1️⃣ Primer Segmento Objetivo: Administradores de negocios con inventario físico**
    En las entrevistas, la mayoría de los negocios (alrededor del 70%) usa hojas de cálculo como Excel para gestionar su inventario y ventas, lo que genera problemas de errores y omisiones, dedicando entre 3 a 5 horas a la semana en este proceso.
    
-   ![alt text](resources/question7.png)
-   ![alt text](resources/question8.png)
+   ![Question 2](resources/interviews/OS1/S1-pos1_q2.png)
+   ![Question 7](resources/interviews/OS1/S1-pos2_q7.png)
   
   El 75% de los encuestados considera importante tener un sistema que alerte sobre productos por agotarse, mientras que un 100% estaría interesado en que sus clientes pudieran ver el catálogo en línea.
   
-  ![alt text](resources/question9.png)
-  ![alt text](resources/question10.png)
+  ![Question 5](resources/interviews/OS1/S1-pos3_q5.png)
+  ![Question 9](resources/interviews/OS1/S1-pos4_q9.png)
 
   Además, el 100% de los entrevistados valora la posibilidad de acceder al sistema desde dispositivos móviles y considera esencial que el sistema sea fácil de usar para gestionar ventas, inventario y clientes de manera más eficiente.
   
-  ![alt text](resources/question11.png)
+  ![Question 12](resources/interviews/OS1/S1-pos5_q12.png)
 
   Este resumen muestra las necesidades comunes de los negocios en cuanto a optimización de la gestión de inventario y ventas.
 
    **2️⃣ Segundo Segmento Objetivo: Compradores o clientes registrados**
    En las entrevistas realizadas, se observó que la mayoría de los participantes (alrededor del 69%) revisan catálogos en línea antes de hacer una compra. La mayoría valora especialmente que los catálogos tengan fotos y descripciones detalladas de los productos, así como precios claros y disponibilidad actualizada. Además, todos los entrevistados prefieren comprar en tiendas que tienen una presentación ordenada en línea, lo que facilita la navegación.
    
-   ![resumen pregunta 1](resources/question1.png)
+   ![Question 1](resources/interviews/OS2/S2-pos1_q1.png)
    
-   ![alt text](resources/question2.png)
+   ![Question 2](resources/interviews/OS2/S2-pos2_q2.png)
   
   La posibilidad de ver si un producto está disponible en tiempo real es algo que muchos consideran muy útil (aproximadamente el 92%). También se destacó que el 30% de los participantes encuentran útil ver promociones o combos destacados de manera visible y fácil de encontrar.
   
-  ![alt text](resources/question3.png)
+  ![Question 4](resources/interviews/OS2/S2-pos3_q4.png)
   
-  ![alt text](resources/question4.png)
+  ![Question 5](resources/interviews/OS2/S2-pos4_q5.png)
 
   En cuanto al proceso de compra, la mayoría prefiere hacer pedidos sin tener que llamar directamente, con un 46,2% indicando que prefieren una experiencia completamente digital. Sin embargo, uno de los problemas más comunes que enfrentan al comprar por redes sociales es la respuesta lenta, y muchos también mencionaron la falta de precios claros y información sobre disponibilidad.
   
-  ![alt text](resources/question5.png)
+  ![Question 6](resources/interviews/OS2/S2-pos5_q6.png)
 
   Un punto importante es que el 84% de los encuestados expresó interés en poder leer o dejar reseñas de otros compradores, lo cual muestra la importancia de la confianza en las experiencias compartidas. En relación a compartir catálogos, el 60% estaría dispuesto a hacerlo si les gusta lo que ven, lo que destaca un buen nivel de recomendación entre consumidores.
   
-  ![alt text](resources/question6.png)
+  ![Question 8](resources/interviews/OS2/S2-pos6_q8.png)
 
   Finalmente, la mayoría prefiere que los productos estén organizados por categorías y marcas, lo que facilita la búsqueda dentro del catálogo.
 
@@ -1131,17 +1278,17 @@ directa durante la primera semana.
    
    ##### 📝 Administradores:
 
-   ![alt text](<resources/José Mendez.png>)
+   ![User Persona Admins](resources/Chapter-II/User_Persona-JoseMendez.png)
 
    #### 📝 Clientes:
 
-   ![alt text](<resources/Maria Molero.png>)
+   ![User Persona Clients](resources/Chapter-II/Empathy_maps-Clients.png)
 
    ### 2.3.2. User Task Matrix
 
    En este cuadro tendremos a nuestros segmentos objetivos: Administradores de empresas y Clientes. Consideraremos tareas que haran para obtener un producto o hallar ofertas para planificar futuras compras.
 
-   ![alt text](<resources/User Task Matrix.jpg>)
+   ![User Task Matrix](resources/Chapter-II/User_Task_Matrix.png)
 
    En estos casos vemos que ambas parte dan importancia a consultar el inventario o Stock, pero los administradores son los más interesados en esta tarea, ya que es crucial mantener un inventario actualizado para su negocio. Además, vemos cómo ambas partes dan una gran importancia a los pagos en yape o con tarjeta, ya que estos son cruciales para que la compra o venta de un producto se logre. Finalmente, ambos dan importancia a las consultas y planeación de compras que se hicieron o haran en un futuro. El primero, para saber si los pedidos seran entregados de la mejor manera en el tiempo adecuado. El segundo, para saber que se tendra que vender el día siguiente, en el caso de los administradores, o comprar para la proxima semana, en el caso de los clientes.
 
@@ -1149,62 +1296,70 @@ directa durante la primera semana.
 
    ##### 📝 Administradores:
 
-   ![alt text](<resources/User journey maping administradores.png>)
+   ![User Journey Mapping Admins](resources/Chapter-II/User_Journey_Maping-Admin.png)
    
    #### 📝 Clientes:
 
-   ![alt text](<resources/User journey mapping Clientes.png>)
+   ![User Journey Mapping Clients](resources/Chapter-II/Empathy_maps-Clients.png)
 
    ### 2.3.4. Empathy Mapping
 
    ##### 📝 Administradores:
-   ![alt text](<resources/Empathy map Administradores.png>)
+   ![Empathy Map Admins](resources/Chapter-II/Empathy_map-Admin.png)
 
    #### 📝 Clientes:
 
-   ![alt text](<resources/Empathy maps Clientes.png>)
+   ![Empathy Map Clients](resources/Chapter-II/Empathy_maps-Clients.png)
 
    ### 2.3.5. As-is Scenario Mapping
 
    #### 📝 Administradores:
-   ![alt text](<resources/As is scenario mapping Administradores.jpg>)
+   ![As is Scenario Mapping Admins](resources/Chapter-II/As_is_scenario_mapping-Admin.jpg)
 
    #### 📝 Clientes:
 
-   ![alt text](<resources/As is scenario mapping Clientes.jpg>)
+   ![As is Scenario Mapping Clients](resources/Chapter-II/As_is_scenario_mapping-Clientes.jpg)
 
    ## 2.4. Ubiquitous Language:
-    Para esta sección determinaremos palabras que debemos saber su significado para el contexto de la problemática que intentamos resolver:
-
-    Stock: Referencia al inventario o a los productos que hay actualmente en la tienda o en los almacenes del negocio
-
-    Regular: En nuestro contexto, se refiere a los productos, clientes o ventas que son frecuentes en la tienda.
-
-    Precio real: Precio que el cliente pagará al final de la transacción, incluye las ofertas o promociones que la tienda ofrece.
-
-    Disponibilidad: Hace referencia a los estados de un producto en la tienda: En stock, agotado, próximo a reabastecer .
-
-    Oferta Personalizada: Es a las ofertas que los clientes obtienen, tomando en cuenta sus compras y los tipos de productos que suelen seleccionar
-
-    Catálogo Digital: Referencia al catálogo o revistas que las tiendas poseen para mostrar su inventario, pero de manera online y lo pueden ver desde el celular o laptop.
-
-    Alertas: nos referimos a las notificaciones de whatsapp o de email para los cambios u ofertas en las tiendas.
-
-    Yape/QR: con esto nos referimos a los métodos de pagos favoritos, en el Perú, donde se usa el celular para hacer transacciones, sin necesidad de tarjetas.
-
-    Delivery Tracking: Con esto nos referimos a el monitoreo que hay de los pedidos que se hacen a domicilio y en qué condiciones se pueden encontrar al llegar.
-
-    Lista de Deseos: Referencia a la lista de productos preferidos o que son comprados con mayor frecuencia por el cliente.
+   📦 Stock
+   Referencia al inventario o a los productos que hay actualmente en la tienda o en los almacenes del negocio.
+   
+   🔄 Regular
+   En nuestro contexto, se refiere a los productos, clientes o ventas que son frecuentes en la tienda.
+   
+   💰 Precio real
+   Precio que el cliente pagará al final de la transacción, incluyendo las ofertas o promociones que la tienda ofrece.
+   
+   📊 Disponibilidad
+   Hace referencia a los estados de un producto en la tienda: En stock, agotado, próximo a reabastecer.
+   
+   🎯 Oferta Personalizada
+   Ofertas que los clientes obtienen tomando en cuenta sus compras y los tipos de productos que suelen seleccionar.
+   
+   📱 Catálogo Digital
+   Catálogo o revistas que las tiendas poseen para mostrar su inventario, pero de manera online, accesible desde el celular o laptop.
+   
+   🔔 Alertas
+   Notificaciones vía WhatsApp o email sobre cambios u ofertas en las tiendas.
+   
+   📲 Yape/QR
+   Métodos de pago favoritos en Perú, que permiten realizar transacciones usando el celular sin necesidad de tarjetas.
+   
+   🚚 Delivery Tracking
+   Monitoreo del estado y condiciones de los pedidos a domicilio hasta su entrega.
+   
+   📝 Lista de Deseos
+   Lista de productos preferidos o que son comprados con mayor frecuencia por el cliente.
 
 
 # Capítulo III: Requeriments Specification
  ## 3.1. To-Be Scenario Mapping
- #### 📝 Administradores:
- ![alt text](<resources/To be scenario administradores.jpg>)
+ #### 📝 Administradores
+ ![To be Scenario Admin](resources/Chapter-III/To_be_scenario-admin.jpg)
 
- #### 📝 Clientes:
+ #### 📝 Clientes
  
- ![alt text](<resources/To be scenario clientes.jpg>)
+ ![To be Scenario Clients](resources/Chapter-III/To_be_scenario-clients.jpg)
 
  ## 3.2. User Stories
  |Epic  / User Story ID|Título|Descripción|Criterios de Aceptación |Relacionado con (Epic ID)|
@@ -1226,12 +1381,22 @@ directa durante la primera semana.
 | US15 | Visualización clara de beneficios | Como visitante, quiero entender rápidamente los beneficios de la plataforma, para decidir si me interesa registrarme. | **Escenario 1: Sección visible al ingresar**<br>**Dado que** ingreso a la landing page<br>**Cuando** me desplazo o espero unos segundos<br>**Entonces** debo ver una sección destacada que explica los beneficios clave (ahorro de tiempo, control de inventario, recordatorios, etc).<br><br>**Escenario 2: Visualización en móvil y desktop**<br>**Dado que** visito la landing desde distintos dispositivos<br>**Cuando** accedo a la página<br>**Entonces** la sección debe ser legible y ordenada en cualquier tamaño de pantalla. | EP06 |
 | US16 | Llamado a la acción claro y accesible | Como visitante, quiero encontrar fácilmente un botón para registrarme o agendar una demo, para tomar acción sin complicaciones. | **Escenario 1: Botón visible al cargar la página**<br>**Dado que** ingreso a la página<br>**Cuando** la veo por primera vez<br>**Entonces** el botón “Regístrate gratis” o “Pide una demo” debe estar visible sin necesidad de hacer scroll.<br><br>**Escenario 2: CTA persistente**<br>**Dado que** navego hacia abajo<br>**Cuando** hago scroll<br>**Entonces** debe haber un botón fijo o repetido que me permita registrarme fácilmente. |EP06  |
 | US17 | Testimonios o casos de éxito | Como visitante, quiero leer experiencias reales de otros dueños de negocio, para confiar más en la plataforma. | **Escenario 1: Visualización de testimonios**<br>**Dado que** estoy en la sección de testimonios<br>**Cuando** veo los perfiles<br>**Entonces** deben mostrarse nombres, negocios reales y breves frases de usuarios reales.<br><br>**Escenario 2: Diseño atractivo**<br>**Dado que** navego la sección<br>**Cuando** reviso los testimonios<br>**Entonces** deben mostrarse con diseño visual atractivo (cards, sliders, etc). | EP06 |
-| US19 | Formulario de contacto funcional | Como visitante, quiero poder dejar mis datos fácilmente para que me contacten si tengo dudas, sin tener que registrarme aún. | **Escenario 1: Envío exitoso**<br>**Dado que** ingreso mi nombre, correo y mensaje<br>**Cuando** hago clic en “Enviar”<br>**Entonces** el sistema debe registrar los datos y mostrar mensaje de confirmación.<br><br>**Escenario 2: Validación de campos**<br>**Dado que** envío un formulario incompleto o con correo inválido<br>**Cuando** hago clic en enviar<br>**Entonces** debe mostrarse un mensaje de error específico y no enviarse. | EP06 |
+| US18 | Formulario de contacto funcional | Como visitante, quiero poder dejar mis datos fácilmente para que me contacten si tengo dudas, sin tener que registrarme aún. | **Escenario 1: Envío exitoso**<br>**Dado que** ingreso mi nombre, correo y mensaje<br>**Cuando** hago clic en “Enviar”<br>**Entonces** el sistema debe registrar los datos y mostrar mensaje de confirmación.<br><br>**Escenario 2: Validación de campos**<br>**Dado que** envío un formulario incompleto o con correo inválido<br>**Cuando** hago clic en enviar<br>**Entonces** debe mostrarse un mensaje de error específico y no enviarse. | EP06 |
+
+### Technical Stoies
+
+|Technical Stories ID|Título|Descripción|Criterios de Aceptación |Relacionado con (Epic ID)|
+| :- | :- | :- | :- | :- |
 | TS01                 | API Registro de Productos | Como **developer**, quiero implementar un endpoint POST `/api/products` para registrar nuevos productos en la base de datos.                 | **Scenario: Registro exitoso**<br>Given que envío un JSON válido con los campos requeridos<br>When realizo una solicitud POST a `/api/products`<br>Then la respuesta debe tener código 201 y retornar el objeto creado.<br><br>**Scenario: Campos obligatorios faltantes**<br>Given que envío un JSON sin campos requeridos<br>When realizo la solicitud POST<br>Then la respuesta debe ser 400 Bad Request con el detalle de los errores. | EP01                      |
 | TS02                 | API Consulta de Productos | Como **developer**, quiero implementar un endpoint GET `/api/products` para obtener la lista de productos.                                   | **Scenario: Consulta exitosa**<br>Given que existen productos registrados<br>When realizo una solicitud GET a `/api/products`<br>Then la respuesta debe ser 200 OK y retornar la lista de productos.<br><br>**Scenario: Consulta sin resultados**<br>Given que no existen productos registrados<br>When realizo la solicitud GET<br>Then la respuesta debe ser 200 OK con una lista vacía.                                                 | EP01                      |
 | TS03                 | API Registro de Ventas    | Como **developer**, quiero implementar un endpoint POST `/api/sales` para registrar las ventas realizadas.                                   | **Scenario: Registro de venta exitosa**<br>Given que envío un JSON con los datos de la venta<br>When realizo la solicitud POST a `/api/sales`<br>Then la respuesta debe ser 201 Created con los datos de la venta.<br><br>**Scenario: Venta con datos incompletos**<br>Given que envío un JSON con campos faltantes<br>When realizo la solicitud POST<br>Then la respuesta debe ser 400 Bad Request con mensaje de error.                  | EP02                      |
 | TS04                 | API Historial de Compras  | Como **developer**, quiero implementar un endpoint GET `/api/customers/{id}/purchases` para consultar el historial de compras de un cliente. | **Scenario: Historial existente**<br>Given que el cliente tiene compras registradas<br>When realizo la solicitud GET a `/api/customers/123/purchases`<br>Then la respuesta debe ser 200 OK con la lista de compras.<br><br>**Scenario: Sin historial de compras**<br>Given que el cliente no tiene compras<br>When realizo la solicitud GET<br>Then la respuesta debe ser 200 OK con una lista vacía.                                      | EP02                      |
 | TS05                 | API Consulta de Stock     | Como **developer**, quiero implementar un endpoint GET `/api/stock` para visualizar el stock actualizado de los productos.                   | **Scenario: Consulta exitosa**<br>Given que existen productos en inventario<br>When realizo la solicitud GET a `/api/stock`<br>Then la respuesta debe ser 200 OK con los datos de stock en tiempo real.<br><br>**Scenario: Producto sin stock**<br>Given que un producto no tiene stock disponible<br>When consulto `/api/stock`<br>Then la respuesta debe incluir el stock en 0 para dicho producto.                                      | EP01                      |
+
+### Epic
+
+|Epic ID  |Título|Descripción|
+| :-      | :-   | :-        | 
 | EP01    | Gestión de productos e inventario        | Como dueño de negocio, quiero registrar mis productos y controlar el inventario en tiempo real para tener una gestión organizada y actualizada de mi stock. |
 | EP02    | Ventas y clientes                        | Como dueño de negocio, quiero registrar ventas y datos de mis clientes para llevar seguimiento comercial y ofrecer una atención más personalizada. |
 | EP03    | Reportes y análisis                      | Como dueño de negocio, quiero generar reportes visuales y paneles de indicadores para tomar decisiones informadas basadas en datos reales. |
@@ -1239,9 +1404,10 @@ directa durante la primera semana.
 | EP05    | Catálogo y automatización con clientes   | Como dueño de negocio, quiero automatizar la atención al cliente mediante catálogos y precios personalizados para ahorrar tiempo y mejorar la experiencia de compra. |
 | EP06    | Página web y captación de usuarios       | Como visitante, quiero entender los beneficios, leer experiencias reales y contactar fácilmente para decidir si la plataforma es adecuada para mí. |
 
+
  ## 3.3. Impact Mapping
 
- ![alt text](<resources/Impact Mapping.png>)
+ ![Impact Mapping](resources/Chapter-III/Impact_Mapping.png)
 
 
  ## 3.4. Product Backlog
@@ -1264,7 +1430,7 @@ directa durante la primera semana.
  | 15 | US15 | Visualización de beneficios | Como visitante, quiero entender rápidamente los beneficios de la plataforma, para decidir si me interesa registrarme. | 1 |
  | 16 | US16 | Llamado a la acción claro | Como visitante, quiero encontrar fácilmente un botón para registrarme o agendar una demo, para tomar acción sin complicaciones. | 1 |
  | 17 | US17 | Testimonios reales | Como visitante, quiero leer experiencias reales de otros dueños de negocio, para confiar más en la plataforma. | 1 |
- | 18 | US19 | Formulario de contacto | Como visitante, quiero poder dejar mis datos fácilmente para que me contacten si tengo dudas, sin tener que registrarme aún. | 1 |
+ | 18 | US18 | Formulario de contacto | Como visitante, quiero poder dejar mis datos fácilmente para que me contacten si tengo dudas, sin tener que registrarme aún. | 1 |
 
 # Capítulo IV: Product Design
   ## 4.1. Style Guidelines
@@ -1275,7 +1441,7 @@ directa durante la primera semana.
 Para el desarrollo del logo de StockHunters, hemos elegido un diseño que encapsula la esencia de la aplicación y sus funcionalidades. El logotipo presenta una tipografía sofisticada y clara, que aporta modernidad y profesionalismo. El ícono, simboliza la eficiencia, el orden y la agilidad. La elección de colores vibrantes y dinámicos, en una combinación de tonos azules y blancos, transmite una sensación de confianza y estabilidad. La integración de estos elementos busca comunicar visualmente el compromiso de StockHunters con la innovación y la excelencia en la gestión de inventarios.
 
 <p align="center">
-<img src="resources/Imagotipo.png" alt="Logo de StockHunters" width="350" height="200">
+<img src="resources/stockHunters/Imagotipo.png" alt="Logo de StockHunters" width="350" height="200">
 </p>
 
 **Typography:**
@@ -1284,7 +1450,7 @@ Para el diseño tipográfico de StockHunters, se ha seleccionado una combinació
 
 A continuación, se detallan las tipografías adoptadas para StockHunters:
 <p align="center">
-<img src="resources/fonts.PNG" alt="Fonts de StockHunters" width="350" height="250">
+<img src="resources/Chapter-IV/fonts.png" alt="Fonts de StockHunters" width="350" height="250">
 </p>
 
 **Colors**
@@ -1294,7 +1460,7 @@ La paleta de colores de **StockHunters** fue seleccionada para reflejar los valo
 A continuación, se detallan los colores seleccionados para StockHunters:
 
 <p align="center">
-<img src="resources/colors.PNG" alt="Colors de StockHunters" width="350" height="170">
+<img src="resources/Chapter-IV/colors.png" alt="Colors de StockHunters" width="350" height="170">
 </p>
 
 **Spacing**
@@ -1302,7 +1468,7 @@ A continuación, se detallan los colores seleccionados para StockHunters:
 El espaciado en **StockHunters** está cuidadosamente definido para garantizar una interfaz limpia y organizada. Se emplea una separación uniforme entre elementos, lo que mejora la legibilidad, facilita la navegación y aporta equilibrio visual al diseño.
 
 <p align="center">
-<img src="resources/spacing.PNG" alt="Spacing de StockHunters" width="350" height="130">
+<img src="resources/Chapter-IV/spacing.png" alt="Spacing de StockHunters" width="350" height="130">
 </p>
 
   ### 4.1.2. Web Style Guidelines
@@ -1405,61 +1571,61 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
   ### 4.3.1. Landing Page Wireframes
   **Landing Page para Desktop Web Browser**
   <p align="center">
-<img src="resources/lp1.PNG" alt="1" width="400" height="450">
+<img src="resources/Chapter-IV/landingPage-Wireframe-1.png" alt="1" width="400" height="450">
 </p>
 
 <p align="center">
-<img src="resources/lp2.PNG" alt="2" width="400" height="500">
+<img src="resources/Chapter-IV/landingPage-Wireframe-2.png" alt="2" width="400" height="500">
 </p>
 
 <p align="center">
-<img src="resources/ld3.PNG" alt="3" width="400" height="500">
+<img src="resources/Chapter-IV/ld3.PNG" alt="3" width="400" height="500">
 </p>
 
 <p align="center">
-<img src="resources/mb1.PNG" alt="mb1" width="250" height="300">
+<img src="resources/Chapter-IV/mb1.PNG" alt="mb1" width="250" height="300">
 </p>
 
 <p align="center">
-<img src="resources/mb2.PNG" alt="mb2" width="250" height="400">
+<img src="resources/Chapter-IV/mb2.PNG" alt="mb2" width="250" height="400">
 </p>
 
 <p align="center">
-<img src="resources/mb3.PNG" alt="mb3" width="250" height="250">
+<img src="resources/Chapter-IV/mb3.PNG" alt="mb3" width="250" height="250">
 </p>
 
 <p align="center">
-<img src="resources/mb5.PNG" alt="mb5" width="250" height="380">
+<img src="resources/Chapter-IV/mb5.PNG" alt="mb5" width="250" height="380">
 </p>
 
   ### 4.3.2. Landing Page Mock-Up
 
 <p align="center">
-<img src="resources/lm1.PNG" alt="1" width="400" height="450">
+<img src="resources/Chapter-IV/lm1.PNG" alt="1" width="400" height="450">
 </p>
 
 <p align="center">
-<img src="resources/lm2.PNG" alt="2" width="400" height="550">
+<img src="resources/Chapter-IV/lm2.PNG" alt="2" width="400" height="550">
 </p>
 
 <p align="center">
-<img src="resources/lm3.PNG" alt="3" width="400" height="500">
+<img src="resources/Chapter-IV/lm3.PNG" alt="3" width="400" height="500">
 </p>
 
 <p align="center">
-<img src="resources/mm1.PNG" alt="mm1" width="250" height="300">
+<img src="resources/Chapter-IV/mm1.PNG" alt="mm1" width="250" height="300">
 </p>
 
 <p align="center">
-<img src="resources/mm2.PNG" alt="mm2" width="250" height="400">
+<img src="resources/Chapter-IV/mm2.PNG" alt="mm2" width="250" height="400">
 </p>
 
 <p align="center">
-<img src="resources/mm3.PNG" alt="mm3" width="250" height="260">
+<img src="resources/Chapter-IV/mm3.PNG" alt="mm3" width="250" height="260">
 </p>
 
 <p align="center">
-<img src="resources/mm4.PNG" alt="mm4" width="200" height="300">
+<img src="resources/Chapter-IV/mm4.PNG" alt="mm4" width="200" height="300">
 </p>
 
  ## 4.4. Web Applications UX/UI Desing
@@ -1467,32 +1633,32 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
  El diseño de experiencia de usuario (UX) y diseño de interfaz de usuario (UI) en aplicaciones web busca crear experiencias digitales intuitivas y satisfactorias. La UX se enfoca en comprender las necesidades del usuario y diseñar flujos de interacción eficientes, mientras que la UI se encarga del aspecto visual, como botones, menús y disposición de contenido. Un diseño UX/UI exitoso fusiona estética y funcionalidad, ofreciendo una experiencia fluida y memorable.
   ### 4.4.1. Web Applications Wireframes
 <p align="center">
-<img src="resources/mob1.PNG" alt="mm2" width="300" height="220">
+<img src="resources/Chapter-IV/mob1.PNG" alt="mm2" width="300" height="220">
 </p>
 
 <p align="center">
-<img src="resources/mob2.PNG" alt="mm3" width="300" height="220">
+<img src="resources/Chapter-IV/mob2.PNG" alt="mm3" width="300" height="220">
 </p>
 
 <p align="center">
-<img src="resources/mob3.PNG" alt="mm4" width="400" height="200">
+<img src="resources/Chapter-IV/mob3.PNG" alt="mm4" width="400" height="200">
 </p>
 
 <p align="center">
-<img src="resources/mob4.PNG" alt="mm2" width="300" height="220">
+<img src="resources/Chapter-IV/mob4.PNG" alt="mm2" width="300" height="220">
 </p>
 
 <p align="center">
-<img src="resources/mob5.PNG" alt="mm3" width="300" height="220">
+<img src="resources/Chapter-IV/mob5.PNG" alt="mm3" width="300" height="220">
 </p>
 
 <p align="center">
-<img src="resources/mob6.PNG" alt="mm4" width="400" height="200">
+<img src="resources/Chapter-IV/mob6.PNG" alt="mm4" width="400" height="200">
 </p>
 
   ### 4.4.2. Web Applications Wireflow Diagrams
 <p align="center">
-<img src="resources/uf.PNG" alt="mm4" width="400" height="600">
+<img src="resources/Chapter-IV/uf.PNG" alt="mm4" width="400" height="600">
 </p>
 
   ### 4.4.3. Web Applications User Flow Diagrams
@@ -1500,17 +1666,20 @@ El diagrama de flujo de usuario es una representación visual de las acciones qu
 
 **Leyenda**
 <p align="center">
-<img src="resources/legend.PNG" alt="mm4" width="400" height="100">
+<img src="resources/Chapter-IV/legend.png" alt="mm4" width="400" height="100">
 </p>
 
 **Vista general del flujo del Usuario**
 
 <p align="center">
-<img src="resources/ui.PNG" alt="mm4" width="600" height="600">
+<img src="resources/Chapter-IV/flowDiagram.png" alt="mm4" width="600" height="600">
 </p>
+
  ## 4.5. Web Applications Prototyping
- Prototipo de StockHunters en Figma
- https://www.figma.com/proto/5IiHYIgt85kgRWLgpMnTqw/Landing-Page-UI-Desing?node-id=0-1&t=X91d0D62Wegvuk7E-1
+
+ [![Static Badge](https://img.shields.io/badge/Prototipo-StockHunters-blue?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/proto/5IiHYIgt85kgRWLgpMnTqw/Landing-Page-UI-Desing?node-id=0-1&t=X91d0D62Wegvuk7E-1)
+
+ 
  
  ## 4.6. Domain-Driven Software Architecture
   ### 4.6.1. Software Architecture Context Diagram
@@ -1777,7 +1946,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.InvoiceDownloadCompone
 Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls GET /statistics", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
   ~~~
 
-  ## 4.7. Software Object-Oriented Design
+ ## 4.7. Software Object-Oriented Design
   ### 4.7.1. Class Diagram
   ~~~mermaid
   classDiagram
@@ -2092,10 +2261,9 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
 | Costa Morales Christofer William| miniChorri|
 | Vargas Javier, Jose Enrique | KenRi7 |
 
-  
-  *URL de repositorio de Landing Page:* https://github.com/st0ckhunters/landingPage.git
-  *URL de repositorio de Web Services:* 
-  *URL de repositorio de FrontEnd Aplication:* 
+  [![Repositorio Landing Page](https://img.shields.io/badge/Repositorio-LandingPage-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/StockHunters/LandingPage.git)
+  [![Repositorio Frontend](https://img.shields.io/badge/Repositorio-Frontend-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/StockHunters/Frontend-Web-Application.git)
+  [![Repositorio WebServices](https://img.shields.io/badge/Repositorio-WebServices-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/StockHunters/WebServices)
 
   Para el desarrollo de cada repositorio se usara GitFlow como estrategia de versionado, el cual consiste en crear ramas para cada funcionalidad o bug que se desee implementar para mantener un trabajo organizado. Las ramas principales seran main, develop, feature, release y hotfix. A continuacion se describen cada una de estas ramas:
 
@@ -2129,6 +2297,9 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
   Para el despliegue de ambos el landing page y la aplicacion web se utilizara Git, para mantener el control de versiones, la integracion continua y para mantener un workflow organizado en equipo para las futuras versiones gracias al uso de GitFlow.
 
   **Landing Page:**
+  [![Repositorio WebServices](https://img.shields.io/badge/Web-LandingPage-blue?style=for-the-badge&logo=github&logoColor=white)](https://stockhunters.github.io/LandingPage/)
+
+
   * El despliegue de la landing page se realizará mediante GitHub Pages, aprovechando su integración nativa con los repositorios de GitHub.
 
   * La landing se ubicará en una carpeta /docs dentro del branch principal del repositorio. GitHub Pages detectará automáticamente esta estructura para generar y servir el sitio.
@@ -2136,15 +2307,15 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
   * Este servicio ofrece hosting gratuito, confiable y con certificado SSL incluido, lo que garantiza una conexión segura (HTTPS).
   
   * Se generará una URL pública (https://stockhunters.github.io/LandingPage/) para compartir la página fácilmente o incluso integrarla a un dominio personalizado si se desea escalar.
-  ![GitHubPages](resources/GitHub-Pages.png)
+  ![GitHubPages](resources/Chapter-V/GitHub-Pages.png)
   En un futuro se podra cambiar la URL a un dominio propio en servicios de hosting y dominio como GoDaddy o Namecheap. 
-  ![LandingPage](resources/landing.png)
-
+  ![LandingPage](resources/Chapter-V/LandingPage.png)
 
 
  ## 5.2. Landing Page, Service & Applications Implementation
  
-  ### 5.2.x. Sprints
+  > [!NOTE]
+  > 5.2.x. Sprints
 
  ~~~md
  <!--- Estructura de los srpints --->
@@ -2158,7 +2329,8 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
    #### 5.2.x.7. Software Deployment Evidence for Sprint Review
    #### 5.2.x.8. Team Collaboration Insights during Sprint
  ~~~
-   ### 5.2.1 Sprint 1
+
+### 5.2.1 Sprint 1
    #### 5.2.1.1 Sprint Planning 1
    A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 1. Se discution los objetivos, etapa de tiempo y tareas a realizar.
    
@@ -2280,8 +2452,8 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     </tr>
    </table>
 
- #### 5.2.1.3 Sprint 1 Backlog
- <table>
+   #### 5.2.1.3 Sprint 1 Backlog
+   <table>
   <tr>
     <td><strong>Sprint #</strong></td>
     <td colspan="7"><strong>Sprint 1</strong></td>
@@ -2300,7 +2472,6 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td><strong>Assigned to</strong></td>
     <td><strong>Status</strong></td>
   </tr>
-
   <tr>
     <td>US15</td>
     <td>Visualización clara de beneficios</td>
@@ -2362,7 +2533,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>Done</td>
   </tr>
   <tr>
-    <td>US19</td>
+    <td>US18</td>
     <td>Formulario de contacto funcional</td>
     <td>Task 7</td>
     <td>Diseño de formulario</td>
@@ -2372,7 +2543,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>Done</td>
   </tr>
   <tr>
-    <td>US19</td>
+    <td>US18</td>
     <td>Formulario de contacto funcional</td>
     <td>Task 8</td>
     <td>Validación de campos</td>
@@ -2381,25 +2552,23 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td></td>
     <td>Done</td>
   </tr>
-
 </table>
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
- Durante el Sprint 1, se completaron todas las tareas planificadas del backlog, enfocadas en la creación de la landing page. Se redactaron los textos, se diseñaron secciones visuales (beneficios, testimonios y CTA), y se implementó el formulario de contacto con validaciones. Todo el avance quedó registrado en GitHub, donde se pueden verificar los commits, branches y pull requests correspondientes. Además, se presentó una demo del sitio durante el Sprint Review para validar funcionalidad y diseño.
+   #### 5.2.1.5. Execution Evidence for Sprint Review
+   Durante el Sprint 1, se completaron todas las tareas planificadas del backlog, enfocadas en la creación de la landing page. Se redactaron los textos, se diseñaron secciones visuales (beneficios, testimonios y CTA), y se implementó el formulario de contacto con validaciones. Todo el avance quedó registrado en GitHub, donde se pueden verificar los commits, branches y pull requests correspondientes. Además, se presentó una demo del sitio durante el Sprint Review para validar funcionalidad y diseño.
  
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
- En este sprint, la documentación se centró en describir la estructura y funcionalidad de la landing page. Se utilizaron archivos Markdown en el repositorio para documentar los componentes desarrollados, los flujos de interacción del formulario de contacto, y detalles técnicos como validaciones aplicadas. Esta documentación fue clave para alinear al equipo de cara a los próximos sprints donde se implementarán servicios backend.
+   #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+   En este sprint, la documentación se centró en describir la estructura y funcionalidad de la landing page. Se utilizaron archivos Markdown en el repositorio para documentar los componentes desarrollados, los flujos de interacción del formulario de contacto, y detalles técnicos como validaciones aplicadas. Esta documentación fue clave para alinear al equipo de cara a los próximos sprints donde se implementarán servicios backend.
 
+   #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+   Se realizó el despliegue exitoso de la landing page mediante GitHub Pages. Esta versión incluye todo lo trabajado en el sprint: sección de beneficios, testimonios, formulario de contacto y botones de llamada a la acción. El enlace fue compartido durante la revisión para facilitar la validación del equipo y obtener retroalimentación directa. Esto permitió identificar pequeños ajustes visuales que serán considerados en el próximo sprint.
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
- Se realizó el despliegue exitoso de la landing page mediante GitHub Pages. Esta versión incluye todo lo trabajado en el sprint: sección de beneficios, testimonios, formulario de contacto y botones de llamada a la acción. El enlace fue compartido durante la revisión para facilitar la validación del equipo y obtener retroalimentación directa. Esto permitió identificar pequeños ajustes visuales que serán considerados en el próximo sprint.
+   #### 5.2.1.8. Team Collaboration Insights during Sprint
+   El equipo trabajó de manera organizada y colaborativa, con una buena distribución de tareas según habilidades. Se mantuvo una comunicación fluida por Meet y Discord, y se usaron herramientas como GitHub y Trello para hacer seguimiento al progreso. Cada integrante asumió responsabilidades claras y también apoyó a otros cuando fue necesario. Destacó la actitud inclusiva y el liderazgo compartido, permitiendo avanzar de forma eficiente y cumplir los objetivos del sprint.
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
- El equipo trabajó de manera organizada y colaborativa, con una buena distribución de tareas según habilidades. Se mantuvo una comunicación fluida por Meet y Discord, y se usaron herramientas como GitHub y Trello para hacer seguimiento al progreso. Cada integrante asumió responsabilidades claras y también apoyó a otros cuando fue necesario. Destacó la actitud inclusiva y el liderazgo compartido, permitiendo avanzar de forma eficiente y cumplir los objetivos del sprint.
+### 5.2.2 Sprint 2
 
-## 5.2.2 Sprint 2
-
-### 5.2.2.1 Sprint Planning 2
+ #### 5.2.2.1 Sprint Planning 2
   A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 2. Se discution los objetivos, etapa de tiempo y tareas a realizar.
   
   <div>
@@ -2459,7 +2628,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
 
    </table>
 
-  ### 5.2.2.2. Aspect Leaders and Collaborators
+ #### 5.2.2.2. Aspect Leaders and Collaborators
    <table>
     <tr>
       <th>Team member</th>
@@ -2515,18 +2684,18 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
   </tr>
   </table>
 
-  ### 5.2.2.3. Sprint Backlog 2.
-  ![alt text](resources/Kanban-github.png)
+ #### 5.2.2.3. Sprint Backlog 2.
+  ![Kanban Github](resources/Chapter-V/Sprint-2/Kanban-github.png)
   <table>
   <tr>
     <td><strong>Sprint #</strong></td>
     <td colspan="7"><strong>Sprint 2</strong></td>
-</tr>
-<tr>
-    <td colspan="2"><strong>User Story</strong></td>
-    <td colspan="6"><strong>Work-item / Task</strong></td>
-</tr>
-<tr>
+  </tr>
+  <tr>
+      <td colspan="2"><strong>User Story</strong></td>
+      <td colspan="6"><strong>Work-item / Task</strong></td>
+  </tr>
+  <tr>
     <td><strong>ID</strong></td>
     <td><strong>Title</strong></td>
     <td><strong>ID</strong></td>
@@ -2622,7 +2791,7 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
     <td>In Process</td>
 </tr>
 <tr>
-    <td>US19</td>
+    <td>US18</td>
     <td>Formulario de contacto</td>
     <td>T10</td>
     <td>Crear formulario de contacto</td>
@@ -2635,12 +2804,10 @@ Adicionalmente, se definieron extensiones recomendadas para VSCode como ESLint, 
 
 
 
-### 5.2.2.4. Development Evidence for Sprint Review.
+ #### 5.2.2.4. Development Evidence for Sprint Review.
 Se realizaron los siguientes avances en el desarrollo de la aplicación web y landing page con los commits correspondientes en GitHub:
-
-Repositorio Landing Page: https://github.com/StockHunters/LandingPage.git
-
-Repositorio FrontEnd: https://github.com/StockHunters/Frontend-Web-Application.git
+[![Repositorio Landing Page](https://img.shields.io/badge/Repositorio-LandingPage-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/StockHunters/LandingPage.git)
+[![Repositorio Frontend](https://img.shields.io/badge/Repositorio-Frontend-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/StockHunters/Frontend-Web-Application.git)
 
 | Repo | Branch | Commit | Message | Date |
 |------|--------|--------|---------|------|
@@ -2731,39 +2898,36 @@ Repositorio FrontEnd: https://github.com/StockHunters/Frontend-Web-Application.g
 | webapp | develop | 1a763f8 | 🔧 Chore: add .vscode settings folder | 08/05/2025 |
 | webapp | develop | 0a7489a | 📝 Docs: add table of contents to README | 08/05/2025 |
 
+ #### 5.2.2.5. Execution Evidence for Sprint Review.
 
-### 5.2.2.5. Execution Evidence for Sprint Review.
-
-![Products](</resources/products1.png>)
+![Products](resources/Chapter-V/Sprint-2/products1.png)
 Primera version del catalogo de productos, consumidos mediante una fake api, y organizados en cards mostrando solo la información clave.
 
-![Products](</resources/products2.png>)
+![Products](resources/Chapter-V/Sprint-2/products2.png)
 Capacidad para ver y ocultar los detalles de cada producto mediante el botón "ver detalles".
 
-![Products](</resources/products3.png>)
+![Products](resources/Chapter-V/Sprint-2/products3.png)
 Filtro de búsqueda mediante categorías, rango de precio y disponibilidad. 
 
+  ##### Manager Side:
+  **Lista de Clientes:** Permite visualizar todos los clientes registrados en el sistema, y añadir nuevos clientes.
+  ![Manager Side](resources/Chapter-V/Sprint-2/client-page.png)
+  **Detalles del Cliente:** Muestra información detallada de un cliente específico, incluyendo su historial de compras.
+  ![Manager Side](resources/Chapter-V/Sprint-2/client-item.png)
+  **Lista de Ventas:** Permite visualizar todas las ventas registradas en el sistema, y editar o eliminar ventas.
+  ![Manager Side](resources/Chapter-V/Sprint-2/sales-page.png)
+  **Seleccion de metodo de pago:** Permite seleccionar el método de pago para una venta específica.
+  ![Payment Template](resources/Chapter-V/Sprint-2/payment-page.png)
 
-#### Manager Side:
-
-**Lista de Clientes:** Permite visualizar todos los clientes registrados en el sistema, y añadir nuevos clientes.
-![Manager Side](resources/client-page.png)
-**Detalles del Cliente:** Muestra información detallada de un cliente específico, incluyendo su historial de compras.
-![Manager Side](resources/client-item.png)
-**Lista de Ventas:** Permite visualizar todas las ventas registradas en el sistema, y editar o eliminar ventas.
-![Manager Side](resources/sales-page.png)
-**Seleccion de metodo de pago:** Permite seleccionar el método de pago para una venta específica.
-![Payment Template](resources/payment-page.png)
-
-### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+ #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 Para el Srpint 2 se planifico el avance para la webapp y se desarrollo algunos enpoints necesarios para su correcta implementación. Para ello, se vio necesario poder desplegar una fakeapi. Se utilizó la herramienta `render` en conjunto con `github` para dicho proposito. En un principio, nuestros endpoints cuentan con 100 datos base. 
 
-> [!Note]
-> https://fakeapi-3oxx.onrender.com/api/<name>
+> [!IMPORTANT]
+> `https://fakeapi-3oxx.onrender.com/api/<name>`
 
 
-![alt text](resources/fakeapi-gh.png)
-![alt text](resources/fakeapi-render.png)
+![fakeapi github](resources/Chapter-V/Sprint-2/fakeapi-gh.png)
+![fakeapi render](resources/Chapter-V/Sprint-2/fakeapi-render.png)
 
 | Endpoint    | Details |
 |-------------|---------|
@@ -2771,9 +2935,9 @@ Para el Srpint 2 se planifico el avance para la webapp y se desarrollo algunos e
 | `/sales`    | Se implementaron las operaciones CRUD | 
 | `/clients`  | Se implementaron las operaciones CRUD |
 
-![alt text](resources/apifake-serverJs.png)
+![fakeapi code](resources/Chapter-V/Sprint-2/fakeapi-code.png)
 
-### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+ #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 Se deployo nuestro frontend en la plataforma github pages y este usa el fake api de json-server desplegado en render. Esto fue posible de la siguiente manera:
 ```bash
 npm install --save-dev gh-pages
@@ -2813,14 +2977,14 @@ Luego se ejecuta el siguiente comando para hacer el deploy:
 npm run build
 npm run deploy
 ```
-![deploy](image.png)
+![deploy](resources/Chapter-V/Sprint-2/deploy.png)
 
-### 5.2.2.8. Team Collaboration Insights during Sprint.
+ #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un contro de versiones adecuados. Aqui se detalla el flujo y los contribuidores:
 
-![networkGraph](resources/sprint2-networkgraph.png)
-![contributors](resources/sprint2-contributors.png)
+![networkGraph](resources/Chapter-V/Sprint-2/sprint2-networkgraph.png)
+![contributors](resources/Chapter-V/Sprint-2/sprint2-contributors.png)
 
 ## 5.2.3 Sprint 3
 ### 5.2.3.1 Sprint Planning 3
@@ -3061,16 +3225,25 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
   ### 5.3.3. Evaluaciones según heurísticas
  
  ## 5.4. Video About-the-Product
+ [![About the Team Video](https://img.shields.io/badge/video-About%20the%20Team-blue?style=for-the-badge&logo=youtube&logoColor=white)](colocar-url) 
 
 # Conclusiones
  ## Conclusiones y recomendaciones
- Este primer sprint nos permitió dar los primeros pasos importantes en el desarrollo de nuestra aplicación. A través de una buena planificación y trabajo en equipo, pudimos cumplir con las tareas que nos propusimos, como diseñar la landing page, avanzar en el prototipo en Figma, preparar las entrevistas y definir aspectos técnicos como el diagrama de clases y la configuración del entorno de desarrollo.
+  Durante los dos primeros sprints, el equipo logró sentar una buena base tanto en lo técnico como en la forma de trabajar juntos. En el Sprint 1, nos enfocamos en organizar el proyecto, armar el equipo y diseñar los primeros elementos visuales, como una página inicial estática. También empezamos a usar herramientas importantes como GitHub para controlar las versiones y Figma para hacer prototipos, además de definir detalles técnicos como el diagrama de clases y preparar el entorno de desarrollo.
 
-El trabajo colaborativo fue clave para lograr estos avances. Nos organizamos bien, repartimos responsabilidades de manera equitativa y nos apoyamos entre todos cuando alguien lo necesitaba. Además, aprendimos a comunicarnos mejor, tanto de forma oral como escrita, dependiendo del tipo de información y del público al que iba dirigida.
+  En el Sprint 2, dimos un gran paso al construir el primer prototipo funcional de la aplicación. Pudimos implementar funciones básicas como el catálogo de productos, la gestión de clientes y ventas, y formularios interactivos para contacto y login. Usamos una fake API en Render para simular datos y así facilitar que frontend y backend trabajaran mejor juntos, lo que ayudó a hacer pruebas y a integrar todo de forma más eficiente.
 
-También empezamos a aplicar buenas prácticas de desarrollo, como el uso de GitHub, el manejo de versiones y la documentación del proyecto. Aunque aún hay cosas por mejorar, este primer sprint nos ayudó a conocernos mejor como equipo y a sentar una base sólida para los próximos pasos del proyecto.
+  Además, mejoramos la forma en que organizamos el trabajo: distribuimos mejor las tareas usando Figma, asignamos roles claros dentro del equipo y seguimos un flujo de trabajo con git flow para mantener todo ordenado en desarrollo, pruebas y producción. También logramos desplegar el frontend en GitHub Pages y solucionamos problemas relacionados con las rutas y el router.
+
+  En cuanto a la colaboración, la comunicación dentro del equipo fue mejorando, y pudimos resolver algunas dificultades que tuvimos con los tiempos de entrega al inicio. Ahora el equipo está más organizado, cada quien sabe bien qué hacer y se nota que trabajamos con más autonomía y eficiencia.
+
+  Aunque todavía quedan cosas por terminar y detalles por mejorar, estos dos primeros sprints nos dejaron claro que tenemos una buena visión del proyecto, que nos coordinamos bien y que seguimos un proceso ordenado para ir avanzando paso a paso. Todo esto nos prepara bien para los próximos retos y para seguir mejorando la aplicación.
+
  ## Video About-the-Team
- <!--agregar luego-->
+ [![About the Team Video](https://img.shields.io/badge/video-About%20the%20Team-blue?style=for-the-badge&logo=youtube&logoColor=white)](colocar-url)
+
+ Conclusiones sobre el video
+
 # Bibliografía
 
 - Blue Ridge Global. (s.f.). *10 Eye-Popping Statistics About Retail Inventory Planning*. Recuperado de [https://blueridgeglobal.com/es/blog/10-eye-popping-statistics-about-retail-inventory-planning/](https://blueridgeglobal.com/es/blog/10-eye-popping-statistics-about-retail-inventory-planning/)
@@ -3083,10 +3256,6 @@ También empezamos a aplicar buenas prácticas de desarrollo, como el uso de Git
 
 # Anexos 
 
-**Link de las entrevistas**
-https://youtu.be/mwxyupflToU
-https://youtu.be/9L7HESPibVA
-https://youtu.be/nJlLy_sWxCM
-https://www.youtube.com/watch?v=barIe2mUUn8
-https://youtu.be/3iKexM4Z7i8
-https://youtu.be/2Nb_TZGTgGc
+**Entrevistas Stock Hunters**
+
+[![Interview Playlist](https://img.shields.io/badge/Entrevistas-playlist-blue?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PL-9ocGPgSml3bQemJ1ESEUNw4v_bBCcbC)
