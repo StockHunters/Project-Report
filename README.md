@@ -1441,7 +1441,7 @@ directa durante la primera semana.
 Para el desarrollo del logo de StockHunters, hemos elegido un diseño que encapsula la esencia de la aplicación y sus funcionalidades. El logotipo presenta una tipografía sofisticada y clara, que aporta modernidad y profesionalismo. El ícono, simboliza la eficiencia, el orden y la agilidad. La elección de colores vibrantes y dinámicos, en una combinación de tonos azules y blancos, transmite una sensación de confianza y estabilidad. La integración de estos elementos busca comunicar visualmente el compromiso de StockHunters con la innovación y la excelencia en la gestión de inventarios.
 
 <p align="center">
-<img src="resources/Imagotipo.png" alt="Logo de StockHunters" width="350" height="200">
+<img src="resources/stockHunters/Imagotipo.png" alt="Logo de StockHunters" width="350" height="200">
 </p>
 
 **Typography:**
@@ -1450,7 +1450,7 @@ Para el diseño tipográfico de StockHunters, se ha seleccionado una combinació
 
 A continuación, se detallan las tipografías adoptadas para StockHunters:
 <p align="center">
-<img src="resources/fonts.PNG" alt="Fonts de StockHunters" width="350" height="250">
+<img src="resources/Chapter-IV/fonts.png" alt="Fonts de StockHunters" width="350" height="250">
 </p>
 
 **Colors**
@@ -1460,7 +1460,7 @@ La paleta de colores de **StockHunters** fue seleccionada para reflejar los valo
 A continuación, se detallan los colores seleccionados para StockHunters:
 
 <p align="center">
-<img src="resources/colors.PNG" alt="Colors de StockHunters" width="350" height="170">
+<img src="resources/Chapter-IV/colors.png" alt="Colors de StockHunters" width="350" height="170">
 </p>
 
 **Spacing**
@@ -1468,7 +1468,7 @@ A continuación, se detallan los colores seleccionados para StockHunters:
 El espaciado en **StockHunters** está cuidadosamente definido para garantizar una interfaz limpia y organizada. Se emplea una separación uniforme entre elementos, lo que mejora la legibilidad, facilita la navegación y aporta equilibrio visual al diseño.
 
 <p align="center">
-<img src="resources/spacing.PNG" alt="Spacing de StockHunters" width="350" height="130">
+<img src="resources/Chapter-IV/spacing.PNG" alt="Spacing de StockHunters" width="350" height="130">
 </p>
 
   ### 4.1.2. Web Style Guidelines
@@ -1571,61 +1571,61 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
   ### 4.3.1. Landing Page Wireframes
   **Landing Page para Desktop Web Browser**
   <p align="center">
-<img src="resources/lp1.PNG" alt="1" width="400" height="450">
+<img src="resources/Chapter-IV/landingPage-Wireframe-1.png" alt="1" width="400" height="450">
 </p>
 
 <p align="center">
-<img src="resources/lp2.PNG" alt="2" width="400" height="500">
+<img src="resources/Chapter-IV/landingPage-Wireframe-2.png" alt="2" width="400" height="500">
 </p>
 
 <p align="center">
-<img src="resources/ld3.PNG" alt="3" width="400" height="500">
+<img src="resources/Chapter-IV/ld3.PNG" alt="3" width="400" height="500">
 </p>
 
 <p align="center">
-<img src="resources/mb1.PNG" alt="mb1" width="250" height="300">
+<img src="resources/Chapter-IV/mb1.PNG" alt="mb1" width="250" height="300">
 </p>
 
 <p align="center">
-<img src="resources/mb2.PNG" alt="mb2" width="250" height="400">
+<img src="resources/Chapter-IV/mb2.PNG" alt="mb2" width="250" height="400">
 </p>
 
 <p align="center">
-<img src="resources/mb3.PNG" alt="mb3" width="250" height="250">
+<img src="resources/Chapter-IV/mb3.PNG" alt="mb3" width="250" height="250">
 </p>
 
 <p align="center">
-<img src="resources/mb5.PNG" alt="mb5" width="250" height="380">
+<img src="resources/Chapter-IV/mb5.PNG" alt="mb5" width="250" height="380">
 </p>
 
   ### 4.3.2. Landing Page Mock-Up
 
 <p align="center">
-<img src="resources/lm1.PNG" alt="1" width="400" height="450">
+<img src="resources/Chapter-IV/lm1.PNG" alt="1" width="400" height="450">
 </p>
 
 <p align="center">
-<img src="resources/lm2.PNG" alt="2" width="400" height="550">
+<img src="resources/Chapter-IV/lm2.PNG" alt="2" width="400" height="550">
 </p>
 
 <p align="center">
-<img src="resources/lm3.PNG" alt="3" width="400" height="500">
+<img src="resources/Chapter-IV/lm3.PNG" alt="3" width="400" height="500">
 </p>
 
 <p align="center">
-<img src="resources/mm1.PNG" alt="mm1" width="250" height="300">
+<img src="resources/Chapter-IV/mm1.PNG" alt="mm1" width="250" height="300">
 </p>
 
 <p align="center">
-<img src="resources/mm2.PNG" alt="mm2" width="250" height="400">
+<img src="resources/Chapter-IV/mm2.PNG" alt="mm2" width="250" height="400">
 </p>
 
 <p align="center">
-<img src="resources/mm3.PNG" alt="mm3" width="250" height="260">
+<img src="resources/Chapter-IV/mm3.PNG" alt="mm3" width="250" height="260">
 </p>
 
 <p align="center">
-<img src="resources/mm4.PNG" alt="mm4" width="200" height="300">
+<img src="resources/Chapter-IV/mm4.PNG" alt="mm4" width="200" height="300">
 </p>
 
  ## 4.4. Web Applications UX/UI Desing
@@ -1633,32 +1633,32 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
  El diseño de experiencia de usuario (UX) y diseño de interfaz de usuario (UI) en aplicaciones web busca crear experiencias digitales intuitivas y satisfactorias. La UX se enfoca en comprender las necesidades del usuario y diseñar flujos de interacción eficientes, mientras que la UI se encarga del aspecto visual, como botones, menús y disposición de contenido. Un diseño UX/UI exitoso fusiona estética y funcionalidad, ofreciendo una experiencia fluida y memorable.
   ### 4.4.1. Web Applications Wireframes
 <p align="center">
-<img src="resources/mob1.PNG" alt="mm2" width="300" height="220">
+<img src="resources/Chapter-IV/mob1.PNG" alt="mm2" width="300" height="220">
 </p>
 
 <p align="center">
-<img src="resources/mob2.PNG" alt="mm3" width="300" height="220">
+<img src="resources/Chapter-IV/mob2.PNG" alt="mm3" width="300" height="220">
 </p>
 
 <p align="center">
-<img src="resources/mob3.PNG" alt="mm4" width="400" height="200">
+<img src="resources/Chapter-IV/mob3.PNG" alt="mm4" width="400" height="200">
 </p>
 
 <p align="center">
-<img src="resources/mob4.PNG" alt="mm2" width="300" height="220">
+<img src="resources/Chapter-IV/mob4.PNG" alt="mm2" width="300" height="220">
 </p>
 
 <p align="center">
-<img src="resources/mob5.PNG" alt="mm3" width="300" height="220">
+<img src="resources/Chapter-IV/mob5.PNG" alt="mm3" width="300" height="220">
 </p>
 
 <p align="center">
-<img src="resources/mob6.PNG" alt="mm4" width="400" height="200">
+<img src="resources/Chapter-IV/mob6.PNG" alt="mm4" width="400" height="200">
 </p>
 
   ### 4.4.2. Web Applications Wireflow Diagrams
 <p align="center">
-<img src="resources/uf.PNG" alt="mm4" width="400" height="600">
+<img src="resources/Chapter-IV/uf.PNG" alt="mm4" width="400" height="600">
 </p>
 
   ### 4.4.3. Web Applications User Flow Diagrams
@@ -1666,17 +1666,20 @@ El diagrama de flujo de usuario es una representación visual de las acciones qu
 
 **Leyenda**
 <p align="center">
-<img src="resources/legend.PNG" alt="mm4" width="400" height="100">
+<img src="resources/Chapter-IV/legend.png" alt="mm4" width="400" height="100">
 </p>
 
 **Vista general del flujo del Usuario**
 
 <p align="center">
-<img src="resources/ui.PNG" alt="mm4" width="600" height="600">
+<img src="resources/Chapter-IV/flowDiagram.png" alt="mm4" width="600" height="600">
 </p>
+
  ## 4.5. Web Applications Prototyping
- Prototipo de StockHunters en Figma
- https://www.figma.com/proto/5IiHYIgt85kgRWLgpMnTqw/Landing-Page-UI-Desing?node-id=0-1&t=X91d0D62Wegvuk7E-1
+
+ [![Static Badge](https://img.shields.io/badge/Prototipo-StockHunters-blue?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/proto/5IiHYIgt85kgRWLgpMnTqw/Landing-Page-UI-Desing?node-id=0-1&t=X91d0D62Wegvuk7E-1)
+
+ 
  
  ## 4.6. Domain-Driven Software Architecture
   ### 4.6.1. Software Architecture Context Diagram
