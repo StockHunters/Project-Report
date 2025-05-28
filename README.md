@@ -189,8 +189,7 @@ Cabe recalcar que no toma en cuenta los merge commits y los commit de uno de nue
         - [User Outcomes](#user-outcomes)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-        - [Resumen](#resumen)
-  - [Segmentos Objetivos](#segmentos-objetivos)
+  - [1.3. Segmentos Objetivos](#13-segmentos-objetivos)
 - [Capítulo II: Requeriments Elicitation \& Analysis](#capítulo-ii-requeriments-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -819,8 +818,7 @@ directa durante la primera semana.
 
 ![Lean UX Canvas](resources/Chapter-I/LeanUXCanvas.png)
 
-##### Resumen 
-## Segmentos Objetivos
+## 1.3. Segmentos Objetivos
 
 <table>
   <tr>
