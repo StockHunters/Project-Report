@@ -1468,7 +1468,7 @@ A continuación, se detallan los colores seleccionados para StockHunters:
 El espaciado en **StockHunters** está cuidadosamente definido para garantizar una interfaz limpia y organizada. Se emplea una separación uniforme entre elementos, lo que mejora la legibilidad, facilita la navegación y aporta equilibrio visual al diseño.
 
 <p align="center">
-<img src="resources/Chapter-IV/spacing.PNG" alt="Spacing de StockHunters" width="350" height="130">
+<img src="resources/Chapter-IV/spacing.png" alt="Spacing de StockHunters" width="350" height="130">
 </p>
 
   ### 4.1.2. Web Style Guidelines
