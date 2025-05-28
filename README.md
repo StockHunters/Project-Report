@@ -1944,7 +1944,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.InvoiceDownloadCompone
 Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, AutomotiveProductSalesManagementSystem.APIGateway, "Calls GET /statistics", $techn="HTTPS/JSON", $tags="v1.0", $link="v1.0")
   ~~~
 
-  ## 4.7. Software Object-Oriented Design
+ ## 4.7. Software Object-Oriented Design
   ### 4.7.1. Class Diagram
   ~~~mermaid
   classDiagram
@@ -2998,13 +2998,19 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
 
 # Conclusiones
  ## Conclusiones y recomendaciones
- Este primer sprint nos permitió dar los primeros pasos importantes en el desarrollo de nuestra aplicación. A través de una buena planificación y trabajo en equipo, pudimos cumplir con las tareas que nos propusimos, como diseñar la landing page, avanzar en el prototipo en Figma, preparar las entrevistas y definir aspectos técnicos como el diagrama de clases y la configuración del entorno de desarrollo.
+  Durante los dos primeros sprints, el equipo logró sentar una buena base tanto en lo técnico como en la forma de trabajar juntos. En el Sprint 1, nos enfocamos en organizar el proyecto, armar el equipo y diseñar los primeros elementos visuales, como una página inicial estática. También empezamos a usar herramientas importantes como GitHub para controlar las versiones y Figma para hacer prototipos, además de definir detalles técnicos como el diagrama de clases y preparar el entorno de desarrollo.
 
-El trabajo colaborativo fue clave para lograr estos avances. Nos organizamos bien, repartimos responsabilidades de manera equitativa y nos apoyamos entre todos cuando alguien lo necesitaba. Además, aprendimos a comunicarnos mejor, tanto de forma oral como escrita, dependiendo del tipo de información y del público al que iba dirigida.
+  En el Sprint 2, dimos un gran paso al construir el primer prototipo funcional de la aplicación. Pudimos implementar funciones básicas como el catálogo de productos, la gestión de clientes y ventas, y formularios interactivos para contacto y login. Usamos una fake API en Render para simular datos y así facilitar que frontend y backend trabajaran mejor juntos, lo que ayudó a hacer pruebas y a integrar todo de forma más eficiente.
 
-También empezamos a aplicar buenas prácticas de desarrollo, como el uso de GitHub, el manejo de versiones y la documentación del proyecto. Aunque aún hay cosas por mejorar, este primer sprint nos ayudó a conocernos mejor como equipo y a sentar una base sólida para los próximos pasos del proyecto.
+  Además, mejoramos la forma en que organizamos el trabajo: distribuimos mejor las tareas usando Figma, asignamos roles claros dentro del equipo y seguimos un flujo de trabajo con git flow para mantener todo ordenado en desarrollo, pruebas y producción. También logramos desplegar el frontend en GitHub Pages y solucionamos problemas relacionados con las rutas y el router.
+
+  En cuanto a la colaboración, la comunicación dentro del equipo fue mejorando, y pudimos resolver algunas dificultades que tuvimos con los tiempos de entrega al inicio. Ahora el equipo está más organizado, cada quien sabe bien qué hacer y se nota que trabajamos con más autonomía y eficiencia.
+
+  Aunque todavía quedan cosas por terminar y detalles por mejorar, estos dos primeros sprints nos dejaron claro que tenemos una buena visión del proyecto, que nos coordinamos bien y que seguimos un proceso ordenado para ir avanzando paso a paso. Todo esto nos prepara bien para los próximos retos y para seguir mejorando la aplicación.
+
  ## Video About-the-Team
- <!--agregar luego-->
+ [![Static Badge](https://img.shields.io/badge/video-About%20the%20Team-blue?style=for-the-badge&logo=youtube&logoColor=white)](colocar-url) 
+
 # Bibliografía
 
 - Blue Ridge Global. (s.f.). *10 Eye-Popping Statistics About Retail Inventory Planning*. Recuperado de [https://blueridgeglobal.com/es/blog/10-eye-popping-statistics-about-retail-inventory-planning/](https://blueridgeglobal.com/es/blog/10-eye-popping-statistics-about-retail-inventory-planning/)
@@ -3017,5 +3023,5 @@ También empezamos a aplicar buenas prácticas de desarrollo, como el uso de Git
 
 # Anexos 
 
-**Link de las entrevistas**
-https://www.youtube.com/playlist?list=PL-9ocGPgSml3bQemJ1ESEUNw4v_bBCcbC
+**Entrevistas Stock Hunters**
+[![Static Badge](https://img.shields.io/badge/Entrevistas-playlist-blue?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PL-9ocGPgSml3bQemJ1ESEUNw4v_bBCcbC)
