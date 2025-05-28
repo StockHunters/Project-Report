@@ -279,6 +279,15 @@ Cabe recalcar que no toma en cuenta los merge commits y los commit de uno de nue
       - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3 Sprint 3](#523-sprint-3)
+      - [5.2.3.1 Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2 Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3 Sprint 3 Backlog](#5233-sprint-3-backlog)
+      - [5.2.3.4 Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5 Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -2986,13 +2995,13 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
 ![networkGraph](resources/Chapter-V/Sprint-2/sprint2-networkgraph.png)
 ![contributors](resources/Chapter-V/Sprint-2/sprint2-contributors.png)
 
-## 5.2.3 Sprint 3
-### 5.2.3.1 Sprint Planning 3
+### 5.2.3 Sprint 3
+#### 5.2.3.1 Sprint Planning 3
   A través de una reunión en la plataforma Meet, se planteó el Sprint 3. Se discutieron los objetivos, duración y tareas a realizar.
 
 <div> <table> <thead> <tr> <th>#️⃣ Número</th> <th>Sprint 3</th> </tr> <tr> <th colspan=2>Sprint Planning Background</th> </tr> </thead> <tr align='center'> <td> Date </td> <td> 2025-05-22 </td> </tr> <tr> <td>Time</td> <td> 10:00PM - 11:00PM </td> </tr> <tr> <td>Location</td> <td> Presencial (En salón) </td> </tr> <tr> <td>Prepared by</td> <td> Yum Gonzales, Jorge Suin </td> </tr> <tr> <td>Attendees</td> <td> Yum Gonzales, Jorge Suin <br> Miranda Ayasta, Rogger Faryd <br> Alva Abanto, Luis Andres <br> Vargas Javier, Jose Enrique</td> </tr> <tr> <td>Sprint n-1 Review Summary</td> <td>En el Sprint 2, se desarrolló e integró el frontend funcional de la aplicación web, conectándose a una fake API y mostrando vistas clave como catálogo, ventas, clientes e historial.</td> </tr> <tr> <td>Sprint n-1 Retrospective Summary</td> <td>Durante el Sprint 2 se identificaron oportunidades de mejora en la asignación de tareas y en la integración de componentes. Se acordó mejorar la sincronización entre ramas de GitHub y revisar los merges antes del deploy final.</td> </tr> <tr> <td colspan="2"><b>Sprint Goal & User Stories</b></td> </tr> <tr> <td>Sprint 3 Goal</td> <td>Crear e implementar el backend de la aplicación web, incluyendo endpoints funcionales y lógica de negocio para productos, ventas, clientes, stock, alertas y reportes.</td> </tr> <tr> <td>Sprint 3 velocity</td> <td>21 horas</td> </tr> <tr> <td>Sum of Story Points</td> <td>19 Story Points</td> </tr> </table> </div>
 
-### 5.2.3.2 Aspect Leaders and Collaborators
+#### 5.2.3.2 Aspect Leaders and Collaborators
 <table>
     <tr>
       <th>Team member</th>
@@ -3048,7 +3057,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
   </tr>
   </table>
 
-### 5.2.3.3 Sprint 3 Backlog
+#### 5.2.3.3 Sprint 3 Backlog
 <table>
   <tr>
     <td><strong>Sprint #</strong></td>
@@ -3203,19 +3212,19 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
 
 
 
-### 5.2.3.4 Development Evidence for Sprint Review
+#### 5.2.3.4 Development Evidence for Sprint Review
 
 
-### 5.2.3.5 Execution Evidence for Sprint Review
+#### 5.2.3.5 Execution Evidence for Sprint Review
 
 
-### 5.2.3.6 Services Documentation Evidence for Sprint Review
+#### 5.2.3.6 Services Documentation Evidence for Sprint Review
 
 
-### 5.2.3.7 Software Deployment Evidence for Sprint Review
+#### 5.2.3.7 Software Deployment Evidence for Sprint Review
 
 
-### 5.2.3.8 Team Collaboration Insights during Sprint
+#### 5.2.3.8 Team Collaboration Insights during Sprint
 
 
 
