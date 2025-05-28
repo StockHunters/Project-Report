@@ -231,6 +231,15 @@ commits en la semana 4:
     - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
     - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
     - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+  - [5.2.3 Sprint 3](#523-sprint-3)
+    - [5.2.3.1 Sprint Planning 3](#5231-sprint-planning-3)
+    - [5.2.3.2 Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+    - [5.2.3.3 Sprint 3 Backlog](#5233-sprint-3-backlog)
+    - [5.2.3.4 Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+    - [5.2.3.5 Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+    - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+    - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+    - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -2812,6 +2821,239 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
 
 ![networkGraph](resources/sprint2-networkgraph.png)
 ![contributors](resources/sprint2-contributors.png)
+
+## 5.2.3 Sprint 3
+### 5.2.3.1 Sprint Planning 3
+  A través de una reunión en la plataforma Meet, se planteó el Sprint 3. Se discutieron los objetivos, duración y tareas a realizar.
+
+<div> <table> <thead> <tr> <th>#️⃣ Número</th> <th>Sprint 3</th> </tr> <tr> <th colspan=2>Sprint Planning Background</th> </tr> </thead> <tr align='center'> <td> Date </td> <td> 2025-05-22 </td> </tr> <tr> <td>Time</td> <td> 10:00PM - 11:00PM </td> </tr> <tr> <td>Location</td> <td> Presencial (En salón) </td> </tr> <tr> <td>Prepared by</td> <td> Yum Gonzales, Jorge Suin </td> </tr> <tr> <td>Attendees</td> <td> Yum Gonzales, Jorge Suin <br> Miranda Ayasta, Rogger Faryd <br> Alva Abanto, Luis Andres <br> Vargas Javier, Jose Enrique</td> </tr> <tr> <td>Sprint n-1 Review Summary</td> <td>En el Sprint 2, se desarrolló e integró el frontend funcional de la aplicación web, conectándose a una fake API y mostrando vistas clave como catálogo, ventas, clientes e historial.</td> </tr> <tr> <td>Sprint n-1 Retrospective Summary</td> <td>Durante el Sprint 2 se identificaron oportunidades de mejora en la asignación de tareas y en la integración de componentes. Se acordó mejorar la sincronización entre ramas de GitHub y revisar los merges antes del deploy final.</td> </tr> <tr> <td colspan="2"><b>Sprint Goal & User Stories</b></td> </tr> <tr> <td>Sprint 3 Goal</td> <td>Crear e implementar el backend de la aplicación web, incluyendo endpoints funcionales y lógica de negocio para productos, ventas, clientes, stock, alertas y reportes.</td> </tr> <tr> <td>Sprint 3 velocity</td> <td>21 horas</td> </tr> <tr> <td>Sum of Story Points</td> <td>19 Story Points</td> </tr> </table> </div>
+
+### 5.2.3.2 Aspect Leaders and Collaborators
+<table>
+    <tr>
+      <th>Team member</th>
+      <th>Github username</th>
+      <th>Login</th>
+      <th>Product Catalog</th>
+      <th>Client List</th>
+      <th>Sales List</th>
+    </tr>
+    <tr>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>jsyumg, myussu</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Miranda Ayasta, Rogger Faryd</td>
+      <td>r0ggdev</td>
+      <td>L</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Alva Abanto, Luis Andres</td>
+      <td>luis-alva0</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+
+  </tr>
+   <tr>
+      <td>Costa Morales, Christofer William</td>
+      <td>miniChorri</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+
+  </tr>
+  <tr>
+      <td>Vargas Javier, Jose Enrique</td>
+      <td>KenRi7</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+
+  </tr>
+  </table>
+
+### 5.2.3.3 Sprint 3 Backlog
+<table>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 3</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-item / Task</strong></td>
+  </tr>
+  <tr>
+    <td><strong>ID</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>ID</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Estimation (Hours)</strong></td>
+    <td><strong>Assigned to</strong></td>
+    <td><strong>Status</strong></td>
+  </tr>
+
+  <tr>
+    <td>US01</td>
+    <td>Registro de productos</td>
+    <td>T01</td>
+    <td>Implementar POST /api/products</td>
+    <td>Crear endpoint para registrar productos en la base de datos.</td>
+    <td>3</td>
+    <td></td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Alerta de stock bajo</td>
+    <td>T02</td>
+    <td>Lógica de alerta por umbral de stock</td>
+    <td>Programar verificación de stock y generación de alerta.</td>
+    <td>3</td>
+    <td></td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Registro de ventas con cliente</td>
+    <td>T03</td>
+    <td>POST /api/sales</td>
+    <td>Implementar endpoint para registrar ventas con datos del cliente.</td>
+    <td>2</td>
+    <td></td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US07</td>
+    <td>Historial de compras</td>
+    <td>T04</td>
+    <td>GET /api/customers/{id}/purchases</td>
+    <td>Crear endpoint para consultar historial de compras por cliente.</td>
+    <td>2</td>
+    <td></td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Segmentación de clientes</td>
+    <td>T05</td>
+    <td>Actualizar modelo de cliente</td>
+    <td>Incluir campo de tipo de cliente (minorista/mayorista) y lógica asociada.</td>
+    <td>2</td>
+    <td></td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US10</td>
+    <td>Inventario en tiempo real</td>
+    <td>T06</td>
+    <td>GET /api/stock</td>
+    <td>Implementar endpoint para mostrar stock actualizado automáticamente.</td>
+    <td>2</td>
+    <td></td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US14</td>
+    <td>Pagos digitales</td>
+    <td>T07</td>
+    <td>Simulación y registro de pagos</td>
+    <td>Implementar lógica de pagos con método (efectivo, Yape, Plin, etc.).</td>
+    <td>2</td>
+    <td></td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US13</td>
+    <td>Panel de indicadores</td>
+    <td>T08</td>
+    <td>Visualización de KPIs</td>
+    <td>Implementar backend para indicadores como ventas del día y metas mensuales.</td>
+    <td>2</td>
+    <td></td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>TS01</td>
+    <td>API Registro de Productos</td>
+    <td>T09</td>
+    <td>POST /api/products (TS)</td>
+    <td>Validación de campos obligatorios en creación de producto.</td>
+    <td>1</td>
+    <td></td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>TS02</td>
+    <td>API Consulta de Productos</td>
+    <td>T10</td>
+    <td>GET /api/products</td>
+    <td>Obtener listado completo de productos registrados.</td>
+    <td>1</td>
+    <td></td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>TS03</td>
+    <td>API Registro de Ventas</td>
+    <td>T11</td>
+    <td>POST /api/sales (TS)</td>
+    <td>Registrar ventas con validación de datos.</td>
+    <td>1</td>
+    <td></td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>TS04</td>
+    <td>API Historial de Compras</td>
+    <td>T12</td>
+    <td>GET /api/customers/{id}/purchases (TS)</td>
+    <td>Mostrar historial del cliente con fechas y productos.</td>
+    <td>1</td>
+    <td></td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>TS05</td>
+    <td>API Consulta de Stock</td>
+    <td>T13</td>
+    <td>GET /api/stock (TS)</td>
+    <td>Retornar cantidad actual de stock por producto.</td>
+    <td>1</td>
+    <td></td>
+    <td>To Do</td>
+  </tr>
+</table>
+
+
+
+### 5.2.3.4 Development Evidence for Sprint Review
+
+
+### 5.2.3.5 Execution Evidence for Sprint Review
+
+
+### 5.2.3.6 Services Documentation Evidence for Sprint Review
+
+
+### 5.2.3.7 Software Deployment Evidence for Sprint Review
+
+
+### 5.2.3.8 Team Collaboration Insights during Sprint
+
+
 
  ## 5.3. Validation Interviews
   ### 5.3.1. Diseño de Entrevistas
