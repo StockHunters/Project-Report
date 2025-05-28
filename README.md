@@ -244,6 +244,7 @@ commits en la semana 4:
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+      - [❗ **Recordatorio**](#-recordatorio)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -3059,7 +3060,68 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
   ### 5.3.1. Diseño de Entrevistas
   ### 5.3.2. Registro de Entrevistas
   ### 5.3.3. Evaluaciones según heurísticas
- 
+  **Sitio o App a evaluar:** Stock Hunters - Aplicación Web de Gestión de Inventarios y Ventas
+  **Tareas a evaluar:**
+  El alcance de esta evaluacion incluye la revision de la usabilidad de las siguientes tareas:
+  - Registro de productos
+  - Registro de ventas
+  - Consulta de productos
+  - Consulta de ventas
+  - Consulta de clientes
+  - Consulta de stock
+  - Consulta de alertas de stock bajo
+  - Consulta de reportes de ventas
+  - Consulta de reportes de clientes
+  - Gestion de ventas
+  - Gestión de clientes
+  - Gestión de productos
+  - Gestión de stock
+  - Analisis de ventas semanal
+  - Analisis de ventas mensual
+
+No estan incluidas en esta version de la evaluacion las siguientes tareas:
+1. Landing Page
+   
+**ESCALA DE SEVERIDAD:**
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+|***Nivel***|***Descripción***|
+| :-: | :-: |
+|*1*|*Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.*|
+|*2*|*Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase*|
+|*3*|*Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.*|
+|*4*|*Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.*|
+
+#### ❗ **Recordatorio**  
+**TABLA DE RESUMEN:**
+
+Los datos de la tabla son **ejemplificativos**. Verifique la información antes de enviar.  
+|**#**|**Problema**|**Escala de severidad**|**Heurística/principio violada(o)**|
+| :- | :- | :- | :- |
+|1|Poca legibilidad del título de horarios disponibles en teléfonos móviles|2|Inclusive Design: Proporciona experiencias comparables|
+|2|Sobreposición del calendario a la barra de navegación|3|Usability: Usabilidad y control del usuario|
+|3|Desbordamiento de la información en la visualización de reseñas |2|Inclusive Design: Proporciona experiencias comparables|
+|4|Fallo en visualización de horarios de asesores para reserva|3|Inclusive Design: Proporciona experiencias comparables|
+|5|Botones de formularios de registro con diferentes diseños|2|Usability: Consistencia y estándares|
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** Poca legibilidad del título de horarios disponibles en teléfonos móviles
+
+**Severidad:** 3
+
+**Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+
+Problema: Si el asesor está entrando desde un dispositivo móvil y va a la sección de Horarios, se le puede dificultar la lectura del título al estar pegado.
+
+**Imagen:**
+
+<img src="img/heuristicas1.png" width="60%">
+
+**Recomendación:** Aumentar el interlineado del título.
+
+-----
+
+
  ## 5.4. Video About-the-Product
 
 # Conclusiones
