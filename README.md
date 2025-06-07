@@ -2090,23 +2090,59 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 
  ## 4.8. Database Design
   ### 4.8.1. Database Diagram
+  ```mermaid
+erDiagram
+    Organizations ||--o{ Locations : "owns"
+    Organizations ||--o{ Users : "groups"
+    Organizations ||--o{ Plans : "subscribed to"
+    Clients ||--o{ Sales : "makes"
+    Products ||--o{ Sales : "sold in"
+    Products ||--o{ Product_Locations : "stored in"
+    Locations ||--o{ Product_Locations : "contains"
+    Categories ||--o{ Products : "classifies"
+    Products ||--o{ Lots : "tracked in"
+    Purchases ||--o{ Lots : "sources"
+    Products ||--o{ Product_Prices : "priced in"
+    Suppliers ||--o{ Purchase_Orders : "receives"
+    Users ||--o{ Purchase_Orders : "creates"
+    Locations ||--o{ Purchase_Orders : "destined to"
+    Purchase_Orders ||--o{ Purchase_Order_Items : "includes"
+    Products ||--o{ Purchase_Order_Items : "ordered in"
+    Products ||--o{ Sales : "sold in"
+    Lots ||--o{ Sales : "tracked in"
+    Users ||--o{ Sales : "records"
+    Locations ||--o{ Sales : "occurs at"
+    Users ||--o{ Activities : "generates"
+    Users ||--o{ Reports : "creates"
+    Suppliers ||--o{ Purchases : "supplies"
+    Products ||--o{ Purchases : "purchased in"
+    Purchase_Orders ||--o{ Purchases : "fulfilled by"
+    Users ||--o{ Purchases : "records"
+    Locations ||--o{ Purchases : "destined to"
+    Products ||--o{ Product_Suppliers : "supplied by"
+    Suppliers ||--o{ Product_Suppliers : "supplies"
+    Products ||--o{ Inventory_Adjustments : "adjusted in"
+    Locations ||--o{ Inventory_Adjustments : "adjusted at"
+    Users ||--o{ Inventory_Adjustments : "performs"
+    Users ||--o{ Audit_Logs : "logs"
 
-  ~~~mermaid
-  erDiagram
-    Clients ||--o{ Sales : "realiza"
-    Products ||--o{ Sales : "vendido en"
-    Products ||--o{ Product_Locations : "almacenado en"
-    Locations ||--o{ Product_Locations : "contiene"
-    Categories ||--o{ Products : "clasifica"
-    Users ||--o{ Sales : "registra"
-    Users ||--o{ Activities : "genera"
-    Users ||--o{ Reports : "crea"
-    Users ||--o{ Purchases : "registra"
-    Users ||--o{ Audit_Logs : "registra"
-    Suppliers ||--o{ Product_Suppliers : "suministra"
-    Products ||--o{ Product_Suppliers : "suministrado por"
-    Suppliers ||--o{ Purchases : "proveedor de"
-    Products ||--o{ Purchases : "comprado en"
+    Organizations {
+        int organization_id PK
+        string name
+        string contact_email UK
+        int plan_id FK
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Plans {
+        int plan_id PK
+        string name
+        string description
+        enum features "basic, premium"
+        decimal price
+        timestamp created_at
+    }
 
     Clients {
         int client_id PK
@@ -2126,7 +2162,6 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
         int product_id PK
         string name
         string image_url
-        int stock
         int category_id FK
         timestamp created_at
         timestamp updated_at
@@ -2134,17 +2169,20 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 
     Locations {
         int location_id PK
+        int organization_id FK
         string name
         string address
         string city
         string country
         timestamp created_at
+        timestamp updated_at
     }
 
     Product_Locations {
         int product_id PK,FK
         int location_id PK,FK
         int stock
+        timestamp updated_at
     }
 
     Categories {
@@ -2154,27 +2192,69 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
         timestamp created_at
     }
 
+    Lots {
+        int lot_id PK
+        int product_id FK
+        int purchase_id FK
+        string lot_number UK
+        date purchase_date
+        date expiration_date
+        timestamp created_at
+    }
+
+    Product_Prices {
+        int price_id PK
+        int product_id FK
+        decimal price
+        decimal discount
+        date effective_date
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Purchase_Orders {
+        int order_id PK
+        int supplier_id FK
+        int user_id FK
+        int location_id FK
+        date order_date
+        enum status "pending, approved, shipped, canceled"
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Purchase_Order_Items {
+        int order_id PK,FK
+        int product_id PK,FK
+        int quantity
+        decimal unit_price
+        timestamp created_at
+    }
+
     Sales {
         int sale_id PK
         date sale_date
         int product_id FK
+        int lot_id FK
         int quantity
         enum status
         int customer_id FK
         int user_id FK
+        int location_id FK
         timestamp created_at
         timestamp updated_at
     }
 
     Users {
         int user_id PK
+        int organization_id FK
         string username UK
         string email UK
         string password_hash
         string first_name
         string last_name
         string profile_image_url
-        enum role
+        enum role "admin, user"
         timestamp created_at
         timestamp updated_at
     }
@@ -2219,12 +2299,25 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
         int purchase_id PK
         int supplier_id FK
         int product_id FK
+        int order_id FK
         int quantity
         date purchase_date
         enum status
         int user_id FK
+        int location_id FK
         timestamp created_at
         timestamp updated_at
+    }
+
+    Inventory_Adjustments {
+        int adjustment_id PK
+        int product_id FK
+        int location_id FK
+        int quantity
+        string reason
+        int user_id FK
+        date adjustment_date
+        timestamp created_at
     }
 
     Audit_Logs {
@@ -2236,7 +2329,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
         json details
         timestamp audit_date
     }
-  ~~~
+```
 
 # Capítulo V: Product Implementation, Validation & Deployment
  ## 5.1. Software Configuration Management
