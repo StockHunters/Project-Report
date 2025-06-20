@@ -3101,15 +3101,15 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
       <th>Team member</th>
       <th>Github username</th>
       <th>Login</th>
-      <th>Product Catalog</th>
-      <th>Client List</th>
+      <th>Inventory Management</th>
+      <th>Client Management</th>
       <th>Sales List</th>
     </tr>
     <tr>
       <td>Yum Gonzales, Jorge Suin</td>
       <td>jsyumg, myussu</td>
       <td>C</td>
-      <td>C</td>
+      <td>L</td>
       <td>L</td>
       <td>L</td>
     </tr>
@@ -3179,8 +3179,8 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Implementar POST /api/products</td>
     <td>Crear endpoint para registrar productos en la base de datos.</td>
     <td>3</td>
-    <td></td>
-    <td>To Do</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>US02</td>
@@ -3190,7 +3190,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Programar verificación de stock y generación de alerta.</td>
     <td>3</td>
     <td></td>
-    <td>To Do</td>
+    <td>In Process</td>
   </tr>
   <tr>
     <td>US04</td>
@@ -3199,7 +3199,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>POST /api/sales</td>
     <td>Implementar endpoint para registrar ventas con datos del cliente.</td>
     <td>2</td>
-    <td></td>
+    <td>Jorge Suin Yum Gonzales</td>
     <td>To Do</td>
   </tr>
   <tr>
@@ -3229,8 +3229,8 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>GET /api/stock</td>
     <td>Implementar endpoint para mostrar stock actualizado automáticamente.</td>
     <td>2</td>
-    <td></td>
-    <td>To Do</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>In Process</td>
   </tr>
   <tr>
     <td>US14</td>
@@ -3259,8 +3259,8 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>POST /api/products (TS)</td>
     <td>Validación de campos obligatorios en creación de producto.</td>
     <td>1</td>
-    <td></td>
-    <td>To Do</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>TS02</td>
@@ -3269,8 +3269,8 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>GET /api/products</td>
     <td>Obtener listado completo de productos registrados.</td>
     <td>1</td>
-    <td></td>
-    <td>To Do</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>TS03</td>
@@ -3279,8 +3279,8 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>POST /api/sales (TS)</td>
     <td>Registrar ventas con validación de datos.</td>
     <td>1</td>
-    <td></td>
-    <td>To Do</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>TS04</td>
