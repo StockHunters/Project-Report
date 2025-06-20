@@ -3340,9 +3340,38 @@ Repositorio Backend: https://github.com/StockHunters/WebServices.git
 
 #### 5.2.3.5 Execution Evidence for Sprint Review
 Se procedera a detallar los avances realizados en el desarrollo de la aplicacion web, su despliegue en swagger y los endpoints creados para el correcto funcionamiento de la aplicacion. A continuacion se muestran los endpoints creados y su funcionamiento:
+Definición de los endpoints en swagger:
+![swagger1](resources/SPRINT3/Swagger1.png)
+Aqui se muestran el resto de los endpoints mostrados en Swagger:
+![swagger2](resources/SPRINT3/Swagger2.png)
+Finalmente se muestran los Schemas y Resources de los endpoints creados:
+![swagger3](resources/SPRINT3/Swagger3.png)
 
 #### 5.2.3.6 Services Documentation Evidence for Sprint Review
-
+Se ha implementado una API RESTful para la gestión de inventarios y ventas, que incluye los siguientes endpoints:
+| Método | Endpoint                                                      | Descripción                                          |
+|--------|---------------------------------------------------------------|------------------------------------------------------|
+| GET    | /api/v1/category/{categoryId}                                 | Se obtiene una categoría por ID                     |
+| POST   | /api/v1/category                                              | Se crea una nueva categoría                         |
+| GET    | /api/v1/inventory-adjustment/{inventoryAdjustmentId}         | Se obtiene un ajuste de inventario por ID           |
+| GET    | /api/v1/inventory-adjustment                                 | Se obtiene la lista de ajustes de inventario        |
+| POST   | /api/v1/inventory-adjustment                                 | Se crea un nuevo ajuste de inventario               |
+| GET    | /api/v1/location/{locationId}                                 | Se obtiene una ubicación por ID                     |
+| GET    | /api/v1/location                                              | Se obtiene la lista de ubicaciones                  |
+| POST   | /api/v1/location                                              | Se crea una nueva ubicación                         |
+| GET    | /api/v1/product-location/{productLocationId}                 | Se obtiene una ubicación de producto por ID         |
+| GET    | /api/v1/product-location                                      | Se obtiene la lista de ubicaciones de productos     |
+| POST   | /api/v1/product-location                                      | Se crea una ubicación de producto                   |
+| GET    | /api/v1/product-price/{id}                                    | Se obtiene un precio de producto por ID             |
+| POST   | /api/v1/product-price                                         | Se crea un precio de producto                       |
+| GET    | /api/v1/sale/{saleId}                                         | Se obtiene una venta por ID                         |
+| GET    | /api/v1/sale                                                  | Se obtiene la lista de ventas                       |
+| POST   | /api/v1/sale                                                  | Se crea una nueva venta                             |
+| GET    | /api/v1/client/{id}                                           | Se obtiene un cliente por ID                        |
+| POST   | /api/v1/client                                                | Se crea un nuevo cliente                            |
+| GET    | /api/v1/products                                              | Se obtiene la lista de productos según parámetros   |
+| GET    | /api/v1/products/{id}                                         | Se obtiene un producto por ID                       |
+| POST   | /api/v1/products                                              | Se crea un nuevo producto                           |
 
 #### 5.2.3.7 Software Deployment Evidence for Sprint Review
 
