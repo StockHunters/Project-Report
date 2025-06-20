@@ -3673,3 +3673,9 @@ Problema: Si el asesor está entrando desde un dispositivo móvil y va a la secc
 **Entrevistas Stock Hunters**
 
 [![Interview Playlist](https://img.shields.io/badge/Entrevistas-playlist-blue?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PL-9ocGPgSml3bQemJ1ESEUNw4v_bBCcbC)
+
+**Frontend Web Application**
+https://github.com/StockHunters/Frontend-Web-Application.git
+
+**Backend Web Services**
+
