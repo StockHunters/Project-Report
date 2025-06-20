@@ -3307,10 +3307,39 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
 
 
 #### 5.2.3.4 Development Evidence for Sprint Review
+A continuacion se detallan los avances realizados en el desarrollo de la aplicación web y landing page con los commits correspondientes en GitHub:
+Repositorio Frontend:
+Repositorio Backend: https://github.com/StockHunters/WebServices.git
+| Repo | Branch | Commit | Message | Date |
+|------|--------|--------|---------|------|
+| WebServices | develop | e9b1a10 | feat: inventory adjustments controller | 19/06/2025 |
+| WebServices | develop | e726d54 | Update .gitignore | 19/06/2025 |
+| WebServices | develop | e351d28 | feat: category update | 19/06/2025 |
+| WebServices | develop | bacf87d | feat: category aggregate semi-created | 19/06/2025 |
+| WebServices | develop | b98a03e | added controller to appdbcontext | 19/06/2025 |
+| WebServices | develop | ac67b1f | feat: deployed database | 19/06/2025 |
+| WebServices | develop | a696c1b | feat: location aggregate | 19/06/2025 |
+| WebServices | develop | 9e9c4b3 | feat: added table to database | 19/06/2025 |
+| WebServices | develop | 7cb37bf | test new password gitignore | 19/06/2025 |
+| WebServices | develop | 7740f46 | feat: product location endpoint | 19/06/2025 |
+| WebServices | develop | 6cf5b10 | Merge branch 'feature/InventoryManagement' into develop | 19/06/2025 |
+| WebServices | develop | 59eefd7 | changes | 19/06/2025 |
+| WebServices | develop | 41ca2a2 | feat: notas de proyecto | 19/06/2025 |
+| WebServices | develop | 191b55d | Merge branch 'feature/InventoryManagement' into develop | 19/06/2025 |
+| WebServices | develop | 9804bad | feat: added sale aggregate | 18/06/2025 |
+| WebServices | develop | e5f2048 | feat: ProductPrice Aggregate and Inventory Management bounded context created | 10/06/2025 |
+| WebServices | develop | 96eb7fb | Merge branch 'feature/productManagement' into develop | 10/06/2025 |
+| WebServices | develop | f1c0d07 | feat: added products bounded context; ask how to update db without deleting it | 08/06/2025 |
+| WebServices | develop | 8852788 | feat: product management | 08/06/2025 |
+| WebServices | develop | 0720861 | feat: web service initialization | 04/06/2025 |
+| WebServices | main | 0720861 | feat: web service initialization | 04/06/2025 |
+| WebServices | develop | b293c68 | feat: added client aggregate and reference | 04/06/2025 |
+
+
 
 
 #### 5.2.3.5 Execution Evidence for Sprint Review
-
+Se procedera a detallar los avances realizados en el desarrollo de la aplicacion web, su despliegue en swagger y los endpoints creados para el correcto funcionamiento de la aplicacion. A continuacion se muestran los endpoints creados y su funcionamiento:
 
 #### 5.2.3.6 Services Documentation Evidence for Sprint Review
 
