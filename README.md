@@ -286,6 +286,20 @@ Cabe recalcar que no toma en cuenta los merge commits y los commit de uno de nue
       - [5.2.3.4 Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5 Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
       - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+    - [1. Categories](#1-categories)
+      - [📥 Parámetros](#-parámetros)
+      - [📤 Ejemplo de Respuesta `GET`](#-ejemplo-de-respuesta-get)
+    - [2. Clients](#2-clients)
+      - [📥 Parámetros](#-parámetros-1)
+      - [📤 Ejemplo de Respuesta `GET`](#-ejemplo-de-respuesta-get-1)
+    - [3. Products](#3-products)
+      - [📥 Parámetros](#-parámetros-2)
+      - [📤 Ejemplo de Respuesta `GET`](#-ejemplo-de-respuesta-get-2)
+    - [4. Sales](#4-sales)
+      - [📥 Parámetros](#-parámetros-3)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post)
+    - [5. Product Prices](#5-product-prices)
+      - [📥 Parámetros](#-parámetros-4)
       - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
@@ -3373,9 +3387,187 @@ Se ha implementado una API RESTful para la gestión de inventarios y ventas, que
 | GET    | /api/v1/products/{id}                                         | Se obtiene un producto por ID                       |
 | POST   | /api/v1/products                                              | Se crea un nuevo producto                           |
 
+### 1. Categories
+Permite la gestión de categorías de productos.
+
+| Acción             | Método HTTP | Endpoint                           | Descripción                           |
+|--------------------|--------------|-------------------------------------|---------------------------------------|
+| Obtener por ID     | `GET`        | `/api/v1/category/{categoryId}`     | Devuelve una categoría específica     |
+| Crear categoría    | `POST`       | `/api/v1/category`                  | Crea una nueva categoría              |
+
+#### 📥 Parámetros
+
+- `GET /api/v1/category/{categoryId}`  
+  - `categoryId` (path, int) – ID de la categoría a obtener.
+
+- `POST /api/v1/category`  
+  - `body` (JSON):  
+    ```json
+    {
+      "name": "Electrónica",
+      "description": "Dispositivos y accesorios tecnológicos"
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `GET`
+
+```json
+{
+  "id": 1,
+  "name": "Electrónica",
+  "description": "Dispositivos y accesorios tecnológicos"
+}
+```
+
+---
+
+### 2. Clients
+Gestión de usuarios clientes que realizarán compras.
+
+| Acción           | Método HTTP | Endpoint                    | Descripción                           |
+|------------------|-------------|------------------------------|---------------------------------------|
+| Crear cliente    | `POST`      | `/api/v1/client`             | Registra un nuevo cliente             |
+| Obtener por ID   | `GET`       | `/api/v1/client/{id}`        | Consulta un cliente específico        |
+
+#### 📥 Parámetros
+
+- `POST /api/v1/client`  
+  - `body` (JSON):  
+    ```json
+    {
+      "firstName": "Carlos",
+      "lastName": "García",
+      "email": "carlos@example.com",
+      "phone": "987654321",
+      "dni": "12345678",
+      "status": 1,
+      "company": "García SAC"
+    }
+    ```
+
+- `GET /api/v1/client/{id}`  
+  - `id` (path, int) – ID del cliente.
+
+#### 📤 Ejemplo de Respuesta `GET`
+
+```json
+{
+  "id": 1,
+  "firstName": "Carlos",
+  "lastName": "García",
+  "email": "carlos@example.com",
+  "phone": "987654321",
+  "dni": "12345678",
+  "status": 1,
+  "company": "García SAC"
+}
+```
+
+---
+
+### 3. Products
+Este endpoint permite la administración de productos ofrecidos por el sistema.
+
+| Acción               | Método HTTP | Endpoint                      | Descripción                          |
+|----------------------|-------------|--------------------------------|--------------------------------------|
+| Listar con filtros   | `GET`       | `/api/v1/products`            | Filtra productos por parámetros      |
+| Obtener por ID       | `GET`       | `/api/v1/products/{id}`       | Consulta un producto específico      |
+| Crear producto       | `POST`      | `/api/v1/products`            | Registra un nuevo producto           |
+
+#### 📥 Parámetros
+
+- `POST /api/v1/products`  
+  - `body` (JSON):  
+    ```json
+    {
+      "name": "Laptop HP",
+      "image_url": "https://example.com/laptop.png",
+      "stock": 10,
+      "category_id": 1
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `GET`
+
+```json
+{
+  "id": 1,
+  "name": "Laptop HP",
+  "image_url": "https://example.com/laptop.png",
+  "stock": 10,
+  "category_id": 1
+}
+```
+
+---
+
+### 4. Sales
+Administra las ventas realizadas, incluyendo cantidad, producto vendido, cliente, ubicación y usuario.
+
+| Acción           | Método HTTP | Endpoint                  | Descripción                        |
+|------------------|-------------|----------------------------|------------------------------------|
+| Obtener venta    | `GET`       | `/api/v1/sale/{saleId}`   | Consulta una venta específica      |
+| Listar ventas    | `GET`       | `/api/v1/sale`            | Devuelve todas las ventas          |
+| Crear venta      | `POST`      | `/api/v1/sale`            | Registra una nueva venta           |
+
+#### 📥 Parámetros
+
+- `POST /api/v1/sale`  
+  - `body` (JSON):  
+    ```json
+    {
+      "product_id": 1,
+      "client_id": 2,
+      "quantity": 3,
+      "location_id": 1,
+      "user_id": 5,
+      "status": 1,
+      "date": "2025-06-20T14:00:00"
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+  "id": 10,
+  "product_id": 1,
+  "client_id": 2,
+  "quantity": 3,
+  "status": 1,
+  "location_id": 1
+}
+```
+
+---
+
+### 5. Product Prices
+Control de precios y descuentos aplicables a productos.
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener precio      | `GET`       | `/api/v1/product-price/{id}`    | Obtiene el precio actual de producto |
+| Crear precio        | `POST`      | `/api/v1/product-price`         | Asigna precio a producto             |
+
+#### 📥 Parámetros
+
+- `POST /api/v1/product-price`  
+  - `body` (JSON):  
+    ```json
+    {
+      "product_id": 1,
+      "price": 1299.99,
+      "discount": 10.00,
+      "effective_date": "2025-06-21T00:00:00"
+    }
+    ```
+
+---
 #### 5.2.3.7 Software Deployment Evidence for Sprint Review
-
-
+Para realizar el despliegue del backend, en primer lugar se necesita desplegar la base de datos. Esto se realizo mediante una maquina virtual en Azure, donde se instalo SQL Server y se creo una base de datos llamada `StockHunters`. Luego, se procedio a crear las tablas necesarias para el correcto funcionamiento de la aplicacion.
+![alt text](resources/SPRINT3/azure.png)
+Cabe menciona que antes de la coneccion entre el backend y la base de datos, se requirio de la instalacion de mysql y la generacion de credenciales de acceso. Lo cual luego hizo posible la coneccion desde una computadora local al servidor de Azure.
+![alt text](resources/SPRINT3/azure1.png)
 #### 5.2.3.8 Team Collaboration Insights during Sprint
 
 
