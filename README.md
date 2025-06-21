@@ -3574,7 +3574,19 @@ Cabe menciona que antes de la coneccion entre el backend y la base de datos, se 
 
  ## 5.3. Validation Interviews
   ### 5.3.1. Diseño de Entrevistas
+  Para la validación de la usabilidad de la aplicación web "Stock Hunters", se diseñó un conjunto de entrevistas con usuarios potenciales. Estas entrevistas tienen como objetivo evaluar la experiencia del usuario al interactuar con las diferentes funcionalidades de la aplicación, así como identificar posibles áreas de mejora.
+
+  1. ¿Como calificarias el diseño visual de la aplicación?
+  2. ¿El mensaje principal de la pagina fue claro para ti?
+  3. ¿Que tan facil fue navegar por la landing page?
+  4. ¿Encontraste toda la que esperabas sobre el producto?
+  5. ¿Que tan intuitiva te parecio la interfaz de StockHunter?
+  6. ¿Qué tan útil te parece StockHunter para resolver tus problemas con el inventario?
+  7.  ¿Cuánto te gustaría seguir usando StockHunter?
+
+  
   ### 5.3.2. Registro de Entrevistas
+  
   ### 5.3.3. Evaluaciones según heurísticas
   **Sitio o App a evaluar:** Stock Hunters - Aplicación Web de Gestión de Inventarios y Ventas
   **Tareas a evaluar:**
