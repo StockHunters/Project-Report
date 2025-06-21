@@ -387,7 +387,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TP:</strong><br>
         Me encargué de completar la parte visual del proyecto y de su despliegue en la web.<br>
         <strong>ℹ️ TB2:</strong><br>
-        Participé en el desarrollo del backend, trabajando en el bounded context de System Management y Reporting. Implementé la primera versión de sus endpoints y colaboré en la definición estratégica de entidades dentro de este contexto.
+        Participé en el desarrollo del backend, trabajando en el bounded context de System Management y Reporting. Implementé la primera versión de sus endpoints.
         <br>
         <strong>ℹ️ TF:</strong><br>
       </td>
@@ -451,7 +451,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TP:</strong><br>
         Desarrollé user stories y componentes para la página principal.<br>
         <strong>ℹ️ TB2:</strong><br>
-        Definí el bounded context de System Management and Reporting, y colaboré con el equipo en el desarrollo del servicio API utilizando .NET y arquitectura REST. Trabajamos de forma coordinada para asegurar un entorno de desarrollo estable y bien estructurado.
+        Definí el bounded context de System Management and Reporting, y colaboré con el equipo en el desarrollo del servicio API utilizando .NET y arquitectura REST.
         <br>
         <strong>ℹ️ TF:</strong><br>
       </td>
