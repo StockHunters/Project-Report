@@ -154,9 +154,30 @@ Cabe recalcar que no toma en cuenta los merge commits y los commit de uno de nue
 
 - ⏩ Avance del **TB2**
 
-![Contributors TB2](resources/Collaboration-Insghts/TB2/Contributors.png)
+Reporte:
 
-![Commits TB2](resources/Collaboration-Insghts/TB2/Commits.png)
+![alt text](resources/Collaboration-Insghts/TB2/commits_report.png)
+
+
+![alt text](resources/Collaboration-Insghts/TB2/commits_graphic_report.png)
+
+Landing Page:
+
+![alt text](resources/Collaboration-Insghts/TB2/commits_landing.png)
+
+![alt text](resources/Collaboration-Insghts/TB2/commits_graphic_landing.png)
+
+Frontend:
+
+![alt text](resources/Collaboration-Insghts/TB2/commits_frontend.png)
+
+![alt text](resources/Collaboration-Insghts/TB2/commits_graphic_frontend.png)
+
+Backend:
+
+![alt text](resources/Collaboration-Insghts/TB2/commits_backend.png)
+
+![alt text](resources/Collaboration-Insghts/TB2/commits_graphic_backend.png)
 
 <div>
 
@@ -3929,6 +3950,22 @@ Cabe menciona que antes de la coneccion entre el backend y la base de datos, se 
 ![alt text](resources/SPRINT3/azure1.png)
 #### 5.2.3.8 Team Collaboration Insights during Sprint
 
+Durante el Sprint 3, se mantuvo un control de la versiones siguiendo el proceso de git flow para cada avance y mejora. Aqui se detallan el flujo y los contribuidores:
+
+Para las mejoras en el reporte:
+
+![alt text](resources/Collaboration-Insghts/TB2/commits_report.png)
+
+Para las mejoras en el frontend:
+
+![alt text](resources/Collaboration-Insghts/TB2/commits_frontend.png)
+
+Para las mejoras en el landing page:
+
+![alt text](resources/Collaboration-Insghts/TB2/commits_landing.png)
+
+Para el avance del backend:
+![alt text](resources/Collaboration-Insghts/TB2/commits_backend.png)
 
 
  ## 5.3. Validation Interviews
