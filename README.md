@@ -3389,6 +3389,16 @@ Se ha implementado una API RESTful para la gestión de inventarios y ventas, que
 | GET    | /api/v1/products                                              | Se obtiene la lista de productos según parámetros   |
 | GET    | /api/v1/products/{id}                                         | Se obtiene un producto por ID                       |
 | POST   | /api/v1/products                                              | Se crea un nuevo producto                           |
+| POST   | /api/v1/lot                                                   | Se crea un nuevo lot                                |
+| GET    | /api/v1/lot/{id}                                              | Se obtiene un lot por ID                            |
+| POST   | /api/v1/product-supplier                                      | Se crea un nuevo product supplier                   |
+| GET    | /api/v1/product-supplier/{id}                                 | Se obtiene un product supplier por ID               |
+| POST   | /api/v1/purchase                                              | Se crea una nueva purchase                          |
+| POST   | /api/v1/purchase-order                                        | Se crea un nueva purchase order                     |
+| POST   | /api/v1/purchase-order-items                                  | Se crea una nueva purchase order items              |
+| GET    | /api/v1/purchase/{id}                                         | Se obtiene una nueva purchase por ID                |
+| GET    | /api/v1/purchase-order/{id}                                   | Se obtiene un nueva purchase order por id           |
+| GET    | /api/v1/purchase-order-items/{id}                             | Se obtiene una nueva purchase order items por id    |
 
 ### 1. Categories
 Permite la gestión de categorías de productos.
