@@ -3417,6 +3417,12 @@ Adicionalmente, hemos agregado los links en los botones de nuestros planes y el 
 Se ha implementado una API RESTful para la gestión de inventarios y ventas, que incluye los siguientes endpoints:
 | Método | Endpoint                                                      | Descripción                                          |
 |--------|---------------------------------------------------------------|------------------------------------------------------|
+| GET    | /api/v1/user/{userId}                                         | Se obtiene un usuario por ID                     |
+| POST   | /api/v1/user                                                     | Se crea un nuevo usuario                         |
+| GET    | /api/v1/organization/{organizationId}                      | Se obtiene una organización por ID                     |
+| POST   | /api/v1/organization                                       | Se crea una nueva organización                         |
+| GET    | /api/v1/plan/{planId}                                      | Se obtiene un plan por ID                     |
+| POST   | /api/v1/plan                                               | Se crea un nuevo plan                         |
 | GET    | /api/v1/category/{categoryId}                                 | Se obtiene una categoría por ID                     |
 | POST   | /api/v1/category                                              | Se crea una nueva categoría                         |
 | GET    | /api/v1/inventory-adjustment/{inventoryAdjustmentId}         | Se obtiene un ajuste de inventario por ID           |
