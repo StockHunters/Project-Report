@@ -3582,11 +3582,20 @@ Cabe menciona que antes de la coneccion entre el backend y la base de datos, se 
   4. ¿Encontraste toda la que esperabas sobre el producto?
   5. ¿Que tan intuitiva te parecio la interfaz de StockHunter?
   6. ¿Qué tan útil te parece StockHunter para resolver tus problemas con el inventario?
-  7.  ¿Cuánto te gustaría seguir usando StockHunter?
 
   
   ### 5.3.2. Registro de Entrevistas
-  
+
+  Entrevista N1 - Empresario:
+  Entrevistador: Jorge Suin Yum Gonzales
+  Entrevistado: Chul Hwan Yum
+  Link de la entrevista: [Entrevista de Validacion](https://www.youtube.com/watch?v=example)
+  Fecha: 2025-05-15
+
+  ![Chul Hwan Yum](resources/interviews/Entrevista1.png)
+
+  Resumen: EL entrevistado menciona que a pesar del diseño visual de la landing page y las caracteristicas que menciona ofrecer, en el frontend no se encuentran implementadas todas las funcionalidades que se mencionan. Por lo que la landing page no es del todo util para el usuario final. Menciona que funciones como la division de ubicacion de productos, adicion de productos y stock aun no se encuentran implementadas y finalmente menciona que el precio de la aplicacion es un poco elevado para lo que ofrece actualmente.
+
   ### 5.3.3. Evaluaciones según heurísticas
   **Sitio o App a evaluar:** Stock Hunters - Aplicación Web de Gestión de Inventarios y Ventas
   **Tareas a evaluar:**
@@ -3633,19 +3642,31 @@ Los datos de la tabla son **ejemplificativos**. Verifique la información antes 
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
-**PROBLEMA #1:** Poca legibilidad del título de horarios disponibles en teléfonos móviles
+**PROBLEMA #1:** El evento de clic en la lista de clientes no ejecuta la acción esperada
 
 **Severidad:** 3
 
-**Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+**Heurística violada:** Control y libertad del usuario / Visibilidad del estado del sistema
 
-Problema: Si el asesor está entrando desde un dispositivo móvil y va a la sección de Horarios, se le puede dificultar la lectura del título al estar pegado.
+**Problema:** Al interactuar con un elemento de la lista de clientes, el sistema no responde ni despliega la vista detallada del cliente correspondiente. Esta falta de retroalimentación impide al usuario acceder a información crítica y genera incertidumbre respecto al estado de la acción ejecutada. Además, la lista no presenta un orden lógico, dificultando la búsqueda eficiente de registros.
 
 **Imagen:**
+<img src="resources/Heuristicas/heuristica1.png" width="60%">
 
-<img src="img/heuristicas1.png" width="60%">
+**Recomendación:** Revisar el controlador del evento de clic y asegurar que se vincule correctamente al componente de detalle. Establecer un criterio de ordenamiento predeterminado (por ejemplo, alfabético por nombre) y permitir ordenamiento dinámico si es necesario.
 
-**Recomendación:** Aumentar el interlineado del título.
+**PROBLEMA #2:** El botón de “Añadir productos” no activa el formulario correspondiente
+
+**Severidad:** 3
+
+**Heurística violada:** Consistencia y estándares / Visibilidad del estado del sistema
+
+**Problema:** El botón destinado a añadir productos no despliega el formulario necesario, lo que impide que el usuario complete una tarea fundamental del sistema.
+
+**Imagen:**
+![Heurística 2](resources/Heuristicas/heuristica2.png)
+
+**Recomendación:** Verificar la vinculación del botón con el manejador de eventos y el correcto renderizado del formulario. Incluir retroalimentación visual para mejorar la percepción de acción por parte del usuario.
 
 -----
 
