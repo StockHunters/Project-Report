@@ -3576,6 +3576,196 @@ Control de precios y descuentos aplicables a productos.
     ```
 
 ---
+
+### 6. Purchases
+Registro de datos importantes de cada compra
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener compra      | `GET`       | `/api/v1/purchase/{id}`    | Obtiene el purchase de acuerdo al id |
+| Crear compra        | `POST`      | `/api/v1/purchase`         | Crea una compra con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/purchase`  
+  - `body` (JSON):  
+    ```json
+    {
+      "supplier_id": 0,
+      "product_id": 0,
+      "order_id": 0,
+      "quantity": 0,
+      "purchase_date": "2025-06-21T17:48:39.438Z",
+      "status": "string",
+      "user_id": 0,
+      "location_id": 0,
+      "created_at": "2025-06-21T17:48:39.438Z",
+      "updated_at": "2025-06-21T17:48:39.438Z"
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+    "supplier_id": 12,
+    "product_id": 345,
+    "order_id": 2,
+    "quantity": 400,
+    "purchase_date": "2025-06-21T17:48:39.438Z",
+    "status": "pending",
+    "user_id": 22,
+    "location_id": 1,
+    "created_at": "2025-06-21T17:48:39.438Z",
+    "updated_at": "2025-06-21T17:48:39.438Z"
+}
+```
+---
+
+### 7. Purchase Orders
+Registro de informacion aislada de la orden de compra
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener ordenes de compra      | `GET`       | `/api/v1/purchase-order/{id}`    | Obtiene las ordenes de acuerdo al id |
+| Crear compra        | `POST`      | `/api/v1/purchase-order`         | Crea una orden de compra con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/purchase-order`  
+  - `body` (JSON):  
+    ```json
+    {
+      "supplier_id": 0,
+      "user_id": 0,
+      "location_id": 0,
+      "order_date": "2025-06-21T17:56:00.477Z",
+      "status": "string",
+      "created_at": "2025-06-21T17:56:00.477Z",
+      "updated_at": "2025-06-21T17:56:00.477Z"
+    } 
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+  "supplier_id": 12,
+  "user_id": 22,
+  "location_id": 1,
+  "order_date": "2025-06-21T17:56:00.477Z",
+  "status": "canceled",
+  "created_at": "2025-06-21T17:56:00.477Z",
+  "updated_at": "2025-06-21T17:56:00.477Z"
+}
+```
+---
+
+### 8. Purchase Order Items
+Detalle de ordenes de compra
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener detalle de ordenes de compra      | `GET`       | `/api/v1/purchase-order-item/{id}`    | Obtiene el detalle de las ordenes de acuerdo al id |
+| Crear detalle        | `POST`      | `/api/v1/purchase-order-item`         | Crea el detalle de una orden de compra con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/purchase-order-item`  
+  - `body` (JSON):  
+    ```json
+    {
+      "order_id": 0,
+      "product_id": 0,
+      "quantity": 0,
+      "unit_price": 0,
+      "created_at": "2025-06-21T17:58:52.742Z"
+    } 
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+  "order_id": 34,
+  "product_id": 1034,
+  "quantity": 45,
+  "unit_price": 35.99,
+  "created_at": "2025-06-21T17:58:52.742Z"
+}
+```
+---
+
+### 9. Product Suppliers
+Entidad para registrar proveedores
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener un provedor      | `GET`       | `/api/v1/product-supplier/{id}`    | Obtiene la informacion del proveedor de acuerdo al id |
+| Crear proovedor        | `POST`      | `/api/v1/product-supplier`         | Crea un proovedor con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/product-supplier`  
+  - `body` (JSON):  
+    ```json
+    {
+      "product_id": 0,
+      "supplier_id": 0,
+      "supply_price": 0,
+      "created_at": "2025-06-21T15:24:18.818Z"
+    } 
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+  "product_id": 1,
+  "supplier_id": 12,
+  "supply_price": 123.9,
+  "created_at": "2025-06-21T15:24:18.818Z"
+}
+```
+---
+
+### 10. Lots
+Entidad para registrar proveedores
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener un lote      | `GET`       | `/api/v1/lot/{id}`    | Obtiene la informacion del lote de acuerdo al id |
+| Crear lote        | `POST`      | `/api/v1/lot`         | Crea un lote con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/lot`  
+  - `body` (JSON):  
+    ```json
+    {
+      "product_id": 0,
+      "purchase_id": 0,
+      "lot_number": 0,
+      "purchase_date": "2025-06-21",
+      "expiration_date": "2025-06-21",
+      "created_at": "2025-06-21T18:07:27.081Z"
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+  "product_id": 23,
+  "purchase_id": 2,
+  "lot_number": 455,
+  "purchase_date": "2025-06-21",
+  "expiration_date": "2025-06-21",
+  "created_at": "2025-06-21T18:07:27.081Z"
+}
+```
+---
+
 #### 5.2.3.7 Software Deployment Evidence for Sprint Review
 Para realizar el despliegue del backend, en primer lugar se necesita desplegar la base de datos. Esto se realizo mediante una maquina virtual en Azure, donde se instalo SQL Server y se creo una base de datos llamada `StockHunters`. Luego, se procedio a crear las tablas necesarias para el correcto funcionamiento de la aplicacion.
 ![alt text](resources/SPRINT3/azure.png)
