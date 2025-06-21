@@ -321,6 +321,30 @@ Backend:
       - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post)
     - [5. Product Prices](#5-product-prices)
       - [📥 Parámetros](#-parámetros-4)
+    - [6. Purchases](#6-purchases)
+      - [📥 Parámetros](#-parámetros-5)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-1)
+    - [7. Purchase Orders](#7-purchase-orders)
+      - [📥 Parámetros](#-parámetros-6)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-2)
+    - [8. Purchase Order Items](#8-purchase-order-items)
+      - [📥 Parámetros](#-parámetros-7)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-3)
+    - [9. Product Suppliers](#9-product-suppliers)
+      - [📥 Parámetros](#-parámetros-8)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-4)
+    - [10. Lots](#10-lots)
+      - [📥 Parámetros](#-parámetros-9)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-5)
+    - [11. user](#11-user)
+      - [📥 Parámetros](#-parámetros-10)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-6)
+    - [12. Organization](#12-organization)
+      - [📥 Parámetros](#-parámetros-11)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-7)
+    - [13. Plan](#13-plan)
+      - [📥 Parámetros](#-parámetros-12)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-8)
       - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
@@ -384,6 +408,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TP:</strong><br>
         Distribuí tareas y roles, avancé en el desarrollo de endpoints, parte visual de la web y detalles de la landing page.<br>
         <strong>ℹ️ TB2:</strong><br>
+        Finalicé el desarrollo de la landing page y trabajé en la optimización de los endpoints para mejorar la experiencia del usuario.
         <br>
         <strong>ℹ️ TF:</strong><br>
       </td>
@@ -448,6 +473,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TP:</strong><br>
         Desarrollé páginas de login, registro y reportes para la web.<br>
         <strong>ℹ️ TB2:</strong><br>
+        Continué redactando documentación técnica y ajusté el contenido de la landing page para mayor claridad.
         <br>
         <strong>ℹ️ TF:</strong><br>
       </td>
