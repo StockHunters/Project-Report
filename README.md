@@ -3207,7 +3207,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Programar verificación de stock y generación de alerta.</td>
     <td>3</td>
     <td></td>
-    <td>In Process</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>US04</td>
@@ -3217,7 +3217,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Implementar endpoint para registrar ventas con datos del cliente.</td>
     <td>2</td>
     <td>Jorge Suin Yum Gonzales</td>
-    <td>To Do</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>US07</td>
@@ -3227,7 +3227,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Crear endpoint para consultar historial de compras por cliente.</td>
     <td>2</td>
     <td></td>
-    <td>To Do</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>US09</td>
@@ -3237,7 +3237,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Incluir campo de tipo de cliente (minorista/mayorista) y lógica asociada.</td>
     <td>2</td>
     <td></td>
-    <td>To Do</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>US10</td>
@@ -3247,7 +3247,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Implementar endpoint para mostrar stock actualizado automáticamente.</td>
     <td>2</td>
     <td>Jorge Suin Yum Gonzales</td>
-    <td>In Process</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>US14</td>
@@ -3257,7 +3257,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Implementar lógica de pagos con método (efectivo, Yape, Plin, etc.).</td>
     <td>2</td>
     <td></td>
-    <td>To Do</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>US13</td>
@@ -3267,7 +3267,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Implementar backend para indicadores como ventas del día y metas mensuales.</td>
     <td>2</td>
     <td></td>
-    <td>To Do</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>TS01</td>
@@ -3307,7 +3307,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Mostrar historial del cliente con fechas y productos.</td>
     <td>1</td>
     <td></td>
-    <td>To Do</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>TS05</td>
@@ -3317,7 +3317,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Retornar cantidad actual de stock por producto.</td>
     <td>1</td>
     <td></td>
-    <td>To Do</td>
+    <td>Finished</td>
   </tr>
 </table>
 
@@ -3814,6 +3814,109 @@ Entidad para registrar proveedores
   "purchase_date": "2025-06-21",
   "expiration_date": "2025-06-21",
   "created_at": "2025-06-21T18:07:27.081Z"
+}
+```
+---
+
+### 11. user
+Entidad para registrar proveedores
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener un usuario      | `GET`       | `/api/v1/user/{id}`    | Obtiene la informacion del usuario de acuerdo al id |
+| Crear usuario        | `POST`      | `/api/v1/user`         | Crea un usuario con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/lot`  
+  - `body` (JSON):  
+    ```json
+    {
+      "organizationId": 0,
+      "username": "string",
+      "email": "string",
+      "passwordHash": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "profileImageUrl": "string"
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+  "organizationId": 2,
+  "username": "Juan_02",
+  "email": "juan_8@hotmail.com",
+  "passwordHash": "3610949",
+  "firstName": "Juan",
+  "lastName": "Morales",
+  "profileImageUrl": "string"
+}
+```
+---
+
+### 12. Organization
+Entidad para registrar proveedores
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener una organización      | `GET`       | `/api/v1/Organization/{id}`    | Obtiene la informacion de la organización de acuerdo al id |
+| Crear organización        | `POST`      | `/api/v1/Organization`         | Crea una organización con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/lot`  
+  - `body` (JSON):  
+    ```json
+    {
+      "name": "string",
+      "contactEmail": "string",
+      "planId": 0
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+    "name": "Movistar",
+    "contactEmail": "mov_8@gmail.com",
+    "planId": 2
+}
+```
+---
+
+### 13. Plan
+Entidad para registrar proveedores
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener un plan      | `GET`       | `/api/v1/plan/{id}`    | Obtiene la informacion del plan de acuerdo al id |
+| Crear plan        | `POST`      | `/api/v1/plan`         | Crea un plan con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/plan`  
+  - `body` (JSON):  
+    ```json
+    {
+       "name": "string",
+       "description": "string",
+       "feature": 0,
+       "price": 0
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+    "name": "Basico",
+    "description": "plan basico para empresas que recien inician",
+    "feature": 2,
+    "price": 0
 }
 ```
 ---
