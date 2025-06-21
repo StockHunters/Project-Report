@@ -3322,8 +3322,8 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
 
 
 #### 5.2.3.4 Development Evidence for Sprint Review
-A continuacion se detallan los avances realizados en el desarrollo de la aplicación web y landing page con los commits correspondientes en GitHub:
-Repositorio Frontend:
+A continuacion se detallan los avances realizados en el desarrollo de la aplicación web y las mejoras al front end con los commits correspondientes en GitHub:
+Repositorio Frontend:https://github.com/StockHunters/Frontend-Web-Application.git
 Repositorio Backend: https://github.com/StockHunters/WebServices.git
 | Repo | Branch | Commit | Message | Date |
 |------|--------|--------|---------|------|
@@ -3349,6 +3349,34 @@ Repositorio Backend: https://github.com/StockHunters/WebServices.git
 | WebServices | develop | 0720861 | feat: web service initialization | 04/06/2025 |
 | WebServices | main | 0720861 | feat: web service initialization | 04/06/2025 |
 | WebServices | develop | b293c68 | feat: added client aggregate and reference | 04/06/2025 |
+| Frontend-Web-Application | refactor/all | cdb16cb | feat: added the translation of the sales-table component for the option of the ui and the productsView | 21/06/2025 |
+| Frontend-Web-Application | main | fbec934 | merge pull request 'refactor/all' into main | 20/06/2025 |
+| Frontend-Web-Application | refactor/all | e50fda4 | feat: Fix: history router changed | 20/06/2025 |
+| Frontend-Web-Application |  main | 9f485ae | merge pull request 'refactor/all' into main | 20/06/2025 |
+| Frontend-Web-Application | refactor/all | 11eab0e | feat: Add: sections inventory, reporting, sales | 20/06/2025 |
+| Frontend-Web-Application |  refactor/all | 7beda06 |  feat: Add: Primevue and components added | 20/06/2025 |
+| Frontend-Web-Application | refactor/all | ef99734 | feat:  Improve: bounded context shared modified | 20/06/2025 |
+| Frontend-Web-Application |  refactor/all | bfddaca | feat: Deprecated: not use component | 16/06/2025 |
+| Frontend-Web-Application | refactor/all | aa6898e | feat: Update: added structure | 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | 4686919 | feat: Improved: router modified | 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | f75c236 | feat: Improve: logout and login consts| 16/06/2025 |
+| Frontend-Web-Application | refactor/all | 872aa6d | feat: Feat: services auth added| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | d1eb15d | feat: Feat: models from auth added| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | c13b8e7  | feat: Feat: UserItem added| 16/06/2025 |
+| Frontend-Web-Application | refactor/all | e20437c | feat: Feat: composables added  | 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | 229904d | feat: Improved: stylesheet components| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | f63ffe1 | feat: Update: svgIcon lib modifieds| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | 78be692 | feat:  Feat: new localization added| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | a25a6df | feat:  Improve: button type added| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | 961efd2 | feat:   Improve: signin and signup view update| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | b129555 | feat:  Feat: session view| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | 0914e24 | feat: Feat: not found page added | 13/06/2025 |
+| Frontend-Web-Application |  refactor/all | fad706f | feat: Improved: add Not Found path | 13/06/2025 |
+| Frontend-Web-Application |  refactor/all |  4be8f4b| feat:  Improved: general styles | 13/06/2025 |
+| Frontend-Web-Application |  refactor/all | 0d619f7 | feat: Add: assets from app | 13/06/2025 |
+| Frontend-Web-Application |  refactor/all | e90a678 | feat: Improved: aria labels attributes added | 13/06/2025 |
+| Frontend-Web-Application |  refactor/all |aca700c  | feat:  Improved: internationalization sections added | 13/06/2025 |
+| Frontend-Web-Application |  refactor/all | 0b216cd | feat: Feat: auth views added | 13/06/2025 |
 
 
 
@@ -3361,6 +3389,27 @@ Aqui se muestran el resto de los endpoints mostrados en Swagger:
 ![swagger2](resources/SPRINT3/Swagger2.png)
 Finalmente se muestran los Schemas y Resources de los endpoints creados:
 ![swagger3](resources/SPRINT3/Swagger3.png)
+
+Además, en el frontend, hemos mejorado los aspectos del front end:
+
+![alt text](resources/SPRINT3/pantalla_clientes_oscuro.png)
+![alt text](resources/SPRINT3/pantalla_clientes_claro.png)
+
+por ejemplo, hemos una barra de navegación fija para todo el aplicativo. Además de un modo oscuro para todas las pestanas y agregamos un boton-toggle para la internacionalización.
+
+Finalmente tambien hemos mejorado aspectos del landing page:
+
+![alt text](resources/SPRINT3/Landing_page_claro.png)
+![alt text](resources/SPRINT3/landing_page_oscuro.png)
+
+Tambien implementamos modos oscuros y claros. Además, de agregar un nuevo idioma francés para la internacionalización.
+
+![alt text](resources/SPRINT3/Our_plans.png)
+![alt text](resources/SPRINT3/contact_us.png)
+![alt text](resources/SPRINT3/front_end_login.png)
+
+Adicionalmente, hemos agregado los links en los botones de nuestros planes y el try out para que el landing page nos mande directamente a nuestra pestaña de Log in de nuestro frontend ya deployado. Además, el boton de contact us nos redirije a la sección de atención al cliente. 
+
 
 #### 5.2.3.6 Services Documentation Evidence for Sprint Review
 Se ha implementado una API RESTful para la gestión de inventarios y ventas, que incluye los siguientes endpoints:
