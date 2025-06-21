@@ -348,9 +348,10 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TB1:</strong><br>
         Realicé entrevistas para recolectar información clave y diseñé la arquitectura de software basada en Domain Driven Design, elaborando diagramas de contexto, contenedores y componentes.<br>
         <strong>ℹ️ TP:</strong><br>
-        <br>
+        Realicé correcciones de mejora continua, participé en el desarrollo de la aplicación web junto a mis compañeros, estableciendo reuniones de coordinación y discusión sobre nuestros avances.<br>
         <strong>ℹ️ TB2:</strong><br>
-        <br>
+        Participé conjuntamente en el desarrollo del backend, implementando la primera versión de los endpoints de un bounded context. Apoyé en la división estratégica de todas nuestras entidades 
+          en bounded contexts para su desarrollo. <br>
         <strong>ℹ️ TF:</strong><br>
       </td>
     </tr>
@@ -411,9 +412,9 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TB1:</strong><br>
         Diseñé preguntas para entrevistas que sustentan decisiones de diseño y expresé ideas técnicas para el desarrollo basado en la investigación.<br>
         <strong>ℹ️ TP:</strong><br>
-        <br>
+        Apoyé en cumplir el objetivo de desarrollar la landing page, utilizando herramientas colaborativas como github. <br>
         <strong>ℹ️ TB2:</strong><br>
-        <br>
+        Defini los bounded context, colaboré con mis compañeros para desarrollar el api service utilizando .NET, siempre en coordinación para mantener un entorno de desarollo estable. <br>
         <strong>ℹ️ TF:</strong><br>
       </td>
     </tr>
