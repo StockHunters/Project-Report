@@ -286,12 +286,27 @@ Cabe recalcar que no toma en cuenta los merge commits y los commit de uno de nue
       - [5.2.3.4 Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5 Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
       - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+    - [1. Categories](#1-categories)
+      - [📥 Parámetros](#-parámetros)
+      - [📤 Ejemplo de Respuesta `GET`](#-ejemplo-de-respuesta-get)
+    - [2. Clients](#2-clients)
+      - [📥 Parámetros](#-parámetros-1)
+      - [📤 Ejemplo de Respuesta `GET`](#-ejemplo-de-respuesta-get-1)
+    - [3. Products](#3-products)
+      - [📥 Parámetros](#-parámetros-2)
+      - [📤 Ejemplo de Respuesta `GET`](#-ejemplo-de-respuesta-get-2)
+    - [4. Sales](#4-sales)
+      - [📥 Parámetros](#-parámetros-3)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post)
+    - [5. Product Prices](#5-product-prices)
+      - [📥 Parámetros](#-parámetros-4)
       - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+      - [❗ **Recordatorio**](#-recordatorio)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -322,7 +337,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TP:</strong><br>
         Corrigí los technical stories y evidencias con base en los comentarios recibidos. Avancé en el FrontEnd y definí los bounded contexts para ventas, clientes y pagos. Participé en la discusión y planeación del sprint 2.<br>
         <strong>ℹ️ TB2:</strong><br>
-        <br>
+        Desarrollé funcionalidades del backend como parte del Sprint 3, enfocándome en la creación y configuración de las tablas correspondientes a los bounded contexts <em>InventoryManagement</em> y <em>CustomerManagement</em> utilizando .NET. Además, documenté los modelos de datos, las relaciones entre entidades y contribuí con la organización de la arquitectura técnica del sistema.<br>
         <strong>ℹ️ TF:</strong><br>
       </td>
       <td rowspan="5">Me comunico oralmente de manera clara y estructurada, aportando al análisis técnico y estratégico del proyecto.</td>
@@ -333,9 +348,10 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TB1:</strong><br>
         Realicé entrevistas para recolectar información clave y diseñé la arquitectura de software basada en Domain Driven Design, elaborando diagramas de contexto, contenedores y componentes.<br>
         <strong>ℹ️ TP:</strong><br>
-        <br>
+        Realicé correcciones de mejora continua, participé en el desarrollo de la aplicación web junto a mis compañeros, estableciendo reuniones de coordinación y discusión sobre nuestros avances.<br>
         <strong>ℹ️ TB2:</strong><br>
-        <br>
+        Participé conjuntamente en el desarrollo del backend, implementando la primera versión de los endpoints de un bounded context. Apoyé en la división estratégica de todas nuestras entidades 
+          en bounded contexts para su desarrollo. <br>
         <strong>ℹ️ TF:</strong><br>
       </td>
     </tr>
@@ -371,6 +387,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TP:</strong><br>
         Me encargué de completar la parte visual del proyecto y de su despliegue en la web.<br>
         <strong>ℹ️ TB2:</strong><br>
+        Participé en el desarrollo del backend, trabajando en el bounded context de System Management y Reporting. Implementé la primera versión de sus endpoints.
         <br>
         <strong>ℹ️ TF:</strong><br>
       </td>
@@ -396,9 +413,9 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TB1:</strong><br>
         Diseñé preguntas para entrevistas que sustentan decisiones de diseño y expresé ideas técnicas para el desarrollo basado en la investigación.<br>
         <strong>ℹ️ TP:</strong><br>
-        <br>
+        Apoyé en cumplir el objetivo de desarrollar la landing page, utilizando herramientas colaborativas como github. <br>
         <strong>ℹ️ TB2:</strong><br>
-        <br>
+        Defini los bounded context, colaboré con mis compañeros para desarrollar el api service utilizando .NET, siempre en coordinación para mantener un entorno de desarollo estable. <br>
         <strong>ℹ️ TF:</strong><br>
       </td>
     </tr>
@@ -434,6 +451,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TP:</strong><br>
         Desarrollé user stories y componentes para la página principal.<br>
         <strong>ℹ️ TB2:</strong><br>
+        Definí el bounded context de System Management and Reporting, y colaboré con el equipo en el desarrollo del servicio API utilizando .NET y arquitectura REST.
         <br>
         <strong>ℹ️ TF:</strong><br>
       </td>
@@ -2089,23 +2107,59 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 
  ## 4.8. Database Design
   ### 4.8.1. Database Diagram
+  ```mermaid
+erDiagram
+    Organizations ||--o{ Locations : "owns"
+    Organizations ||--o{ Users : "groups"
+    Organizations ||--o{ Plans : "subscribed to"
+    Clients ||--o{ Sales : "makes"
+    Products ||--o{ Sales : "sold in"
+    Products ||--o{ Product_Locations : "stored in"
+    Locations ||--o{ Product_Locations : "contains"
+    Categories ||--o{ Products : "classifies"
+    Products ||--o{ Lots : "tracked in"
+    Purchases ||--o{ Lots : "sources"
+    Products ||--o{ Product_Prices : "priced in"
+    Suppliers ||--o{ Purchase_Orders : "receives"
+    Users ||--o{ Purchase_Orders : "creates"
+    Locations ||--o{ Purchase_Orders : "destined to"
+    Purchase_Orders ||--o{ Purchase_Order_Items : "includes"
+    Products ||--o{ Purchase_Order_Items : "ordered in"
+    Products ||--o{ Sales : "sold in"
+    Lots ||--o{ Sales : "tracked in"
+    Users ||--o{ Sales : "records"
+    Locations ||--o{ Sales : "occurs at"
+    Users ||--o{ Activities : "generates"
+    Users ||--o{ Reports : "creates"
+    Suppliers ||--o{ Purchases : "supplies"
+    Products ||--o{ Purchases : "purchased in"
+    Purchase_Orders ||--o{ Purchases : "fulfilled by"
+    Users ||--o{ Purchases : "records"
+    Locations ||--o{ Purchases : "destined to"
+    Products ||--o{ Product_Suppliers : "supplied by"
+    Suppliers ||--o{ Product_Suppliers : "supplies"
+    Products ||--o{ Inventory_Adjustments : "adjusted in"
+    Locations ||--o{ Inventory_Adjustments : "adjusted at"
+    Users ||--o{ Inventory_Adjustments : "performs"
+    Users ||--o{ Audit_Logs : "logs"
 
-  ~~~mermaid
-  erDiagram
-    Clients ||--o{ Sales : "realiza"
-    Products ||--o{ Sales : "vendido en"
-    Products ||--o{ Product_Locations : "almacenado en"
-    Locations ||--o{ Product_Locations : "contiene"
-    Categories ||--o{ Products : "clasifica"
-    Users ||--o{ Sales : "registra"
-    Users ||--o{ Activities : "genera"
-    Users ||--o{ Reports : "crea"
-    Users ||--o{ Purchases : "registra"
-    Users ||--o{ Audit_Logs : "registra"
-    Suppliers ||--o{ Product_Suppliers : "suministra"
-    Products ||--o{ Product_Suppliers : "suministrado por"
-    Suppliers ||--o{ Purchases : "proveedor de"
-    Products ||--o{ Purchases : "comprado en"
+    Organizations {
+        int organization_id PK
+        string name
+        string contact_email UK
+        int plan_id FK
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Plans {
+        int plan_id PK
+        string name
+        string description
+        enum features "basic, premium"
+        decimal price
+        timestamp created_at
+    }
 
     Clients {
         int client_id PK
@@ -2125,7 +2179,6 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
         int product_id PK
         string name
         string image_url
-        int stock
         int category_id FK
         timestamp created_at
         timestamp updated_at
@@ -2133,17 +2186,20 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
 
     Locations {
         int location_id PK
+        int organization_id FK
         string name
         string address
         string city
         string country
         timestamp created_at
+        timestamp updated_at
     }
 
     Product_Locations {
         int product_id PK,FK
         int location_id PK,FK
         int stock
+        timestamp updated_at
     }
 
     Categories {
@@ -2153,27 +2209,69 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
         timestamp created_at
     }
 
+    Lots {
+        int lot_id PK
+        int product_id FK
+        int purchase_id FK
+        string lot_number UK
+        date purchase_date
+        date expiration_date
+        timestamp created_at
+    }
+
+    Product_Prices {
+        int price_id PK
+        int product_id FK
+        decimal price
+        decimal discount
+        date effective_date
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Purchase_Orders {
+        int order_id PK
+        int supplier_id FK
+        int user_id FK
+        int location_id FK
+        date order_date
+        enum status "pending, approved, shipped, canceled"
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    Purchase_Order_Items {
+        int order_id PK,FK
+        int product_id PK,FK
+        int quantity
+        decimal unit_price
+        timestamp created_at
+    }
+
     Sales {
         int sale_id PK
         date sale_date
         int product_id FK
+        int lot_id FK
         int quantity
         enum status
         int customer_id FK
         int user_id FK
+        int location_id FK
         timestamp created_at
         timestamp updated_at
     }
 
     Users {
         int user_id PK
+        int organization_id FK
         string username UK
         string email UK
         string password_hash
         string first_name
         string last_name
         string profile_image_url
-        enum role
+        enum role "admin, user"
         timestamp created_at
         timestamp updated_at
     }
@@ -2218,12 +2316,25 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
         int purchase_id PK
         int supplier_id FK
         int product_id FK
+        int order_id FK
         int quantity
         date purchase_date
         enum status
         int user_id FK
+        int location_id FK
         timestamp created_at
         timestamp updated_at
+    }
+
+    Inventory_Adjustments {
+        int adjustment_id PK
+        int product_id FK
+        int location_id FK
+        int quantity
+        string reason
+        int user_id FK
+        date adjustment_date
+        timestamp created_at
     }
 
     Audit_Logs {
@@ -2235,7 +2346,7 @@ Rel(AutomotiveProductSalesManagementSystem.WebApplication.StatisticsComponent, A
         json details
         timestamp audit_date
     }
-  ~~~
+```
 
 # Capítulo V: Product Implementation, Validation & Deployment
  ## 5.1. Software Configuration Management
@@ -3007,15 +3118,15 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
       <th>Team member</th>
       <th>Github username</th>
       <th>Login</th>
-      <th>Product Catalog</th>
-      <th>Client List</th>
+      <th>Inventory Management</th>
+      <th>Client Management</th>
       <th>Sales List</th>
     </tr>
     <tr>
       <td>Yum Gonzales, Jorge Suin</td>
       <td>jsyumg, myussu</td>
       <td>C</td>
-      <td>C</td>
+      <td>L</td>
       <td>L</td>
       <td>L</td>
     </tr>
@@ -3085,8 +3196,8 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Implementar POST /api/products</td>
     <td>Crear endpoint para registrar productos en la base de datos.</td>
     <td>3</td>
-    <td></td>
-    <td>To Do</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>US02</td>
@@ -3096,7 +3207,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Programar verificación de stock y generación de alerta.</td>
     <td>3</td>
     <td></td>
-    <td>To Do</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>US04</td>
@@ -3105,8 +3216,8 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>POST /api/sales</td>
     <td>Implementar endpoint para registrar ventas con datos del cliente.</td>
     <td>2</td>
-    <td></td>
-    <td>To Do</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>US07</td>
@@ -3116,7 +3227,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Crear endpoint para consultar historial de compras por cliente.</td>
     <td>2</td>
     <td></td>
-    <td>To Do</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>US09</td>
@@ -3126,7 +3237,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Incluir campo de tipo de cliente (minorista/mayorista) y lógica asociada.</td>
     <td>2</td>
     <td></td>
-    <td>To Do</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>US10</td>
@@ -3135,8 +3246,8 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>GET /api/stock</td>
     <td>Implementar endpoint para mostrar stock actualizado automáticamente.</td>
     <td>2</td>
-    <td></td>
-    <td>To Do</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>US14</td>
@@ -3146,7 +3257,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Implementar lógica de pagos con método (efectivo, Yape, Plin, etc.).</td>
     <td>2</td>
     <td></td>
-    <td>To Do</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>US13</td>
@@ -3156,7 +3267,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Implementar backend para indicadores como ventas del día y metas mensuales.</td>
     <td>2</td>
     <td></td>
-    <td>To Do</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>TS01</td>
@@ -3165,8 +3276,8 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>POST /api/products (TS)</td>
     <td>Validación de campos obligatorios en creación de producto.</td>
     <td>1</td>
-    <td></td>
-    <td>To Do</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>TS02</td>
@@ -3175,8 +3286,8 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>GET /api/products</td>
     <td>Obtener listado completo de productos registrados.</td>
     <td>1</td>
-    <td></td>
-    <td>To Do</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>TS03</td>
@@ -3185,8 +3296,8 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>POST /api/sales (TS)</td>
     <td>Registrar ventas con validación de datos.</td>
     <td>1</td>
-    <td></td>
-    <td>To Do</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>TS04</td>
@@ -3196,7 +3307,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Mostrar historial del cliente con fechas y productos.</td>
     <td>1</td>
     <td></td>
-    <td>To Do</td>
+    <td>Finished</td>
   </tr>
   <tr>
     <td>TS05</td>
@@ -3206,33 +3317,719 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
     <td>Retornar cantidad actual de stock por producto.</td>
     <td>1</td>
     <td></td>
-    <td>To Do</td>
+    <td>Finished</td>
   </tr>
 </table>
 
 
 
 #### 5.2.3.4 Development Evidence for Sprint Review
+A continuacion se detallan los avances realizados en el desarrollo de la aplicación web y las mejoras al front end con los commits correspondientes en GitHub:
+Repositorio Frontend:https://github.com/StockHunters/Frontend-Web-Application.git
+Repositorio Backend: https://github.com/StockHunters/WebServices.git
+| Repo | Branch | Commit | Message | Date |
+|------|--------|--------|---------|------|
+| WebServices | develop | e9b1a10 | feat: inventory adjustments controller | 19/06/2025 |
+| WebServices | develop | e726d54 | Update .gitignore | 19/06/2025 |
+| WebServices | develop | e351d28 | feat: category update | 19/06/2025 |
+| WebServices | develop | bacf87d | feat: category aggregate semi-created | 19/06/2025 |
+| WebServices | develop | b98a03e | added controller to appdbcontext | 19/06/2025 |
+| WebServices | develop | ac67b1f | feat: deployed database | 19/06/2025 |
+| WebServices | develop | a696c1b | feat: location aggregate | 19/06/2025 |
+| WebServices | develop | 9e9c4b3 | feat: added table to database | 19/06/2025 |
+| WebServices | develop | 7cb37bf | test new password gitignore | 19/06/2025 |
+| WebServices | develop | 7740f46 | feat: product location endpoint | 19/06/2025 |
+| WebServices | develop | 6cf5b10 | Merge branch 'feature/InventoryManagement' into develop | 19/06/2025 |
+| WebServices | develop | 59eefd7 | changes | 19/06/2025 |
+| WebServices | develop | 41ca2a2 | feat: notas de proyecto | 19/06/2025 |
+| WebServices | develop | 191b55d | Merge branch 'feature/InventoryManagement' into develop | 19/06/2025 |
+| WebServices | develop | 9804bad | feat: added sale aggregate | 18/06/2025 |
+| WebServices | develop | e5f2048 | feat: ProductPrice Aggregate and Inventory Management bounded context created | 10/06/2025 |
+| WebServices | develop | 96eb7fb | Merge branch 'feature/productManagement' into develop | 10/06/2025 |
+| WebServices | develop | f1c0d07 | feat: added products bounded context; ask how to update db without deleting it | 08/06/2025 |
+| WebServices | develop | 8852788 | feat: product management | 08/06/2025 |
+| WebServices | develop | 0720861 | feat: web service initialization | 04/06/2025 |
+| WebServices | main | 0720861 | feat: web service initialization | 04/06/2025 |
+| WebServices | develop | b293c68 | feat: added client aggregate and reference | 04/06/2025 |
+| Frontend-Web-Application | refactor/all | cdb16cb | feat: added the translation of the sales-table component for the option of the ui and the productsView | 21/06/2025 |
+| Frontend-Web-Application | main | fbec934 | merge pull request 'refactor/all' into main | 20/06/2025 |
+| Frontend-Web-Application | refactor/all | e50fda4 | feat: Fix: history router changed | 20/06/2025 |
+| Frontend-Web-Application |  main | 9f485ae | merge pull request 'refactor/all' into main | 20/06/2025 |
+| Frontend-Web-Application | refactor/all | 11eab0e | feat: Add: sections inventory, reporting, sales | 20/06/2025 |
+| Frontend-Web-Application |  refactor/all | 7beda06 |  feat: Add: Primevue and components added | 20/06/2025 |
+| Frontend-Web-Application | refactor/all | ef99734 | feat:  Improve: bounded context shared modified | 20/06/2025 |
+| Frontend-Web-Application |  refactor/all | bfddaca | feat: Deprecated: not use component | 16/06/2025 |
+| Frontend-Web-Application | refactor/all | aa6898e | feat: Update: added structure | 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | 4686919 | feat: Improved: router modified | 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | f75c236 | feat: Improve: logout and login consts| 16/06/2025 |
+| Frontend-Web-Application | refactor/all | 872aa6d | feat: Feat: services auth added| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | d1eb15d | feat: Feat: models from auth added| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | c13b8e7  | feat: Feat: UserItem added| 16/06/2025 |
+| Frontend-Web-Application | refactor/all | e20437c | feat: Feat: composables added  | 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | 229904d | feat: Improved: stylesheet components| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | f63ffe1 | feat: Update: svgIcon lib modifieds| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | 78be692 | feat:  Feat: new localization added| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | a25a6df | feat:  Improve: button type added| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | 961efd2 | feat:   Improve: signin and signup view update| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | b129555 | feat:  Feat: session view| 16/06/2025 |
+| Frontend-Web-Application |  refactor/all | 0914e24 | feat: Feat: not found page added | 13/06/2025 |
+| Frontend-Web-Application |  refactor/all | fad706f | feat: Improved: add Not Found path | 13/06/2025 |
+| Frontend-Web-Application |  refactor/all |  4be8f4b| feat:  Improved: general styles | 13/06/2025 |
+| Frontend-Web-Application |  refactor/all | 0d619f7 | feat: Add: assets from app | 13/06/2025 |
+| Frontend-Web-Application |  refactor/all | e90a678 | feat: Improved: aria labels attributes added | 13/06/2025 |
+| Frontend-Web-Application |  refactor/all |aca700c  | feat:  Improved: internationalization sections added | 13/06/2025 |
+| Frontend-Web-Application |  refactor/all | 0b216cd | feat: Feat: auth views added | 13/06/2025 |
+
+
 
 
 #### 5.2.3.5 Execution Evidence for Sprint Review
+Se procedera a detallar los avances realizados en el desarrollo de la aplicacion web, su despliegue en swagger y los endpoints creados para el correcto funcionamiento de la aplicacion. A continuacion se muestran los endpoints creados y su funcionamiento:
+Definición de los endpoints en swagger:
+![swagger1](resources/SPRINT3/Swagger1.png)
+Aqui se muestran el resto de los endpoints mostrados en Swagger:
+![swagger2](resources/SPRINT3/Swagger2.png)
+Finalmente se muestran los Schemas y Resources de los endpoints creados:
+![swagger3](resources/SPRINT3/Swagger3.png)
+
+Además, en el frontend, hemos mejorado los aspectos del front end:
+
+![alt text](resources/SPRINT3/pantalla_clientes_oscuro.png)
+![alt text](resources/SPRINT3/pantalla_clientes_claro.png)
+
+por ejemplo, hemos una barra de navegación fija para todo el aplicativo. Además de un modo oscuro para todas las pestanas y agregamos un boton-toggle para la internacionalización.
+
+Finalmente tambien hemos mejorado aspectos del landing page:
+
+![alt text](resources/SPRINT3/Landing_page_claro.png)
+![alt text](resources/SPRINT3/landing_page_oscuro.png)
+
+Tambien implementamos modos oscuros y claros. Además, de agregar un nuevo idioma francés para la internacionalización.
+
+![alt text](resources/SPRINT3/Our_plans.png)
+![alt text](resources/SPRINT3/contact_us.png)
+![alt text](resources/SPRINT3/front_end_login.png)
+
+Adicionalmente, hemos agregado los links en los botones de nuestros planes y el try out para que el landing page nos mande directamente a nuestra pestaña de Log in de nuestro frontend ya deployado. Además, el boton de contact us nos redirije a la sección de atención al cliente.
 
 
 #### 5.2.3.6 Services Documentation Evidence for Sprint Review
+Se ha implementado una API RESTful para la gestión de inventarios y ventas, que incluye los siguientes endpoints:
+| Método | Endpoint                                                      | Descripción                                          |
+|--------|---------------------------------------------------------------|------------------------------------------------------|
+| GET    | /api/v1/user/{userId}                                         | Se obtiene un usuario por ID                     |
+| POST   | /api/v1/user                                                     | Se crea un nuevo usuario                         |
+| GET    | /api/v1/organization/{organizationId}                      | Se obtiene una organización por ID                     |
+| POST   | /api/v1/organization                                       | Se crea una nueva organización                         |
+| GET    | /api/v1/plan/{planId}                                      | Se obtiene un plan por ID                     |
+| POST   | /api/v1/plan                                               | Se crea un nuevo plan                         |
+| GET    | /api/v1/category/{categoryId}                                 | Se obtiene una categoría por ID                     |
+| POST   | /api/v1/category                                              | Se crea una nueva categoría                         |
+| GET    | /api/v1/inventory-adjustment/{inventoryAdjustmentId}         | Se obtiene un ajuste de inventario por ID           |
+| GET    | /api/v1/inventory-adjustment                                 | Se obtiene la lista de ajustes de inventario        |
+| POST   | /api/v1/inventory-adjustment                                 | Se crea un nuevo ajuste de inventario               |
+| GET    | /api/v1/location/{locationId}                                 | Se obtiene una ubicación por ID                     |
+| GET    | /api/v1/location                                              | Se obtiene la lista de ubicaciones                  |
+| POST   | /api/v1/location                                              | Se crea una nueva ubicación                         |
+| GET    | /api/v1/product-location/{productLocationId}                 | Se obtiene una ubicación de producto por ID         |
+| GET    | /api/v1/product-location                                      | Se obtiene la lista de ubicaciones de productos     |
+| POST   | /api/v1/product-location                                      | Se crea una ubicación de producto                   |
+| GET    | /api/v1/product-price/{id}                                    | Se obtiene un precio de producto por ID             |
+| POST   | /api/v1/product-price                                         | Se crea un precio de producto                       |
+| GET    | /api/v1/sale/{saleId}                                         | Se obtiene una venta por ID                         |
+| GET    | /api/v1/sale                                                  | Se obtiene la lista de ventas                       |
+| POST   | /api/v1/sale                                                  | Se crea una nueva venta                             |
+| GET    | /api/v1/client/{id}                                           | Se obtiene un cliente por ID                        |
+| POST   | /api/v1/client                                                | Se crea un nuevo cliente                            |
+| GET    | /api/v1/products                                              | Se obtiene la lista de productos según parámetros   |
+| GET    | /api/v1/products/{id}                                         | Se obtiene un producto por ID                       |
+| POST   | /api/v1/products                                              | Se crea un nuevo producto                           |
+| POST   | /api/v1/lot                                                   | Se crea un nuevo lot                                |
+| GET    | /api/v1/lot/{id}                                              | Se obtiene un lot por ID                            |
+| POST   | /api/v1/product-supplier                                      | Se crea un nuevo product supplier                   |
+| GET    | /api/v1/product-supplier/{id}                                 | Se obtiene un product supplier por ID               |
+| POST   | /api/v1/purchase                                              | Se crea una nueva purchase                          |
+| POST   | /api/v1/purchase-order                                        | Se crea un nueva purchase order                     |
+| POST   | /api/v1/purchase-order-items                                  | Se crea una nueva purchase order items              |
+| GET    | /api/v1/purchase/{id}                                         | Se obtiene una nueva purchase por ID                |
+| GET    | /api/v1/purchase-order/{id}                                   | Se obtiene un nueva purchase order por id           |
+| GET    | /api/v1/purchase-order-items/{id}                             | Se obtiene una nueva purchase order items por id    |
 
+### 1. Categories
+Permite la gestión de categorías de productos.
 
+| Acción             | Método HTTP | Endpoint                           | Descripción                           |
+|--------------------|--------------|-------------------------------------|---------------------------------------|
+| Obtener por ID     | `GET`        | `/api/v1/category/{categoryId}`     | Devuelve una categoría específica     |
+| Crear categoría    | `POST`       | `/api/v1/category`                  | Crea una nueva categoría              |
+
+#### 📥 Parámetros
+
+- `GET /api/v1/category/{categoryId}`  
+  - `categoryId` (path, int) – ID de la categoría a obtener.
+
+- `POST /api/v1/category`  
+  - `body` (JSON):  
+    ```json
+    {
+      "name": "Electrónica",
+      "description": "Dispositivos y accesorios tecnológicos"
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `GET`
+
+```json
+{
+  "id": 1,
+  "name": "Electrónica",
+  "description": "Dispositivos y accesorios tecnológicos"
+}
+```
+
+---
+
+### 2. Clients
+Gestión de usuarios clientes que realizarán compras.
+
+| Acción           | Método HTTP | Endpoint                    | Descripción                           |
+|------------------|-------------|------------------------------|---------------------------------------|
+| Crear cliente    | `POST`      | `/api/v1/client`             | Registra un nuevo cliente             |
+| Obtener por ID   | `GET`       | `/api/v1/client/{id}`        | Consulta un cliente específico        |
+
+#### 📥 Parámetros
+
+- `POST /api/v1/client`  
+  - `body` (JSON):  
+    ```json
+    {
+      "firstName": "Carlos",
+      "lastName": "García",
+      "email": "carlos@example.com",
+      "phone": "987654321",
+      "dni": "12345678",
+      "status": 1,
+      "company": "García SAC"
+    }
+    ```
+
+- `GET /api/v1/client/{id}`  
+  - `id` (path, int) – ID del cliente.
+
+#### 📤 Ejemplo de Respuesta `GET`
+
+```json
+{
+  "id": 1,
+  "firstName": "Carlos",
+  "lastName": "García",
+  "email": "carlos@example.com",
+  "phone": "987654321",
+  "dni": "12345678",
+  "status": 1,
+  "company": "García SAC"
+}
+```
+
+---
+
+### 3. Products
+Este endpoint permite la administración de productos ofrecidos por el sistema.
+
+| Acción               | Método HTTP | Endpoint                      | Descripción                          |
+|----------------------|-------------|--------------------------------|--------------------------------------|
+| Listar con filtros   | `GET`       | `/api/v1/products`            | Filtra productos por parámetros      |
+| Obtener por ID       | `GET`       | `/api/v1/products/{id}`       | Consulta un producto específico      |
+| Crear producto       | `POST`      | `/api/v1/products`            | Registra un nuevo producto           |
+
+#### 📥 Parámetros
+
+- `POST /api/v1/products`  
+  - `body` (JSON):  
+    ```json
+    {
+      "name": "Laptop HP",
+      "image_url": "https://example.com/laptop.png",
+      "stock": 10,
+      "category_id": 1
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `GET`
+
+```json
+{
+  "id": 1,
+  "name": "Laptop HP",
+  "image_url": "https://example.com/laptop.png",
+  "stock": 10,
+  "category_id": 1
+}
+```
+
+---
+
+### 4. Sales
+Administra las ventas realizadas, incluyendo cantidad, producto vendido, cliente, ubicación y usuario.
+
+| Acción           | Método HTTP | Endpoint                  | Descripción                        |
+|------------------|-------------|----------------------------|------------------------------------|
+| Obtener venta    | `GET`       | `/api/v1/sale/{saleId}`   | Consulta una venta específica      |
+| Listar ventas    | `GET`       | `/api/v1/sale`            | Devuelve todas las ventas          |
+| Crear venta      | `POST`      | `/api/v1/sale`            | Registra una nueva venta           |
+
+#### 📥 Parámetros
+
+- `POST /api/v1/sale`  
+  - `body` (JSON):  
+    ```json
+    {
+      "product_id": 1,
+      "client_id": 2,
+      "quantity": 3,
+      "location_id": 1,
+      "user_id": 5,
+      "status": 1,
+      "date": "2025-06-20T14:00:00"
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+  "id": 10,
+  "product_id": 1,
+  "client_id": 2,
+  "quantity": 3,
+  "status": 1,
+  "location_id": 1
+}
+```
+
+---
+
+### 5. Product Prices
+Control de precios y descuentos aplicables a productos.
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener precio      | `GET`       | `/api/v1/product-price/{id}`    | Obtiene el precio actual de producto |
+| Crear precio        | `POST`      | `/api/v1/product-price`         | Asigna precio a producto             |
+
+#### 📥 Parámetros
+
+- `POST /api/v1/product-price`  
+  - `body` (JSON):  
+    ```json
+    {
+      "product_id": 1,
+      "price": 1299.99,
+      "discount": 10.00,
+      "effective_date": "2025-06-21T00:00:00"
+    }
+    ```
+### 6. Purchases
+Registro de datos importantes de cada compra
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener compra      | `GET`       | `/api/v1/purchase/{id}`    | Obtiene el purchase de acuerdo al id |
+| Crear compra        | `POST`      | `/api/v1/purchase`         | Crea una compra con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/purchase`  
+  - `body` (JSON):  
+    ```json
+    {
+      "supplier_id": 0,
+      "product_id": 0,
+      "order_id": 0,
+      "quantity": 0,
+      "purchase_date": "2025-06-21T17:48:39.438Z",
+      "status": "string",
+      "user_id": 0,
+      "location_id": 0,
+      "created_at": "2025-06-21T17:48:39.438Z",
+      "updated_at": "2025-06-21T17:48:39.438Z"
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+    "supplier_id": 12,
+    "product_id": 345,
+    "order_id": 2,
+    "quantity": 400,
+    "purchase_date": "2025-06-21T17:48:39.438Z",
+    "status": "pending",
+    "user_id": 22,
+    "location_id": 1,
+    "created_at": "2025-06-21T17:48:39.438Z",
+    "updated_at": "2025-06-21T17:48:39.438Z"
+}
+```
+---
+
+### 7. Purchase Orders
+Registro de informacion aislada de la orden de compra
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener ordenes de compra      | `GET`       | `/api/v1/purchase-order/{id}`    | Obtiene las ordenes de acuerdo al id |
+| Crear compra        | `POST`      | `/api/v1/purchase-order`         | Crea una orden de compra con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/purchase-order`  
+  - `body` (JSON):  
+    ```json
+    {
+      "supplier_id": 0,
+      "user_id": 0,
+      "location_id": 0,
+      "order_date": "2025-06-21T17:56:00.477Z",
+      "status": "string",
+      "created_at": "2025-06-21T17:56:00.477Z",
+      "updated_at": "2025-06-21T17:56:00.477Z"
+    } 
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+  "supplier_id": 12,
+  "user_id": 22,
+  "location_id": 1,
+  "order_date": "2025-06-21T17:56:00.477Z",
+  "status": "canceled",
+  "created_at": "2025-06-21T17:56:00.477Z",
+  "updated_at": "2025-06-21T17:56:00.477Z"
+}
+```
+---
+
+### 8. Purchase Order Items
+Detalle de ordenes de compra
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener detalle de ordenes de compra      | `GET`       | `/api/v1/purchase-order-item/{id}`    | Obtiene el detalle de las ordenes de acuerdo al id |
+| Crear detalle        | `POST`      | `/api/v1/purchase-order-item`         | Crea el detalle de una orden de compra con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/purchase-order-item`  
+  - `body` (JSON):  
+    ```json
+    {
+      "order_id": 0,
+      "product_id": 0,
+      "quantity": 0,
+      "unit_price": 0,
+      "created_at": "2025-06-21T17:58:52.742Z"
+    } 
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+  "order_id": 34,
+  "product_id": 1034,
+  "quantity": 45,
+  "unit_price": 35.99,
+  "created_at": "2025-06-21T17:58:52.742Z"
+}
+```
+---
+
+### 9. Product Suppliers
+Entidad para registrar proveedores
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener un provedor      | `GET`       | `/api/v1/product-supplier/{id}`    | Obtiene la informacion del proveedor de acuerdo al id |
+| Crear proovedor        | `POST`      | `/api/v1/product-supplier`         | Crea un proovedor con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/product-supplier`  
+  - `body` (JSON):  
+    ```json
+    {
+      "product_id": 0,
+      "supplier_id": 0,
+      "supply_price": 0,
+      "created_at": "2025-06-21T15:24:18.818Z"
+    } 
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+  "product_id": 1,
+  "supplier_id": 12,
+  "supply_price": 123.9,
+  "created_at": "2025-06-21T15:24:18.818Z"
+}
+```
+---
+
+### 10. Lots
+Entidad para registrar proveedores
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener un lote      | `GET`       | `/api/v1/lot/{id}`    | Obtiene la informacion del lote de acuerdo al id |
+| Crear lote        | `POST`      | `/api/v1/lot`         | Crea un lote con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/lot`  
+  - `body` (JSON):  
+    ```json
+    {
+      "product_id": 0,
+      "purchase_id": 0,
+      "lot_number": 0,
+      "purchase_date": "2025-06-21",
+      "expiration_date": "2025-06-21",
+      "created_at": "2025-06-21T18:07:27.081Z"
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+  "product_id": 23,
+  "purchase_id": 2,
+  "lot_number": 455,
+  "purchase_date": "2025-06-21",
+  "expiration_date": "2025-06-21",
+  "created_at": "2025-06-21T18:07:27.081Z"
+}
+```
+---
+
+### 11. user
+Entidad para registrar proveedores
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener un usuario      | `GET`       | `/api/v1/user/{id}`    | Obtiene la informacion del usuario de acuerdo al id |
+| Crear usuario        | `POST`      | `/api/v1/user`         | Crea un usuario con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/lot`  
+  - `body` (JSON):  
+    ```json
+    {
+      "organizationId": 0,
+      "username": "string",
+      "email": "string",
+      "passwordHash": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "profileImageUrl": "string"
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+  "organizationId": 2,
+  "username": "Juan_02",
+  "email": "juan_8@hotmail.com",
+  "passwordHash": "3610949",
+  "firstName": "Juan",
+  "lastName": "Morales",
+  "profileImageUrl": "string"
+}
+```
+---
+
+### 12. Organization
+Entidad para registrar proveedores
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener una organización      | `GET`       | `/api/v1/Organization/{id}`    | Obtiene la informacion de la organización de acuerdo al id |
+| Crear organización        | `POST`      | `/api/v1/Organization`         | Crea una organización con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/lot`  
+  - `body` (JSON):  
+    ```json
+    {
+      "name": "string",
+      "contactEmail": "string",
+      "planId": 0
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+    "name": "Movistar",
+    "contactEmail": "mov_8@gmail.com",
+    "planId": 2
+}
+```
+---
+
+### 13. Plan
+Entidad para registrar proveedores
+
+| Acción              | Método HTTP | Endpoint                        | Descripción                         |
+|---------------------|-------------|----------------------------------|-------------------------------------|
+| Obtener un plan      | `GET`       | `/api/v1/plan/{id}`    | Obtiene la informacion del plan de acuerdo al id |
+| Crear plan        | `POST`      | `/api/v1/plan`         | Crea un plan con todos los parametros
+
+#### 📥 Parámetros
+
+- `POST /api/v1/plan`  
+  - `body` (JSON):  
+    ```json
+    {
+       "name": "string",
+       "description": "string",
+       "feature": 0,
+       "price": 0
+    }
+    ```
+
+#### 📤 Ejemplo de Respuesta `POST`
+
+```json
+{
+    "name": "Basico",
+    "description": "plan basico para empresas que recien inician",
+    "feature": 2,
+    "price": 0
+}
+```
+---
+
+---
 #### 5.2.3.7 Software Deployment Evidence for Sprint Review
-
-
+Para realizar el despliegue del backend, en primer lugar se necesita desplegar la base de datos. Esto se realizo mediante una maquina virtual en Azure, donde se instalo SQL Server y se creo una base de datos llamada `StockHunters`. Luego, se procedio a crear las tablas necesarias para el correcto funcionamiento de la aplicacion.
+![alt text](resources/SPRINT3/azure.png)
+Cabe menciona que antes de la coneccion entre el backend y la base de datos, se requirio de la instalacion de mysql y la generacion de credenciales de acceso. Lo cual luego hizo posible la coneccion desde una computadora local al servidor de Azure.
+![alt text](resources/SPRINT3/azure1.png)
 #### 5.2.3.8 Team Collaboration Insights during Sprint
 
 
 
  ## 5.3. Validation Interviews
   ### 5.3.1. Diseño de Entrevistas
+  Para la validación de la usabilidad de la aplicación web "Stock Hunters", se diseñó un conjunto de entrevistas con usuarios potenciales. Estas entrevistas tienen como objetivo evaluar la experiencia del usuario al interactuar con las diferentes funcionalidades de la aplicación, así como identificar posibles áreas de mejora.
+
+  1. ¿Como calificarias el diseño visual de la aplicación?
+  2. ¿El mensaje principal de la pagina fue claro para ti?
+  3. ¿Que tan facil fue navegar por la landing page?
+  4. ¿Encontraste toda la que esperabas sobre el producto?
+  5. ¿Que tan intuitiva te parecio la interfaz de StockHunter?
+  6. ¿Qué tan útil te parece StockHunter para resolver tus problemas con el inventario?
+
+  
   ### 5.3.2. Registro de Entrevistas
+
+  Entrevista N1 - Empresario:
+  Entrevistador: Jorge Suin Yum Gonzales
+  Entrevistado: Chul Hwan Yum
+  Link de la entrevista: [Entrevista de Validacion](https://www.youtube.com/watch?v=example)
+  Fecha: 2025-05-15
+
+  ![Chul Hwan Yum](resources/interviews/Entrevista1.png)
+
+  Resumen: EL entrevistado menciona que a pesar del diseño visual de la landing page y las caracteristicas que menciona ofrecer, en el frontend no se encuentran implementadas todas las funcionalidades que se mencionan. Por lo que la landing page no es del todo util para el usuario final. Menciona que funciones como la division de ubicacion de productos, adicion de productos y stock aun no se encuentran implementadas y finalmente menciona que el precio de la aplicacion es un poco elevado para lo que ofrece actualmente.
+
   ### 5.3.3. Evaluaciones según heurísticas
- 
+  **Sitio o App a evaluar:** Stock Hunters - Aplicación Web de Gestión de Inventarios y Ventas
+  **Tareas a evaluar:**
+  El alcance de esta evaluacion incluye la revision de la usabilidad de las siguientes tareas:
+  - Registro de productos
+  - Registro de ventas
+  - Consulta de productos
+  - Consulta de ventas
+  - Consulta de clientes
+  - Consulta de stock
+  - Consulta de alertas de stock bajo
+  - Consulta de reportes de ventas
+  - Consulta de reportes de clientes
+  - Gestion de ventas
+  - Gestión de clientes
+  - Gestión de productos
+  - Gestión de stock
+  - Analisis de ventas semanal
+  - Analisis de ventas mensual
+
+No estan incluidas en esta version de la evaluacion las siguientes tareas:
+1. Landing Page
+   
+**ESCALA DE SEVERIDAD:**
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+|***Nivel***|***Descripción***|
+| :-: | :-: |
+|*1*|*Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.*|
+|*2*|*Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase*|
+|*3*|*Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.*|
+|*4*|*Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.*|
+
+#### ❗ **Recordatorio**  
+**TABLA DE RESUMEN:**
+
+Los datos de la tabla son **ejemplificativos**. Verifique la información antes de enviar.  
+|**#**|**Problema**|**Escala de severidad**|**Heurística/principio violada(o)**|
+| :- | :- | :- | :- |
+|1|Poca legibilidad del título de horarios disponibles en teléfonos móviles|2|Inclusive Design: Proporciona experiencias comparables|
+|2|Sobreposición del calendario a la barra de navegación|3|Usability: Usabilidad y control del usuario|
+|3|Desbordamiento de la información en la visualización de reseñas |2|Inclusive Design: Proporciona experiencias comparables|
+|4|Fallo en visualización de horarios de asesores para reserva|3|Inclusive Design: Proporciona experiencias comparables|
+|5|Botones de formularios de registro con diferentes diseños|2|Usability: Consistencia y estándares|
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** El evento de clic en la lista de clientes no ejecuta la acción esperada
+
+**Severidad:** 3
+
+**Heurística violada:** Control y libertad del usuario / Visibilidad del estado del sistema
+
+**Problema:** Al interactuar con un elemento de la lista de clientes, el sistema no responde ni despliega la vista detallada del cliente correspondiente. Esta falta de retroalimentación impide al usuario acceder a información crítica y genera incertidumbre respecto al estado de la acción ejecutada. Además, la lista no presenta un orden lógico, dificultando la búsqueda eficiente de registros.
+
+**Imagen:**
+<img src="resources/Heuristicas/heuristica1.png" width="60%">
+
+**Recomendación:** Revisar el controlador del evento de clic y asegurar que se vincule correctamente al componente de detalle. Establecer un criterio de ordenamiento predeterminado (por ejemplo, alfabético por nombre) y permitir ordenamiento dinámico si es necesario.
+
+**PROBLEMA #2:** El botón de “Añadir productos” no activa el formulario correspondiente
+
+**Severidad:** 3
+
+**Heurística violada:** Consistencia y estándares / Visibilidad del estado del sistema
+
+**Problema:** El botón destinado a añadir productos no despliega el formulario necesario, lo que impide que el usuario complete una tarea fundamental del sistema.
+
+**Imagen:**
+![Heurística 2](resources/Heuristicas/heuristica2.png)
+
+**Recomendación:** Verificar la vinculación del botón con el manejador de eventos y el correcto renderizado del formulario. Incluir retroalimentación visual para mejorar la percepción de acción por parte del usuario.
+
+-----
+
+
  ## 5.4. Video About-the-Product
  [![About the Team Video](https://img.shields.io/badge/video-About%20the%20Team-blue?style=for-the-badge&logo=youtube&logoColor=white)](colocar-url) 
 
@@ -3268,3 +4065,9 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
 **Entrevistas Stock Hunters**
 
 [![Interview Playlist](https://img.shields.io/badge/Entrevistas-playlist-blue?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PL-9ocGPgSml3bQemJ1ESEUNw4v_bBCcbC)
+
+**Frontend Web Application**
+https://github.com/StockHunters/Frontend-Web-Application.git
+
+**Backend Web Services**
+
