@@ -337,7 +337,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TP:</strong><br>
         Corrigí los technical stories y evidencias con base en los comentarios recibidos. Avancé en el FrontEnd y definí los bounded contexts para ventas, clientes y pagos. Participé en la discusión y planeación del sprint 2.<br>
         <strong>ℹ️ TB2:</strong><br>
-        <br>
+        Desarrollé funcionalidades del backend como parte del Sprint 3, enfocándome en la creación y configuración de las tablas correspondientes a los bounded contexts <em>InventoryManagement</em> y <em>CustomerManagement</em> utilizando .NET. Además, documenté los modelos de datos, las relaciones entre entidades y contribuí con la organización de la arquitectura técnica del sistema.<br>
         <strong>ℹ️ TF:</strong><br>
       </td>
       <td rowspan="5">Me comunico oralmente de manera clara y estructurada, aportando al análisis técnico y estratégico del proyecto.</td>
