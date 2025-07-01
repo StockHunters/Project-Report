@@ -3981,16 +3981,25 @@ Para el avance del backend:
 
   
   ### 5.3.2. Registro de Entrevistas
+  
+  Entrevista N1 - Cliente:
+  Entrevistador: Christofer Costa Morales
+  Entrevistado: Juan Josemaria Costa Morales
+  Link de la entrevista: [Entrevista de Validacion](https://youtu.be/EGmaobECRkg)
+  Fecha: 2025-06-22
+  
+  ![Juan Josemaria](resources/interviews/Validation_Interview/validation_interview1.png)
 
-  Entrevista N1 - Empresario:
-  Entrevistador: Jorge Suin Yum Gonzales
-  Entrevistado: Chul Hwan Yum
-  Link de la entrevista: [Entrevista de Validacion](https://www.youtube.com/watch?v=example)
-  Fecha: 2025-05-15
+  Resumen: En esta entrevista, Juan nos da su feedback de cómo le parecio el Landing page y el aplicativo web como tal. Sus comentarios con respecto al landing page son: "Es un buen diseño y me gusta el hecho de que pueda cambiar los modos de oscura a claro, pero me gustaria que usaran otros colores y que la barra de navegación no siempre esta fija en la parte superior". Adicionalmente, nos dijo los mismo sobre los colores para el aplicativo y que se confundio un poco que en las pantallas, ya que las imagenes no les cargaba y decia que eran un poco inconsistentes.
 
-  ![Chul Hwan Yum](resources/interviews/Entrevista1.png)
+  Entrevista N2 - Administradores:
+  Entrevistador: Christofer Costa Morales
+  Entrevistado: Maria Morales Mendez
+  Link de la entrevista: [Entrevista de Validacion](https://youtu.be/lHmjtVN87IQ)
+  Fecha: 2025-06-22
+  
+  ![Maria Morales](resources/interviews/Validation_Interview/validation_interview_2.png)
 
-  Resumen: EL entrevistado menciona que a pesar del diseño visual de la landing page y las caracteristicas que menciona ofrecer, en el frontend no se encuentran implementadas todas las funcionalidades que se mencionan. Por lo que la landing page no es del todo util para el usuario final. Menciona que funciones como la division de ubicacion de productos, adicion de productos y stock aun no se encuentran implementadas y finalmente menciona que el precio de la aplicacion es un poco elevado para lo que ofrece actualmente.
 
   ### 5.3.3. Evaluaciones según heurísticas
   **Sitio o App a evaluar:** Stock Hunters - Aplicación Web de Gestión de Inventarios y Ventas
