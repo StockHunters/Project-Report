@@ -439,7 +439,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         Mantuve comunicación constante con el equipo, avancé en el diseño en Figma, participé en la elaboración de la landing page, y preparé preguntas para entrevistas y diagramas de clases.<br>
         <strong>ℹ️ TP:</strong><br>
         Distribuí tareas y roles, avancé en el desarrollo de endpoints, parte visual de la web y detalles de la landing page.<br>
-        <strong>ℹ️ TB2:</strong><br>
+        <strong>ℹ️ TB2:</strong> Distribuí tareas y roles, avancé en el desarrollo del frontend, algunos cambios en el backend y detalles finales para la landing page.<br>
         <br>
         <strong>ℹ️ TF:</strong> Desarrolle mejoras para el Frontend, implementando la logica para el json web tocken y cambiando la api del fake api al real del sistema<br>
       </td>
@@ -505,7 +505,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         Redacté contenido para la landing page y documentación técnica, adaptando el estilo según el público (usuarios o equipo técnico).<br>
         <strong>ℹ️ TP:</strong><br>
         Desarrollé páginas de login, registro y reportes para la web.<br>
-        <strong>ℹ️ TB2:</strong><br>
+        <strong>ℹ️ TB2:</strong> Distribuí tareas y roles, avancé en el desarrollo del frontend, algunos cambios en el backend y detalles finales para la landing page<br>
         <br>
         <strong>ℹ️ TF:</strong> Redacte contenido con internacionalizacion para el landing page, ademas mejoré el Frontend, implementando la logica para el json web tocken y cambiando la api del fake api al real del sistema<br>
       </td>
