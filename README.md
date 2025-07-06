@@ -4379,8 +4379,32 @@ Se muestran los beneficios principales para captar la atención e interés de nu
 
 ![alt text](resources/SPRINT4/beneficios.png)
 
+Interfaz de listado, edició y registro manual de productos.
+
+![alt text](resources/SPRINT4/products.jpg)
+
+Vista de gráficos interactivos, con ventas, stock, ingresos y tendencias. 
+
+![alt text](resources/SPRINT4/reports.jpg)
+
   #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Se han implementado enpoints adicionales relacionados con la lógica de negocio. 
+
+| Método | Endpoint                                                      | Descripción                                          |
+|--------|---------------------------------------------------------------|------------------------------------------------------|
+| PUT    | /api/v1/sales/                                         | edita una venta mediante el método PUT                     |
+
   #### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Se realizó el deploy de la API mediante Azure, con ayuda de la extensión oficial en Rider. 
+
+![alt text](resources/SPRINT4/azure.png)
+
+Vemos que la api se puede acceder correctamente mediante el enlace: https://stockhunters-api.azurewebsites.net/swagger/index.html 
+
+![alt text](resources/SPRINT4/swagger.png)
+
   #### 5.2.4.8. Team Collaboration Insights during Sprint
 
 
