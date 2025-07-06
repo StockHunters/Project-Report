@@ -4407,6 +4407,14 @@ Vemos que la api se puede acceder correctamente mediante el enlace: https://stoc
 
   #### 5.2.4.8. Team Collaboration Insights during Sprint
 
+  A continuación se presentan los team colaboration insights hasta la fecha de cada repositorio donde se muestran los commits solo a la rama main, no ha otras ramas de desarrollo activo. 
+
+  ![alt text](resources/SPRINT4/landingpage.png)
+
+  ![alt text](resources/SPRINT4/frontend.png)
+
+  ![alt text](resources/SPRINT4/webservices.png)
+
 
 ## 5.3. Validation Interviews
   ### 5.3.1. Diseño de Entrevistas
