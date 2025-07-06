@@ -393,7 +393,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         Corrigí los technical stories y evidencias con base en los comentarios recibidos. Avancé en el FrontEnd y definí los bounded contexts para ventas, clientes y pagos. Participé en la discusión y planeación del sprint 2.<br>
         <strong>ℹ️ TB2:</strong><br>
         Desarrollé funcionalidades del backend como parte del Sprint 3, enfocándome en la creación y configuración de las tablas correspondientes a los bounded contexts <em>InventoryManagement</em> y <em>CustomerManagement</em> utilizando .NET. Además, documenté los modelos de datos, las relaciones entre entidades y contribuí con la organización de la arquitectura técnica del sistema.<br>
-        <strong>ℹ️ TF:</strong><br>
+        <strong>ℹ️ TF:</strong> Desarrollé y mejoré funcionalidades del backend como parte del Sprint 4, enfocandome en la creacion y configuracion de los endpoints, ademas, de la creacion del modulo IAM <br>
       </td>
       <td rowspan="5">Me comunico oralmente de manera clara y estructurada, aportando al análisis técnico y estratégico del proyecto.</td>
     </tr>
@@ -419,7 +419,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         Distribuí tareas y roles, avancé en el desarrollo de endpoints, parte visual de la web y detalles de la landing page.<br>
         <strong>ℹ️ TB2:</strong><br>
         <br>
-        <strong>ℹ️ TF:</strong><br>
+        <strong>ℹ️ TF:</strong> Desarrolle mejoras para el Frontend, implementando la logica para el json web tocken y cambiando la api del fake api al real del sistema<br>
       </td>
     </tr>
     <tr>
@@ -427,11 +427,11 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td>
         <strong>ℹ️ TB1:</strong><br>
         Realicé needfinding, escenarios to-be, impact mapping e Information Architecture, y recolecté información gracias a la comunicación con los posibles clientes.<br>
-        <strong>ℹ️ TP:</strong><br>
+        <strong>ℹ️ TP:</strong> Realice mejoras en el informe del trabajo final<br>
         <br>
-        <strong>ℹ️ TB2:</strong><br>
+        <strong>ℹ️ TB2:</strong> agregue algunas mejoras en el frontend y en el informe final<br>
         <br>
-        <strong>ℹ️ TF:</strong><br>
+        <strong>ℹ️ TF:</strong> Realice mejoras en el informe final<br>
       </td>
     </tr>
     <tr>
@@ -452,13 +452,12 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td rowspan="6">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
       <td>Jorge Yum</td>
       <td>
-        <strong>ℹ️ TB1:</strong><br>
-        Describí la startup, el contexto y los antecedentes, apliqué Lean UX para definir hipótesis y validarlas, realicé un análisis competitivo y definí segmentos objetivos con sustento estadístico.<br>
+        <strong>ℹ️ TB1:</strong><br> Desarrollé funcionalidades del backend como parte del Sprint 3, enfocándome en la creación y configuración de las tablas correspondientes a los bounded contexts <em>InventoryManagement</em> y <em>CustomerManagement</em> utilizando .NET. Además, documenté los modelos de datos, las relaciones entre entidades y contribuí con la organización de la arquitectura técnica del sistema. Describí la startup, el contexto y los antecedentes, apliqué Lean UX para definir hipótesis y validarlas, realicé un análisis competitivo y definí segmentos objetivos con sustento estadístico.<br>
         <strong>ℹ️ TP:</strong><br>
         Documenté el desarrollo del sprint 2, corregí el informe basado en comentarios y definí los features necesarios para la aplicación web.<br>
-        <strong>ℹ️ TB2:</strong><br>
+        <strong>ℹ️ TB2:</strong> <br>
         <br>
-        <strong>ℹ️ TF:</strong><br>
+        <strong>ℹ️ TF:</strong> Desarrollé y mejoré funcionalidades del backend como parte del Sprint 4, enfocandome en la creacion y configuracion de los endpoints, ademas, de la creacion del modulo IAM<br>
       </td>
       <td rowspan="6">Redacto con claridad, adaptando mi comunicación escrita a públicos técnicos y no técnicos.</td>
     </tr>
@@ -483,7 +482,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         Desarrollé páginas de login, registro y reportes para la web.<br>
         <strong>ℹ️ TB2:</strong><br>
         <br>
-        <strong>ℹ️ TF:</strong><br>
+        <strong>ℹ️ TF:</strong> Redacte contenido con internacionalizacion para el landing page, ademas mejoré el Frontend, implementando la logica para el json web tocken y cambiando la api del fake api al real del sistema<br>
       </td>
     </tr>
     <tr>
@@ -491,11 +490,11 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td>
         <strong>ℹ️ TB1:</strong><br>
         Documenté procesos con accesibilidad y claridad para que cualquier persona pueda entender el proyecto.<br>
-        <strong>ℹ️ TP:</strong><br>
+        <strong>ℹ️ TP:</strong> Realice mejoras en el informe del trabajo final<br>
         <br>
-        <strong>ℹ️ TB2:</strong><br>
+        <strong>ℹ️ TB2:</strong> agregue algunas mejoras en el frontend y en el informe final<br>
         <br>
-        <strong>ℹ️ TF:</strong><br>
+        <strong>ℹ️ TF:</strong> Realice mejoras en el informe final<br>
       </td>
     </tr>
     <tr>
