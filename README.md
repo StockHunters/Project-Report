@@ -4431,7 +4431,7 @@ Se han integrado observaciones reales identificadas en las entrevistas realizada
 ---
 
 ## 5.4. Video About-the-Product
- [![About the Team Video](https://img.shields.io/badge/video-About%20the%20Team-blue?style=for-the-badge&logo=youtube&logoColor=white)](colocar-url) 
+ [![About the Team Video](https://img.shields.io/badge/video-About%20the%20Team-blue?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/7Ic_DtUimOw) 
 
 # Conclusiones
  ## Conclusiones y recomendaciones
