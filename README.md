@@ -342,30 +342,6 @@ Backend:
           - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post)
         - [5. Product Prices](#5-product-prices)
           - [📥 Parámetros](#-parámetros-4)
-    - [6. Purchases](#6-purchases)
-      - [📥 Parámetros](#-parámetros-5)
-      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-1)
-    - [7. Purchase Orders](#7-purchase-orders)
-      - [📥 Parámetros](#-parámetros-6)
-      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-2)
-    - [8. Purchase Order Items](#8-purchase-order-items)
-      - [📥 Parámetros](#-parámetros-7)
-      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-3)
-    - [9. Product Suppliers](#9-product-suppliers)
-      - [📥 Parámetros](#-parámetros-8)
-      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-4)
-    - [10. Lots](#10-lots)
-      - [📥 Parámetros](#-parámetros-9)
-      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-5)
-    - [11. user](#11-user)
-      - [📥 Parámetros](#-parámetros-10)
-      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-6)
-    - [12. Organization](#12-organization)
-      - [📥 Parámetros](#-parámetros-11)
-      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-7)
-    - [13. Plan](#13-plan)
-      - [📥 Parámetros](#-parámetros-12)
-      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-8)
         - [6. Purchases](#6-purchases)
           - [📥 Parámetros](#-parámetros-5)
           - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-1)
@@ -396,7 +372,7 @@ Backend:
       - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
       - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
       - [5.2.4.3. Sprint Backlog  4](#5243-sprint-backlog--4)
-      - [5.2.4.4. Sprint Development Evidence for Srpint Review](#5244-sprint-development-evidence-for-srpint-review)
+      - [5.2.4.4. Sprint Development Evidence for Sprint Review](#5244-sprint-development-evidence-for-sprint-review)
       - [5.2.4.5. Execution Evidence for Srpint Review](#5245-execution-evidence-for-srpint-review)
       - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
       - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
@@ -4474,6 +4450,15 @@ Vemos que la api se puede acceder correctamente mediante el enlace: https://stoc
   **Resumen:** Este usuario destacó que el diseño es moderno y profesional, con una buena jerarquía visual, aunque identificó oportunidades de mejora en el uso de espacios vacíos y la suavidad de animaciones. El mensaje principal le pareció claro desde el inicio. Consideró que la navegación era sencilla y las secciones estaban bien distribuidas, aunque sugirió agregar una barra lateral flotante para mejorar la experiencia en páginas largas. Valoró la interfaz como intuitiva y ordenada, adecuada para usuarios con experiencia en administración. Opinó que la aplicación es muy útil para pymes, por su capacidad para evitar desabasto, generar reportes y ofrecer visibilidad en tiempo real.
 
 
+  **Entrevista N5 - Empresario:**
+  Entrevistador: Jorge Suin Yum Gonzales
+  Entrevistado: Chul Hwan Yum
+  Link de la entrevista: [Entrevista de Validacion](https://www.youtube.com/watch?v=example)
+  Fecha: 2025-05-15
+
+  ![Chul Hwan Yum](resources/interviews/Entrevista1.png)
+
+  **Resumen:** EL entrevistado menciona que a pesar del diseño visual de la landing page y las caracteristicas que menciona ofrecer, en el frontend no se encuentran implementadas todas las funcionalidades que se mencionan. Por lo que la landing page no es del todo util para el usuario final. Menciona que funciones como la division de ubicacion de productos, adicion de productos y stock aun no se encuentran implementadas y finalmente menciona que el precio de la aplicacion es un poco elevado para lo que ofrece actualmente.
 
   ### 5.3.3. Evaluaciones según heurísticas
   **Sitio o App a evaluar:** Stock Hunters - Aplicación Web de Gestión de Inventarios y Ventas  
