@@ -321,6 +321,30 @@ Backend:
       - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post)
     - [5. Product Prices](#5-product-prices)
       - [📥 Parámetros](#-parámetros-4)
+    - [6. Purchases](#6-purchases)
+      - [📥 Parámetros](#-parámetros-5)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-1)
+    - [7. Purchase Orders](#7-purchase-orders)
+      - [📥 Parámetros](#-parámetros-6)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-2)
+    - [8. Purchase Order Items](#8-purchase-order-items)
+      - [📥 Parámetros](#-parámetros-7)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-3)
+    - [9. Product Suppliers](#9-product-suppliers)
+      - [📥 Parámetros](#-parámetros-8)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-4)
+    - [10. Lots](#10-lots)
+      - [📥 Parámetros](#-parámetros-9)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-5)
+    - [11. user](#11-user)
+      - [📥 Parámetros](#-parámetros-10)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-6)
+    - [12. Organization](#12-organization)
+      - [📥 Parámetros](#-parámetros-11)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-7)
+    - [13. Plan](#13-plan)
+      - [📥 Parámetros](#-parámetros-12)
+      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-8)
       - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
@@ -356,10 +380,12 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TB1:</strong><br>
         Identifiqué claramente la problemática de nuestra startup, los segmentos objetivos y realicé la investigación necesaria para definir los requisitos de la aplicación web. También realicé una entrevista con un usuario del segmento.<br>
         <strong>ℹ️ TP:</strong><br>
-        Corrigí los technical stories y evidencias con base en los comentarios recibidos. Avancé en el FrontEnd y definí los bounded contexts para ventas, clientes y pagos. Participé en la discusión y planeación del sprint 2.<br>
+        Corregí los technical stories y evidencias con base en los comentarios recibidos. Avancé en el FrontEnd y definí los bounded contexts para ventas, clientes y pagos. Participé en la discusión y planeación del sprint 2.<br>
         <strong>ℹ️ TB2:</strong><br>
         Desarrollé funcionalidades del backend como parte del Sprint 3, enfocándome en la creación y configuración de las tablas correspondientes a los bounded contexts <em>InventoryManagement</em> y <em>CustomerManagement</em> utilizando .NET. Además, documenté los modelos de datos, las relaciones entre entidades y contribuí con la organización de la arquitectura técnica del sistema.<br>
         <strong>ℹ️ TF:</strong><br>
+        Completé el desarrollo del backend implementando los endpoints restantes, incluidos métodos <em>PUT</em> necesarios para la integración con el frontend. Asimismo, realicé el despliegue de ambos servicios (frontend y backend), asegurando su correcta integración y funcionamiento final.
+        <br>
       </td>
       <td rowspan="5">Me comunico oralmente de manera clara y estructurada, aportando al análisis técnico y estratégico del proyecto.</td>
     </tr>
@@ -423,8 +449,10 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TP:</strong><br>
         Documenté el desarrollo del sprint 2, corregí el informe basado en comentarios y definí los features necesarios para la aplicación web.<br>
         <strong>ℹ️ TB2:</strong><br>
+        Participé en la planificación del sprint 3, definí los bounded contexts y las entidades necesarias para el desarrollo del backend, y documenté los avances en el informe. Realize al mismo tiempo los endpoints core en el backend, create y queries.<br>
         <br>
         <strong>ℹ️ TF:</strong><br>
+                Finalicé el backend del sistema incluyendo los métodos <em>PUT</em> y endpoints restantes requeridos por el frontend. Además, realicé el despliegue completo tanto del backend como del frontend, asegurando su integración y funcionamiento final para los usuarios.
       </td>
       <td rowspan="6">Redacto con claridad, adaptando mi comunicación escrita a públicos técnicos y no técnicos.</td>
     </tr>
