@@ -303,31 +303,65 @@ Backend:
     - [5.2.3 Sprint 3](#523-sprint-3)
       - [5.2.3.1 Sprint Planning 3](#5231-sprint-planning-3)
       - [5.2.3.2 Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3 Sprint 3 Backlog](#5233-sprint-3-backlog)
+      - [5.2.3.3 Sprint Backlog 3](#5233-sprint-backlog-3)
       - [5.2.3.4 Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5 Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
       - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-    - [1. Categories](#1-categories)
-      - [📥 Parámetros](#-parámetros)
-      - [📤 Ejemplo de Respuesta `GET`](#-ejemplo-de-respuesta-get)
-    - [2. Clients](#2-clients)
-      - [📥 Parámetros](#-parámetros-1)
-      - [📤 Ejemplo de Respuesta `GET`](#-ejemplo-de-respuesta-get-1)
-    - [3. Products](#3-products)
-      - [📥 Parámetros](#-parámetros-2)
-      - [📤 Ejemplo de Respuesta `GET`](#-ejemplo-de-respuesta-get-2)
-    - [4. Sales](#4-sales)
-      - [📥 Parámetros](#-parámetros-3)
-      - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post)
-    - [5. Product Prices](#5-product-prices)
-      - [📥 Parámetros](#-parámetros-4)
+        - [1. Categories](#1-categories)
+          - [📥 Parámetros](#-parámetros)
+          - [📤 Ejemplo de Respuesta `GET`](#-ejemplo-de-respuesta-get)
+        - [2. Clients](#2-clients)
+          - [📥 Parámetros](#-parámetros-1)
+          - [📤 Ejemplo de Respuesta `GET`](#-ejemplo-de-respuesta-get-1)
+        - [3. Products](#3-products)
+          - [📥 Parámetros](#-parámetros-2)
+          - [📤 Ejemplo de Respuesta `GET`](#-ejemplo-de-respuesta-get-2)
+        - [4. Sales](#4-sales)
+          - [📥 Parámetros](#-parámetros-3)
+          - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post)
+        - [5. Product Prices](#5-product-prices)
+          - [📥 Parámetros](#-parámetros-4)
+        - [6. Purchases](#6-purchases)
+          - [📥 Parámetros](#-parámetros-5)
+          - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-1)
+        - [7. Purchase Orders](#7-purchase-orders)
+          - [📥 Parámetros](#-parámetros-6)
+          - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-2)
+        - [8. Purchase Order Items](#8-purchase-order-items)
+          - [📥 Parámetros](#-parámetros-7)
+          - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-3)
+        - [9. Product Suppliers](#9-product-suppliers)
+          - [📥 Parámetros](#-parámetros-8)
+          - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-4)
+        - [10. Lots](#10-lots)
+          - [📥 Parámetros](#-parámetros-9)
+          - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-5)
+        - [11. user](#11-user)
+          - [📥 Parámetros](#-parámetros-10)
+          - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-6)
+        - [12. Organization](#12-organization)
+          - [📥 Parámetros](#-parámetros-11)
+          - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-7)
+        - [13. Plan](#13-plan)
+          - [📥 Parámetros](#-parámetros-12)
+          - [📤 Ejemplo de Respuesta `POST`](#-ejemplo-de-respuesta-post-8)
       - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4 Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog  4](#5243-sprint-backlog--4)
+      - [5.2.4.4. Sprint Development Evidence for Srpint Review](#5244-sprint-development-evidence-for-srpint-review)
+      - [5.2.4.5. Execution Evidence for Srpint Review](#5245-execution-evidence-for-srpint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-      - [❗ **Recordatorio**](#-recordatorio)
+    - [❗ **Recordatorio**](#-recordatorio)
+    - [**DESCRIPCIÓN DE PROBLEMAS:**](#descripción-de-problemas)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -3189,7 +3223,7 @@ Durante el Sprint 2, el equipo mantuvo el proceso de git flow para mantener un c
   </tr>
   </table>
 
-#### 5.2.3.3 Sprint 3 Backlog
+#### 5.2.3.3 Sprint Backlog 3 
 <table>
   <tr>
     <td><strong>Sprint #</strong></td>
@@ -3476,7 +3510,7 @@ Se ha implementado una API RESTful para la gestión de inventarios y ventas, que
 | GET    | /api/v1/purchase-order/{id}                                   | Se obtiene un nueva purchase order por id           |
 | GET    | /api/v1/purchase-order-items/{id}                             | Se obtiene una nueva purchase order items por id    |
 
-### 1. Categories
+##### 1. Categories
 Permite la gestión de categorías de productos.
 
 | Acción             | Método HTTP | Endpoint                           | Descripción                           |
@@ -3484,7 +3518,7 @@ Permite la gestión de categorías de productos.
 | Obtener por ID     | `GET`        | `/api/v1/category/{categoryId}`     | Devuelve una categoría específica     |
 | Crear categoría    | `POST`       | `/api/v1/category`                  | Crea una nueva categoría              |
 
-#### 📥 Parámetros
+###### 📥 Parámetros
 
 - `GET /api/v1/category/{categoryId}`  
   - `categoryId` (path, int) – ID de la categoría a obtener.
@@ -3498,7 +3532,7 @@ Permite la gestión de categorías de productos.
     }
     ```
 
-#### 📤 Ejemplo de Respuesta `GET`
+###### 📤 Ejemplo de Respuesta `GET`
 
 ```json
 {
@@ -3510,7 +3544,7 @@ Permite la gestión de categorías de productos.
 
 ---
 
-### 2. Clients
+##### 2. Clients
 Gestión de usuarios clientes que realizarán compras.
 
 | Acción           | Método HTTP | Endpoint                    | Descripción                           |
@@ -3518,7 +3552,7 @@ Gestión de usuarios clientes que realizarán compras.
 | Crear cliente    | `POST`      | `/api/v1/client`             | Registra un nuevo cliente             |
 | Obtener por ID   | `GET`       | `/api/v1/client/{id}`        | Consulta un cliente específico        |
 
-#### 📥 Parámetros
+###### 📥 Parámetros
 
 - `POST /api/v1/client`  
   - `body` (JSON):  
@@ -3537,7 +3571,7 @@ Gestión de usuarios clientes que realizarán compras.
 - `GET /api/v1/client/{id}`  
   - `id` (path, int) – ID del cliente.
 
-#### 📤 Ejemplo de Respuesta `GET`
+###### 📤 Ejemplo de Respuesta `GET`
 
 ```json
 {
@@ -3554,7 +3588,7 @@ Gestión de usuarios clientes que realizarán compras.
 
 ---
 
-### 3. Products
+##### 3. Products
 Este endpoint permite la administración de productos ofrecidos por el sistema.
 
 | Acción               | Método HTTP | Endpoint                      | Descripción                          |
@@ -3563,7 +3597,7 @@ Este endpoint permite la administración de productos ofrecidos por el sistema.
 | Obtener por ID       | `GET`       | `/api/v1/products/{id}`       | Consulta un producto específico      |
 | Crear producto       | `POST`      | `/api/v1/products`            | Registra un nuevo producto           |
 
-#### 📥 Parámetros
+###### 📥 Parámetros
 
 - `POST /api/v1/products`  
   - `body` (JSON):  
@@ -3576,7 +3610,7 @@ Este endpoint permite la administración de productos ofrecidos por el sistema.
     }
     ```
 
-#### 📤 Ejemplo de Respuesta `GET`
+###### 📤 Ejemplo de Respuesta `GET`
 
 ```json
 {
@@ -3590,7 +3624,7 @@ Este endpoint permite la administración de productos ofrecidos por el sistema.
 
 ---
 
-### 4. Sales
+##### 4. Sales
 Administra las ventas realizadas, incluyendo cantidad, producto vendido, cliente, ubicación y usuario.
 
 | Acción           | Método HTTP | Endpoint                  | Descripción                        |
@@ -3599,7 +3633,7 @@ Administra las ventas realizadas, incluyendo cantidad, producto vendido, cliente
 | Listar ventas    | `GET`       | `/api/v1/sale`            | Devuelve todas las ventas          |
 | Crear venta      | `POST`      | `/api/v1/sale`            | Registra una nueva venta           |
 
-#### 📥 Parámetros
+###### 📥 Parámetros
 
 - `POST /api/v1/sale`  
   - `body` (JSON):  
@@ -3615,7 +3649,7 @@ Administra las ventas realizadas, incluyendo cantidad, producto vendido, cliente
     }
     ```
 
-#### 📤 Ejemplo de Respuesta `POST`
+###### 📤 Ejemplo de Respuesta `POST`
 
 ```json
 {
@@ -3630,7 +3664,7 @@ Administra las ventas realizadas, incluyendo cantidad, producto vendido, cliente
 
 ---
 
-### 5. Product Prices
+##### 5. Product Prices
 Control de precios y descuentos aplicables a productos.
 
 | Acción              | Método HTTP | Endpoint                        | Descripción                         |
@@ -3638,7 +3672,7 @@ Control de precios y descuentos aplicables a productos.
 | Obtener precio      | `GET`       | `/api/v1/product-price/{id}`    | Obtiene el precio actual de producto |
 | Crear precio        | `POST`      | `/api/v1/product-price`         | Asigna precio a producto             |
 
-#### 📥 Parámetros
+###### 📥 Parámetros
 
 - `POST /api/v1/product-price`  
   - `body` (JSON):  
@@ -3650,7 +3684,8 @@ Control de precios y descuentos aplicables a productos.
       "effective_date": "2025-06-21T00:00:00"
     }
     ```
-### 6. Purchases
+
+##### 6. Purchases
 Registro de datos importantes de cada compra
 
 | Acción              | Método HTTP | Endpoint                        | Descripción                         |
@@ -3658,7 +3693,7 @@ Registro de datos importantes de cada compra
 | Obtener compra      | `GET`       | `/api/v1/purchase/{id}`    | Obtiene el purchase de acuerdo al id |
 | Crear compra        | `POST`      | `/api/v1/purchase`         | Crea una compra con todos los parametros
 
-#### 📥 Parámetros
+###### 📥 Parámetros
 
 - `POST /api/v1/purchase`  
   - `body` (JSON):  
@@ -3677,7 +3712,7 @@ Registro de datos importantes de cada compra
     }
     ```
 
-#### 📤 Ejemplo de Respuesta `POST`
+###### 📤 Ejemplo de Respuesta `POST`
 
 ```json
 {
@@ -3695,7 +3730,7 @@ Registro de datos importantes de cada compra
 ```
 ---
 
-### 7. Purchase Orders
+##### 7. Purchase Orders
 Registro de informacion aislada de la orden de compra
 
 | Acción              | Método HTTP | Endpoint                        | Descripción                         |
@@ -3703,7 +3738,7 @@ Registro de informacion aislada de la orden de compra
 | Obtener ordenes de compra      | `GET`       | `/api/v1/purchase-order/{id}`    | Obtiene las ordenes de acuerdo al id |
 | Crear compra        | `POST`      | `/api/v1/purchase-order`         | Crea una orden de compra con todos los parametros
 
-#### 📥 Parámetros
+###### 📥 Parámetros
 
 - `POST /api/v1/purchase-order`  
   - `body` (JSON):  
@@ -3719,7 +3754,7 @@ Registro de informacion aislada de la orden de compra
     } 
     ```
 
-#### 📤 Ejemplo de Respuesta `POST`
+###### 📤 Ejemplo de Respuesta `POST`
 
 ```json
 {
@@ -3734,7 +3769,7 @@ Registro de informacion aislada de la orden de compra
 ```
 ---
 
-### 8. Purchase Order Items
+##### 8. Purchase Order Items
 Detalle de ordenes de compra
 
 | Acción              | Método HTTP | Endpoint                        | Descripción                         |
@@ -3742,7 +3777,7 @@ Detalle de ordenes de compra
 | Obtener detalle de ordenes de compra      | `GET`       | `/api/v1/purchase-order-item/{id}`    | Obtiene el detalle de las ordenes de acuerdo al id |
 | Crear detalle        | `POST`      | `/api/v1/purchase-order-item`         | Crea el detalle de una orden de compra con todos los parametros
 
-#### 📥 Parámetros
+###### 📥 Parámetros
 
 - `POST /api/v1/purchase-order-item`  
   - `body` (JSON):  
@@ -3756,7 +3791,7 @@ Detalle de ordenes de compra
     } 
     ```
 
-#### 📤 Ejemplo de Respuesta `POST`
+###### 📤 Ejemplo de Respuesta `POST`
 
 ```json
 {
@@ -3769,7 +3804,7 @@ Detalle de ordenes de compra
 ```
 ---
 
-### 9. Product Suppliers
+##### 9. Product Suppliers
 Entidad para registrar proveedores
 
 | Acción              | Método HTTP | Endpoint                        | Descripción                         |
@@ -3777,7 +3812,7 @@ Entidad para registrar proveedores
 | Obtener un provedor      | `GET`       | `/api/v1/product-supplier/{id}`    | Obtiene la informacion del proveedor de acuerdo al id |
 | Crear proovedor        | `POST`      | `/api/v1/product-supplier`         | Crea un proovedor con todos los parametros
 
-#### 📥 Parámetros
+###### 📥 Parámetros
 
 - `POST /api/v1/product-supplier`  
   - `body` (JSON):  
@@ -3790,7 +3825,7 @@ Entidad para registrar proveedores
     } 
     ```
 
-#### 📤 Ejemplo de Respuesta `POST`
+###### 📤 Ejemplo de Respuesta `POST`
 
 ```json
 {
@@ -3802,7 +3837,7 @@ Entidad para registrar proveedores
 ```
 ---
 
-### 10. Lots
+##### 10. Lots
 Entidad para registrar proveedores
 
 | Acción              | Método HTTP | Endpoint                        | Descripción                         |
@@ -3810,7 +3845,7 @@ Entidad para registrar proveedores
 | Obtener un lote      | `GET`       | `/api/v1/lot/{id}`    | Obtiene la informacion del lote de acuerdo al id |
 | Crear lote        | `POST`      | `/api/v1/lot`         | Crea un lote con todos los parametros
 
-#### 📥 Parámetros
+###### 📥 Parámetros
 
 - `POST /api/v1/lot`  
   - `body` (JSON):  
@@ -3825,7 +3860,7 @@ Entidad para registrar proveedores
     }
     ```
 
-#### 📤 Ejemplo de Respuesta `POST`
+###### 📤 Ejemplo de Respuesta `POST`
 
 ```json
 {
@@ -3839,7 +3874,7 @@ Entidad para registrar proveedores
 ```
 ---
 
-### 11. user
+##### 11. user
 Entidad para registrar proveedores
 
 | Acción              | Método HTTP | Endpoint                        | Descripción                         |
@@ -3847,7 +3882,7 @@ Entidad para registrar proveedores
 | Obtener un usuario      | `GET`       | `/api/v1/user/{id}`    | Obtiene la informacion del usuario de acuerdo al id |
 | Crear usuario        | `POST`      | `/api/v1/user`         | Crea un usuario con todos los parametros
 
-#### 📥 Parámetros
+###### 📥 Parámetros
 
 - `POST /api/v1/lot`  
   - `body` (JSON):  
@@ -3863,7 +3898,7 @@ Entidad para registrar proveedores
     }
     ```
 
-#### 📤 Ejemplo de Respuesta `POST`
+###### 📤 Ejemplo de Respuesta `POST`
 
 ```json
 {
@@ -3878,7 +3913,7 @@ Entidad para registrar proveedores
 ```
 ---
 
-### 12. Organization
+##### 12. Organization
 Entidad para registrar proveedores
 
 | Acción              | Método HTTP | Endpoint                        | Descripción                         |
@@ -3886,7 +3921,7 @@ Entidad para registrar proveedores
 | Obtener una organización      | `GET`       | `/api/v1/Organization/{id}`    | Obtiene la informacion de la organización de acuerdo al id |
 | Crear organización        | `POST`      | `/api/v1/Organization`         | Crea una organización con todos los parametros
 
-#### 📥 Parámetros
+###### 📥 Parámetros
 
 - `POST /api/v1/lot`  
   - `body` (JSON):  
@@ -3898,7 +3933,7 @@ Entidad para registrar proveedores
     }
     ```
 
-#### 📤 Ejemplo de Respuesta `POST`
+###### 📤 Ejemplo de Respuesta `POST`
 
 ```json
 {
@@ -3909,7 +3944,7 @@ Entidad para registrar proveedores
 ```
 ---
 
-### 13. Plan
+##### 13. Plan
 Entidad para registrar proveedores
 
 | Acción              | Método HTTP | Endpoint                        | Descripción                         |
@@ -3917,7 +3952,7 @@ Entidad para registrar proveedores
 | Obtener un plan      | `GET`       | `/api/v1/plan/{id}`    | Obtiene la informacion del plan de acuerdo al id |
 | Crear plan        | `POST`      | `/api/v1/plan`         | Crea un plan con todos los parametros
 
-#### 📥 Parámetros
+###### 📥 Parámetros
 
 - `POST /api/v1/plan`  
   - `body` (JSON):  
@@ -3930,7 +3965,7 @@ Entidad para registrar proveedores
     }
     ```
 
-#### 📤 Ejemplo de Respuesta `POST`
+###### 📤 Ejemplo de Respuesta `POST`
 
 ```json
 {
@@ -3943,11 +3978,13 @@ Entidad para registrar proveedores
 ---
 
 ---
+
 #### 5.2.3.7 Software Deployment Evidence for Sprint Review
 Para realizar el despliegue del backend, en primer lugar se necesita desplegar la base de datos. Esto se realizo mediante una maquina virtual en Azure, donde se instalo SQL Server y se creo una base de datos llamada `StockHunters`. Luego, se procedio a crear las tablas necesarias para el correcto funcionamiento de la aplicacion.
 ![alt text](resources/SPRINT3/azure.png)
 Cabe menciona que antes de la coneccion entre el backend y la base de datos, se requirio de la instalacion de mysql y la generacion de credenciales de acceso. Lo cual luego hizo posible la coneccion desde una computadora local al servidor de Azure.
 ![alt text](resources/SPRINT3/azure1.png)
+
 #### 5.2.3.8 Team Collaboration Insights during Sprint
 
 Durante el Sprint 3, se mantuvo un control de la versiones siguiendo el proceso de git flow para cada avance y mejora. Aqui se detallan el flujo y los contribuidores:
@@ -3968,7 +4005,265 @@ Para el avance del backend:
 ![alt text](resources/Collaboration-Insghts/TB2/commits_backend.png)
 
 
- ## 5.3. Validation Interviews
+### 5.2.4 Sprint 4
+  #### 5.2.4.1. Sprint Planning 4
+    A traves de una reunion en la plataforma Meet, se planteo el siguiente Sprint 4. Se discution los objetivos, etapa de tiempo y tareas a realizar.
+  
+  <div>
+   <table>
+     <thead>
+       <tr>
+         <th>#️⃣ Número</th>
+         <th>Sprint 4</th>
+       </tr>
+       <tr>
+         <th colspan=2>Sprint Planning Background</th>
+       </tr>
+     </thead>
+     <tr align='center'>
+       <td> Date </td>
+       <td> 2025-06-30 </td>
+     </tr>
+     <tr>
+       <td>Time</td>
+       <td> 11:00AM - 12:00PM </td>
+     </tr>
+     <tr>
+       <td>Location</td>
+       <td> Virtual (Meet) </td>
+     </tr>
+     <tr>
+       <td>Prepared by</td>
+       <td> Yum Gonzales, Jorge Suin </td>
+     </tr>
+     <tr>
+       <td>Attendees</td>
+       <td> Yum Gonzales, Jorge Suin <br> Miranda Ayasta, Rogger Faryd <br> Alva Abanto, Luis Andres <br> Vargas Javier, Jose Enrique</td>
+     </tr>
+     <tr>
+       <td>Sprint n-4 Review Summary</td>
+       <td> En el Sprint 4, se termino el backend y termino las mejoras en el frontend</td>
+     </tr>
+     <tr>
+       <td>Sprint n-4 Retrospective Summary</td>
+       <td>Para la entrega anterior logramos entregar todo a tiempo minimizando los problemas, se consiguio presnetar una version de la landing page pulida, del frontend estable y mejorada, con respecto al backend los endpoints terminados, logica basica agregada. </td>
+     </tr>
+      <tr>
+        <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+      </tr>
+      <tr>
+        <td>Sprint 4 Goal</td>
+        <td> Version estable del frontend, backend con avances importantes incluyendo endpoints funcionales</td>
+      </tr>
+      <tr>
+        <td>Sprint 4 velocity</td>
+        <td> 21 horas </td>
+      </tr>
+      <tr>
+        <td>Sum of Story Points</td>
+        <td> 19 Story Points</td>
+      </tr>
+   </table>
+
+  #### 5.2.4.2. Aspect Leaders and Collaborators
+  <table>
+    <tr>
+      <th>Team member</th>
+      <th>Github username</th>
+      <th>IAM</th>
+      <th>Reports</th>
+      <th>landing</th>
+      <th>Login</th>
+    </tr>
+    <tr>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>jsyumg, myussu</td>
+      <td>C</td>
+      <td>L</td>
+      <td>L</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Miranda Ayasta, Rogger Faryd</td>
+      <td>r0ggdev</td>
+      <td>L</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Alva Abanto, Luis Andres</td>
+      <td>luis-alva0</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+
+  </tr>
+   <tr>
+      <td>Costa Morales, Christofer William</td>
+      <td>miniChorri</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+
+  </tr>
+  <tr>
+      <td>Vargas Javier, Jose Enrique</td>
+      <td>KenRi7</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+
+  </tr>
+  </table>
+
+  #### 5.2.4.3. Sprint Backlog  4
+
+  <table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 4</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-item / Task</strong></td>
+  </tr>
+  <tr>
+    <td><strong>ID</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>ID</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Estimation (Hours)</strong></td>
+    <td><strong>Assigned to</strong></td>
+    <td><strong>Status</strong></td>
+  </tr>
+
+  <tr>
+    <td>US11</td>
+    <td>Gestión de usuarios</td>
+    <td>T14</td>
+    <td>Agregar sistema de IAM</td>
+    <td>Implementar roles, permisos y autenticación por niveles para el equipo.</td>
+    <td>4</td>
+    <td>Jorge Suin Yum Gonzales</td>
+    <td>In Progress</td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Acceso multiplataforma</td>
+    <td>T15</td>
+    <td>Finalizar frontend general responsive</td>
+    <td>Optimizar UI para funcionar bien en celular, tablet y escritorio.</td>
+    <td>4</td>
+    <td>Rogger Faryd Miranda Ayasta</td>
+    <td>In Progress</td>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Registro de productos</td>
+    <td>T16</td>
+    <td>Completar módulo de Products</td>
+    <td>Finalizar interfaz de listado, edición y registro manual de productos.</td>
+    <td>3</td>
+    <td>Enrique</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Reportes visuales</td>
+    <td>T17</td>
+    <td>Finalizar módulo de Reportes</td>
+    <td>Mostrar gráficos interactivos con ventas, stock, ingresos y tendencias.</td>
+    <td>3</td>
+    <td>Enrique</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US13</td>
+    <td>Panel de indicadores</td>
+    <td>T18</td>
+    <td>Dashboard de KPIs</td>
+    <td>Diseñar panel en frontend con métricas clave (ventas, metas, stock crítico).</td>
+    <td>2</td>
+    <td>Enrique</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US07</td>
+    <td>Historial de compras</td>
+    <td>T19</td>
+    <td>Módulo de Clientes</td>
+    <td>Crear sección para ver historial por cliente e interacción básica.</td>
+    <td>3</td>
+    <td></td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Segmentación de clientes</td>
+    <td>T20</td>
+    <td>Formulario tipo de cliente</td>
+    <td>En el módulo de clientes, permitir asignar categoría para precios diferenciales.</td>
+    <td>2</td>
+    <td>Rogger Faryd Miranda Ayasta</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US15</td>
+    <td>Visualización de beneficios</td>
+    <td>T21</td>
+    <td>Diseño y contenido de landing page</td>
+    <td>Mostrar beneficios principales para captar interés de nuevos usuarios.</td>
+    <td>2</td>
+    <td>Rogger Faryd Miranda Ayasta</td>
+    <td>In Progress</td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Llamado a la acción claro</td>
+    <td>T22</td>
+    <td>Botón de registro o demo visible</td>
+    <td>Agregar y resaltar botón de acción directa (registro o demo).</td>
+    <td>1</td>
+    <td>Rogger Faryd Miranda Ayasta</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Testimonios reales</td>
+    <td>T23</td>
+    <td>Video tipo spot explicativo</td>
+    <td>Crear video corto con testimonios o uso del sistema en acción.</td>
+    <td>4</td>
+    <td>Rogger Faryd Miranda Ayasta</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US18</td>
+    <td>Formulario de contacto</td>
+    <td>T24</td>
+    <td>Sección de contacto en landing</td>
+    <td>Formulario simple para captar leads interesados.</td>
+    <td>1</td>
+    <td>Rogger Faryd Miranda Ayasta</td>
+    <td>To Do</td>
+  </tr>
+</table>
+
+
+  #### 5.2.4.4. Sprint Development Evidence for Srpint Review
+  #### 5.2.4.5. Execution Evidence for Srpint Review
+  #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+  #### 5.2.4.7. Software Deployment Evidence for Sprint Review
+  #### 5.2.4.8. Team Collaboration Insights during Sprint
+
+
+## 5.3. Validation Interviews
   ### 5.3.1. Diseño de Entrevistas
   Para la validación de la usabilidad de la aplicación web "Stock Hunters", se diseñó un conjunto de entrevistas con usuarios potenciales. Estas entrevistas tienen como objetivo evaluar la experiencia del usuario al interactuar con las diferentes funcionalidades de la aplicación, así como identificar posibles áreas de mejora.
 
@@ -3982,7 +4277,7 @@ Para el avance del backend:
   
   ### 5.3.2. Registro de Entrevistas
   
-  Entrevista N1 - Cliente:
+  **Entrevista N1 - Cliente:**
   Entrevistador: Christofer Costa Morales
   Entrevistado: Juan Josemaria Costa Morales
   Link de la entrevista: [Entrevista de Validacion](https://youtu.be/EGmaobECRkg)
@@ -3990,9 +4285,9 @@ Para el avance del backend:
   
   ![Juan Josemaria](resources/interviews/Validation_Interview/validation_interview1.png)
 
-  Resumen: En esta entrevista, Juan nos da su feedback de cómo le parecio el Landing page y el aplicativo web como tal. Sus comentarios con respecto al landing page son: "Es un buen diseño y me gusta el hecho de que pueda cambiar los modos de oscura a claro, pero me gustaria que usaran otros colores y que la barra de navegación no siempre esta fija en la parte superior". Adicionalmente, nos dijo los mismo sobre los colores para el aplicativo y que se confundio un poco que en las pantallas, ya que las imagenes no les cargaba y decia que eran un poco inconsistentes.
+  **Resumen:** En esta entrevista, Juan nos da su feedback de cómo le parecio el Landing page y el aplicativo web como tal. Sus comentarios con respecto al landing page son: "Es un buen diseño y me gusta el hecho de que pueda cambiar los modos de oscura a claro, pero me gustaria que usaran otros colores y que la barra de navegación no siempre esta fija en la parte superior". Adicionalmente, nos dijo los mismo sobre los colores para el aplicativo y que se confundio un poco que en las pantallas, ya que las imagenes no les cargaba y decia que eran un poco inconsistentes.
 
-  Entrevista N2 - Administradores:
+  **Entrevista N2 - Administradores:**
   Entrevistador: Christofer Costa Morales
   Entrevistado: Maria Morales Mendez
   Link de la entrevista: [Entrevista de Validacion](https://youtu.be/lHmjtVN87IQ)
@@ -4000,7 +4295,20 @@ Para el avance del backend:
   
   ![Maria Morales](resources/interviews/Validation_Interview/validation_interview_2.png)
 
-  Entrevista N3 - Administradores:
+  **Resumen:** La entrevistada valoró positivamente el diseño visual de la web, describiéndolo como claro, didáctico y enfocado en los objetivos del sistema. Indicó que el mensaje principal se comprendía con facilidad y que la navegación fue fluida. Afirmó haber encontrado toda la información que esperaba. Considera que la interfaz es intuitiva, aunque sugiere mejorar la sección de datos del cliente. Ve a Stock Hunters como una herramienta útil para gestionar su inventario de forma diaria, ya que automatiza procesos que normalmente realiza en Excel. Usaría la aplicación todos los días para consultar ventas y stock.
+
+  
+  **Entrevista N3 - Cliente:**
+  Entrevistador: Rogger Faryd Miranda Ayasta
+  Entrevistado: Marcelo
+  Link de la entrevista: [Entrevista de Validacion](https://youtu.be/R5LOfKaqE8Y)
+  Fecha: 2025-07-03
+  
+  ![Marcelo](resources/interviews/OS1/Interview3.png)
+
+  **Resumen:** El entrevistado opinó que el diseño visual es atractivo y genera interés por explorar más. El mensaje principal le pareció claro y destacó la facilidad de navegación gracias al scroll vertical. Encontró toda la información necesaria y consideró que la interfaz es bastante intuitiva, sin necesidad de buscar demasiado. En cuanto a la utilidad, cree que la aplicación es funcional y valiosa, especialmente por el valor agregado que ofrece para la gestión de inventario. Señaló que probablemente la usaría de manera regular.
+
+  **Entrevista N4 - Administradores:**
   Entrevistador: Jose Enrique Vargas Javier
   Entrevistado: Alonso Palacios
   Link de la entrevista: [Entrevista de Validacion](https://youtu.be/hi3VY7GXyf0)
@@ -4008,42 +4316,42 @@ Para el avance del backend:
   
   ![Alonso Palacios](resources/interviews/Validation_Interview/entrevista_a.JPG)
 
+  **Resumen:** Este usuario destacó que el diseño es moderno y profesional, con una buena jerarquía visual, aunque identificó oportunidades de mejora en el uso de espacios vacíos y la suavidad de animaciones. El mensaje principal le pareció claro desde el inicio. Consideró que la navegación era sencilla y las secciones estaban bien distribuidas, aunque sugirió agregar una barra lateral flotante para mejorar la experiencia en páginas largas. Valoró la interfaz como intuitiva y ordenada, adecuada para usuarios con experiencia en administración. Opinó que la aplicación es muy útil para pymes, por su capacidad para evitar desabasto, generar reportes y ofrecer visibilidad en tiempo real.
+
+
+
   ### 5.3.3. Evaluaciones según heurísticas
-  **Sitio o App a evaluar:** Stock Hunters - Aplicación Web de Gestión de Inventarios y Ventas
-  **Tareas a evaluar:**
-  El alcance de esta evaluacion incluye la revision de la usabilidad de las siguientes tareas:
-  - Registro de productos
-  - Registro de ventas
-  - Consulta de productos
-  - Consulta de ventas
-  - Consulta de clientes
-  - Consulta de stock
-  - Consulta de alertas de stock bajo
-  - Consulta de reportes de ventas
-  - Consulta de reportes de clientes
-  - Gestion de ventas
-  - Gestión de clientes
-  - Gestión de productos
-  - Gestión de stock
-  - Analisis de ventas semanal
-  - Analisis de ventas mensual
+  **Sitio o App a evaluar:** Stock Hunters - Aplicación Web de Gestión de Inventarios y Ventas  
+**Tareas a evaluar:**  
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
-No estan incluidas en esta version de la evaluacion las siguientes tareas:
+- Registro de productos  
+- Registro de ventas  
+- Consulta de productos  
+- Consulta de ventas  
+- Consulta de clientes  
+- Consulta de stock  
+- Consulta de alertas de stock bajo  
+- Consulta de reportes de ventas  
+- Consulta de reportes de clientes  
+- Gestión de ventas  
+- Gestión de clientes  
+- Gestión de productos  
+- Gestión de stock  
+- Análisis de ventas semanal  
+- Análisis de ventas mensual  
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:  
 1. Landing Page
-   
-**ESCALA DE SEVERIDAD:**
-*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
-|***Nivel***|***Descripción***|
-| :-: | :-: |
-|*1*|*Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.*|
-|*2*|*Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase*|
-|*3*|*Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.*|
-|*4*|*Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.*|
 
-#### ❗ **Recordatorio**  
-**TABLA DE RESUMEN:**
+---
+
+### ❗ **Recordatorio**  
+**TABLA DE RESUMEN:**  
 
 Los datos de la tabla son **ejemplificativos**. Verifique la información antes de enviar.  
+Se han integrado observaciones reales identificadas en las entrevistas realizadas:
+
 |**#**|**Problema**|**Escala de severidad**|**Heurística/principio violada(o)**|
 | :- | :- | :- | :- |
 |1|Poca legibilidad del título de horarios disponibles en teléfonos móviles|2|Inclusive Design: Proporciona experiencias comparables|
@@ -4051,39 +4359,79 @@ Los datos de la tabla son **ejemplificativos**. Verifique la información antes 
 |3|Desbordamiento de la información en la visualización de reseñas |2|Inclusive Design: Proporciona experiencias comparables|
 |4|Fallo en visualización de horarios de asesores para reserva|3|Inclusive Design: Proporciona experiencias comparables|
 |5|Botones de formularios de registro con diferentes diseños|2|Usability: Consistencia y estándares|
+|6|El evento de clic en la lista de clientes no ejecuta la acción esperada|3|Control y libertad del usuario / Visibilidad del estado del sistema|
+|7|El botón de “Añadir productos” no activa el formulario correspondiente|3|Consistencia y estándares / Visibilidad del estado del sistema|
+|8|Inconsistencias en los métodos de interacción entre secciones (clientes, productos, ventas)|2|Consistencia y estándares / Prevención de errores|
+|9|Inicio de sesión redirige directamente a una vista sin contexto claro (clientes)|2|Reconocimiento en lugar de recuerdo / Control del usuario|
+|10|Ausencia de retroalimentación visual inmediata en ciertas acciones clave|2|Visibilidad del estado del sistema / Ayuda al usuario|
+|11|Falta de orientación o guía de uso al ingresar por primera vez|3|Ayuda y documentación / Visibilidad del sistema|
+|12|La interfaz resulta poco intuitiva para nuevos usuarios sin familiarización previa|2|Flexibilidad y eficiencia de uso / Reconocimiento en lugar de recuerdo|
 
-**DESCRIPCIÓN DE PROBLEMAS:**
+---
 
-**PROBLEMA #1:** El evento de clic en la lista de clientes no ejecuta la acción esperada
+### **DESCRIPCIÓN DE PROBLEMAS:**
 
-**Severidad:** 3
-
-**Heurística violada:** Control y libertad del usuario / Visibilidad del estado del sistema
-
-**Problema:** Al interactuar con un elemento de la lista de clientes, el sistema no responde ni despliega la vista detallada del cliente correspondiente. Esta falta de retroalimentación impide al usuario acceder a información crítica y genera incertidumbre respecto al estado de la acción ejecutada. Además, la lista no presenta un orden lógico, dificultando la búsqueda eficiente de registros.
-
-**Imagen:**
-<img src="resources/Heuristicas/heuristica1.png" width="60%">
-
+**PROBLEMA #1:** El evento de clic en la lista de clientes no ejecuta la acción esperada  
+**Severidad:** 3  
+**Heurística violada:** Control y libertad del usuario / Visibilidad del estado del sistema  
+**Problema:** Al interactuar con un elemento de la lista de clientes, el sistema no responde ni despliega la vista detallada del cliente correspondiente. Esta falta de retroalimentación impide al usuario acceder a información crítica y genera incertidumbre respecto al estado de la acción ejecutada. Además, la lista no presenta un orden lógico, dificultando la búsqueda eficiente de registros.  
+**Imagen:**  
+<img src="resources/Heuristicas/heuristica1.png" width="60%">  
 **Recomendación:** Revisar el controlador del evento de clic y asegurar que se vincule correctamente al componente de detalle. Establecer un criterio de ordenamiento predeterminado (por ejemplo, alfabético por nombre) y permitir ordenamiento dinámico si es necesario.
 
-**PROBLEMA #2:** El botón de “Añadir productos” no activa el formulario correspondiente
+---
 
-**Severidad:** 3
-
-**Heurística violada:** Consistencia y estándares / Visibilidad del estado del sistema
-
-**Problema:** El botón destinado a añadir productos no despliega el formulario necesario, lo que impide que el usuario complete una tarea fundamental del sistema.
-
-**Imagen:**
-![Heurística 2](resources/Heuristicas/heuristica2.png)
-
+**PROBLEMA #2:** El botón de “Añadir productos” no activa el formulario correspondiente  
+**Severidad:** 3  
+**Heurística violada:** Consistencia y estándares / Visibilidad del estado del sistema  
+**Problema:** El botón destinado a añadir productos no despliega el formulario necesario, lo que impide que el usuario complete una tarea fundamental del sistema.  
+**Imagen:**  
+![Heurística 2](resources/Heuristicas/heuristica2.png)  
 **Recomendación:** Verificar la vinculación del botón con el manejador de eventos y el correcto renderizado del formulario. Incluir retroalimentación visual para mejorar la percepción de acción por parte del usuario.
 
------
+---
 
+**PROBLEMA #3:** Inconsistencias entre secciones en la forma de agregar elementos  
+**Severidad:** 2  
+**Heurística violada:** Consistencia y estándares / Prevención de errores  
+**Problema:** En la sección de clientes aparece un recuadro en la parte inferior para agregar nuevos registros, mientras que en productos u órdenes es un botón flotante o un formulario oculto. Esta falta de uniformidad genera confusión, especialmente para usuarios nuevos.  
+**Recomendación:** Homogeneizar los patrones de interacción, de modo que el usuario sepa qué esperar sin necesidad de reaprender cada sección.
 
- ## 5.4. Video About-the-Product
+---
+
+**PROBLEMA #4:** Redirección inmediata a sección de clientes tras login  
+**Severidad:** 2  
+**Heurística violada:** Reconocimiento en lugar de recuerdo / Control del usuario  
+**Problema:** Al iniciar sesión, el sistema envía directamente al usuario a la vista de clientes, sin mostrar una pantalla general o resumen que permita orientarse.  
+**Recomendación:** Incluir una vista inicial o “dashboard” con accesos rápidos a las principales funciones y métricas generales del sistema.
+
+---
+
+**PROBLEMA #5:** Falta de retroalimentación visual al realizar acciones  
+**Severidad:** 2  
+**Heurística violada:** Visibilidad del estado del sistema / Ayuda al usuario  
+**Problema:** Algunos usuarios señalaron que, al presionar botones como "guardar" o "agregar", no reciben confirmación visual inmediata de que la acción fue exitosa.  
+**Recomendación:** Incorporar notificaciones breves, cambios de estado o validaciones visuales que confirmen cada acción.
+
+---
+
+**PROBLEMA #6:** Falta de guía de uso o tutorial inicial  
+**Severidad:** 3  
+**Heurística violada:** Ayuda y documentación / Visibilidad del sistema  
+**Problema:** Aunque el objetivo del sistema es comprensible, no existe ninguna indicación visual o textual que explique cómo navegar por la app o cómo comenzar a utilizar las funciones principales.  
+**Recomendación:** Implementar una guía rápida o recorrido introductorio que explique los módulos principales del sistema para nuevos usuarios.
+
+---
+
+**PROBLEMA #7:** Interfaz poco intuitiva en primeros usos  
+**Severidad:** 2  
+**Heurística violada:** Flexibilidad y eficiencia de uso / Reconocimiento en lugar de recuerdo  
+**Problema:** Varios entrevistados comentaron que, si bien la interfaz es visualmente aceptable, ciertas decisiones de diseño complican el entendimiento inicial (como flujos poco claros o botones no intuitivos).  
+**Recomendación:** Reforzar la jerarquía visual, añadir íconos aclaratorios y mantener consistencia visual y funcional entre pantallas.
+
+---
+
+## 5.4. Video About-the-Product
  [![About the Team Video](https://img.shields.io/badge/video-About%20the%20Team-blue?style=for-the-badge&logo=youtube&logoColor=white)](colocar-url) 
 
 # Conclusiones
@@ -4094,12 +4442,14 @@ Los datos de la tabla son **ejemplificativos**. Verifique la información antes 
 
   Además, mejoramos la forma en que organizamos el trabajo: distribuimos mejor las tareas usando Figma, asignamos roles claros dentro del equipo y seguimos un flujo de trabajo con git flow para mantener todo ordenado en desarrollo, pruebas y producción. También logramos desplegar el frontend en GitHub Pages y solucionamos problemas relacionados con las rutas y el router.
 
-  En cuanto a la colaboración, la comunicación dentro del equipo fue mejorando, y pudimos resolver algunas dificultades que tuvimos con los tiempos de entrega al inicio. Ahora el equipo está más organizado, cada quien sabe bien qué hacer y se nota que trabajamos con más autonomía y eficiencia.
+  En el Sprint 3 desarrollamos funciones más completas como el registro de productos, el inventario en tiempo real, historial de compras, reportes visuales, y pagos digitales. Se avanzó bastante en endpoints para ventas, stock y clientes, lo que ayudó a mejorar la integración entre el frontend y backend.
 
-  Aunque todavía quedan cosas por terminar y detalles por mejorar, estos dos primeros sprints nos dejaron claro que tenemos una buena visión del proyecto, que nos coordinamos bien y que seguimos un proceso ordenado para ir avanzando paso a paso. Todo esto nos prepara bien para los próximos retos y para seguir mejorando la aplicación.
+  Ya en el Sprint 4 estamos enfocándonos más en la experiencia visual y el contenido para los usuarios. Agregamos testimonios, un formulario de contacto, y la sección de beneficios para los visitantes. También comenzamos a trabajar en el panel administrativo y en refinar los catálogos y precios. El equipo sigue mejorando su organización y la comunicación fluye mejor sprint a sprint.
+
+
 
  ## Video About-the-Team
- [![About the Team Video](https://img.shields.io/badge/video-About%20the%20Team-blue?style=for-the-badge&logo=youtube&logoColor=white)](colocar-url)
+ [![About the Team Video](https://img.shields.io/badge/video-About%20the%20Team-blue?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/CniK7QyKmzs)
 
  Conclusiones sobre el video
 
@@ -4120,7 +4470,8 @@ Los datos de la tabla son **ejemplificativos**. Verifique la información antes 
 [![Interview Playlist](https://img.shields.io/badge/Entrevistas-playlist-blue?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PL-9ocGPgSml3bQemJ1ESEUNw4v_bBCcbC)
 
 **Frontend Web Application**
-https://github.com/StockHunters/Frontend-Web-Application.git
+[![Frontend Web Application](https://img.shields.io/badge/Frontend-Repository-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/StockHunters/Frontend-Web-Application.git)
+
 
 **Backend Web Services**
-
+[![Backend Web Services](https://img.shields.io/badge/Backend-Repository-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/StockHunters/WebServices)
