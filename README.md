@@ -453,6 +453,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         Participé conjuntamente en el desarrollo del backend, implementando la primera versión de los endpoints de un bounded context. Apoyé en la división estratégica de todas nuestras entidades 
           en bounded contexts para su desarrollo. <br>
         <strong>ℹ️ TF:</strong><br>
+        Participé en la auditoría de los endpoints implementados, mantaniendo constante comunicación con mi equipo de desarrollo.  <br>
       </td>
     </tr>
     <tr>
@@ -518,6 +519,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong>ℹ️ TB2:</strong><br>
         Defini los bounded context, colaboré con mis compañeros para desarrollar el api service utilizando .NET, siempre en coordinación para mantener un entorno de desarollo estable. <br>
         <strong>ℹ️ TF:</strong><br>
+        Participé conjuntamente en la documentación del sprint 4, y en la corrección de aspectos técnicos y coordinación para el desarrollo. <br>
       </td>
     </tr>
     <tr>
