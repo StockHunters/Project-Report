@@ -72,7 +72,7 @@ Abril del 2025 🗓️
         </ul></td>
   </tr>
   <tr>
-    <td>TP</td>
+    <td>TP1</td>
     <td>2025-05-13</td>
     <td>
       <ul> 
@@ -127,6 +127,27 @@ Abril del 2025 🗓️
           <li>5.3.3. Evaluaciones según heurísticas.</li>
           <li>5.4. Video About-the-Product.</li>
           <li>Avance de Conclusiones, Bibliografía y Anexos.</li>
+        </ul></td>
+  </tr>
+  <tr>
+    <td>TF1</td>
+    <td>2025-07-05</td>
+    <td>
+      <ul> 
+        <li>Jorge Suin Yum Gonzales</li> 
+        <li>Luis Andres Alva Abanto</li> 
+        <li>Rogger Faryd Miranda Ayasta </li>
+        <li>Christofer William Costa Morales</li>
+        <li>Jose Enrique Vargas Javier</li>
+      </ul>
+    </td>
+    <td> Se han incluído los siguientes capítulos y secciones:
+        <ul>
+          <li>5.2.4.4 Sprint Development Evidence for Sprint Review</li>
+          <li>5.2.4.5 Execution evidence for Sprint Review</li>
+          <li>5.2.4.6 Services Documentation Evidence for Sprint Review</li>
+          <li>5.2.4.7 Software Deployment Evidence for Sprint Review</li>
+          <li>5.2.4.8 Team Collaboration Insights during Sprint</li>
         </ul></td>
   </tr>
 </table>
@@ -4281,8 +4302,67 @@ Para el avance del backend:
 </table>
 
 
-  #### 5.2.4.4. Sprint Development Evidence for Srpint Review
+  #### 5.2.4.4. Sprint Development Evidence for Sprint Review
+
+  A continuacion se detallan los avances realizados en el desarrollo de la aplicación web y las mejoras al front end con los commits correspondientes en GitHub: 
+  - Repositorio Frontend: https://github.com/StockHunters/Frontend-Web-Application.git
+  - Repositorio Backend: https://github.com/StockHunters/WebServices.git
+  - Repositorio Landing: https://github.com/StockHunters/LandingPage.git
+
+| Repo | Branch | Commit | Message | Date |
+|------|--------|--------|---------|------|
+| LandingPage | main | b375b03 | [REFACTOR] refactore code, added darkmode and internationalization | 6/06/2025 |
+| LandingPage | main | 649862f | Merge pull request #3 from StockHunters/develop | 6/06/2025 |
+| LandingPage | main | 1513c29 | [FIX] error contact page | 6/06/2025 |
+| LandingPage | main | 6321d32 | Merge pull request #4 from StockHunters/develop | 6/06/2025 |
+| LandingPage | main | ec57201 | [IMPROVE] update links | 21/06/2025 |
+| LandingPage | main | 79a8d51 | [FEAT] About the Team added | 21/06/2025 |
+| LandingPage | main | 88fb26c | Feat: review internationalization and about the product | 05/07/2025 |
+| WebServices | develop | 0eb0965 | feat: added organizations bounded context | 21/06/2025 |
+| WebServices | develop | 9cf8f35 | feat: users | 21/06/2025 |
+| WebServices | develop | 3b15859 | endpoint fix | 21/06/2025 |
+| WebServices | develop | 84a3ce8 | Merge branch 'release/0.1.0' | 21/06/2025 |
+| WebServices | develop | 3f9ad08 | Merge tag '0.1.0' into develop | 21/06/2025 |
+| WebServices | develop | 5649f51 | Merge branch 'develop' into feature/Procurement | 23/06/2025 |
+| WebServices | develop | 4b8dd2c | Merge pull request #1 from Stockhunters/feature/Procurement | 23/06/2025 |
+| WebServices | develop | 512b823 | feat: iam | 03/07/2025 |
+| WebServices | develop | 5547951 | feat: user account fix | 03/07/2025 |
+| WebServices | develop | b1265ff | Feat: query service for Client | 04/07/2025 |
+| WebServices | develop | 3590884 | Feat: Services for IClientQueryService | 04/07/2025 |
+| WebServices | develop | b5ea659 | Feat: add Get All Client | 04/07/2025 |
+| WebServices | develop | 8548fd8 | Feat: Product Price query services added | 04/07/2025 |
+| WebServices | develop | c523ae0 | Feat: All Product Price query added | 04/07/2025 |
+| WebServices | develop | e6e8e3c | Feat: Get All productPrice added | 04/07/2025 |
+| WebServices | develop | 24a5fa6 | Feat: Product Price query Service added | 04/07/2025 |
+| WebServices | develop | 3128beb | Feat: Lot query service added | 04/07/2025 |
+| WebServices | develop | e29ad30 | Feat: Product suppliers query service added | 04/07/2025 |
+| WebServices | develop | 073c057 | Feat: Purchase order item query service added | 04/07/2025 |
+| WebServices | develop | 132b8c8 | Feat: Purchase order query service added | 04/07/2025 |
+| WebServices | develop | b67aad2 | Feat: Purchase query service added | 04/07/2025 |
+| WebServices | develop | 0c16afc | Feat: service lot query added | 04/07/2025 |
+| WebServices | develop | ddee178 | Feat: Product supplier query service added | 04/07/2025 |
+| WebServices | develop | 17ecde3 | Feat: Purchase order item query service added | 04/07/2025 |
+| WebServices | develop | e150d2c | Feat: Purchase order query service added | 04/07/2025 |
+| WebServices | develop | 4331e61 | Feat: Purchase query service added | 04/07/2025 |
+| WebServices | develop | 3bafb79 | Feat: Lot controller added | 04/07/2025 |
+| WebServices | develop | a225a2c | Feat: get all lot query added | 04/07/2025 |
+| WebServices | develop | a964874 | Feat: get all product suppliers query added | 04/07/2025 |
+| WebServices | develop | 8be7703 | Feat: get all purchase order item query added | 04/07/2025 |
+| WebServices | develop | a0b3352 | Feat: get all purchase query added | 04/07/2025 |
+| WebServices | develop | f815384 | Feat: product supplier controller with method get all | 04/07/2025 |
+| WebServices | develop | 9ad78ac | Feat: purchase controller with method get all | 04/07/2025 |
+| WebServices | develop | 0cfa424 | Feat: purchase order controller with method get all | 04/07/2025 |
+| WebServices | develop | 727018e | Feat: purchase order item controller with method get all | 04/07/2025 |
+| WebServices | develop | c63c791 | Merge pull request #2 from StockHunters/features/rogger | 04/07/2025 |
+| WebServices | develop | afe0f66 | feat: added put to sale | 05/07/2025 |
+
+
   #### 5.2.4.5. Execution Evidence for Srpint Review
+
+Se mejoró el frontend para optimizar la UI responsive. 
+
+![alt text](resources/SPRINT4/responsive.png)
+
   #### 5.2.4.6. Services Documentation Evidence for Sprint Review
   #### 5.2.4.7. Software Deployment Evidence for Sprint Review
   #### 5.2.4.8. Team Collaboration Insights during Sprint
