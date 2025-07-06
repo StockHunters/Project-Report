@@ -4363,6 +4363,22 @@ Se mejoró el frontend para optimizar la UI responsive.
 
 ![alt text](resources/SPRINT4/responsive.png)
 
+Se añadió el formulario de contacto en la Landing Page. 
+
+![alt text](resources/SPRINT4/contacto.png)
+
+Se añadieron los videos "About the Produt" y "About the Team" a la sección de reseñas de la landing page. 
+
+![alt text](resources/SPRINT4/videos.png)
+
+Se mejoró la llamada a la acción del botón de registro o demo gratis. 
+
+![alt text](resources/SPRINT4/boton.png)
+
+Se muestran los beneficios principales para captar la atención e interés de nuevos usuarios. 
+
+![alt text](resources/SPRINT4/beneficios.png)
+
   #### 5.2.4.6. Services Documentation Evidence for Sprint Review
   #### 5.2.4.7. Software Deployment Evidence for Sprint Review
   #### 5.2.4.8. Team Collaboration Insights during Sprint
