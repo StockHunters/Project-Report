@@ -200,6 +200,13 @@ Backend:
 
 ![alt text](resources/Collaboration-Insghts/TB2/commits_graphic_backend.png)
 
+- ⏩ Avance del **TF**
+  
+  Frontend:
+![alt text](resources/Collaboration-Insghts/TF/frontend.png)
+
+  Backend:
+![alt text](resources/Collaboration-Insghts/TF/backend.png)
 <div>
 
 ## Contenido
@@ -4364,6 +4371,12 @@ Interfaz de listado, edició y registro manual de productos.
 Vista de gráficos interactivos, con ventas, stock, ingresos y tendencias. 
 
 ![alt text](resources/SPRINT4/reports.jpg)
+
+Avance este ultomo trabajo Backend y Frontend
+
+![alt text](resources/Collaboration-Insghts/TF/backend.png)
+
+![alt text](resources/Collaboration-Insghts/TF/frontend.png)
 
   #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
